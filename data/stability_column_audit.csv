@@ -1,0 +1,247 @@
+column,coverage,n_unique,numeric_share,top
+Ref_ID,1.0,6891,1.0,16:1 | 17:1 | 26:1
+Ref_ID_temp,1.0,6891,1.0,16:1 | 17:1 | 26:1
+Ref_name_of_person_entering_the_data,1.0,87,0.0,Tobias Abzieher:182 | Waqas Zia:162 | Carolin Rehermann:153
+Ref_data_entered_by_author,1.0,2,1.0,False:6879 | True:12
+Ref_DOI_number,1.0,2692,0.0,10.1016/j.solener.2017.09.03:24 | 10.1039/c8ta06391e:21 | 10.1002/aenm.201700977:16
+Ref_lead_author,1.0,599,0.0,Wang et al.:400 | Liu et al.:369 | Zhang et al.:356
+Ref_publication_date,1.0,1202,0.0,2017-12-06:33 | 2019-10-09:31 | 2019-11-08:30
+Ref_journal,1.0,184,0.0,Journal of Materials Chemist:784 | ACS Applied Materials & Inte:594 | Advanced Energy Materials:424
+Ref_part_of_initial_dataset,1.0,1,1.0,True:6891
+Ref_original_filename_data_upload,1.0,1,0.0,Historic dataset on 2020 11 :6891
+Cell_stack_sequence,1.0,2012,0.0,SLG | FTO | TiO2-c | TiO2-mp:912 | SLG | FTO | TiO2-c | Perovsk:523 | SLG | FTO | TiO2-c | TiO2-mp:145
+Cell_number_of_cells_per_substrate,1.0,4,1.0,0:6879 | 1:8 | 20:2
+Cell_flexible,1.0,2,1.0,False:6755 | True:136
+Cell_architecture,1.0,5,0.0,nip:4908 | pin:1977 | Back contacted:4
+Module,1.0,2,1.0,False:6821 | True:70
+Module_number_of_cells_in_module,1.0,14,1.0,0:6821 | 6:11 | 4:10
+Cell_semitransparent,1.0,2,1.0,False:6772 | True:119
+Cell_semitransparent_wavelength_range,1.0,1,0.0,nan; nan:6891
+Module_JV_data_recalculated_per_cell,1.0,2,1.0,False:6826 | True:65
+Substrate_stack_sequence,1.0,41,0.0,SLG | FTO:4371 | SLG | ITO:2356 | PEN | ITO:42
+ETL_stack_sequence,1.0,564,0.0,TiO2-c | TiO2-mp:1988 | TiO2-c:1078 | PCBM-60:423
+Substrate_deposition_procedure,1.0,6,0.0,Unknown:6675 | Commercial | Commercial:207 | Photolithography | Spin-coat:3
+Perovskite_dimension_3D,1.0,2,1.0,True:6867 | False:24
+Perovskite_dimension_3D_with_2D_capping_layer,1.0,2,1.0,False:6886 | True:5
+ETL_deposition_aggregation_state_of_reactants,1.0,16,0.0,Unknown:6522 | Liquid | Liquid:151 | Liquid:116
+ETL_deposition_procedure,1.0,154,0.0,Spin-coating:1975 | Spin-coating | Spin-coating:1974 | Spray-pyrolys | Spin-coating:958
+ETL_deposition_synthesis_atmosphere,1.0,24,0.0,Unknown:6616 | Air:85 | Air | Air:47
+ETL_deposition_solvents,1.0,72,0.0,Unknown:6576 | Water:46 | Chlorobenzene | IPA:36
+ETL_deposition_solvents_purity,1.0,10,0.0002902336380786533,Unknown:6872 | Anhydrous 99.8%:6 | 0.998:2
+ETL_deposition_solvents_supplier,1.0,18,0.0,Unknown:6847 | Sigma Aldrich | Sigma Aldric:13 | Sigma Aldrich:6
+ETL_deposition_reaction_solutions_volumes,1.0,12,0.00130605137135394,Unknown:6868 | 10.0:6 | 0.15 | 0.3:3
+ETL_deposition_reaction_solutions_age,1.0,8,0.0005804672761573066,Unknown:6874 | 0.0 | 6.0:6 | 1.0:4
+ETL_deposition_reaction_solutions_compounds_supplier,1.0,33,0.0,Unknown:6797 | Sigma Aldrich:15 | Alfa Aesar:14
+ETL_deposition_reaction_solutions_compounds_purity,1.0,11,0.0011609345523146133,Unknown:6864 | 0.97:6 | 98%; 99.8%:6
+ETL_deposition_reaction_solutions_temperature,1.0,19,0.007691191409084313,Unknown:6801 | 25:32 | 70:16
+ETL_deposition_substrate_temperature,1.0,19,0.007691191409084313,Unknown:6773 | 25 | 25:37 | 25:32
+ETL_deposition_thermal_annealing_time,1.0,77,0.01784936874183718,Unknown:6575 | 30.0:67 | 60.0:33
+ETL_deposition_thermal_annealing_temperature,1.0,89,0.020171237846466405,Unknown:6551 | 150:47 | 500:23
+Perovskite_composition_perovskite_inspired_structure,1.0,2,1.0,False:6849 | True:42
+Perovskite_composition_a_ions,1.0,38,0.0,MA:4042 | FA; MA:953 | Cs; FA; MA:924
+ETL_deposition_thermal_annealing_atmosphere,1.0,15,0.0,Unknown:6759 | Air:42 | Air | Air:38
+ETL_storage_atmosphere,1.0,3,0.0,Unknown:6883 | N2:6 | Ar:2
+Perovskite_single_crystal,1.0,2,1.0,False:6887 | True:4
+Perovskite_dimension_0D,1.0,2,1.0,False:6888 | True:3
+Perovskite_dimension_2D,1.0,2,1.0,False:6887 | True:4
+Perovskite_dimension_2D3D_mixture,1.0,2,1.0,False:6878 | True:13
+Perovskite_composition_a_ions_coefficients,1.0,200,0.6884341895225656,1:4711 | 0.85; 0.15:374 | 0.05; 0.79; 0.16:358
+Perovskite_composition_b_ions,1.0,23,0.0,Pb:6630 | Sn:95 | Pb; Sn:77
+Perovskite_dimension_list_of_layers,1.0,1,1.0,3.0:6891
+Perovskite_composition_perovskite_ABC3_structure,1.0,2,1.0,True:6810 | False:81
+Perovskite_composition_short_form,1.0,107,0.0,MAPbI:3888 | CsFAMAPbBrI:874 | FAMAPbBrI:707
+Perovskite_composition_c_ions_coefficients,1.0,119,0.695690030474532,3:4737 | 0.45; 2.55:612 | 0.51; 2.49:425
+Perovskite_composition_c_ions,1.0,10,0.0,I:4610 | Br; I:2091 | Br:175
+Perovskite_composition_b_ions_coefficients,1.0,32,0.9831664489914381,1:6651 | 1.0:81 | 0.5; 0.5:40
+HTL_deposition_thermal_annealing_temperature,1.0,34,0.025250326512842838,Unknown:6696 | 25:60 | 100:35
+HTL_deposition_thermal_annealing_time,1.0,20,0.016688434189522566,Unknown:6758 | 10.0:42 | 15.0:27
+HTL_deposition_reaction_solutions_compounds_supplier,1.0,26,0.0,Unknown:6818 | Heraeus:14 | Sigma Aldrich:7
+HTL_deposition_reaction_solutions_compounds_purity,1.0,3,0.0002902336380786533,Unknown:6885 | Unknown; puris; puris:4 | 0.98:2
+Perovskite_composition_inorganic,1.0,2,1.0,False:6363 | True:528
+Perovskite_composition_long_form,1.0,514,0.0,MAPbI3:3818 | FA0.85MA0.15PbBr0.45I2.55:317 | Cs0.05FA0.79MA0.16PbBr0.51I2:273
+Perovskite_composition_leadfree,1.0,2,1.0,False:6737 | True:154
+Perovskite_deposition_number_of_deposition_steps,1.0,5,1.0,1:5333 | 2:1495 | 3:54
+Perovskite_band_gap_graded,1.0,2,1.0,False:6874 | True:17
+Perovskite_deposition_reaction_solutions_compounds_supplier,1.0,35,0.0,Unknown:6818 | Sigma Aldrich >> Dyesol:6 | Dyesol; Alfa Aesar:4
+Perovskite_deposition_solvents_purity,1.0,8,0.0,Unknown:6864 | 99.9%; 99.5%:14 | 99.9%; 99.8%:3
+Perovskite_deposition_solvents_supplier,1.0,19,0.0,Unknown:6800 | Sigma Aldrich; Sigma Aldrich:35 | Sigma Aldrich:14
+Perovskite_deposition_solvents,1.0,132,0.0,DMF; DMSO:3042 | DMF:1064 | DMF >> IPA:678
+Perovskite_deposition_synthesis_atmosphere,1.0,83,0.0,N2:2541 | Unknown:2481 | Air:516
+Perovskite_deposition_aggregation_state_of_reactants,1.0,25,0.0,Liquid:5275 | Liquid >> Liquid:1315 | Liquid >> Gas:95
+Perovskite_deposition_procedure,1.0,80,0.0,Spin-coating:5127 | Spin-coating >> Spin-coating:840 | Spin-coating >> CBD:411
+Perovskite_deposition_substrate_temperature,1.0,17,0.015382382818168627,Unknown:6768 | 25:74 | 150:10
+Perovskite_deposition_reaction_solutions_volumes,1.0,10,0.0017414018284719198,Unknown:6867 | 0.045:5 | 0.04 >> 0.04:4
+Perovskite_deposition_reaction_solutions_age,1.0,14,0.005079088666376433,Unknown:6841 | 2.0:13 | 12.0:7
+Perovskite_deposition_reaction_solutions_temperature,1.0,18,0.011754462342185459,Unknown:6783 | 25:36 | 60:21
+Perovskite_deposition_quenching_media,1.0,52,0.0,Unknown:2957 | Chlorobenzene:2283 | Toluene:568
+Perovskite_deposition_quenching_induced_crystallisation,1.0,2,1.0,True:3956 | False:2935
+Perovskite_deposition_quenching_media_volume,1.0,25,0.025395443331882164,Unknown:6716 | 100.0:41 | 500.0:20
+Perovskite_deposition_reaction_solutions_compounds_purity,1.0,20,0.0,Unknown:6849 | 99%; Unknown >> Unkown:6 | Unknown; Unknown:4
+Perovskite_storage_time_until_next_deposition_step,1.0,2,0.0002902336380786533,Unknown:6889 | 120.0:2
+Perovskite_deposition_solvent_annealing_temperature,1.0,4,0.0031925700188651864,Unknown:6869 | 100:11 | 100.0:10
+Perovskite_deposition_solvent_annealing_time,1.0,6,0.0036279204759831663,Unknown:6866 | 40.0:8 | 10.0:7
+Perovskite_deposition_solvent_annealing_solvent_atmosphere,1.0,21,0.0,Unknown:6773 | DMF:54 | DMSO:28
+Perovskite_deposition_solvent_annealing,1.0,2,1.0,False:6749 | True:142
+Perovskite_deposition_thermal_annealing_atmosphere,1.0,18,0.0,Unknown:6628 | N2:147 | Air:31
+Perovskite_deposition_thermal_annealing_time,1.0,337,0.6195037004788855,10.0:1269 | 60.0:765 | Unknown:505
+Perovskite_deposition_thermal_annealing_temperature,1.0,403,0.6289362937164418,100.0:2388 | 100:536 | Unknown:405
+HTL_storage_atmosphere,1.0,6,0.0,Unknown:6862 | N2:8 | Air:8
+Backcontact_stack_sequence,1.0,121,0.0,Au:3526 | Ag:1989 | Carbon:429
+HTL_deposition_thermal_annealing_atmosphere,1.0,11,0.0,Unknown:6797 | N2:33 | Air:33
+HTL_storage_time_until_next_deposition_step,1.0,4,0.0014511681903932665,Unknown:6881 | 12.0:5 | 24.0:3
+HTL_deposition_reaction_solutions_volumes,1.0,9,0.0,Unknown:6882 | 0.0175; 0.9537; 0.0288:2 | 0.95; 0.0075; 0.004:1
+HTL_deposition_reaction_solutions_age,1.0,7,0.0008707009142359599,Unknown:6882 | 4.0 | 0.0:3 | 0.0167:2
+HTL_deposition_reaction_solutions_temperature,1.0,9,0.008561892323320273,Unknown:6828 | 25:50 | 60:6
+HTL_deposition_substrate_temperature,1.0,5,0.0087070091423596,Unknown:6826 | 25:60 | 25 | 15:2
+Perovskite_storage_atmosphere,1.0,3,0.0,Unknown:6878 | N2:7 | Air:6
+HTL_stack_sequence,1.0,809,0.0,Spiro-MeOTAD:3217 | PEDOT:PSS:773 | none:425
+HTL_deposition_aggregation_state_of_reactants,1.0,8,0.0,Unknown:6493 | Liquid:352 | Liquid | Liquid:33
+HTL_deposition_procedure,1.0,71,0.0,Spin-coating:5730 | Unknown:459 | Spin-coating | Spin-coating:273
+HTL_deposition_synthesis_atmosphere,1.0,16,0.0,Unknown:6689 | N2:108 | Air:60
+HTL_deposition_solvents,1.0,36,0.0,Unknown:6562 | Chlorobenzene:192 | Toluene:33
+HTL_deposition_solvents_purity,1.0,2,0.0,Unknown:6887 | Puris; Puris:4
+HTL_deposition_solvents_supplier,1.0,8,0.0,Unknown:6858 | Sigma Aldrich:15 | Sigma Aldrich; Sigma Aldrich:9
+Backcontact_deposition_procedure,1.0,53,0.0,Evaporation:5922 | Doctor blading:288 | Evaporation | Evaporation:277
+Backcontact_storage_time_until_next_deposition_step,1.0,2,0.00043535045711797995,Unknown:6888 | 24.0:3
+Backcontact_deposition_thermal_annealing_atmosphere,1.0,4,0.0,Unknown:6873 | Air:10 | N2:5
+Backcontact_deposition_thermal_annealing_time,1.0,9,0.00478885502829778,Unknown:6856 | 20.0:8 | 60.0:7
+Backcontact_deposition_thermal_annealing_temperature,1.0,10,0.0108837614279495,Unknown:6814 | 25:44 | 100:16
+Backcontact_deposition_substrate_temperature,1.0,4,0.010738644608910173,Unknown:6811 | 25:73 | 25 | 25:6
+Backcontact_deposition_reaction_solutions_temperature,1.0,3,0.004063270933101147,Unknown:6857 | 25:28 | 25 | 25:6
+Backcontact_deposition_reaction_solutions_age,1.0,1,0.0,Unknown:6891
+Backcontact_deposition_reaction_solutions_volumes,1.0,1,0.0,Unknown:6891
+Backcontact_deposition_reaction_solutions_compounds_purity,1.0,1,0.0,Unknown:6891
+Backcontact_deposition_reaction_solutions_compounds_supplier,1.0,6,0.0,Unknown:6881 | Sigma Aldrich:4 | Solaronix:2
+Backcontact_deposition_solvents_purity,1.0,1,0.0,Unknown:6891
+Backcontact_deposition_solvents_supplier,1.0,2,0.0,Unknown:6889 | Guangzhou Seaside Technology:2
+Backcontact_deposition_solvents,1.0,4,0.0,Unknown:6686 | none:202 | Ethyl cellulose; Terpineol:2
+Backcontact_deposition_synthesis_atmosphere,1.0,5,0.0,Unknown:6565 | Vacuum:297 | Vacuum | Vacuum:17
+Backcontact_deposition_aggregation_state_of_reactants,1.0,6,0.0,Unknown:6506 | Gas:333 | Liquid:29
+JV_light_masked_cell,1.0,2,1.0,False:6731 | True:160
+JV_light_wavelength_range,1.0,1,0.0,nan; nan:6891
+Stability_protocol,1.0,24,0.0,ISOS-D-1:3637 | ISOS-D-1I:843 | ISOS-L-1:826
+Stability_average_over_n_number_of_cells,1.0,11,1.0,1:6849 | 5:12 | 2:5
+EQE_measured,1.0,2,1.0,False:4923 | True:1968
+Stability_measured,1.0,2,1.0,True:6884 | False:7
+Stabilised_performance_measured,1.0,2,1.0,False:5564 | True:1327
+Outdoor_spectral_data_available,1.0,1,1.0,False:6891
+Outdoor_time_end,1.0,1,0.0,0000:00:00:00:00:6891
+Outdoor_potential_bias_range,1.0,1,0.0,nan; nan:6891
+Outdoor_time_start,1.0,1,0.0,0000:00:00:00:00:6891
+Outdoor_installation_number_of_solar_tracking_axis,1.0,1,1.0,0:6891
+Outdoor_average_over_n_number_of_cells,1.0,2,1.0,1:6890 | 3:1
+Outdoor_location_coordinates,1.0,1,0.0,nan; nan:6891
+Outdoor_detaild_weather_data_available,1.0,2,1.0,False:6890 | True:1
+Backcontact_storage_atmosphere,1.0,2,0.0,Unknown:6888 | Air:3
+Add_lay_front,1.0,2,1.0,False:6874 | True:17
+Add_lay_front_stack_sequence,1.0,11,0.0,Unknown:6878 | MgF2:2 | Polyimide:2
+Add_lay_front_deposition_procedure,1.0,2,0.0,Unknown:6889 | Evaporation:2
+Add_lay_front_deposition_aggregation_state_of_reactants,1.0,1,0.0,Unknown:6891
+Add_lay_front_deposition_synthesis_atmosphere,1.0,1,0.0,Unknown:6891
+Add_lay_front_deposition_solvents,1.0,1,0.0,Unknown:6891
+Add_lay_front_deposition_solvents_supplier,1.0,1,0.0,Unknown:6891
+Add_lay_front_deposition_solvents_purity,1.0,1,0.0,Unknown:6891
+Add_lay_front_deposition_reaction_solutions_compounds_supplier,1.0,1,0.0,Unknown:6891
+Add_lay_front_deposition_reaction_solutions_compounds_purity,1.0,1,0.0,Unknown:6891
+Add_lay_front_deposition_reaction_solutions_volumes,1.0,1,0.0,Unknown:6891
+Add_lay_front_deposition_reaction_solutions_age,1.0,1,0.0,Unknown:6891
+Add_lay_front_deposition_reaction_solutions_temperature,1.0,1,0.0,Unknown:6891
+Add_lay_front_deposition_substrate_temperature,1.0,1,0.0,Unknown:6891
+Add_lay_front_deposition_thermal_annealing_temperature,1.0,1,0.0,Unknown:6891
+Add_lay_front_deposition_thermal_annealing_time,1.0,1,0.0,Unknown:6891
+Add_lay_front_deposition_thermal_annealing_atmosphere,1.0,1,0.0,Unknown:6891
+Add_lay_front_storage_time_until_next_deposition_step,1.0,1,0.0,Unknown:6891
+Add_lay_front_storage_atmosphere,1.0,1,0.0,Unknown:6891
+Add_lay_back,1.0,2,1.0,False:6881 | True:10
+Add_lay_back_stack_sequence,1.0,2,0.0,Unknown:6883 | MgF2:8
+Add_lay_back_deposition_procedure,1.0,2,0.0,Unknown:6890 | Evaporation:1
+Add_lay_back_deposition_aggregation_state_of_reactants,1.0,1,0.0,Unknown:6891
+Add_lay_back_deposition_synthesis_atmosphere,1.0,1,0.0,Unknown:6891
+Add_lay_back_deposition_solvents,1.0,1,0.0,Unknown:6891
+Add_lay_back_deposition_solvents_supplier,1.0,1,0.0,Unknown:6891
+Add_lay_back_deposition_solvents_purity,1.0,1,0.0,Unknown:6891
+Add_lay_back_deposition_reaction_solutions_compounds_supplier,1.0,1,0.0,Unknown:6891
+Add_lay_back_deposition_reaction_solutions_compounds_purity,1.0,1,0.0,Unknown:6891
+Add_lay_back_deposition_reaction_solutions_volumes,1.0,1,0.0,Unknown:6891
+Add_lay_back_deposition_reaction_solutions_age,1.0,1,0.0,Unknown:6891
+Add_lay_back_deposition_reaction_solutions_temperature,1.0,1,0.0,Unknown:6891
+Add_lay_back_deposition_substrate_temperature,1.0,1,0.0,Unknown:6891
+Add_lay_back_deposition_thermal_annealing_temperature,1.0,1,0.0,Unknown:6891
+Add_lay_back_deposition_thermal_annealing_time,1.0,1,0.0,Unknown:6891
+Add_lay_back_deposition_thermal_annealing_atmosphere,1.0,1,0.0,Unknown:6891
+Add_lay_back_storage_time_until_next_deposition_step,1.0,1,0.0,Unknown:6891
+Add_lay_back_storage_atmosphere,1.0,1,0.0,Unknown:6891
+Encapsulation,1.0,2,1.0,False:6300 | True:591
+Encapsulation_stack_sequence,1.0,79,0.0,Unknown:6550 | SLG:89 | Cover glass-QDs:23
+Encapsulation_edge_sealing_materials,1.0,32,0.0,Unknown:6734 | UV-curable epoxy:43 | Epoxy:33
+Encapsulation_atmosphere_for_encapsulation,1.0,7,0.0,Unknown:6714 | N2:111 | Air:43
+JV_measured,1.0,2,1.0,True:6203 | False:688
+JV_average_over_n_number_of_cells,1.0,57,1.0,1:5118 | 2:432 | 20:240
+JV_certified_values,1.0,2,1.0,False:6877 | True:14
+JV_storage_age_of_cell,1.0,4,0.00130605137135394,Unknown:6882 | 1.0:5 | 5.0:2
+JV_storage_atmosphere,1.0,4,0.0,Unknown:6884 | Dry air:3 | Air:2
+JV_test_atmosphere,1.0,8,0.0,Unknown:3484 | Air:2503 | N2:654
+Outdoor_temperature_range,1.0,1,0.0,nan; nan:6891
+Outdoor_irradiance_measured,1.0,2,1.0,False:6885 | True:6
+Outdoor_periodic_JV_measurements,1.0,2,1.0,False:6884 | True:7
+Stability_PCE_end_of_experiment,1.0,804,1.0,90.0:413 | 80.0:394 | 0.0:314
+Stability_periodic_JV_measurements_time_between_jv,1.0,44,0.03410245247424176,Unknown:6656 | 24.0:52 | 20.0:20
+Stability_periodic_JV_measurements,1.0,2,1.0,False:6533 | True:358
+Stability_time_total_exposure,1.0,437,1.0,720.0:531 | 1000.0:491 | 500.0:385
+Stability_relative_humidity_range,1.0,52,0.0,nan; nan:6686 | 20; 20:15 | 35; 45:13
+Stability_atmosphere,1.0,13,0.0,Air:4474 | N2:1214 | Unknown:563
+Stability_temperature_cycling_times,1.0,2,0.0,Unknown:6889 | 100.0; 100.0:2
+Stability_temperature_range,1.0,73,0.0,25.0; 25.0:4729 | nan; nan:352 | 85.0; 85.0:322
+Stability_potential_bias_range,1.0,20,0.0,nan; nan:6858 | 0.8; 0.8:7 | 0.86; 0.86:4
+Stability_potential_bias_load_condition,1.0,5,0.0,Open circuit:6303 | MPPT:516 | Constant potential:34
+Stability_light_UV_filter,1.0,2,1.0,False:6814 | True:77
+Stability_light_cycling_times,1.0,5,0.00014511681903932666,Unknown:6883 | 0.16; 12.0:3 | 10.0; 14.0:2
+Outdoor_PCE_burn_in_observed,1.0,2,1.0,False:6890 | True:1
+Outdoor_tested,1.0,2,1.0,False:6867 | True:24
+Stability_flexible_cell_number_of_bending_cycles,1.0,2,1.0,0:6890 | 300:1
+Stability_PCE_burn_in_observed,1.0,2,1.0,False:6547 | True:344
+Stability_light_wavelength_range,1.0,7,0.0,nan; nan:6839 | 365.0; 365.0:30 | 340.0; 340.0:8
+Stability_light_source_type,0.9946306776955449,20,0.0,Dark:5089 | Light:652 | Xenon:314
+JV_light_intensity,0.9944855608765056,25,0.9944855608765056,100.0:6805 | 0.0:5 | 81.0:4
+Stability_light_intensity,0.9838920330866348,42,0.9838920330866348,0.0:5087 | 100.0:1529 | 10.0:30
+Cell_area_measured,0.9801189957916122,246,0.9801189957916122,0.1:1967 | 0.09:1182 | 0.16:599
+Perovskite_deposition_solvents_mixing_ratios,0.9584965897547526,215,0.2253664199680743,4; 1:1833 | 1:1553 | 1 >> 1:998
+JV_light_spectra,0.9384704687273255,3,0.0,AM 1.5:6447 | Am 1.5:13 | Indoor light:7
+ETL_additives_compounds,0.9175736467856624,172,0.0,Unknown:5482 | Unknown | TiCl4:116 | Unknown | Li-TFSI:103
+JV_default_PCE,0.9001596285009432,1567,0.9001596285009432,17.0:43 | 15.2:43 | 14.5:38
+JV_default_PCE_scan_direction,0.9001596285009432,3,0.0,Reversed:4815 | Stabilised:1322 | Forward:66
+JV_reverse_scan_PCE,0.8868088811493252,1594,0.8868088811493252,15.2:35 | 16.8:34 | 18.2:32
+JV_default_Jsc,0.8746190683500218,1431,0.8746190683500218,22.5:62 | 20.6:49 | 22.0:49
+JV_default_Jsc_scan_direction,0.8746190683500218,2,0.0,Reversed:5955 | Forward:72
+JV_default_Voc,0.8738934842548252,552,0.8738934842548252,1.1:249 | 1.08:245 | 1.06:245
+JV_default_Voc_scan_direction,0.8738934842548252,2,0.0,Reversed:5950 | Forward:72
+JV_default_FF_scan_direction,0.8705557974169206,2,0.0,Reversed:5928 | Forward:71
+JV_default_FF,0.8705557974169206,439,0.8705557974169206,0.74:195 | 0.76:193 | 0.75:183
+JV_reverse_scan_Jsc,0.8641706573791903,1412,0.8641706573791903,22.5:62 | 22.0:49 | 20.6:48
+JV_reverse_scan_Voc,0.8634450732839937,545,0.8634450732839937,1.1:248 | 1.08:245 | 1.06:244
+JV_reverse_scan_FF,0.8602525032651285,436,0.8602525032651285,0.74:195 | 0.76:193 | 0.75:182
+Backcontact_thickness_list,0.8323900740095778,162,0.7847917573646785,100.0:2024 | 80.0:1645 | 60.0:428
+Stability_relative_humidity_average_value,0.7276157306631839,72,0.7276157306631839,0.0:1206 | 30.0:565 | 50.0:515
+Perovskite_band_gap,0.6939486286460601,145,0.6939486286460601,1.6:3131 | 1.59:185 | 1.5:181
+HTL_additives_compounds,0.5720505006530257,166,0.0,Li-TFSI; TBP:2572 | FK209; Li-TFSI; TBP:637 | Undoped:108
+Perovskite_band_gap_estimation_basis,0.47990132056305324,7,0.0,Composition:3057 | Absorption:123 | EQE:44
+Ref_internal_sample_id,0.4529095922217385,2282,0.015817733275286606,Control:37 | Champion:36 | control:31
+ETL_thickness,0.4175010883761428,471,0.1485996226962705,50.0:200 | 40.0:155 | 30.0:107
+Stability_PCE_initial_value,0.4125671165288057,967,0.4125671165288057,100.0:45 | 17.0:43 | 15.0:41
+JV_scan_speed,0.3874619068350022,72,0.3874619068350022,100.0:764 | 50.0:447 | 10.0:364
+Perovskite_additives_compounds,0.32317515600058044,461,0.0,Cl:667 | Undoped:331 | Unknown:62
+JV_forward_scan_PCE,0.3202728196197939,978,0.3202728196197939,15.1:15 | 18.2:13 | 18.4:12
+JV_forward_scan_Jsc,0.3151937309534175,781,0.3151937309534175,22.8:24 | 22.5:22 | 21.6:21
+JV_forward_scan_Voc,0.31490349731533884,347,0.31490349731533884,1.1:104 | 1.08:94 | 1.05:90
+JV_forward_scan_FF,0.31374256276302426,349,0.31374256276302426,0.72:60 | 0.75:57 | 0.7:51
+Perovskite_thickness,0.3128718618487883,131,0.3128718618487883,400.0:314 | 500.0:314 | 300.0:280
+Perovskite_pl_max,0.31272674502974895,217,0.31272674502974895,770:314 | 775:157 | 780:155
+JV_hysteresis_index,0.30242345087795675,1791,0.30242345087795675,0.0:57 | 0.0462043251304997:8 | 0.0510750217896853:8
+EQE_integrated_Jsc,0.28558989986939487,670,0.28558989986939487,22.0:51 | 22.5:43 | 20.0:43
+Stability_PCE_T80,0.2493106951095632,473,0.2493106951095632,100.0:63 | 720.0:46 | 1.0:39
+HTL_thickness_list,0.2378464664054564,172,0.21738499492091135,200.0:192 | 20.0:118 | 40.0:118
+Stabilised_performance_PCE,0.19184443476998983,534,0.19184443476998983,17.5:23 | 18.0:18 | 17.0:18
+Perovskite_composition_none_stoichiometry_components_in_excess,0.18662022928457409,27,0.0,PbI2:701 | Stoichiometric:310 | MAI:83
+Stability_PCE_after_1000_h,0.13220142214482658,227,0.13220142214482658,90.0:69 | 100.0:56 | 80.0:49
+Perovskite_additives_concentrations,0.11768974024089392,224,0.06951095631983747,0.05:77 | 0.01:46 | 0.1:45
+Stability_light_spectra,0.09287476418516906,8,0.0,AM 1.5:490 | UV:118 | Indoor light:20

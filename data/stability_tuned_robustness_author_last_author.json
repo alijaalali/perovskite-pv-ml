@@ -1,0 +1,138 @@
+[
+ {
+  "protocol": "last_author",
+  "model": "XGBoost",
+  "features": "base",
+  "r2": 0.12409254938189862,
+  "r2_ci": [
+   0.10908207944503816,
+   0.14111054864365372
+  ],
+  "r2_paperweighted": 0.11991587986370222
+ },
+ {
+  "protocol": "last_author",
+  "model": "XGBoost",
+  "features": "+process+stack",
+  "r2": 0.14768739451291213,
+  "r2_ci": [
+   0.13159439464952638,
+   0.16878951496257488
+  ],
+  "r2_paperweighted": 0.14082951951849354
+ },
+ {
+  "protocol": "last_author",
+  "model": "LightGBM",
+  "features": "base",
+  "r2": 0.1152027623883497,
+  "r2_ci": [
+   0.10029339043516079,
+   0.13157077486153398
+  ],
+  "r2_paperweighted": 0.10992475869910112
+ },
+ {
+  "protocol": "last_author",
+  "model": "LightGBM",
+  "features": "+process+stack",
+  "r2": 0.1518254934567792,
+  "r2_ci": [
+   0.13452961232299462,
+   0.1738847141936248
+  ],
+  "r2_paperweighted": 0.14137913268998403
+ },
+ {
+  "protocol": "last_author",
+  "model": "RandomForest",
+  "features": "base",
+  "r2": 0.11413110036664376,
+  "r2_ci": [
+   0.09767770234668463,
+   0.13238701516221932
+  ],
+  "r2_paperweighted": 0.10550434927913399
+ },
+ {
+  "protocol": "last_author",
+  "model": "RandomForest",
+  "features": "+process+stack",
+  "r2": 0.13794868275280925,
+  "r2_ci": [
+   0.12340779848646316,
+   0.15758736770636475
+  ],
+  "r2_paperweighted": 0.12863769529867453
+ },
+ {
+  "protocol": "last_author",
+  "model": "Blend (XGB+LGBM+RF)",
+  "features": "base",
+  "r2": 0.12273573218262768,
+  "r2_ci": [
+   0.10781399181614103,
+   0.14027831361605467
+  ],
+  "r2_paperweighted": 0.11683791220897011
+ },
+ {
+  "protocol": "last_author",
+  "model": "Blend (XGB+LGBM+RF)",
+  "features": "+process+stack",
+  "r2": 0.15316474170148242,
+  "r2_ci": [
+   0.13797144784454188,
+   0.17390395459560398
+  ],
+  "r2_paperweighted": 0.1446478717762758
+ },
+ {
+  "protocol": "last_author",
+  "model": "XGBoost",
+  "features": "+process+stack",
+  "task": "gain",
+  "reference": "base",
+  "gain": 0.02359484513101351,
+  "gain_ci": [
+   0.015870854396735017,
+   0.03150084139239979
+  ]
+ },
+ {
+  "protocol": "last_author",
+  "model": "LightGBM",
+  "features": "+process+stack",
+  "task": "gain",
+  "reference": "base",
+  "gain": 0.036622731068429504,
+  "gain_ci": [
+   0.026158956183005535,
+   0.046565048531148415
+  ]
+ },
+ {
+  "protocol": "last_author",
+  "model": "RandomForest",
+  "features": "+process+stack",
+  "task": "gain",
+  "reference": "base",
+  "gain": 0.023817582386165492,
+  "gain_ci": [
+   0.017032629347204332,
+   0.03173218123254169
+  ]
+ },
+ {
+  "protocol": "last_author",
+  "model": "Blend (XGB+LGBM+RF)",
+  "features": "+process+stack",
+  "task": "gain",
+  "reference": "base",
+  "gain": 0.030429009518854744,
+  "gain_ci": [
+   0.023839653767700593,
+   0.03785787567698745
+  ]
+ }
+]

@@ -1,0 +1,614 @@
+[
+ {
+  "protocol": "paper",
+  "model": "XGBoost",
+  "group": "additives (identity, known/present, concentration)",
+  "n_cols": 9,
+  "reported_share": 0.3141779132201422,
+  "loss_if_removed": 0.031622582745424066,
+  "loss_ci": [
+   0.02080970699751195,
+   0.04414979012099034
+  ],
+  "gain_if_added_to_base": 0.026237743570772243,
+  "gain_ci": [
+   0.011731858644319863,
+   0.0384714172354001
+  ]
+ },
+ {
+  "protocol": "paper",
+  "model": "XGBoost",
+  "group": "quenching medium and quench-induced crystallisation",
+  "n_cols": 11,
+  "reported_share": 0.5708895661007111,
+  "loss_if_removed": 0.008347554170687332,
+  "loss_ci": [
+   0.001002487179723613,
+   0.016760018601648736
+  ],
+  "gain_if_added_to_base": 0.001990983557545789,
+  "gain_ci": [
+   -0.007942106169789711,
+   0.010462019846375695
+  ]
+ },
+ {
+  "protocol": "paper",
+  "model": "XGBoost",
+  "group": "solvents",
+  "n_cols": 15,
+  "reported_share": 0.9808445798868088,
+  "loss_if_removed": 0.006808497199161212,
+  "loss_ci": [
+   -0.0034035008479140704,
+   0.015539903350983939
+  ],
+  "gain_if_added_to_base": 0.0013588904102057597,
+  "gain_ci": [
+   -0.008528133981994876,
+   0.011096487818146157
+  ]
+ },
+ {
+  "protocol": "paper",
+  "model": "XGBoost",
+  "group": "synthesis atmosphere",
+  "n_cols": 10,
+  "reported_share": 0.6399651719634305,
+  "loss_if_removed": 0.00443524191237632,
+  "loss_ci": [
+   -0.0034864657992435977,
+   0.013522236664442426
+  ],
+  "gain_if_added_to_base": -0.0049748946830032725,
+  "gain_ci": [
+   -0.012871612220673618,
+   0.003164579517761681
+  ]
+ },
+ {
+  "protocol": "paper",
+  "model": "XGBoost",
+  "group": "stoichiometric excess",
+  "n_cols": 6,
+  "reported_share": 0.1866202292845741,
+  "loss_if_removed": 0.00783722011750787,
+  "loss_ci": [
+   -0.0007373071025696508,
+   0.016846683189992454
+  ],
+  "gain_if_added_to_base": -0.001763005699110698,
+  "gain_ci": [
+   -0.009927708212372835,
+   0.007471672552753635
+  ]
+ },
+ {
+  "protocol": "paper",
+  "model": "XGBoost",
+  "group": "number of deposition steps",
+  "n_cols": 2,
+  "reported_share": 1.0,
+  "loss_if_removed": 0.00023485968210668062,
+  "loss_ci": [
+   -0.008259567238500623,
+   0.008532811830595231
+  ],
+  "gain_if_added_to_base": -9.628074352241445e-05,
+  "gain_ci": [
+   -0.008323583069570489,
+   0.006323270177893498
+  ]
+ },
+ {
+  "protocol": "paper",
+  "model": "XGBoost",
+  "group": "perovskite thickness",
+  "n_cols": 2,
+  "reported_share": 0.31287186184878824,
+  "loss_if_removed": 0.012733193450714997,
+  "loss_ci": [
+   0.002846551681072029,
+   0.022861473872105
+  ],
+  "gain_if_added_to_base": 0.002098543246859319,
+  "gain_ci": [
+   -0.007598335363365205,
+   0.011531182562535948
+  ]
+ },
+ {
+  "protocol": "paper",
+  "model": "XGBoost",
+  "group": "full stack tokens, layer count, flexible/semitransparent",
+  "n_cols": 33,
+  "reported_share": 1.0,
+  "loss_if_removed": 0.005016810937803595,
+  "loss_ci": [
+   -0.003829384787863496,
+   0.015380707948791402
+  ],
+  "gain_if_added_to_base": 0.0014040716515941742,
+  "gain_ci": [
+   -0.00791790208904974,
+   0.00995123124392454
+  ]
+ },
+ {
+  "protocol": "paper",
+  "model": "XGBoost",
+  "group": "encapsulation edge-sealing/atmosphere known",
+  "n_cols": 2,
+  "reported_share": 0.02423450877956755,
+  "loss_if_removed": -0.0011447889063305183,
+  "loss_ci": [
+   -0.009044708280512391,
+   0.006896751219807788
+  ],
+  "gain_if_added_to_base": 0.0009711279141424445,
+  "gain_ci": [
+   -0.006454481822852171,
+   0.008411665347538283
+  ]
+ },
+ {
+  "protocol": "paper",
+  "model": "LightGBM",
+  "group": "additives (identity, known/present, concentration)",
+  "n_cols": 9,
+  "reported_share": 0.3141779132201422,
+  "loss_if_removed": 0.031068245092909064,
+  "loss_ci": [
+   0.017678626458874067,
+   0.045056714782842254
+  ],
+  "gain_if_added_to_base": 0.03661518658567142,
+  "gain_ci": [
+   0.024713900993570074,
+   0.05176744043251014
+  ]
+ },
+ {
+  "protocol": "paper",
+  "model": "LightGBM",
+  "group": "quenching medium and quench-induced crystallisation",
+  "n_cols": 11,
+  "reported_share": 0.5708895661007111,
+  "loss_if_removed": 0.0028595489581118017,
+  "loss_ci": [
+   -0.006043993476097158,
+   0.011578627079777094
+  ],
+  "gain_if_added_to_base": 0.00573567061712732,
+  "gain_ci": [
+   -0.0012926400041616962,
+   0.013932100588615909
+  ]
+ },
+ {
+  "protocol": "paper",
+  "model": "LightGBM",
+  "group": "solvents",
+  "n_cols": 15,
+  "reported_share": 0.9808445798868088,
+  "loss_if_removed": 0.002371502577025897,
+  "loss_ci": [
+   -0.0062158923318079064,
+   0.010965735300685498
+  ],
+  "gain_if_added_to_base": 0.00410214151910504,
+  "gain_ci": [
+   -0.005491436777230704,
+   0.011471242710943007
+  ]
+ },
+ {
+  "protocol": "paper",
+  "model": "LightGBM",
+  "group": "synthesis atmosphere",
+  "n_cols": 10,
+  "reported_share": 0.6399651719634305,
+  "loss_if_removed": 0.001072283562653431,
+  "loss_ci": [
+   -0.00943560682891699,
+   0.010028220502091428
+  ],
+  "gain_if_added_to_base": 0.0002178525301055334,
+  "gain_ci": [
+   -0.009883905751481669,
+   0.010341712917506187
+  ]
+ },
+ {
+  "protocol": "paper",
+  "model": "LightGBM",
+  "group": "stoichiometric excess",
+  "n_cols": 6,
+  "reported_share": 0.1866202292845741,
+  "loss_if_removed": 0.00572625751865341,
+  "loss_ci": [
+   -0.0017818240400092832,
+   0.01427117770188999
+  ],
+  "gain_if_added_to_base": 0.001742912369781302,
+  "gain_ci": [
+   -0.005786768897935729,
+   0.008842275124332903
+  ]
+ },
+ {
+  "protocol": "paper",
+  "model": "LightGBM",
+  "group": "number of deposition steps",
+  "n_cols": 2,
+  "reported_share": 1.0,
+  "loss_if_removed": -0.0010759065491308117,
+  "loss_ci": [
+   -0.009188248793848715,
+   0.006624326778200357
+  ],
+  "gain_if_added_to_base": 0.0016599677988954342,
+  "gain_ci": [
+   -0.006058670854213089,
+   0.009666199152231316
+  ]
+ },
+ {
+  "protocol": "paper",
+  "model": "LightGBM",
+  "group": "perovskite thickness",
+  "n_cols": 2,
+  "reported_share": 0.31287186184878824,
+  "loss_if_removed": 0.006962652560086879,
+  "loss_ci": [
+   -0.002857503743114947,
+   0.016728062687465284
+  ],
+  "gain_if_added_to_base": 0.0013921678491306544,
+  "gain_ci": [
+   -0.009216261145452284,
+   0.013684524102296425
+  ]
+ },
+ {
+  "protocol": "paper",
+  "model": "LightGBM",
+  "group": "full stack tokens, layer count, flexible/semitransparent",
+  "n_cols": 33,
+  "reported_share": 1.0,
+  "loss_if_removed": 0.007068229767232315,
+  "loss_ci": [
+   -0.0025737646383151317,
+   0.016137407946765207
+  ],
+  "gain_if_added_to_base": 0.011302486475588625,
+  "gain_ci": [
+   0.0032680165724385955,
+   0.021763845061183392
+  ]
+ },
+ {
+  "protocol": "paper",
+  "model": "LightGBM",
+  "group": "encapsulation edge-sealing/atmosphere known",
+  "n_cols": 2,
+  "reported_share": 0.02423450877956755,
+  "loss_if_removed": 0.002978496720490331,
+  "loss_ci": [
+   -0.005049900117205022,
+   0.011267877795009129
+  ],
+  "gain_if_added_to_base": -0.0016254752757869362,
+  "gain_ci": [
+   -0.009657252702332308,
+   0.007263820784857722
+  ]
+ },
+ {
+  "protocol": "temporal",
+  "model": "XGBoost",
+  "group": "additives (identity, known/present, concentration)",
+  "n_cols": 9,
+  "reported_share": 0.3141779132201422,
+  "loss_if_removed": 0.03715350506100967,
+  "loss_ci": [
+   0.01495948957309454,
+   0.06640663166373664
+  ],
+  "gain_if_added_to_base": 0.019877000962424396,
+  "gain_ci": [
+   -0.00019248114464957516,
+   0.04698148229973002
+  ]
+ },
+ {
+  "protocol": "temporal",
+  "model": "XGBoost",
+  "group": "quenching medium and quench-induced crystallisation",
+  "n_cols": 11,
+  "reported_share": 0.5708895661007111,
+  "loss_if_removed": -0.0074635913995481085,
+  "loss_ci": [
+   -0.027439545636689995,
+   0.008781444390406136
+  ],
+  "gain_if_added_to_base": -0.012131260973892277,
+  "gain_ci": [
+   -0.02853969010392609,
+   0.003986847119054076
+  ]
+ },
+ {
+  "protocol": "temporal",
+  "model": "XGBoost",
+  "group": "solvents",
+  "n_cols": 15,
+  "reported_share": 0.9808445798868088,
+  "loss_if_removed": 0.002793749016883229,
+  "loss_ci": [
+   -0.013657427967229335,
+   0.02230348638223416
+  ],
+  "gain_if_added_to_base": 0.0016595469745888103,
+  "gain_ci": [
+   -0.01639269733833955,
+   0.02083458713231023
+  ]
+ },
+ {
+  "protocol": "temporal",
+  "model": "XGBoost",
+  "group": "synthesis atmosphere",
+  "n_cols": 10,
+  "reported_share": 0.6399651719634305,
+  "loss_if_removed": 5.4285163433531736e-05,
+  "loss_ci": [
+   -0.01665861952202648,
+   0.015715992676647927
+  ],
+  "gain_if_added_to_base": -0.0059279788689602375,
+  "gain_ci": [
+   -0.021830632339707966,
+   0.01120837587813388
+  ]
+ },
+ {
+  "protocol": "temporal",
+  "model": "XGBoost",
+  "group": "stoichiometric excess",
+  "n_cols": 6,
+  "reported_share": 0.1866202292845741,
+  "loss_if_removed": -0.004870377993011266,
+  "loss_ci": [
+   -0.019177233514165733,
+   0.016780465907312594
+  ],
+  "gain_if_added_to_base": -0.011680153275812843,
+  "gain_ci": [
+   -0.03191758001250229,
+   0.0067089978308277195
+  ]
+ },
+ {
+  "protocol": "temporal",
+  "model": "XGBoost",
+  "group": "number of deposition steps",
+  "n_cols": 2,
+  "reported_share": 1.0,
+  "loss_if_removed": 0.003123561446848666,
+  "loss_ci": [
+   -0.014798133990511622,
+   0.022254080680182038
+  ],
+  "gain_if_added_to_base": -0.01352813827445698,
+  "gain_ci": [
+   -0.030466645743898724,
+   0.0023393420522608986
+  ]
+ },
+ {
+  "protocol": "temporal",
+  "model": "XGBoost",
+  "group": "perovskite thickness",
+  "n_cols": 2,
+  "reported_share": 0.31287186184878824,
+  "loss_if_removed": -0.013675321503727633,
+  "loss_ci": [
+   -0.03383367523950843,
+   0.003320227053653473
+  ],
+  "gain_if_added_to_base": -0.012909255717742818,
+  "gain_ci": [
+   -0.030017166906414462,
+   0.006701669266034816
+  ]
+ },
+ {
+  "protocol": "temporal",
+  "model": "XGBoost",
+  "group": "full stack tokens, layer count, flexible/semitransparent",
+  "n_cols": 33,
+  "reported_share": 1.0,
+  "loss_if_removed": -0.00048524242459790923,
+  "loss_ci": [
+   -0.018622483880455013,
+   0.019252731602802622
+  ],
+  "gain_if_added_to_base": -0.0016063352832075273,
+  "gain_ci": [
+   -0.02215899941532206,
+   0.01997367867817897
+  ]
+ },
+ {
+  "protocol": "temporal",
+  "model": "XGBoost",
+  "group": "encapsulation edge-sealing/atmosphere known",
+  "n_cols": 2,
+  "reported_share": 0.02423450877956755,
+  "loss_if_removed": -0.006997802862430236,
+  "loss_ci": [
+   -0.025871169826923782,
+   0.013433689641975525
+  ],
+  "gain_if_added_to_base": -0.013494256899784896,
+  "gain_ci": [
+   -0.032753785268961146,
+   0.003522677312717668
+  ]
+ },
+ {
+  "protocol": "temporal",
+  "model": "LightGBM",
+  "group": "additives (identity, known/present, concentration)",
+  "n_cols": 9,
+  "reported_share": 0.3141779132201422,
+  "loss_if_removed": 0.05903044843343763,
+  "loss_ci": [
+   0.036057488679517906,
+   0.09187101469393028
+  ],
+  "gain_if_added_to_base": 0.05572614955733579,
+  "gain_ci": [
+   0.029537062731009017,
+   0.08614526880478798
+  ]
+ },
+ {
+  "protocol": "temporal",
+  "model": "LightGBM",
+  "group": "quenching medium and quench-induced crystallisation",
+  "n_cols": 11,
+  "reported_share": 0.5708895661007111,
+  "loss_if_removed": -0.006314819951507733,
+  "loss_ci": [
+   -0.021588717477340306,
+   0.006597163146012157
+  ],
+  "gain_if_added_to_base": 0.0034503824083966794,
+  "gain_ci": [
+   -0.014735314875429374,
+   0.021326484308885885
+  ]
+ },
+ {
+  "protocol": "temporal",
+  "model": "LightGBM",
+  "group": "solvents",
+  "n_cols": 15,
+  "reported_share": 0.9808445798868088,
+  "loss_if_removed": 0.004291942102452984,
+  "loss_ci": [
+   -0.011669115857932863,
+   0.019676321946950532
+  ],
+  "gain_if_added_to_base": 0.02299368269231805,
+  "gain_ci": [
+   0.003799195618741816,
+   0.04537871488854342
+  ]
+ },
+ {
+  "protocol": "temporal",
+  "model": "LightGBM",
+  "group": "synthesis atmosphere",
+  "n_cols": 10,
+  "reported_share": 0.6399651719634305,
+  "loss_if_removed": 0.0063329330849052345,
+  "loss_ci": [
+   -0.006841340942189034,
+   0.022414304163627878
+  ],
+  "gain_if_added_to_base": 0.016987004339376943,
+  "gain_ci": [
+   0.0015129970886402111,
+   0.03390595414726835
+  ]
+ },
+ {
+  "protocol": "temporal",
+  "model": "LightGBM",
+  "group": "stoichiometric excess",
+  "n_cols": 6,
+  "reported_share": 0.1866202292845741,
+  "loss_if_removed": 0.001599976837078576,
+  "loss_ci": [
+   -0.017686386106970407,
+   0.01952708768786254
+  ],
+  "gain_if_added_to_base": -0.002184438835653002,
+  "gain_ci": [
+   -0.02432370155407106,
+   0.021287895416609748
+  ]
+ },
+ {
+  "protocol": "temporal",
+  "model": "LightGBM",
+  "group": "number of deposition steps",
+  "n_cols": 2,
+  "reported_share": 1.0,
+  "loss_if_removed": 0.01304919603965704,
+  "loss_ci": [
+   -0.000991237152162236,
+   0.02846799830843275
+  ],
+  "gain_if_added_to_base": 0.005039191085320693,
+  "gain_ci": [
+   -0.011122016857646138,
+   0.024844065955093832
+  ]
+ },
+ {
+  "protocol": "temporal",
+  "model": "LightGBM",
+  "group": "perovskite thickness",
+  "n_cols": 2,
+  "reported_share": 0.31287186184878824,
+  "loss_if_removed": 0.019028255285976292,
+  "loss_ci": [
+   -0.0025770535661181647,
+   0.036599959484115235
+  ],
+  "gain_if_added_to_base": 0.009456982561168226,
+  "gain_ci": [
+   -0.010477916405370876,
+   0.0317918226262007
+  ]
+ },
+ {
+  "protocol": "temporal",
+  "model": "LightGBM",
+  "group": "full stack tokens, layer count, flexible/semitransparent",
+  "n_cols": 33,
+  "reported_share": 1.0,
+  "loss_if_removed": 0.016901364974345356,
+  "loss_ci": [
+   -0.0010787134024607397,
+   0.03370340965567215
+  ],
+  "gain_if_added_to_base": 0.017916506604933047,
+  "gain_ci": [
+   -0.0005076037461339999,
+   0.03763950665009596
+  ]
+ },
+ {
+  "protocol": "temporal",
+  "model": "LightGBM",
+  "group": "encapsulation edge-sealing/atmosphere known",
+  "n_cols": 2,
+  "reported_share": 0.02423450877956755,
+  "loss_if_removed": -0.0005293174546903145,
+  "loss_ci": [
+   -0.018423934040025743,
+   0.015569285173095939
+  ],
+  "gain_if_added_to_base": 0.00633797740065023,
+  "gain_ci": [
+   -0.008679306916967793,
+   0.022355024414402805
+  ]
+ }
+]

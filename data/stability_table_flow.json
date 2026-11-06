@@ -1,0 +1,37 @@
+{
+ "raw_cells": 42443,
+ "with_stability_protocol": 7419,
+ "single_layer_3D": 7007,
+ "composition_parsed": 6969,
+ "valid_composition": 6969,
+ "valid_time_and_retention": 6891,
+ "status_counts": {
+  "right": 2893,
+  "interval": 2282,
+  "event": 1716
+ },
+ "final_cells": 6891,
+ "papers": 2692,
+ "unique_compositions": 503,
+ "families": 17,
+ "years": [
+  2012,
+  2020
+ ],
+ "magpie_features": 132,
+ "cells_per_paper_median": 2.0,
+ "frac_event": 0.24902046147148454,
+ "retention_median": 0.77,
+ "t_exp_median_h": 500.0,
+ "contradictions": 8,
+ "isos_counts": {
+  "ISOS-D-1": 3637,
+  "ISOS-D-1I": 843,
+  "ISOS-L-1": 826,
+  "ISOS-L-1I": 568,
+  "ISOS-D-2": 309,
+  "ISOS-D-2I": 250,
+  "Other": 124,
+  "ISOS-L-2": 116
+ }
+}

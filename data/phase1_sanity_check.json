@@ -1,0 +1,38 @@
+{
+  "n_final": 39780,
+  "best_config": {
+    "n_estimators": 300,
+    "max_depth": 4,
+    "learning_rate": 0.05,
+    "subsample": 0.8
+  },
+  "random_split": {
+    "n_train": 31824,
+    "n_test": 7956,
+    "r2": 0.2641732556700124,
+    "mae": 3.4744734079825816
+  },
+  "family_disjoint_split": {
+    "n_train": 29853,
+    "n_test": 9927,
+    "n_families_total": 24,
+    "n_families_held_out": 15,
+    "r2": 0.3375930527781399,
+    "mae": 3.323766008368078
+  },
+  "funnel": {
+    "raw_rows": 42443,
+    "single_layer": 40914,
+    "composition_parsed": 40653,
+    "valid_pymatgen_composition": 40653,
+    "pce_nonnull": 39785,
+    "pce_plausible_range": 39780,
+    "final_after_featurization": 39780
+  },
+  "subgroups": {
+    "lead_based": 38877,
+    "lead_free": 903,
+    "mixed_cation": 8896,
+    "single_cation": 30884
+  }
+}

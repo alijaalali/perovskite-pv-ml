@@ -1,0 +1,138 @@
+[
+ {
+  "protocol": "purged_any_author",
+  "model": "XGBoost",
+  "features": "base",
+  "r2": 0.10260293066397108,
+  "r2_ci": [
+   0.08553377403908707,
+   0.12147810222377524
+  ],
+  "r2_paperweighted": 0.09643373027389579
+ },
+ {
+  "protocol": "purged_any_author",
+  "model": "XGBoost",
+  "features": "+process+stack",
+  "r2": 0.1208517374976309,
+  "r2_ci": [
+   0.10492512603498377,
+   0.14265092844998598
+  ],
+  "r2_paperweighted": 0.11217696333077642
+ },
+ {
+  "protocol": "purged_any_author",
+  "model": "LightGBM",
+  "features": "base",
+  "r2": 0.09110904698280775,
+  "r2_ci": [
+   0.07305730946090308,
+   0.11044462190496325
+  ],
+  "r2_paperweighted": 0.08321921628637508
+ },
+ {
+  "protocol": "purged_any_author",
+  "model": "LightGBM",
+  "features": "+process+stack",
+  "r2": 0.11263950642303022,
+  "r2_ci": [
+   0.09595476777417733,
+   0.1354513744249392
+  ],
+  "r2_paperweighted": 0.09958739694780161
+ },
+ {
+  "protocol": "purged_any_author",
+  "model": "RandomForest",
+  "features": "base",
+  "r2": 0.08769093695501962,
+  "r2_ci": [
+   0.07225298804600613,
+   0.10589092689271964
+  ],
+  "r2_paperweighted": 0.07961409726996749
+ },
+ {
+  "protocol": "purged_any_author",
+  "model": "RandomForest",
+  "features": "+process+stack",
+  "r2": 0.09888213748280628,
+  "r2_ci": [
+   0.08438937983015742,
+   0.11922139811191075
+  ],
+  "r2_paperweighted": 0.08646763660953827
+ },
+ {
+  "protocol": "purged_any_author",
+  "model": "Blend (XGB+LGBM+RF)",
+  "features": "base",
+  "r2": 0.09881195746483329,
+  "r2_ci": [
+   0.08350294745651998,
+   0.11682023405781447
+  ],
+  "r2_paperweighted": 0.09159326418013591
+ },
+ {
+  "protocol": "purged_any_author",
+  "model": "Blend (XGB+LGBM+RF)",
+  "features": "+process+stack",
+  "r2": 0.11822254581877012,
+  "r2_ci": [
+   0.10330018443261686,
+   0.14093381818535644
+  ],
+  "r2_paperweighted": 0.10713598697297844
+ },
+ {
+  "protocol": "purged_any_author",
+  "model": "XGBoost",
+  "features": "+process+stack",
+  "task": "gain",
+  "reference": "base",
+  "gain": 0.018248806833659814,
+  "gain_ci": [
+   0.011078000901962717,
+   0.02609445837055487
+  ]
+ },
+ {
+  "protocol": "purged_any_author",
+  "model": "LightGBM",
+  "features": "+process+stack",
+  "task": "gain",
+  "reference": "base",
+  "gain": 0.02153045944022247,
+  "gain_ci": [
+   0.010822027860308475,
+   0.0351539252425542
+  ]
+ },
+ {
+  "protocol": "purged_any_author",
+  "model": "RandomForest",
+  "features": "+process+stack",
+  "task": "gain",
+  "reference": "base",
+  "gain": 0.01119120052778666,
+  "gain_ci": [
+   0.0026797782539824374,
+   0.02035872970230702
+  ]
+ },
+ {
+  "protocol": "purged_any_author",
+  "model": "Blend (XGB+LGBM+RF)",
+  "features": "+process+stack",
+  "task": "gain",
+  "reference": "base",
+  "gain": 0.01941058835393683,
+  "gain_ci": [
+   0.01292849549172547,
+   0.02776427681501832
+  ]
+ }
+]

@@ -1,0 +1,39 @@
+{
+  "lead_based": {
+    "n": 9759,
+    "mae": 3.4177461319634688,
+    "sigma_target": 5.23348295599532,
+    "mae_over_sigma": 0.6530538382757514,
+    "r2": 0.22263093417467328
+  },
+  "lead_free": {
+    "n": 168,
+    "mae": 3.7796521482069076,
+    "sigma_target": 1.4856186293992615,
+    "mae_over_sigma": 2.5441604415901025,
+    "r2": -8.111298182880132
+  },
+  "single_cation": {
+    "n": 2771,
+    "mae": 3.342463626135046,
+    "sigma_target": 4.6352758789210835,
+    "mae_over_sigma": 0.7210927059023389,
+    "r2": 0.2029177474137157
+  },
+  "mixed_cation": {
+    "n": 7156,
+    "mae": 3.455393984727507,
+    "sigma_target": 4.372535683649177,
+    "mae_over_sigma": 0.7902494650069377,
+    "r2": -0.19655098153446815
+  },
+  "bootstrap_95ci_MAE_leadfree_minus_leadbased": [
+    0.0008193562825489453,
+    0.7293771782838605
+  ],
+  "bootstrap_95ci_MAE_mixed_minus_single": [
+    -0.0054840586036824165,
+    0.23148453478442532
+  ],
+  "note": "All statistics are computed on the family-disjoint test set only (model trained on the family-disjoint training set); subgroups are defined from the PDP fields is_lead_based and is_mixed_cation."
+}

@@ -1,0 +1,8 @@
+{
+ "n_pairs": 4657,
+ "frac_same_exposure": 0.98260682843032,
+ "shorter_test_acc": 0.321,
+ "shorter_test_n": 81,
+ "fresh_pce_acc": 0.689,
+ "fresh_pce_n": 4078
+}

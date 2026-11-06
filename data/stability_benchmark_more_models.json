@@ -1,0 +1,1410 @@
+[
+ {
+  "task": "retention",
+  "protocol": "paper",
+  "model": "Lasso",
+  "features": "base",
+  "r2": 0.1047320139538146,
+  "r2_ci": [
+   0.08901546850344408,
+   0.12247865187818927
+  ]
+ },
+ {
+  "task": "retention",
+  "protocol": "paper",
+  "model": "PLS (10 comp.)",
+  "features": "base",
+  "r2": 0.09949518096498244,
+  "r2_ci": [
+   0.07583362656975949,
+   0.11883018803711745
+  ]
+ },
+ {
+  "task": "retention",
+  "protocol": "paper",
+  "model": "Huber",
+  "features": "base",
+  "r2": 0.006650264791873917,
+  "r2_ci": [
+   -0.06844053851594291,
+   0.06702000351675932
+  ]
+ },
+ {
+  "task": "retention",
+  "protocol": "paper",
+  "model": "Spline-additive ridge",
+  "features": "base",
+  "r2": 0.11325182282272506,
+  "r2_ci": [
+   0.09290914083753506,
+   0.13166706989886992
+  ]
+ },
+ {
+  "task": "retention",
+  "protocol": "paper",
+  "model": "XGBoost (logit target)",
+  "features": "base",
+  "r2": 0.026048504531724026,
+  "r2_ci": [
+   -0.008121424966332697,
+   0.06346867565947104
+  ]
+ },
+ {
+  "task": "retention",
+  "protocol": "paper",
+  "model": "LightGBM (monotone in time)",
+  "features": "base",
+  "r2": 0.06319942499257669,
+  "r2_ci": [
+   0.03672701868186429,
+   0.0871273163064622
+  ]
+ },
+ {
+  "task": "retention",
+  "protocol": "paper",
+  "model": "Deep ensemble (5 ResNets)",
+  "features": "base",
+  "r2": 0.0937973157857871,
+  "r2_ci": [
+   0.0686307260641587,
+   0.11645153914437334
+  ]
+ },
+ {
+  "task": "retention",
+  "protocol": "paper",
+  "model": "Gaussian process (2000-pt subsample)",
+  "features": "base",
+  "r2": 0.09616080567692409,
+  "r2_ci": [
+   0.07880224015812651,
+   0.1121424008688977
+  ]
+ },
+ {
+  "task": "retention",
+  "protocol": "paper",
+  "model": "Hurdle (clf x two regressors)",
+  "features": "base",
+  "r2": 0.12652563686793927,
+  "r2_ci": [
+   0.1054205144063756,
+   0.14857579026140155
+  ]
+ },
+ {
+  "task": "retention",
+  "protocol": "paper",
+  "model": "Blend (XGB+CatBoost+RF)",
+  "features": "base",
+  "r2": 0.12610778075331486,
+  "r2_ci": [
+   0.108225068948717,
+   0.1477024459448846
+  ]
+ },
+ {
+  "task": "retained80",
+  "protocol": "paper",
+  "model": "L1 logistic",
+  "features": "base",
+  "auc": 0.6669068070346168,
+  "auc_ci": [
+   0.6516032203133891,
+   0.6845492139457252
+  ]
+ },
+ {
+  "task": "retained80",
+  "protocol": "paper",
+  "model": "LightGBM (monotone in time)",
+  "features": "base",
+  "auc": 0.6599602688604811,
+  "auc_ci": [
+   0.6443834510027905,
+   0.6728823310480199
+  ]
+ },
+ {
+  "task": "retained80",
+  "protocol": "paper",
+  "model": "Deep ensemble (5 ResNets)",
+  "features": "base",
+  "auc": 0.659798427187444,
+  "auc_ci": [
+   0.6429902797809189,
+   0.674724065672388
+  ]
+ },
+ {
+  "task": "retained80",
+  "protocol": "paper",
+  "model": "Blend (XGB+CatBoost+RF)",
+  "features": "base",
+  "auc": 0.679723764903817,
+  "auc_ci": [
+   0.6645950569412773,
+   0.6929864112494933
+  ]
+ },
+ {
+  "task": "time_to_80",
+  "protocol": "paper",
+  "model": "CatBoost-AFT",
+  "features": "base",
+  "cindex_matched": 0.6154242482791018,
+  "cindex_matched_ci": [
+   0.5970281473177304,
+   0.6320650990827076
+  ]
+ },
+ {
+  "task": "time_to_80",
+  "protocol": "paper",
+  "model": "XGBoost-Cox (interval~event at upper bound)",
+  "features": "base",
+  "cindex_matched": 0.6131909638166244,
+  "cindex_matched_ci": [
+   0.5940600649361748,
+   0.6281881203602511
+  ]
+ },
+ {
+  "task": "retention",
+  "protocol": "paper",
+  "model": "Lasso",
+  "features": "+all enriched",
+  "r2": 0.14226914654705747,
+  "r2_ci": [
+   0.12425417825430772,
+   0.16103900330319107
+  ]
+ },
+ {
+  "task": "retention",
+  "protocol": "paper",
+  "model": "PLS (10 comp.)",
+  "features": "+all enriched",
+  "r2": 0.12474301558391399,
+  "r2_ci": [
+   0.10162296850812608,
+   0.15385636678161962
+  ]
+ },
+ {
+  "task": "retention",
+  "protocol": "paper",
+  "model": "Huber",
+  "features": "+all enriched",
+  "r2": -0.030138308237847466,
+  "r2_ci": [
+   -0.23552260480753948,
+   0.10879002946391375
+  ]
+ },
+ {
+  "task": "retention",
+  "protocol": "paper",
+  "model": "Spline-additive ridge",
+  "features": "+all enriched",
+  "r2": 0.14699730633952213,
+  "r2_ci": [
+   0.125685518066021,
+   0.17355496335516077
+  ]
+ },
+ {
+  "task": "retention",
+  "protocol": "paper",
+  "model": "XGBoost (logit target)",
+  "features": "+all enriched",
+  "r2": 0.09635668426016142,
+  "r2_ci": [
+   0.05311775423731709,
+   0.13867481804500628
+  ]
+ },
+ {
+  "task": "retention",
+  "protocol": "paper",
+  "model": "LightGBM (monotone in time)",
+  "features": "+all enriched",
+  "r2": 0.14753321488437066,
+  "r2_ci": [
+   0.12196564872796692,
+   0.17521987794076735
+  ]
+ },
+ {
+  "task": "retention",
+  "protocol": "paper",
+  "model": "Deep ensemble (5 ResNets)",
+  "features": "+all enriched",
+  "r2": 0.0870577365771148,
+  "r2_ci": [
+   0.05740774627571612,
+   0.11942204601090503
+  ]
+ },
+ {
+  "task": "retention",
+  "protocol": "paper",
+  "model": "Gaussian process (2000-pt subsample)",
+  "features": "+all enriched",
+  "r2": 0.12173060872766683,
+  "r2_ci": [
+   0.10268734716197922,
+   0.1435042289428795
+  ]
+ },
+ {
+  "task": "retention",
+  "protocol": "paper",
+  "model": "Hurdle (clf x two regressors)",
+  "features": "+all enriched",
+  "r2": 0.179666358868235,
+  "r2_ci": [
+   0.15645727165931025,
+   0.207659423338449
+  ]
+ },
+ {
+  "task": "retention",
+  "protocol": "paper",
+  "model": "Blend (XGB+CatBoost+RF)",
+  "features": "+all enriched",
+  "r2": 0.1883268297071019,
+  "r2_ci": [
+   0.16566015003161846,
+   0.21163668320285142
+  ]
+ },
+ {
+  "task": "retained80",
+  "protocol": "paper",
+  "model": "L1 logistic",
+  "features": "+all enriched",
+  "auc": 0.6954192859260254,
+  "auc_ci": [
+   0.681145424674822,
+   0.7096609109495365
+  ]
+ },
+ {
+  "task": "retained80",
+  "protocol": "paper",
+  "model": "LightGBM (monotone in time)",
+  "features": "+all enriched",
+  "auc": 0.7072210321120536,
+  "auc_ci": [
+   0.6936699585850666,
+   0.7208121824033776
+  ]
+ },
+ {
+  "task": "retained80",
+  "protocol": "paper",
+  "model": "Deep ensemble (5 ResNets)",
+  "features": "+all enriched",
+  "auc": 0.6877067309095577,
+  "auc_ci": [
+   0.6747988446719141,
+   0.7010322577110449
+  ]
+ },
+ {
+  "task": "retained80",
+  "protocol": "paper",
+  "model": "Blend (XGB+CatBoost+RF)",
+  "features": "+all enriched",
+  "auc": 0.7197271712977484,
+  "auc_ci": [
+   0.7059785935451164,
+   0.7329375016134475
+  ]
+ },
+ {
+  "task": "time_to_80",
+  "protocol": "paper",
+  "model": "CatBoost-AFT",
+  "features": "+all enriched",
+  "cindex_matched": 0.6515451146192051,
+  "cindex_matched_ci": [
+   0.6344019427043959,
+   0.6640817426897415
+  ]
+ },
+ {
+  "task": "time_to_80",
+  "protocol": "paper",
+  "model": "XGBoost-Cox (interval~event at upper bound)",
+  "features": "+all enriched",
+  "cindex_matched": 0.6472622849587628,
+  "cindex_matched_ci": [
+   0.6310425627174345,
+   0.6625386585597347
+  ]
+ },
+ {
+  "task": "retention",
+  "protocol": "temporal",
+  "model": "Lasso",
+  "features": "base",
+  "r2": 0.10257642523826915,
+  "r2_ci": [
+   0.07295563771057743,
+   0.12821193468220993
+  ]
+ },
+ {
+  "task": "retention",
+  "protocol": "temporal",
+  "model": "PLS (10 comp.)",
+  "features": "base",
+  "r2": 0.08465097895458318,
+  "r2_ci": [
+   0.03573273030654203,
+   0.1233847698377651
+  ]
+ },
+ {
+  "task": "retention",
+  "protocol": "temporal",
+  "model": "Huber",
+  "features": "base",
+  "r2": 0.0423743198394847,
+  "r2_ci": [
+   -0.004048781514192309,
+   0.08433373221693058
+  ]
+ },
+ {
+  "task": "retention",
+  "protocol": "temporal",
+  "model": "Spline-additive ridge",
+  "features": "base",
+  "r2": 0.11918231567817328,
+  "r2_ci": [
+   0.08579788015517627,
+   0.15141145919069676
+  ]
+ },
+ {
+  "task": "retention",
+  "protocol": "temporal",
+  "model": "XGBoost (logit target)",
+  "features": "base",
+  "r2": -0.03981629893273353,
+  "r2_ci": [
+   -0.11279209859116919,
+   0.02721287247459409
+  ]
+ },
+ {
+  "task": "retention",
+  "protocol": "temporal",
+  "model": "LightGBM (monotone in time)",
+  "features": "base",
+  "r2": 0.02831657668852461,
+  "r2_ci": [
+   -0.018316991083780747,
+   0.07822881562043009
+  ]
+ },
+ {
+  "task": "retention",
+  "protocol": "temporal",
+  "model": "Deep ensemble (5 ResNets)",
+  "features": "base",
+  "r2": 0.055769051666990754,
+  "r2_ci": [
+   0.012211347234796076,
+   0.09814145650168016
+  ]
+ },
+ {
+  "task": "retention",
+  "protocol": "temporal",
+  "model": "Gaussian process (2000-pt subsample)",
+  "features": "base",
+  "r2": 0.08542133786914907,
+  "r2_ci": [
+   0.05592153399662912,
+   0.11261327268828483
+  ]
+ },
+ {
+  "task": "retention",
+  "protocol": "temporal",
+  "model": "Hurdle (clf x two regressors)",
+  "features": "base",
+  "r2": 0.11315844234793182,
+  "r2_ci": [
+   0.06928826880343228,
+   0.15054895275566835
+  ]
+ },
+ {
+  "task": "retention",
+  "protocol": "temporal",
+  "model": "Blend (XGB+CatBoost+RF)",
+  "features": "base",
+  "r2": 0.11352398089410742,
+  "r2_ci": [
+   0.0737006117058914,
+   0.15101442304018417
+  ]
+ },
+ {
+  "task": "retained80",
+  "protocol": "temporal",
+  "model": "L1 logistic",
+  "features": "base",
+  "auc": 0.6636788312227385,
+  "auc_ci": [
+   0.6404953626295379,
+   0.6898117774621612
+  ]
+ },
+ {
+  "task": "retained80",
+  "protocol": "temporal",
+  "model": "LightGBM (monotone in time)",
+  "features": "base",
+  "auc": 0.6385257819180667,
+  "auc_ci": [
+   0.6136488152140637,
+   0.6610193155410697
+  ]
+ },
+ {
+  "task": "retained80",
+  "protocol": "temporal",
+  "model": "Deep ensemble (5 ResNets)",
+  "features": "base",
+  "auc": 0.6492338461817628,
+  "auc_ci": [
+   0.6262014318107343,
+   0.6734292471940778
+  ]
+ },
+ {
+  "task": "retained80",
+  "protocol": "temporal",
+  "model": "Blend (XGB+CatBoost+RF)",
+  "features": "base",
+  "auc": 0.6706355146970429,
+  "auc_ci": [
+   0.6446866837383862,
+   0.6939673754217714
+  ]
+ },
+ {
+  "task": "time_to_80",
+  "protocol": "temporal",
+  "model": "CatBoost-AFT",
+  "features": "base",
+  "cindex_matched": 0.5969021995081195,
+  "cindex_matched_ci": [
+   0.5707802491592954,
+   0.6212735838039125
+  ]
+ },
+ {
+  "task": "time_to_80",
+  "protocol": "temporal",
+  "model": "XGBoost-Cox (interval~event at upper bound)",
+  "features": "base",
+  "cindex_matched": 0.6054316164029931,
+  "cindex_matched_ci": [
+   0.5820479673903223,
+   0.6289683103324184
+  ]
+ },
+ {
+  "task": "retention",
+  "protocol": "temporal",
+  "model": "Lasso",
+  "features": "+all enriched",
+  "r2": 0.14230321987509076,
+  "r2_ci": [
+   0.10823047040386638,
+   0.1754493343729123
+  ]
+ },
+ {
+  "task": "retention",
+  "protocol": "temporal",
+  "model": "PLS (10 comp.)",
+  "features": "+all enriched",
+  "r2": 0.047953330650441384,
+  "r2_ci": [
+   -0.005301087143611837,
+   0.09905704708025562
+  ]
+ },
+ {
+  "task": "retention",
+  "protocol": "temporal",
+  "model": "Huber",
+  "features": "+all enriched",
+  "r2": -0.05981730493419879,
+  "r2_ci": [
+   -0.14665323974164848,
+   0.023227840187699755
+  ]
+ },
+ {
+  "task": "retention",
+  "protocol": "temporal",
+  "model": "Spline-additive ridge",
+  "features": "+all enriched",
+  "r2": 0.0883745683832452,
+  "r2_ci": [
+   0.0399460851260028,
+   0.13426394773700104
+  ]
+ },
+ {
+  "task": "retention",
+  "protocol": "temporal",
+  "model": "XGBoost (logit target)",
+  "features": "+all enriched",
+  "r2": 0.06280696278434961,
+  "r2_ci": [
+   -0.003447937424259439,
+   0.1224280375069812
+  ]
+ },
+ {
+  "task": "retention",
+  "protocol": "temporal",
+  "model": "LightGBM (monotone in time)",
+  "features": "+all enriched",
+  "r2": 0.11648881334261274,
+  "r2_ci": [
+   0.06893409919723112,
+   0.163574237369451
+  ]
+ },
+ {
+  "task": "retention",
+  "protocol": "temporal",
+  "model": "Deep ensemble (5 ResNets)",
+  "features": "+all enriched",
+  "r2": 0.10728219374638948,
+  "r2_ci": [
+   0.054037178297577114,
+   0.15503068672750955
+  ]
+ },
+ {
+  "task": "retention",
+  "protocol": "temporal",
+  "model": "Gaussian process (2000-pt subsample)",
+  "features": "+all enriched",
+  "r2": 0.09935755194841167,
+  "r2_ci": [
+   0.07070794133718916,
+   0.12839659339267429
+  ]
+ },
+ {
+  "task": "retention",
+  "protocol": "temporal",
+  "model": "Hurdle (clf x two regressors)",
+  "features": "+all enriched",
+  "r2": 0.15918869478551,
+  "r2_ci": [
+   0.1129303844307034,
+   0.1995404622143024
+  ]
+ },
+ {
+  "task": "retention",
+  "protocol": "temporal",
+  "model": "Blend (XGB+CatBoost+RF)",
+  "features": "+all enriched",
+  "r2": 0.17065285974988875,
+  "r2_ci": [
+   0.1378392889232994,
+   0.2088013800727822
+  ]
+ },
+ {
+  "task": "retained80",
+  "protocol": "temporal",
+  "model": "L1 logistic",
+  "features": "+all enriched",
+  "auc": 0.6894023421817266,
+  "auc_ci": [
+   0.6682721170736879,
+   0.7122190957338266
+  ]
+ },
+ {
+  "task": "retained80",
+  "protocol": "temporal",
+  "model": "LightGBM (monotone in time)",
+  "features": "+all enriched",
+  "auc": 0.6977500221153126,
+  "auc_ci": [
+   0.675913809225069,
+   0.7182432015269204
+  ]
+ },
+ {
+  "task": "retained80",
+  "protocol": "temporal",
+  "model": "Deep ensemble (5 ResNets)",
+  "features": "+all enriched",
+  "auc": 0.6812908424459763,
+  "auc_ci": [
+   0.6547878950338039,
+   0.7015679268735997
+  ]
+ },
+ {
+  "task": "retained80",
+  "protocol": "temporal",
+  "model": "Blend (XGB+CatBoost+RF)",
+  "features": "+all enriched",
+  "auc": 0.7092879776624,
+  "auc_ci": [
+   0.6865565587679465,
+   0.7320780609183832
+  ]
+ },
+ {
+  "task": "time_to_80",
+  "protocol": "temporal",
+  "model": "CatBoost-AFT",
+  "features": "+all enriched",
+  "cindex_matched": 0.6388341385986639,
+  "cindex_matched_ci": [
+   0.6149368906428142,
+   0.6606296729623283
+  ]
+ },
+ {
+  "task": "time_to_80",
+  "protocol": "temporal",
+  "model": "XGBoost-Cox (interval~event at upper bound)",
+  "features": "+all enriched",
+  "cindex_matched": 0.6330868116725681,
+  "cindex_matched_ci": [
+   0.6129087897459623,
+   0.6533964034759315
+  ]
+ },
+ {
+  "task": "retention",
+  "protocol": "random",
+  "model": "Lasso",
+  "features": "base",
+  "r2": 0.11724049599772945,
+  "r2_ci": [
+   0.10103226558666584,
+   0.1353458909633036
+  ]
+ },
+ {
+  "task": "retention",
+  "protocol": "random",
+  "model": "PLS (10 comp.)",
+  "features": "base",
+  "r2": 0.1179918079948078,
+  "r2_ci": [
+   0.09600838668925923,
+   0.13789009871764607
+  ]
+ },
+ {
+  "task": "retention",
+  "protocol": "random",
+  "model": "Huber",
+  "features": "base",
+  "r2": 0.0805850309484204,
+  "r2_ci": [
+   0.05792472389173533,
+   0.10311541403707995
+  ]
+ },
+ {
+  "task": "retention",
+  "protocol": "random",
+  "model": "Spline-additive ridge",
+  "features": "base",
+  "r2": 0.13135753193358124,
+  "r2_ci": [
+   0.11319584159638515,
+   0.15039852041607352
+  ]
+ },
+ {
+  "task": "retention",
+  "protocol": "random",
+  "model": "XGBoost (logit target)",
+  "features": "base",
+  "r2": 0.12846306862518064,
+  "r2_ci": [
+   0.08630645834190959,
+   0.16264633767465592
+  ]
+ },
+ {
+  "task": "retention",
+  "protocol": "random",
+  "model": "LightGBM (monotone in time)",
+  "features": "base",
+  "r2": 0.1546010404716156,
+  "r2_ci": [
+   0.1220086439196656,
+   0.18141256016893148
+  ]
+ },
+ {
+  "task": "retention",
+  "protocol": "random",
+  "model": "Deep ensemble (5 ResNets)",
+  "features": "base",
+  "r2": 0.1578949997957454,
+  "r2_ci": [
+   0.13341895033268875,
+   0.18193816232776097
+  ]
+ },
+ {
+  "task": "retention",
+  "protocol": "random",
+  "model": "Gaussian process (2000-pt subsample)",
+  "features": "base",
+  "r2": 0.11438724230825525,
+  "r2_ci": [
+   0.09801959954656975,
+   0.13534885928422805
+  ]
+ },
+ {
+  "task": "retention",
+  "protocol": "random",
+  "model": "Hurdle (clf x two regressors)",
+  "features": "base",
+  "r2": 0.18700177568286902,
+  "r2_ci": [
+   0.1634935106685252,
+   0.2136760134380009
+  ]
+ },
+ {
+  "task": "retention",
+  "protocol": "random",
+  "model": "Blend (XGB+CatBoost+RF)",
+  "features": "base",
+  "r2": 0.19922792051205207,
+  "r2_ci": [
+   0.1734334227592539,
+   0.22808765967641254
+  ]
+ },
+ {
+  "task": "retained80",
+  "protocol": "random",
+  "model": "L1 logistic",
+  "features": "base",
+  "auc": 0.673994561242458,
+  "auc_ci": [
+   0.6593363761587596,
+   0.6890621575965908
+  ]
+ },
+ {
+  "task": "retained80",
+  "protocol": "random",
+  "model": "LightGBM (monotone in time)",
+  "features": "base",
+  "auc": 0.6930538751822353,
+  "auc_ci": [
+   0.6772854388151597,
+   0.7073220481851445
+  ]
+ },
+ {
+  "task": "retained80",
+  "protocol": "random",
+  "model": "Deep ensemble (5 ResNets)",
+  "features": "base",
+  "auc": 0.68534056093978,
+  "auc_ci": [
+   0.6718978111416829,
+   0.7005223846077154
+  ]
+ },
+ {
+  "task": "retained80",
+  "protocol": "random",
+  "model": "Blend (XGB+CatBoost+RF)",
+  "features": "base",
+  "auc": 0.7141370747090182,
+  "auc_ci": [
+   0.6988395292148235,
+   0.7288807130528853
+  ]
+ },
+ {
+  "task": "time_to_80",
+  "protocol": "random",
+  "model": "CatBoost-AFT",
+  "features": "base",
+  "cindex_matched": 0.6359869891169225,
+  "cindex_matched_ci": [
+   0.6139294201317528,
+   0.6510081726045918
+  ]
+ },
+ {
+  "task": "time_to_80",
+  "protocol": "random",
+  "model": "XGBoost-Cox (interval~event at upper bound)",
+  "features": "base",
+  "cindex_matched": 0.6446526490798575,
+  "cindex_matched_ci": [
+   0.6249773837951023,
+   0.6599409550193269
+  ]
+ },
+ {
+  "task": "retention",
+  "protocol": "random",
+  "model": "Lasso",
+  "features": "+all enriched",
+  "r2": 0.15689017540987016,
+  "r2_ci": [
+   0.13923893630173642,
+   0.17711332071125796
+  ]
+ },
+ {
+  "task": "retention",
+  "protocol": "random",
+  "model": "PLS (10 comp.)",
+  "features": "+all enriched",
+  "r2": 0.16219020075491686,
+  "r2_ci": [
+   0.14142332198289964,
+   0.1877374027846317
+  ]
+ },
+ {
+  "task": "retention",
+  "protocol": "random",
+  "model": "Huber",
+  "features": "+all enriched",
+  "r2": 0.1301152357929639,
+  "r2_ci": [
+   0.10392161871438207,
+   0.1585514101413938
+  ]
+ },
+ {
+  "task": "retention",
+  "protocol": "random",
+  "model": "Spline-additive ridge",
+  "features": "+all enriched",
+  "r2": 0.17701397300082977,
+  "r2_ci": [
+   0.15451928036384324,
+   0.20020586433119336
+  ]
+ },
+ {
+  "task": "retention",
+  "protocol": "random",
+  "model": "XGBoost (logit target)",
+  "features": "+all enriched",
+  "r2": 0.2191845152504821,
+  "r2_ci": [
+   0.17693626908779198,
+   0.25639994146681455
+  ]
+ },
+ {
+  "task": "retention",
+  "protocol": "random",
+  "model": "LightGBM (monotone in time)",
+  "features": "+all enriched",
+  "r2": 0.25604639991775513,
+  "r2_ci": [
+   0.22828601400571313,
+   0.28565648349007355
+  ]
+ },
+ {
+  "task": "retention",
+  "protocol": "random",
+  "model": "Deep ensemble (5 ResNets)",
+  "features": "+all enriched",
+  "r2": 0.22637205001313587,
+  "r2_ci": [
+   0.19702806816997248,
+   0.2538677503270575
+  ]
+ },
+ {
+  "task": "retention",
+  "protocol": "random",
+  "model": "Gaussian process (2000-pt subsample)",
+  "features": "+all enriched",
+  "r2": 0.1602744831262043,
+  "r2_ci": [
+   0.1405009244982734,
+   0.18176861519313858
+  ]
+ },
+ {
+  "task": "retention",
+  "protocol": "random",
+  "model": "Hurdle (clf x two regressors)",
+  "features": "+all enriched",
+  "r2": 0.25845417460654496,
+  "r2_ci": [
+   0.23126345461799466,
+   0.2829607190504483
+  ]
+ },
+ {
+  "task": "retention",
+  "protocol": "random",
+  "model": "Blend (XGB+CatBoost+RF)",
+  "features": "+all enriched",
+  "r2": 0.2769975207674257,
+  "r2_ci": [
+   0.2494243552391138,
+   0.30585410412145736
+  ]
+ },
+ {
+  "task": "retained80",
+  "protocol": "random",
+  "model": "L1 logistic",
+  "features": "+all enriched",
+  "auc": 0.7105486774367653,
+  "auc_ci": [
+   0.6965931107089637,
+   0.7249190136096163
+  ]
+ },
+ {
+  "task": "retained80",
+  "protocol": "random",
+  "model": "LightGBM (monotone in time)",
+  "features": "+all enriched",
+  "auc": 0.7553179140721525,
+  "auc_ci": [
+   0.7416977106114298,
+   0.7688465597545046
+  ]
+ },
+ {
+  "task": "retained80",
+  "protocol": "random",
+  "model": "Deep ensemble (5 ResNets)",
+  "features": "+all enriched",
+  "auc": 0.7255145401056067,
+  "auc_ci": [
+   0.7120512381280997,
+   0.7398893403355542
+  ]
+ },
+ {
+  "task": "retained80",
+  "protocol": "random",
+  "model": "Blend (XGB+CatBoost+RF)",
+  "features": "+all enriched",
+  "auc": 0.7665062900185909,
+  "auc_ci": [
+   0.7535754472776912,
+   0.7793016171984095
+  ]
+ },
+ {
+  "task": "time_to_80",
+  "protocol": "random",
+  "model": "CatBoost-AFT",
+  "features": "+all enriched",
+  "cindex_matched": 0.6781007618916878,
+  "cindex_matched_ci": [
+   0.6589969554544073,
+   0.6910840409627363
+  ]
+ },
+ {
+  "task": "time_to_80",
+  "protocol": "random",
+  "model": "XGBoost-Cox (interval~event at upper bound)",
+  "features": "+all enriched",
+  "cindex_matched": 0.686846500560551,
+  "cindex_matched_ci": [
+   0.6691114348779138,
+   0.701160906419817
+  ]
+ },
+ {
+  "task": "retention",
+  "protocol": "composition",
+  "model": "Lasso",
+  "features": "base",
+  "r2": 0.09711918328879932,
+  "r2_ci": [
+   0.07977630897278595,
+   0.11213974699234067
+  ]
+ },
+ {
+  "task": "retention",
+  "protocol": "composition",
+  "model": "PLS (10 comp.)",
+  "features": "base",
+  "r2": 0.06861476517922083,
+  "r2_ci": [
+   0.04481985516494718,
+   0.09045085389307995
+  ]
+ },
+ {
+  "task": "retention",
+  "protocol": "composition",
+  "model": "Huber",
+  "features": "base",
+  "r2": 0.010197749438717096,
+  "r2_ci": [
+   -0.02928979669242248,
+   0.04557189272226108
+  ]
+ },
+ {
+  "task": "retention",
+  "protocol": "composition",
+  "model": "Spline-additive ridge",
+  "features": "base",
+  "r2": 0.09868573538521475,
+  "r2_ci": [
+   0.07782112119553489,
+   0.12225448394612717
+  ]
+ },
+ {
+  "task": "retention",
+  "protocol": "composition",
+  "model": "XGBoost (logit target)",
+  "features": "base",
+  "r2": 0.017457712105712786,
+  "r2_ci": [
+   -0.015706702764846436,
+   0.04871198935464859
+  ]
+ },
+ {
+  "task": "retention",
+  "protocol": "composition",
+  "model": "LightGBM (monotone in time)",
+  "features": "base",
+  "r2": -0.0026157061187872532,
+  "r2_ci": [
+   -0.029687852763238782,
+   0.022344660846938966
+  ]
+ },
+ {
+  "task": "retention",
+  "protocol": "composition",
+  "model": "Deep ensemble (5 ResNets)",
+  "features": "base",
+  "r2": 0.026143035740065712,
+  "r2_ci": [
+   -0.0023416381270724702,
+   0.054660809673335524
+  ]
+ },
+ {
+  "task": "retention",
+  "protocol": "composition",
+  "model": "Gaussian process (2000-pt subsample)",
+  "features": "base",
+  "r2": 0.0632250915234076,
+  "r2_ci": [
+   0.043006250865812896,
+   0.07879847811646726
+  ]
+ },
+ {
+  "task": "retention",
+  "protocol": "composition",
+  "model": "Hurdle (clf x two regressors)",
+  "features": "base",
+  "r2": -0.0037821230558703345,
+  "r2_ci": [
+   -0.02911320746254979,
+   0.018016185048876213
+  ]
+ },
+ {
+  "task": "retention",
+  "protocol": "composition",
+  "model": "Blend (XGB+CatBoost+RF)",
+  "features": "base",
+  "r2": 0.06400185676445269,
+  "r2_ci": [
+   0.04186961927871962,
+   0.08812563645514364
+  ]
+ },
+ {
+  "task": "retained80",
+  "protocol": "composition",
+  "model": "L1 logistic",
+  "features": "base",
+  "auc": 0.6566489468945043,
+  "auc_ci": [
+   0.642057021851835,
+   0.6711900112119393
+  ]
+ },
+ {
+  "task": "retained80",
+  "protocol": "composition",
+  "model": "LightGBM (monotone in time)",
+  "features": "base",
+  "auc": 0.60900941423353,
+  "auc_ci": [
+   0.5920394260418326,
+   0.6228017111585075
+  ]
+ },
+ {
+  "task": "retained80",
+  "protocol": "composition",
+  "model": "Deep ensemble (5 ResNets)",
+  "features": "base",
+  "auc": 0.6082501882458657,
+  "auc_ci": [
+   0.5935380403035428,
+   0.6228598715284689
+  ]
+ },
+ {
+  "task": "retained80",
+  "protocol": "composition",
+  "model": "Blend (XGB+CatBoost+RF)",
+  "features": "base",
+  "auc": 0.6404559641334894,
+  "auc_ci": [
+   0.6246499421222703,
+   0.6540655823427971
+  ]
+ },
+ {
+  "task": "time_to_80",
+  "protocol": "composition",
+  "model": "CatBoost-AFT",
+  "features": "base",
+  "cindex_matched": 0.5975530872514047,
+  "cindex_matched_ci": [
+   0.5700383300814332,
+   0.6176422233264077
+  ]
+ },
+ {
+  "task": "time_to_80",
+  "protocol": "composition",
+  "model": "XGBoost-Cox (interval~event at upper bound)",
+  "features": "base",
+  "cindex_matched": 0.6000964526845998,
+  "cindex_matched_ci": [
+   0.5765537448222671,
+   0.6209296816349467
+  ]
+ },
+ {
+  "task": "retention",
+  "protocol": "composition",
+  "model": "Lasso",
+  "features": "+all enriched",
+  "r2": 0.11335468993477682,
+  "r2_ci": [
+   0.0966335177495261,
+   0.13191334711053956
+  ]
+ },
+ {
+  "task": "retention",
+  "protocol": "composition",
+  "model": "PLS (10 comp.)",
+  "features": "+all enriched",
+  "r2": 0.03749065140327257,
+  "r2_ci": [
+   0.00597142060608782,
+   0.06843844883916492
+  ]
+ },
+ {
+  "task": "retention",
+  "protocol": "composition",
+  "model": "Huber",
+  "features": "+all enriched",
+  "r2": -0.04684585321166446,
+  "r2_ci": [
+   -0.171823232574145,
+   0.04672662298556887
+  ]
+ },
+ {
+  "task": "retention",
+  "protocol": "composition",
+  "model": "Spline-additive ridge",
+  "features": "+all enriched",
+  "r2": 0.10452330129588105,
+  "r2_ci": [
+   0.07731001097944701,
+   0.1344059334075388
+  ]
+ },
+ {
+  "task": "retention",
+  "protocol": "composition",
+  "model": "XGBoost (logit target)",
+  "features": "+all enriched",
+  "r2": 0.07641931219909526,
+  "r2_ci": [
+   0.037322560854764056,
+   0.11104168941039615
+  ]
+ },
+ {
+  "task": "retention",
+  "protocol": "composition",
+  "model": "LightGBM (monotone in time)",
+  "features": "+all enriched",
+  "r2": 0.07798071038362953,
+  "r2_ci": [
+   0.05128570663423941,
+   0.10834024459720538
+  ]
+ },
+ {
+  "task": "retention",
+  "protocol": "composition",
+  "model": "Deep ensemble (5 ResNets)",
+  "features": "+all enriched",
+  "r2": 0.013909024264893155,
+  "r2_ci": [
+   -0.016450815617058252,
+   0.04511103738852519
+  ]
+ },
+ {
+  "task": "retention",
+  "protocol": "composition",
+  "model": "Gaussian process (2000-pt subsample)",
+  "features": "+all enriched",
+  "r2": 0.08438350609851386,
+  "r2_ci": [
+   0.06600225344402998,
+   0.10290539393445435
+  ]
+ },
+ {
+  "task": "retention",
+  "protocol": "composition",
+  "model": "Hurdle (clf x two regressors)",
+  "features": "+all enriched",
+  "r2": 0.12470535568500452,
+  "r2_ci": [
+   0.09891943009558492,
+   0.14886202426682
+  ]
+ },
+ {
+  "task": "retention",
+  "protocol": "composition",
+  "model": "Blend (XGB+CatBoost+RF)",
+  "features": "+all enriched",
+  "r2": 0.1440905838722487,
+  "r2_ci": [
+   0.12157687644390701,
+   0.1689080639553734
+  ]
+ },
+ {
+  "task": "retained80",
+  "protocol": "composition",
+  "model": "L1 logistic",
+  "features": "+all enriched",
+  "auc": 0.6863568692827119,
+  "auc_ci": [
+   0.6708596555818691,
+   0.7010334694234719
+  ]
+ },
+ {
+  "task": "retained80",
+  "protocol": "composition",
+  "model": "LightGBM (monotone in time)",
+  "features": "+all enriched",
+  "auc": 0.6700869938008355,
+  "auc_ci": [
+   0.6531797349983623,
+   0.684565388481569
+  ]
+ },
+ {
+  "task": "retained80",
+  "protocol": "composition",
+  "model": "Deep ensemble (5 ResNets)",
+  "features": "+all enriched",
+  "auc": 0.6684377862387422,
+  "auc_ci": [
+   0.6547008850567253,
+   0.6821027477674863
+  ]
+ },
+ {
+  "task": "retained80",
+  "protocol": "composition",
+  "model": "Blend (XGB+CatBoost+RF)",
+  "features": "+all enriched",
+  "auc": 0.6899942788103908,
+  "auc_ci": [
+   0.6747989938248324,
+   0.7039942506853711
+  ]
+ },
+ {
+  "task": "time_to_80",
+  "protocol": "composition",
+  "model": "CatBoost-AFT",
+  "features": "+all enriched",
+  "cindex_matched": 0.637580951360289,
+  "cindex_matched_ci": [
+   0.6107600058093487,
+   0.6553532042949467
+  ]
+ },
+ {
+  "task": "time_to_80",
+  "protocol": "composition",
+  "model": "XGBoost-Cox (interval~event at upper bound)",
+  "features": "+all enriched",
+  "cindex_matched": 0.6390143454230904,
+  "cindex_matched_ci": [
+   0.6152992685213449,
+   0.6608397927123606
+  ]
+ }
+]

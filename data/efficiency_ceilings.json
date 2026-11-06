@@ -1,0 +1,54 @@
+{
+ "own_subset": {
+  "L0 composition": {
+   "ceiling": 0.26224735134689436,
+   "cells": 39110,
+   "groups": 803,
+   "share": 0.9831573655103066
+  },
+  "L1 + device stack": {
+   "ceiling": 0.5151032869081047,
+   "cells": 35944,
+   "groups": 3902,
+   "share": 0.9035696329813977
+  },
+  "L2 + stack + process": {
+   "ceiling": 0.6947875717949271,
+   "cells": 32756,
+   "groups": 6458,
+   "share": 0.8234288587229763
+  },
+  "L3 L2 within one paper": {
+   "ceiling": 0.7686758171562583,
+   "cells": 30992,
+   "groups": 7524,
+   "share": 0.7790849673202614
+  }
+ },
+ "nested_on_L3": {
+  "L0 composition": {
+   "ceiling": 0.24950779252166821,
+   "cells": 30992,
+   "groups": 610,
+   "share": 1.0
+  },
+  "L1 + device stack": {
+   "ceiling": 0.5226184735325115,
+   "cells": 30992,
+   "groups": 3576,
+   "share": 1.0
+  },
+  "L2 + stack + process": {
+   "ceiling": 0.7078983300748503,
+   "cells": 30992,
+   "groups": 6309,
+   "share": 1.0
+  },
+  "L3 L2 within one paper": {
+   "ceiling": 0.7686758171562583,
+   "cells": 30992,
+   "groups": 7524,
+   "share": 1.0
+  }
+ }
+}

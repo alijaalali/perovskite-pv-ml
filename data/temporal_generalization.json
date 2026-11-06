@@ -1,0 +1,56 @@
+{
+  "cutoff_year": 2019,
+  "year_distribution": {
+    "2012": 19,
+    "2013": 227,
+    "2014": 1529,
+    "2015": 3479,
+    "2016": 6046,
+    "2017": 7726,
+    "2018": 9886,
+    "2019": 9564,
+    "2020": 1300,
+    "2021": 4
+  },
+  "original_duplicated_data": {
+    "temporal": {
+      "r2": 0.12712685206265673,
+      "mae": 3.8925218597379265,
+      "n_train": 28912,
+      "n_test": 10868
+    },
+    "family_disjoint_canonical": {
+      "r2": 0.3375930527781399,
+      "mae": 3.323766008368078,
+      "n_train": 29853,
+      "n_test": 9927
+    },
+    "random_matched_size": {
+      "r2": 0.25617792151274554,
+      "mae": 3.4967306793077837,
+      "n_train": 28912,
+      "n_test": 10868
+    }
+  },
+  "deduplicated_data": {
+    "temporal_by_first_report_year": {
+      "r2": 0.438172881547756,
+      "mae": 3.3882045276195467,
+      "n_train": 1037,
+      "n_test": 436
+    },
+    "family_disjoint": {
+      "r2": 0.4077724803537215,
+      "mae": 3.4264774539559206,
+      "n_train": 421,
+      "n_test": 1052
+    },
+    "random_matched_size": {
+      "r2": 0.6493143810475677,
+      "mae": 2.816937237760727,
+      "n_train": 1037,
+      "n_test": 436
+    }
+  },
+  "verdict": "On original (duplicated) data: split difficulty ranking (easiest to hardest R2) = ['family_disjoint=0.338', 'random=0.256', 'temporal=0.127']. On deduplicated data: ['random=0.649', 'temporal=0.438', 'family_disjoint=0.408']. The temporal split is not family-disjoint (older and newer literature can report the same or closely related compositions), so a high temporal R2 does not contradict the family-disjoint and duplication findings. It addresses a different question: whether a model trained on the literature available at time T predicts the literature that appears after T, which is relevant to prospective screening."
+}

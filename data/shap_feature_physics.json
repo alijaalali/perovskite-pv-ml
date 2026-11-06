@@ -1,0 +1,128 @@
+{
+  "n_rows_fit": 1473,
+  "model_r2_in_sample_note": "model fit on the full deduplicated data for interpretability only, not a held-out generalization estimate; generalization results are in data/dedup_benchmark_comparison.json",
+  "top15_shap": [
+    {
+      "feature": "MagpieData avg_dev AtomicWeight",
+      "mean_abs_shap": 0.6918915728386801,
+      "gbm_importance": 0.062379126392733394,
+      "physics_category": "AtomicWeight",
+      "physics_note": "Atomic weight (mass) has no direct, well-established photophysical mechanism for PCE in the perovskite literature; likely acting here as a loose proxy/correlate for element identity (e.g., heavy-metal vs. light-element substitution) rather than a mechanistic driver.",
+      "has_defensible_physical_interpretation": false
+    },
+    {
+      "feature": "MagpieData range AtomicWeight",
+      "mean_abs_shap": 0.605220380618567,
+      "gbm_importance": 0.1324744288113348,
+      "physics_category": "AtomicWeight",
+      "physics_note": "Atomic weight (mass) has no direct, well-established photophysical mechanism for PCE in the perovskite literature; likely acting here as a loose proxy/correlate for element identity (e.g., heavy-metal vs. light-element substitution) rather than a mechanistic driver.",
+      "has_defensible_physical_interpretation": false
+    },
+    {
+      "feature": "MagpieData avg_dev Electronegativity",
+      "mean_abs_shap": 0.5502220679031411,
+      "gbm_importance": 0.04252563942097675,
+      "physics_category": "Electronegativity",
+      "physics_note": "Electronegativity mismatch between A/B/X-site elements governs bond ionicity and has been linked to defect tolerance and band-edge character in halide perovskites.",
+      "has_defensible_physical_interpretation": true
+    },
+    {
+      "feature": "MagpieData range Number",
+      "mean_abs_shap": 0.5057196721096734,
+      "gbm_importance": 0.08968074164714103,
+      "physics_category": null,
+      "physics_note": "No documented physical-interpretation mapping available for this specific Magpie statistic in the context of ABX3 perovskite PV physics; treated as uninterpreted.",
+      "has_defensible_physical_interpretation": false
+    },
+    {
+      "feature": "MagpieData avg_dev NpUnfilled",
+      "mean_abs_shap": 0.45377612648557536,
+      "gbm_importance": 0.04633182140648392,
+      "physics_category": "NpUnfilled",
+      "physics_note": "Unfilled p-orbital count, complement of p-valence count; same halide/anion band-edge rationale as NpValence.",
+      "has_defensible_physical_interpretation": true
+    },
+    {
+      "feature": "MagpieData avg_dev NUnfilled",
+      "mean_abs_shap": 0.4161930186586329,
+      "gbm_importance": 0.04508578621388232,
+      "physics_category": "NUnfilled",
+      "physics_note": "Unfilled valence-orbital count is the direct complement of valence electron count (same underlying electronic-structure quantity, same band-edge-character rationale as the NValence family above).",
+      "has_defensible_physical_interpretation": true
+    },
+    {
+      "feature": "MagpieData mean MeltingT",
+      "mean_abs_shap": 0.3244051435304456,
+      "gbm_importance": 0.044821801566321345,
+      "physics_category": "MeltingT",
+      "physics_note": "Melting temperature correlates with lattice/bond energy and is an established proxy for thermal and phase stability in perovskite composition design.",
+      "has_defensible_physical_interpretation": true
+    },
+    {
+      "feature": "MagpieData mean NpUnfilled",
+      "mean_abs_shap": 0.3053919814210807,
+      "gbm_importance": 0.02744381377506414,
+      "physics_category": "NpUnfilled",
+      "physics_note": "Unfilled p-orbital count, complement of p-valence count; same halide/anion band-edge rationale as NpValence.",
+      "has_defensible_physical_interpretation": true
+    },
+    {
+      "feature": "MagpieData mean SpaceGroupNumber",
+      "mean_abs_shap": 0.28697679056065784,
+      "gbm_importance": 0.04209217117844165,
+      "physics_category": "SpaceGroupNumber",
+      "physics_note": "This is the ground-state elemental space-group statistic from Magpie's underlying elemental reference data, not the perovskite's own space group; it has no direct, established connection to ABX3 photovoltaic physics.",
+      "has_defensible_physical_interpretation": false
+    },
+    {
+      "feature": "MagpieData mean Electronegativity",
+      "mean_abs_shap": 0.2625009094348575,
+      "gbm_importance": 0.04888013914107494,
+      "physics_category": "Electronegativity",
+      "physics_note": "Electronegativity mismatch between A/B/X-site elements governs bond ionicity and has been linked to defect tolerance and band-edge character in halide perovskites.",
+      "has_defensible_physical_interpretation": true
+    },
+    {
+      "feature": "MagpieData mean NUnfilled",
+      "mean_abs_shap": 0.24789020432882955,
+      "gbm_importance": 0.01670375596829059,
+      "physics_category": "NUnfilled",
+      "physics_note": "Unfilled valence-orbital count is the direct complement of valence electron count (same underlying electronic-structure quantity, same band-edge-character rationale as the NValence family above).",
+      "has_defensible_physical_interpretation": true
+    },
+    {
+      "feature": "MagpieData avg_dev NfValence",
+      "mean_abs_shap": 0.2398142609716707,
+      "gbm_importance": 0.024322755951180754,
+      "physics_category": "NfValence",
+      "physics_note": "f-valence electron count is relevant for lanthanide/heavy-element A- or B-site substituents and their orbital contribution near the band edges.",
+      "has_defensible_physical_interpretation": true
+    },
+    {
+      "feature": "MagpieData mean NfValence",
+      "mean_abs_shap": 0.2370830071341844,
+      "gbm_importance": 0.021262109859364327,
+      "physics_category": "NfValence",
+      "physics_note": "f-valence electron count is relevant for lanthanide/heavy-element A- or B-site substituents and their orbital contribution near the band edges.",
+      "has_defensible_physical_interpretation": true
+    },
+    {
+      "feature": "MagpieData avg_dev SpaceGroupNumber",
+      "mean_abs_shap": 0.23115927059879485,
+      "gbm_importance": 0.0418587886032114,
+      "physics_category": "SpaceGroupNumber",
+      "physics_note": "This is the ground-state elemental space-group statistic from Magpie's underlying elemental reference data, not the perovskite's own space group; it has no direct, established connection to ABX3 photovoltaic physics.",
+      "has_defensible_physical_interpretation": false
+    },
+    {
+      "feature": "MagpieData avg_dev MendeleevNumber",
+      "mean_abs_shap": 0.2049357521026884,
+      "gbm_importance": 0.023013560831306935,
+      "physics_category": "MendeleevNumber",
+      "physics_note": "Mendeleev number is a periodic-table-ordering descriptor with no direct physical mechanism of its own; it mainly serves ML models as a compact proxy for \"which group of elements\" without a specific photophysical interpretation.",
+      "has_defensible_physical_interpretation": false
+    }
+  ],
+  "n_top15_with_defensible_physical_interpretation": 9,
+  "verdict": "9 of the top 15 SHAP-ranked composition features have a documented connection to known ABX3 perovskite photovoltaic physics (ionic-radius/tolerance-factor proxies, electronegativity mismatch, valence-electron/bandgap proxies). The remainder (atomic weight, Mendeleev number, elemental ground-state space group/magnetic moment) have no established mechanistic interpretation in this context and most likely act as coarse element-identity proxies in the model."
+}

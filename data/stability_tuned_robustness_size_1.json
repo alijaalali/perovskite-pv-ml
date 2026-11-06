@@ -1,0 +1,138 @@
+[
+ {
+  "protocol": "paper_size1",
+  "model": "XGBoost",
+  "features": "base",
+  "r2": 0.10257009188986255,
+  "r2_ci": [
+   0.08623506861893555,
+   0.12075412104289635
+  ],
+  "r2_paperweighted": 0.10127742260857164
+ },
+ {
+  "protocol": "paper_size1",
+  "model": "XGBoost",
+  "features": "+process+stack",
+  "r2": 0.12701941727737764,
+  "r2_ci": [
+   0.10785553513805503,
+   0.14888545599813502
+  ],
+  "r2_paperweighted": 0.12054878181632445
+ },
+ {
+  "protocol": "paper_size1",
+  "model": "LightGBM",
+  "features": "base",
+  "r2": 0.09103665529701288,
+  "r2_ci": [
+   0.07268909272186876,
+   0.1122613613649354
+  ],
+  "r2_paperweighted": 0.09137431260881956
+ },
+ {
+  "protocol": "paper_size1",
+  "model": "LightGBM",
+  "features": "+process+stack",
+  "r2": 0.11058651452960633,
+  "r2_ci": [
+   0.09111062915726688,
+   0.13336894839731908
+  ],
+  "r2_paperweighted": 0.10607683975517479
+ },
+ {
+  "protocol": "paper_size1",
+  "model": "RandomForest",
+  "features": "base",
+  "r2": 0.09755828262925537,
+  "r2_ci": [
+   0.08001713533966995,
+   0.11441982150715262
+  ],
+  "r2_paperweighted": 0.09355410090218141
+ },
+ {
+  "protocol": "paper_size1",
+  "model": "RandomForest",
+  "features": "+process+stack",
+  "r2": 0.11391773410526618,
+  "r2_ci": [
+   0.09717707053885022,
+   0.13349614331135853
+  ],
+  "r2_paperweighted": 0.10692587745847071
+ },
+ {
+  "protocol": "paper_size1",
+  "model": "Blend (XGB+LGBM+RF)",
+  "features": "base",
+  "r2": 0.10403976360833178,
+  "r2_ci": [
+   0.08724362539832559,
+   0.1235166600339289
+  ],
+  "r2_paperweighted": 0.10242567233341804
+ },
+ {
+  "protocol": "paper_size1",
+  "model": "Blend (XGB+LGBM+RF)",
+  "features": "+process+stack",
+  "r2": 0.12529684622568804,
+  "r2_ci": [
+   0.1065814136726653,
+   0.14553264886672423
+  ],
+  "r2_paperweighted": 0.11951973249752246
+ },
+ {
+  "protocol": "paper_size1",
+  "model": "XGBoost",
+  "features": "+process+stack",
+  "task": "gain",
+  "reference": "base",
+  "gain": 0.024449325387515097,
+  "gain_ci": [
+   0.015270057678968971,
+   0.034124964794294665
+  ]
+ },
+ {
+  "protocol": "paper_size1",
+  "model": "LightGBM",
+  "features": "+process+stack",
+  "task": "gain",
+  "reference": "base",
+  "gain": 0.019549859232593447,
+  "gain_ci": [
+   0.009414685066101809,
+   0.028955433006763776
+  ]
+ },
+ {
+  "protocol": "paper_size1",
+  "model": "RandomForest",
+  "features": "+process+stack",
+  "task": "gain",
+  "reference": "base",
+  "gain": 0.01635945147601081,
+  "gain_ci": [
+   0.008738098544681397,
+   0.02524982456969692
+  ]
+ },
+ {
+  "protocol": "paper_size1",
+  "model": "Blend (XGB+LGBM+RF)",
+  "features": "+process+stack",
+  "task": "gain",
+  "reference": "base",
+  "gain": 0.02125708261735626,
+  "gain_ci": [
+   0.014568509580833128,
+   0.02903100356068486
+  ]
+ }
+]

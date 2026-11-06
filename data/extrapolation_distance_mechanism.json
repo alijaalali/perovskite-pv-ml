@@ -1,0 +1,546 @@
+{
+  "method": "Mahalanobis distance of held-out test-family compositions from the training-set centroid, computed in a 15-component PCA-whitened subspace of the 132 Magpie features (StandardScaler + PCA fit on training data only per partition; full 132-dim covariance not used directly due to near-collinearity among Magpie's min/max/range/mean/avg_dev/mode sub-statistics per element property, which makes a full-rank Mahalanobis distance numerically unstable).",
+  "n_pca_components": 15,
+  "partitions": [
+    {
+      "partition_id": 0,
+      "mean_mahalanobis_distance_test": 9.463774373989272,
+      "median_mahalanobis_distance_test": 6.582767490069308,
+      "mean_mahalanobis_distance_train_insample": 1.1137752487425554,
+      "distance_ratio_test_over_train": 8.49702342072497,
+      "gbm_family_disjoint_r2": 0.4962196816895096,
+      "ridge_family_disjoint_r2": 0.17332218891706186,
+      "xgboost_family_disjoint_r2": 0.4709579001019675,
+      "randomforest_family_disjoint_r2": 0.48874109898208973,
+      "elasticnet_family_disjoint_r2": 0.3632000705359223
+    },
+    {
+      "partition_id": 1,
+      "mean_mahalanobis_distance_test": 7.687410671605654,
+      "median_mahalanobis_distance_test": 7.141771984666575,
+      "mean_mahalanobis_distance_train_insample": 1.228140309542896,
+      "distance_ratio_test_over_train": 6.2593912209158304,
+      "gbm_family_disjoint_r2": 0.11044516912489855,
+      "ridge_family_disjoint_r2": -0.04605137954716798,
+      "xgboost_family_disjoint_r2": -0.9879091926420263,
+      "randomforest_family_disjoint_r2": 0.10012405035932848,
+      "elasticnet_family_disjoint_r2": 0.06938436513118451
+    },
+    {
+      "partition_id": 2,
+      "mean_mahalanobis_distance_test": 5.588342185235251,
+      "median_mahalanobis_distance_test": 6.418276687610727,
+      "mean_mahalanobis_distance_train_insample": 1.229207977044828,
+      "distance_ratio_test_over_train": 4.546295085613042,
+      "gbm_family_disjoint_r2": 0.1597770981883917,
+      "ridge_family_disjoint_r2": -0.013483992024262204,
+      "xgboost_family_disjoint_r2": 0.32436979416272826,
+      "randomforest_family_disjoint_r2": 0.01383766079279003,
+      "elasticnet_family_disjoint_r2": 0.18955628956670234
+    },
+    {
+      "partition_id": 3,
+      "mean_mahalanobis_distance_test": 5.663562528028618,
+      "median_mahalanobis_distance_test": 6.375662559621042,
+      "mean_mahalanobis_distance_train_insample": 1.2276551848404373,
+      "distance_ratio_test_over_train": 4.613316994840641,
+      "gbm_family_disjoint_r2": 0.26577691831602546,
+      "ridge_family_disjoint_r2": -2.922968536964879,
+      "xgboost_family_disjoint_r2": 0.32384206707352814,
+      "randomforest_family_disjoint_r2": -0.0048821752087582215,
+      "elasticnet_family_disjoint_r2": 0.18617087506522967
+    },
+    {
+      "partition_id": 4,
+      "mean_mahalanobis_distance_test": 5.489110943325231,
+      "median_mahalanobis_distance_test": 6.437085554854432,
+      "mean_mahalanobis_distance_train_insample": 1.3108697184875329,
+      "distance_ratio_test_over_train": 4.187380992871288,
+      "gbm_family_disjoint_r2": 0.10674676779982406,
+      "ridge_family_disjoint_r2": 0.10639948503813113,
+      "xgboost_family_disjoint_r2": 0.1917789411467029,
+      "randomforest_family_disjoint_r2": 0.04692009980691014,
+      "elasticnet_family_disjoint_r2": 0.008777011820874092
+    },
+    {
+      "partition_id": 5,
+      "mean_mahalanobis_distance_test": 10.115285251085146,
+      "median_mahalanobis_distance_test": 6.556766210736929,
+      "mean_mahalanobis_distance_train_insample": 1.2011294342654244,
+      "distance_ratio_test_over_train": 8.421478120941527,
+      "gbm_family_disjoint_r2": 0.4072517075149096,
+      "ridge_family_disjoint_r2": -1.0019911981606757,
+      "xgboost_family_disjoint_r2": 0.21618813808926973,
+      "randomforest_family_disjoint_r2": 0.3703825956550948,
+      "elasticnet_family_disjoint_r2": 0.22518119290273775
+    },
+    {
+      "partition_id": 6,
+      "mean_mahalanobis_distance_test": 11.835018630307468,
+      "median_mahalanobis_distance_test": 6.464647915748899,
+      "mean_mahalanobis_distance_train_insample": 1.0893308292219563,
+      "distance_ratio_test_over_train": 10.864485161739626,
+      "gbm_family_disjoint_r2": 0.42899613698070715,
+      "ridge_family_disjoint_r2": 0.20246469033659498,
+      "xgboost_family_disjoint_r2": 0.4813665586421446,
+      "randomforest_family_disjoint_r2": 0.4871511928384944,
+      "elasticnet_family_disjoint_r2": 0.20681818590690826
+    },
+    {
+      "partition_id": 7,
+      "mean_mahalanobis_distance_test": 5.891697983174923,
+      "median_mahalanobis_distance_test": 6.932468115068244,
+      "mean_mahalanobis_distance_train_insample": 1.2189873111080722,
+      "distance_ratio_test_over_train": 4.83327261037632,
+      "gbm_family_disjoint_r2": 0.22608828174122964,
+      "ridge_family_disjoint_r2": 0.03396264374529889,
+      "xgboost_family_disjoint_r2": 0.16764568192363216,
+      "randomforest_family_disjoint_r2": 0.23698054926202083,
+      "elasticnet_family_disjoint_r2": 0.13925565179054955
+    },
+    {
+      "partition_id": 8,
+      "mean_mahalanobis_distance_test": 5.277051152343556,
+      "median_mahalanobis_distance_test": 6.316926035722064,
+      "mean_mahalanobis_distance_train_insample": 1.308389971848199,
+      "distance_ratio_test_over_train": 4.033240292180874,
+      "gbm_family_disjoint_r2": 0.16440767251751753,
+      "ridge_family_disjoint_r2": 0.12434935485613607,
+      "xgboost_family_disjoint_r2": 0.21618712858156575,
+      "randomforest_family_disjoint_r2": 0.18555119038457402,
+      "elasticnet_family_disjoint_r2": 0.0077682518519235355
+    },
+    {
+      "partition_id": 9,
+      "mean_mahalanobis_distance_test": 6.102383366469895,
+      "median_mahalanobis_distance_test": 6.607692661881143,
+      "mean_mahalanobis_distance_train_insample": 1.2224387143865567,
+      "distance_ratio_test_over_train": 4.991974889745036,
+      "gbm_family_disjoint_r2": 0.06672837276371668,
+      "ridge_family_disjoint_r2": -2.073259078442155,
+      "xgboost_family_disjoint_r2": 0.352751955402957,
+      "randomforest_family_disjoint_r2": -0.27843058759532924,
+      "elasticnet_family_disjoint_r2": 0.21632822015555542
+    },
+    {
+      "partition_id": 10,
+      "mean_mahalanobis_distance_test": 11.54836858509555,
+      "median_mahalanobis_distance_test": 7.286440545981206,
+      "mean_mahalanobis_distance_train_insample": 0.9683321068035281,
+      "distance_ratio_test_over_train": 11.926041183553034,
+      "gbm_family_disjoint_r2": 0.4036531116762957,
+      "ridge_family_disjoint_r2": -0.10207640951046848,
+      "xgboost_family_disjoint_r2": 0.24000159397747722,
+      "randomforest_family_disjoint_r2": 0.3822775111800173,
+      "elasticnet_family_disjoint_r2": 0.3389572021511298
+    },
+    {
+      "partition_id": 11,
+      "mean_mahalanobis_distance_test": 7.544302046377289,
+      "median_mahalanobis_distance_test": 6.555054074148229,
+      "mean_mahalanobis_distance_train_insample": 1.2072081583570267,
+      "distance_ratio_test_over_train": 6.249379607113369,
+      "gbm_family_disjoint_r2": 0.293611712370062,
+      "ridge_family_disjoint_r2": -1.5491788207537658,
+      "xgboost_family_disjoint_r2": 0.381863253947491,
+      "randomforest_family_disjoint_r2": 0.2806250499436139,
+      "elasticnet_family_disjoint_r2": 0.2221758631471462
+    },
+    {
+      "partition_id": 12,
+      "mean_mahalanobis_distance_test": 5.821641300414211,
+      "median_mahalanobis_distance_test": 6.41589666034985,
+      "mean_mahalanobis_distance_train_insample": 1.2133262188513314,
+      "distance_ratio_test_over_train": 4.798084150794681,
+      "gbm_family_disjoint_r2": 0.307713350458806,
+      "ridge_family_disjoint_r2": -4.049286436513287,
+      "xgboost_family_disjoint_r2": 0.33251917529399466,
+      "randomforest_family_disjoint_r2": 0.036140956019259596,
+      "elasticnet_family_disjoint_r2": 0.19671866669438165
+    },
+    {
+      "partition_id": 13,
+      "mean_mahalanobis_distance_test": 9.330848023297563,
+      "median_mahalanobis_distance_test": 6.699191938955901,
+      "mean_mahalanobis_distance_train_insample": 1.0670979110808352,
+      "distance_ratio_test_over_train": 8.744134841241133,
+      "gbm_family_disjoint_r2": 0.40092854403915823,
+      "ridge_family_disjoint_r2": -7.443175211936339,
+      "xgboost_family_disjoint_r2": 0.33901130609400265,
+      "randomforest_family_disjoint_r2": 0.3792361329451631,
+      "elasticnet_family_disjoint_r2": 0.335430070993186
+    },
+    {
+      "partition_id": 14,
+      "mean_mahalanobis_distance_test": 10.276747067634632,
+      "median_mahalanobis_distance_test": 6.371740564499996,
+      "mean_mahalanobis_distance_train_insample": 1.1997386129447278,
+      "distance_ratio_test_over_train": 8.565821718791412,
+      "gbm_family_disjoint_r2": 0.42509428720057885,
+      "ridge_family_disjoint_r2": -0.8577174754346417,
+      "xgboost_family_disjoint_r2": 0.40269651799328576,
+      "randomforest_family_disjoint_r2": 0.4486831581426872,
+      "elasticnet_family_disjoint_r2": 0.24670998636831187
+    },
+    {
+      "partition_id": 15,
+      "mean_mahalanobis_distance_test": 10.053916277348788,
+      "median_mahalanobis_distance_test": 6.689097216106991,
+      "mean_mahalanobis_distance_train_insample": 1.0509284360930347,
+      "distance_ratio_test_over_train": 9.566699246168989,
+      "gbm_family_disjoint_r2": 0.35847603947687423,
+      "ridge_family_disjoint_r2": -5.3233438937972,
+      "xgboost_family_disjoint_r2": 0.36582946598673227,
+      "randomforest_family_disjoint_r2": 0.42372367518731624,
+      "elasticnet_family_disjoint_r2": 0.35433978208965755
+    },
+    {
+      "partition_id": 16,
+      "mean_mahalanobis_distance_test": 5.771497177644984,
+      "median_mahalanobis_distance_test": 6.881782543488804,
+      "mean_mahalanobis_distance_train_insample": 1.2316447799914045,
+      "distance_ratio_test_over_train": 4.68600790699187,
+      "gbm_family_disjoint_r2": 0.17046893055709644,
+      "ridge_family_disjoint_r2": 0.1510568529874995,
+      "xgboost_family_disjoint_r2": 0.20907862291502066,
+      "randomforest_family_disjoint_r2": 0.24499111800012974,
+      "elasticnet_family_disjoint_r2": 0.0995918635927675
+    },
+    {
+      "partition_id": 17,
+      "mean_mahalanobis_distance_test": 32.97956648383902,
+      "median_mahalanobis_distance_test": 5.874058570018976,
+      "mean_mahalanobis_distance_train_insample": 1.513637315676821,
+      "distance_ratio_test_over_train": 21.78828847721176,
+      "gbm_family_disjoint_r2": -0.4495624721156086,
+      "ridge_family_disjoint_r2": -4.518751442681402,
+      "xgboost_family_disjoint_r2": -0.43985506868627167,
+      "randomforest_family_disjoint_r2": -0.7927081706632819,
+      "elasticnet_family_disjoint_r2": -0.7692289960394203
+    },
+    {
+      "partition_id": 18,
+      "mean_mahalanobis_distance_test": 5.5961813077107605,
+      "median_mahalanobis_distance_test": 6.421248288247465,
+      "mean_mahalanobis_distance_train_insample": 1.2341604902943248,
+      "distance_ratio_test_over_train": 4.534403225285694,
+      "gbm_family_disjoint_r2": 0.2758311426869431,
+      "ridge_family_disjoint_r2": -3.6309026220543066,
+      "xgboost_family_disjoint_r2": 0.24980342360794183,
+      "randomforest_family_disjoint_r2": -0.0059708603186898745,
+      "elasticnet_family_disjoint_r2": 0.19079457055861637
+    },
+    {
+      "partition_id": 19,
+      "mean_mahalanobis_distance_test": 5.51033510149381,
+      "median_mahalanobis_distance_test": 6.85984932552041,
+      "mean_mahalanobis_distance_train_insample": 1.263048954994747,
+      "distance_ratio_test_over_train": 4.362724880696907,
+      "gbm_family_disjoint_r2": 0.10831781722405032,
+      "ridge_family_disjoint_r2": 0.07417988507179785,
+      "xgboost_family_disjoint_r2": 0.10907333306204359,
+      "randomforest_family_disjoint_r2": 0.15672145643657442,
+      "elasticnet_family_disjoint_r2": 0.022353610315284378
+    },
+    {
+      "partition_id": 20,
+      "mean_mahalanobis_distance_test": 6.271725869002429,
+      "median_mahalanobis_distance_test": 6.38484796969946,
+      "mean_mahalanobis_distance_train_insample": 1.2930835312096984,
+      "distance_ratio_test_over_train": 4.850209377529647,
+      "gbm_family_disjoint_r2": 0.2008318566538969,
+      "ridge_family_disjoint_r2": -1.4923331964985236,
+      "xgboost_family_disjoint_r2": 0.07016757333869039,
+      "randomforest_family_disjoint_r2": 0.23796274008420182,
+      "elasticnet_family_disjoint_r2": 0.0867055571406411
+    },
+    {
+      "partition_id": 21,
+      "mean_mahalanobis_distance_test": 6.17730540991987,
+      "median_mahalanobis_distance_test": 6.392471308820746,
+      "mean_mahalanobis_distance_train_insample": 1.3166370388322657,
+      "distance_ratio_test_over_train": 4.69172993598795,
+      "gbm_family_disjoint_r2": 0.05252775024349676,
+      "ridge_family_disjoint_r2": -0.18550429960551984,
+      "xgboost_family_disjoint_r2": -0.43102062506503214,
+      "randomforest_family_disjoint_r2": 0.0005723988799481994,
+      "elasticnet_family_disjoint_r2": -0.09831416701336271
+    },
+    {
+      "partition_id": 22,
+      "mean_mahalanobis_distance_test": 5.867126528123332,
+      "median_mahalanobis_distance_test": 6.516395911292909,
+      "mean_mahalanobis_distance_train_insample": 1.2367075809335382,
+      "distance_ratio_test_over_train": 4.744150208648747,
+      "gbm_family_disjoint_r2": 0.31065617865156403,
+      "ridge_family_disjoint_r2": -0.6291753155937694,
+      "xgboost_family_disjoint_r2": 0.2820456002466809,
+      "randomforest_family_disjoint_r2": 0.2755244979990463,
+      "elasticnet_family_disjoint_r2": 0.2031293640239319
+    },
+    {
+      "partition_id": 23,
+      "mean_mahalanobis_distance_test": 13.762563520338885,
+      "median_mahalanobis_distance_test": 5.820095474705094,
+      "mean_mahalanobis_distance_train_insample": 1.5418607811016787,
+      "distance_ratio_test_over_train": 8.9259443453159,
+      "gbm_family_disjoint_r2": -0.10004763280370099,
+      "ridge_family_disjoint_r2": -20.97089971972333,
+      "xgboost_family_disjoint_r2": -0.058149438018552324,
+      "randomforest_family_disjoint_r2": -0.2609148173989888,
+      "elasticnet_family_disjoint_r2": -0.19915643995670718
+    },
+    {
+      "partition_id": 24,
+      "mean_mahalanobis_distance_test": 8.454282392252303,
+      "median_mahalanobis_distance_test": 7.007342588195025,
+      "mean_mahalanobis_distance_train_insample": 1.2242235168029698,
+      "distance_ratio_test_over_train": 6.905832371469597,
+      "gbm_family_disjoint_r2": 0.1340510645951697,
+      "ridge_family_disjoint_r2": -0.32943608379416767,
+      "xgboost_family_disjoint_r2": -1.1867819894845812,
+      "randomforest_family_disjoint_r2": 0.10769623854419907,
+      "elasticnet_family_disjoint_r2": 0.03379805947162784
+    },
+    {
+      "partition_id": 25,
+      "mean_mahalanobis_distance_test": 5.374255483398491,
+      "median_mahalanobis_distance_test": 6.307826189372943,
+      "mean_mahalanobis_distance_train_insample": 1.3048707902977232,
+      "distance_ratio_test_over_train": 4.118611224466359,
+      "gbm_family_disjoint_r2": 0.19323406051409542,
+      "ridge_family_disjoint_r2": -0.21402027477356,
+      "xgboost_family_disjoint_r2": 0.18999997509733413,
+      "randomforest_family_disjoint_r2": 0.20312247342936585,
+      "elasticnet_family_disjoint_r2": 0.007722030596895468
+    },
+    {
+      "partition_id": 26,
+      "mean_mahalanobis_distance_test": 8.16054505017784,
+      "median_mahalanobis_distance_test": 6.396285644020484,
+      "mean_mahalanobis_distance_train_insample": 1.1636185484109853,
+      "distance_ratio_test_over_train": 7.013075772401291,
+      "gbm_family_disjoint_r2": 0.38724799164449364,
+      "ridge_family_disjoint_r2": 0.1692134611389462,
+      "xgboost_family_disjoint_r2": 0.365183567721567,
+      "randomforest_family_disjoint_r2": 0.12468999094821376,
+      "elasticnet_family_disjoint_r2": 0.25565406630252596
+    },
+    {
+      "partition_id": 27,
+      "mean_mahalanobis_distance_test": 5.57878944372105,
+      "median_mahalanobis_distance_test": 6.854339597380588,
+      "mean_mahalanobis_distance_train_insample": 1.2528531408682733,
+      "distance_ratio_test_over_train": 4.452867827632809,
+      "gbm_family_disjoint_r2": 0.12261486087417528,
+      "ridge_family_disjoint_r2": -0.011461510611674663,
+      "xgboost_family_disjoint_r2": -0.058616026479875405,
+      "randomforest_family_disjoint_r2": 0.126609297242127,
+      "elasticnet_family_disjoint_r2": 0.001028470667842174
+    },
+    {
+      "partition_id": 28,
+      "mean_mahalanobis_distance_test": 7.332204269048432,
+      "median_mahalanobis_distance_test": 6.987505835877759,
+      "mean_mahalanobis_distance_train_insample": 1.137753492342232,
+      "distance_ratio_test_over_train": 6.444457712851328,
+      "gbm_family_disjoint_r2": 0.3661416425342039,
+      "ridge_family_disjoint_r2": 0.20364508519505475,
+      "xgboost_family_disjoint_r2": 0.33473972877487823,
+      "randomforest_family_disjoint_r2": 0.37141979015196724,
+      "elasticnet_family_disjoint_r2": 0.27342763643702683
+    },
+    {
+      "partition_id": 29,
+      "mean_mahalanobis_distance_test": 6.072750761519913,
+      "median_mahalanobis_distance_test": 6.595943331640146,
+      "mean_mahalanobis_distance_train_insample": 1.2395254766592678,
+      "distance_ratio_test_over_train": 4.899254493652692,
+      "gbm_family_disjoint_r2": 0.011053121120801923,
+      "ridge_family_disjoint_r2": -2.617882998273074,
+      "xgboost_family_disjoint_r2": 0.1215980622352032,
+      "randomforest_family_disjoint_r2": -0.11166903221071234,
+      "elasticnet_family_disjoint_r2": 0.181919792506274
+    },
+    {
+      "partition_id": 30,
+      "mean_mahalanobis_distance_test": 8.969574117424274,
+      "median_mahalanobis_distance_test": 7.108888349833045,
+      "mean_mahalanobis_distance_train_insample": 1.11168276441441,
+      "distance_ratio_test_over_train": 8.068465577182073,
+      "gbm_family_disjoint_r2": 0.2522429623553607,
+      "ridge_family_disjoint_r2": -0.29358011910754067,
+      "xgboost_family_disjoint_r2": -0.6457223801435188,
+      "randomforest_family_disjoint_r2": 0.333826430939402,
+      "elasticnet_family_disjoint_r2": 0.24697743001154204
+    },
+    {
+      "partition_id": 31,
+      "mean_mahalanobis_distance_test": 8.906581287871017,
+      "median_mahalanobis_distance_test": 7.103447010668448,
+      "mean_mahalanobis_distance_train_insample": 1.1188108901434555,
+      "distance_ratio_test_over_train": 7.960756698327278,
+      "gbm_family_disjoint_r2": 0.3423295985576228,
+      "ridge_family_disjoint_r2": 0.10332652546567322,
+      "xgboost_family_disjoint_r2": -0.12194170492638046,
+      "randomforest_family_disjoint_r2": 0.3843271601540095,
+      "elasticnet_family_disjoint_r2": 0.257720229608273
+    },
+    {
+      "partition_id": 32,
+      "mean_mahalanobis_distance_test": 8.097768402132965,
+      "median_mahalanobis_distance_test": 7.101105439484707,
+      "mean_mahalanobis_distance_train_insample": 0.9977733349591063,
+      "distance_ratio_test_over_train": 8.11583965857822,
+      "gbm_family_disjoint_r2": 0.40436233973241054,
+      "ridge_family_disjoint_r2": -0.9546446084829918,
+      "xgboost_family_disjoint_r2": 0.4476857364190776,
+      "randomforest_family_disjoint_r2": 0.3923235105193069,
+      "elasticnet_family_disjoint_r2": 0.29463367465317614
+    },
+    {
+      "partition_id": 33,
+      "mean_mahalanobis_distance_test": 7.32810304563467,
+      "median_mahalanobis_distance_test": 6.592470768656406,
+      "mean_mahalanobis_distance_train_insample": 1.2672875666022945,
+      "distance_ratio_test_over_train": 5.782510014898936,
+      "gbm_family_disjoint_r2": -0.12058000074781194,
+      "ridge_family_disjoint_r2": -2.3342188398163515,
+      "xgboost_family_disjoint_r2": 0.18309609764503143,
+      "randomforest_family_disjoint_r2": -0.012876857982706102,
+      "elasticnet_family_disjoint_r2": 0.20254125296521952
+    },
+    {
+      "partition_id": 34,
+      "mean_mahalanobis_distance_test": 65899.0438275458,
+      "median_mahalanobis_distance_test": 17.27718997025808,
+      "mean_mahalanobis_distance_train_insample": 1.5752404124772472,
+      "distance_ratio_test_over_train": 41834.27704467787,
+      "gbm_family_disjoint_r2": -0.5425851551354903,
+      "ridge_family_disjoint_r2": -5.348422745345829,
+      "xgboost_family_disjoint_r2": -0.2867117292766548,
+      "randomforest_family_disjoint_r2": -0.42858578178735773,
+      "elasticnet_family_disjoint_r2": -0.13356088713834202
+    },
+    {
+      "partition_id": 35,
+      "mean_mahalanobis_distance_test": 12.048193697326242,
+      "median_mahalanobis_distance_test": 6.664566202809368,
+      "mean_mahalanobis_distance_train_insample": 1.0245214763401036,
+      "distance_ratio_test_over_train": 11.759825416609113,
+      "gbm_family_disjoint_r2": 0.47708880484382765,
+      "ridge_family_disjoint_r2": -1.7935535640854914,
+      "xgboost_family_disjoint_r2": 0.43056817975347217,
+      "randomforest_family_disjoint_r2": 0.484770444716518,
+      "elasticnet_family_disjoint_r2": 0.2589905632194093
+    },
+    {
+      "partition_id": 36,
+      "mean_mahalanobis_distance_test": 10.556609487616422,
+      "median_mahalanobis_distance_test": 6.628132408700473,
+      "mean_mahalanobis_distance_train_insample": 1.045205878899141,
+      "distance_ratio_test_over_train": 10.100028808424929,
+      "gbm_family_disjoint_r2": 0.46129108039135336,
+      "ridge_family_disjoint_r2": -3.2357915327201434,
+      "xgboost_family_disjoint_r2": 0.4369306843749038,
+      "randomforest_family_disjoint_r2": 0.4664413442800165,
+      "elasticnet_family_disjoint_r2": 0.3383162043402369
+    },
+    {
+      "partition_id": 37,
+      "mean_mahalanobis_distance_test": 7.669148529760685,
+      "median_mahalanobis_distance_test": 6.383473225099586,
+      "mean_mahalanobis_distance_train_insample": 1.22512360246245,
+      "distance_ratio_test_over_train": 6.259897788554559,
+      "gbm_family_disjoint_r2": 0.3129786858681167,
+      "ridge_family_disjoint_r2": -2.6376585051431247,
+      "xgboost_family_disjoint_r2": 0.3723689289860519,
+      "randomforest_family_disjoint_r2": 0.16972631665257398,
+      "elasticnet_family_disjoint_r2": 0.2147709332521457
+    },
+    {
+      "partition_id": 38,
+      "mean_mahalanobis_distance_test": 5.516063149195072,
+      "median_mahalanobis_distance_test": 6.880947709592942,
+      "mean_mahalanobis_distance_train_insample": 1.2541450159052137,
+      "distance_ratio_test_over_train": 4.398265813952705,
+      "gbm_family_disjoint_r2": 0.15060741055777993,
+      "ridge_family_disjoint_r2": 0.0750465758509542,
+      "xgboost_family_disjoint_r2": 0.05625135314575713,
+      "randomforest_family_disjoint_r2": 0.15450949380672285,
+      "elasticnet_family_disjoint_r2": 0.04090787870102208
+    },
+    {
+      "partition_id": 39,
+      "mean_mahalanobis_distance_test": 6.655809003206557,
+      "median_mahalanobis_distance_test": 7.202375063436659,
+      "mean_mahalanobis_distance_train_insample": 1.2008669856492982,
+      "distance_ratio_test_over_train": 5.542503110457167,
+      "gbm_family_disjoint_r2": 0.257349939493169,
+      "ridge_family_disjoint_r2": 0.08446809690027868,
+      "xgboost_family_disjoint_r2": 0.27476416913661306,
+      "randomforest_family_disjoint_r2": 0.08626589227704184,
+      "elasticnet_family_disjoint_r2": 0.22860177603964915
+    }
+  ],
+  "correlations": {
+    "gbm": {
+      "pearson_corr_meandist_vs_r2": -0.5456978361599876,
+      "pearson_corr_distratio_vs_r2": -0.54561145030352,
+      "spearman_rho_meandist_vs_r2": 0.3545966228893059,
+      "spearman_p": 0.024764178691217296,
+      "spearman_rho_distratio_vs_r2": 0.40168855534709197
+    },
+    "ridge": {
+      "pearson_corr_meandist_vs_r2": -0.15503413418157633,
+      "pearson_corr_distratio_vs_r2": -0.15501462273419914,
+      "spearman_rho_meandist_vs_r2": -0.32795497185741096,
+      "spearman_p": 0.038835804581429455,
+      "spearman_rho_distratio_vs_r2": -0.3294559099437149
+    },
+    "xgboost": {
+      "pearson_corr_meandist_vs_r2": -0.17142863915073156,
+      "pearson_corr_distratio_vs_r2": -0.1713899937499086,
+      "spearman_rho_meandist_vs_r2": 0.16866791744840529,
+      "spearman_p": 0.29815401890225696,
+      "spearman_rho_distratio_vs_r2": 0.24465290806754228
+    },
+    "randomforest": {
+      "pearson_corr_meandist_vs_r2": -0.3544031239974155,
+      "pearson_corr_distratio_vs_r2": -0.3543089243308938,
+      "spearman_rho_meandist_vs_r2": 0.3232645403377111,
+      "spearman_p": 0.04188455496018795,
+      "spearman_rho_distratio_vs_r2": 0.36135084427767356
+    },
+    "elasticnet": {
+      "pearson_corr_meandist_vs_r2": -0.22055635708539045,
+      "pearson_corr_distratio_vs_r2": -0.22047118859139164,
+      "spearman_rho_meandist_vs_r2": 0.4026266416510319,
+      "spearman_p": 0.01000290843415739,
+      "spearman_rho_distratio_vs_r2": 0.4827392120075048
+    }
+  },
+  "partial_correlations_controlling_for_test_frac": {
+    "gbm": {
+      "raw_corr_log_distance_vs_r2": -0.5518874690733505,
+      "partial_corr_controlling_test_frac": -0.10786391268709958
+    },
+    "ridge": {
+      "raw_corr_log_distance_vs_r2": -0.24101806382206098,
+      "partial_corr_controlling_test_frac": 0.2180613676279598
+    },
+    "xgboost": {
+      "raw_corr_log_distance_vs_r2": -0.19838725313879085,
+      "partial_corr_controlling_test_frac": 0.01711775359960635
+    },
+    "randomforest": {
+      "raw_corr_log_distance_vs_r2": -0.37250190277700096,
+      "partial_corr_controlling_test_frac": 0.20792963179094615
+    },
+    "elasticnet": {
+      "raw_corr_log_distance_vs_r2": -0.2881942274899925,
+      "partial_corr_controlling_test_frac": 0.4982782544336175
+    }
+  },
+  "verdict": "The raw (uncontrolled) correlation between held-out-family Mahalanobis distance and family-disjoint R2 is negative for all 5 models, consistent with the extrapolation-distance hypothesis. Distance is confounded with test_frac (partition test-set size), which independently drives apparent R2 in the multi-partition analyses (correlation with test_frac was 0.6-0.83 for several models). After controlling for test_frac by partial correlation (residualizing both distance and R2 on test_frac, then correlating residuals), the distance effect largely disappears or reverses sign for Ridge (+0.218), XGBoost (+0.017), RandomForest (+0.208) and ElasticNet (+0.498); only GBM retains a weak residual negative association (-0.108). The distance-based mechanism therefore does not explain the failure of Ridge once test-set size is controlled for (null result for this hypothesis). A more likely explanation is a model-intrinsic property: unregularized linear extrapolation produces unbounded predictions whenever any held-out family lies outside the training range on any feature dimension, a threshold-like failure mode rather than one that scales smoothly with average distance. This remains an open mechanistic question."
+}

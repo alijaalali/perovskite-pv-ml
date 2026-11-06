@@ -1,0 +1,2804 @@
+[
+ {
+  "task": "retention",
+  "protocol": "random",
+  "model": "ExtraTrees",
+  "features": "all",
+  "n_test": 6891,
+  "rmse": 0.27352571575594153,
+  "r2": 0.16189569421776107,
+  "rmse_ci": [
+   0.2678358298951809,
+   0.2782863811056887
+  ],
+  "r2_ci": [
+   0.13369579000389503,
+   0.19504827671532693
+  ]
+ },
+ {
+  "task": "retention",
+  "protocol": "random",
+  "model": "HistGradientBoosting",
+  "features": "all",
+  "n_test": 6891,
+  "rmse": 0.27013200254950054,
+  "r2": 0.18256388406551227,
+  "rmse_ci": [
+   0.26528667228600944,
+   0.27503155386698447
+  ],
+  "r2_ci": [
+   0.1514032179038397,
+   0.2083572585730346
+  ]
+ },
+ {
+  "task": "retention",
+  "protocol": "random",
+  "model": "GradientBoosting",
+  "features": "all",
+  "n_test": 6891,
+  "rmse": 0.27180448632325466,
+  "r2": 0.17241047106768548,
+  "rmse_ci": [
+   0.267132187449569,
+   0.2767060592856951
+  ],
+  "r2_ci": [
+   0.15150863719422347,
+   0.19562527486503642
+  ]
+ },
+ {
+  "task": "retention",
+  "protocol": "random",
+  "model": "CatBoost",
+  "features": "all",
+  "n_test": 6891,
+  "rmse": 0.269458306524873,
+  "r2": 0.18663609130292846,
+  "rmse_ci": [
+   0.26481708954980315,
+   0.2745124007601307
+  ],
+  "r2_ci": [
+   0.16142504583794534,
+   0.21268614160421134
+  ]
+ },
+ {
+  "task": "retention",
+  "protocol": "random",
+  "model": "AdaBoost",
+  "features": "all",
+  "n_test": 6891,
+  "rmse": 0.2921107348939415,
+  "r2": 0.04413451480171382,
+  "rmse_ci": [
+   0.2885681093857252,
+   0.2960162597541275
+  ],
+  "r2_ci": [
+   0.02381917922233747,
+   0.0660580272493334
+  ]
+ },
+ {
+  "task": "retention",
+  "protocol": "random",
+  "model": "Bagging",
+  "features": "all",
+  "n_test": 6891,
+  "rmse": 0.270705026157313,
+  "r2": 0.17909219614456906,
+  "rmse_ci": [
+   0.26554742182854807,
+   0.27558609766341613
+  ],
+  "r2_ci": [
+   0.1518477654191837,
+   0.20439662880359513
+  ]
+ },
+ {
+  "task": "retention",
+  "protocol": "random",
+  "model": "DecisionTree",
+  "features": "all",
+  "n_test": 6891,
+  "rmse": 0.2894429542250018,
+  "r2": 0.061514191041597055,
+  "rmse_ci": [
+   0.2840744974473733,
+   0.2946017847126307
+  ],
+  "r2_ci": [
+   0.03156955821408663,
+   0.09047824413344695
+  ]
+ },
+ {
+  "task": "retention",
+  "protocol": "random",
+  "model": "kNN",
+  "features": "all",
+  "n_test": 6891,
+  "rmse": 0.30051174066904907,
+  "r2": -0.011636833913145406,
+  "rmse_ci": [
+   0.2931597473482012,
+   0.3069577828960783
+  ],
+  "r2_ci": [
+   -0.06068984619028941,
+   0.031774150240445144
+  ]
+ },
+ {
+  "task": "retention",
+  "protocol": "random",
+  "model": "SVR-RBF",
+  "features": "all",
+  "n_test": 6891,
+  "rmse": 0.28341221762532387,
+  "r2": 0.10021472386732344,
+  "rmse_ci": [
+   0.2770709292844987,
+   0.2893924621413555
+  ],
+  "r2_ci": [
+   0.06885603849214857,
+   0.13300051962544945
+  ]
+ },
+ {
+  "task": "retention",
+  "protocol": "random",
+  "model": "BayesianRidge",
+  "features": "all",
+  "n_test": 6891,
+  "rmse": 0.27994653618530096,
+  "r2": 0.12208606594134952,
+  "rmse_ci": [
+   0.27471462762767535,
+   0.28537119462689486
+  ],
+  "r2_ci": [
+   0.10216224429900508,
+   0.13916807643918117
+  ]
+ },
+ {
+  "task": "retention",
+  "protocol": "random",
+  "model": "KernelRidge-Nystroem",
+  "features": "all",
+  "n_test": 6891,
+  "rmse": 0.27681599839994825,
+  "r2": 0.14161105048854605,
+  "rmse_ci": [
+   0.2713297618028169,
+   0.2818907734451373
+  ],
+  "r2_ci": [
+   0.12307721806619489,
+   0.16294364983809345
+  ]
+ },
+ {
+  "task": "retention",
+  "protocol": "random",
+  "model": "ResNet-MLP (torch)",
+  "features": "all",
+  "n_test": 6891,
+  "rmse": 0.2825415745963814,
+  "r2": 0.10573451757297281,
+  "rmse_ci": [
+   0.2779038991023956,
+   0.2881107294120915
+  ],
+  "r2_ci": [
+   0.07937147786932307,
+   0.1323115649468592
+  ]
+ },
+ {
+  "task": "retention",
+  "protocol": "random",
+  "model": "Stacking (RF+XGB+LGBM+Ridge)",
+  "features": "all",
+  "n_test": 6891,
+  "rmse": 0.2700844460023275,
+  "r2": 0.18285167682559123,
+  "rmse_ci": [
+   0.2658139365150179,
+   0.27487645683972256
+  ],
+  "r2_ci": [
+   0.16238280624445545,
+   0.2010282582405116
+  ]
+ },
+ {
+  "task": "retained80",
+  "protocol": "random",
+  "model": "ExtraTrees",
+  "features": "all",
+  "n_test": 6891,
+  "auc": 0.6924653485041308,
+  "auc_ci": [
+   0.6769975729876353,
+   0.7096130969747959
+  ]
+ },
+ {
+  "task": "retained80",
+  "protocol": "random",
+  "model": "HistGradientBoosting",
+  "features": "all",
+  "n_test": 6891,
+  "auc": 0.704625407177115,
+  "auc_ci": [
+   0.6899448123340435,
+   0.719433773034798
+  ]
+ },
+ {
+  "task": "retained80",
+  "protocol": "random",
+  "model": "GradientBoosting",
+  "features": "all",
+  "n_test": 6891,
+  "auc": 0.7044183071993688,
+  "auc_ci": [
+   0.6895286348737776,
+   0.7188697498695519
+  ]
+ },
+ {
+  "task": "retained80",
+  "protocol": "random",
+  "model": "CatBoost",
+  "features": "all",
+  "n_test": 6891,
+  "auc": 0.7098160665378908,
+  "auc_ci": [
+   0.6947283811341447,
+   0.7248839230859204
+  ]
+ },
+ {
+  "task": "retained80",
+  "protocol": "random",
+  "model": "AdaBoost",
+  "features": "all",
+  "n_test": 6891,
+  "auc": 0.6808402067186776,
+  "auc_ci": [
+   0.664401903359063,
+   0.6949609562760902
+  ]
+ },
+ {
+  "task": "retained80",
+  "protocol": "random",
+  "model": "Bagging",
+  "features": "all",
+  "n_test": 6891,
+  "auc": 0.7008395267896265,
+  "auc_ci": [
+   0.6843444069251106,
+   0.7174436819369572
+  ]
+ },
+ {
+  "task": "retained80",
+  "protocol": "random",
+  "model": "DecisionTree",
+  "features": "all",
+  "n_test": 6891,
+  "auc": 0.645257984147024,
+  "auc_ci": [
+   0.628321707336022,
+   0.6604658092243026
+  ]
+ },
+ {
+  "task": "retained80",
+  "protocol": "random",
+  "model": "kNN",
+  "features": "all",
+  "n_test": 6891,
+  "auc": 0.6496412066699184,
+  "auc_ci": [
+   0.633023575038761,
+   0.6677303029496211
+  ]
+ },
+ {
+  "task": "retained80",
+  "protocol": "random",
+  "model": "SVM-RBF",
+  "features": "all",
+  "n_test": 6891,
+  "auc": 0.6826301663430396,
+  "auc_ci": [
+   0.6692481286698282,
+   0.698349256953943
+  ]
+ },
+ {
+  "task": "retained80",
+  "protocol": "random",
+  "model": "GaussianNB",
+  "features": "all",
+  "n_test": 6891,
+  "auc": 0.5861106944741339,
+  "auc_ci": [
+   0.5717737387369101,
+   0.5990343224754163
+  ]
+ },
+ {
+  "task": "retained80",
+  "protocol": "random",
+  "model": "ResNet-MLP (torch)",
+  "features": "all",
+  "n_test": 6891,
+  "auc": 0.67073836751903,
+  "auc_ci": [
+   0.6547474830366656,
+   0.6857205622278202
+  ]
+ },
+ {
+  "task": "retained80",
+  "protocol": "random",
+  "model": "Stacking (RF+XGB+LGBM+Logistic)",
+  "features": "all",
+  "n_test": 6891,
+  "auc": 0.7103635528334398,
+  "auc_ci": [
+   0.6954182292594642,
+   0.7240178421854636
+  ]
+ },
+ {
+  "task": "time_to_80",
+  "protocol": "random",
+  "model": "LogNormal-AFT (ridge)",
+  "features": "all",
+  "n_test": 6891,
+  "cindex": 0.7220162591816112,
+  "cindex_ci": [
+   0.7076702986028158,
+   0.7360641336581779
+  ],
+  "cindex_matched": 0.624772157015276,
+  "cindex_matched_ci": [
+   0.6043996215344358,
+   0.6405790235490674
+  ]
+ },
+ {
+  "task": "time_to_80",
+  "protocol": "random",
+  "model": "XGBoost-AFT (normal)",
+  "features": "all",
+  "n_test": 6891,
+  "cindex": 0.7765433402211128,
+  "cindex_ci": [
+   0.7590741704059664,
+   0.7871806773459237
+  ],
+  "cindex_matched": 0.6408851366295254,
+  "cindex_matched_ci": [
+   0.6183719083660865,
+   0.6553999099899346
+  ]
+ },
+ {
+  "task": "time_to_80",
+  "protocol": "random",
+  "model": "XGBoost-AFT (logistic)",
+  "features": "all",
+  "n_test": 6891,
+  "cindex": 0.7635993423930257,
+  "cindex_ci": [
+   0.7431463241106389,
+   0.7740276989045817
+  ],
+  "cindex_matched": 0.6373159143081581,
+  "cindex_matched_ci": [
+   0.6165373504425742,
+   0.6509472083547634
+  ]
+ },
+ {
+  "task": "time_to_80",
+  "protocol": "random",
+  "model": "Neural Weibull-AFT (MLP)",
+  "features": "all",
+  "n_test": 6891,
+  "cindex": 0.7330055353614576,
+  "cindex_ci": [
+   0.7156978230109983,
+   0.7469877612085776
+  ],
+  "cindex_matched": 0.6360861341814049,
+  "cindex_matched_ci": [
+   0.6196427506600192,
+   0.654517359393232
+  ]
+ },
+ {
+  "task": "time_to_80",
+  "protocol": "random",
+  "model": "Neural LogNormal-AFT (MLP)",
+  "features": "all",
+  "n_test": 6891,
+  "cindex": 0.7387761873878222,
+  "cindex_ci": [
+   0.7201261096384579,
+   0.7512274333984789
+  ],
+  "cindex_matched": 0.6381719938072468,
+  "cindex_matched_ci": [
+   0.6197517041751427,
+   0.6552126202087016
+  ]
+ },
+ {
+  "task": "time_to_80",
+  "protocol": "random",
+  "model": "Cox-PH (ridge, interval~event at upper bound)",
+  "features": "all",
+  "n_test": 6891,
+  "cindex": 0.72538272424247,
+  "cindex_ci": [
+   0.7099942251893692,
+   0.7385536156703593
+  ],
+  "cindex_matched": 0.6212105612373304,
+  "cindex_matched_ci": [
+   0.6011562971057586,
+   0.6347165528840772
+  ]
+ },
+ {
+  "task": "retention",
+  "protocol": "paper",
+  "model": "ExtraTrees",
+  "features": "all",
+  "n_test": 6891,
+  "rmse": 0.28522694699724027,
+  "r2": 0.08865492222118165,
+  "rmse_ci": [
+   0.27983723957988665,
+   0.2906191795090732
+  ],
+  "r2_ci": [
+   0.06854222150226279,
+   0.10975362917200608
+  ]
+ },
+ {
+  "task": "retention",
+  "protocol": "paper",
+  "model": "HistGradientBoosting",
+  "features": "all",
+  "n_test": 6891,
+  "rmse": 0.28286080236917327,
+  "r2": 0.10371261584513758,
+  "rmse_ci": [
+   0.27740331362502196,
+   0.2885454364749878
+  ],
+  "r2_ci": [
+   0.08090443878847832,
+   0.1265750734339051
+  ]
+ },
+ {
+  "task": "retention",
+  "protocol": "paper",
+  "model": "GradientBoosting",
+  "features": "all",
+  "n_test": 6891,
+  "rmse": 0.28039482127703064,
+  "r2": 0.11927216555213094,
+  "rmse_ci": [
+   0.2752754572085755,
+   0.2861236741234214
+  ],
+  "r2_ci": [
+   0.09836268772641651,
+   0.14131673634610323
+  ]
+ },
+ {
+  "task": "retention",
+  "protocol": "paper",
+  "model": "CatBoost",
+  "features": "all",
+  "n_test": 6891,
+  "rmse": 0.28032167737461644,
+  "r2": 0.1197315996328796,
+  "rmse_ci": [
+   0.2750512230846645,
+   0.28597962656891973
+  ],
+  "r2_ci": [
+   0.0989553426646017,
+   0.1431226565113155
+  ]
+ },
+ {
+  "task": "retention",
+  "protocol": "paper",
+  "model": "AdaBoost",
+  "features": "all",
+  "n_test": 6891,
+  "rmse": 0.2956325903403424,
+  "r2": 0.020946638348170343,
+  "rmse_ci": [
+   0.2921335467893013,
+   0.29971936252931086
+  ],
+  "r2_ci": [
+   -0.0003971100337551097,
+   0.04199388258145148
+  ]
+ },
+ {
+  "task": "retention",
+  "protocol": "paper",
+  "model": "Bagging",
+  "features": "all",
+  "n_test": 6891,
+  "rmse": 0.28246896795256465,
+  "r2": 0.10619406957164013,
+  "rmse_ci": [
+   0.27735205700736537,
+   0.28836581716834625
+  ],
+  "r2_ci": [
+   0.0910584341231849,
+   0.12161394132430169
+  ]
+ },
+ {
+  "task": "retention",
+  "protocol": "paper",
+  "model": "DecisionTree",
+  "features": "all",
+  "n_test": 6891,
+  "rmse": 0.29655038128103434,
+  "r2": 0.014858262884372753,
+  "rmse_ci": [
+   0.29109522747504996,
+   0.30207407666357367
+  ],
+  "r2_ci": [
+   -0.00987880794457648,
+   0.03977550479487465
+  ]
+ },
+ {
+  "task": "retention",
+  "protocol": "paper",
+  "model": "kNN",
+  "features": "all",
+  "n_test": 6891,
+  "rmse": 0.2973226154711114,
+  "r2": 0.00972085142885426,
+  "rmse_ci": [
+   0.29124043190323345,
+   0.3035617811494499
+  ],
+  "r2_ci": [
+   -0.019834437399834665,
+   0.038611207551787305
+  ]
+ },
+ {
+  "task": "retention",
+  "protocol": "paper",
+  "model": "SVR-RBF",
+  "features": "all",
+  "n_test": 6891,
+  "rmse": 0.2923587339536991,
+  "r2": 0.04251078556913612,
+  "rmse_ci": [
+   0.28602937979409404,
+   0.29905402847794
+  ],
+  "r2_ci": [
+   0.017358964979413215,
+   0.06644801454948085
+  ]
+ },
+ {
+  "task": "retention",
+  "protocol": "paper",
+  "model": "BayesianRidge",
+  "features": "all",
+  "n_test": 6891,
+  "rmse": 0.2825462337902364,
+  "r2": 0.10570502392694692,
+  "rmse_ci": [
+   0.27717173204982726,
+   0.2880348832998484
+  ],
+  "r2_ci": [
+   0.08422090604036207,
+   0.12278640988260568
+  ]
+ },
+ {
+  "task": "retention",
+  "protocol": "paper",
+  "model": "KernelRidge-Nystroem",
+  "features": "all",
+  "n_test": 6891,
+  "rmse": 0.28256508663291524,
+  "r2": 0.10558567662752372,
+  "rmse_ci": [
+   0.27712200021035516,
+   0.2882738883477183
+  ],
+  "r2_ci": [
+   0.08630460884369488,
+   0.1246413772801323
+  ]
+ },
+ {
+  "task": "retention",
+  "protocol": "paper",
+  "model": "ResNet-MLP (torch)",
+  "features": "all",
+  "n_test": 6891,
+  "rmse": 0.2960297188472349,
+  "r2": 0.018314512120676696,
+  "rmse_ci": [
+   0.29010778182182057,
+   0.30213074997976846
+  ],
+  "r2_ci": [
+   -0.010573656969534854,
+   0.04767003360957754
+  ]
+ },
+ {
+  "task": "retention",
+  "protocol": "paper",
+  "model": "Stacking (RF+XGB+LGBM+Ridge)",
+  "features": "all",
+  "n_test": 6891,
+  "rmse": 0.27880542575084477,
+  "r2": 0.12922853690053937,
+  "rmse_ci": [
+   0.2735433565781753,
+   0.2843409515916464
+  ],
+  "r2_ci": [
+   0.11331687321923126,
+   0.14556894105501125
+  ]
+ },
+ {
+  "task": "retained80",
+  "protocol": "paper",
+  "model": "ExtraTrees",
+  "features": "all",
+  "n_test": 6891,
+  "auc": 0.6541863974035147,
+  "auc_ci": [
+   0.6385346813405073,
+   0.6685131332888241
+  ]
+ },
+ {
+  "task": "retained80",
+  "protocol": "paper",
+  "model": "HistGradientBoosting",
+  "features": "all",
+  "n_test": 6891,
+  "auc": 0.6684506509013108,
+  "auc_ci": [
+   0.6550738975330802,
+   0.6811013451003948
+  ]
+ },
+ {
+  "task": "retained80",
+  "protocol": "paper",
+  "model": "GradientBoosting",
+  "features": "all",
+  "n_test": 6891,
+  "auc": 0.6794408266857475,
+  "auc_ci": [
+   0.6649800468040472,
+   0.6944777661193003
+  ]
+ },
+ {
+  "task": "retained80",
+  "protocol": "paper",
+  "model": "CatBoost",
+  "features": "all",
+  "n_test": 6891,
+  "auc": 0.676209518703026,
+  "auc_ci": [
+   0.659367973470809,
+   0.6896663245729626
+  ]
+ },
+ {
+  "task": "retained80",
+  "protocol": "paper",
+  "model": "AdaBoost",
+  "features": "all",
+  "n_test": 6891,
+  "auc": 0.6687960565464767,
+  "auc_ci": [
+   0.6528611487661351,
+   0.6845793944235978
+  ]
+ },
+ {
+  "task": "retained80",
+  "protocol": "paper",
+  "model": "Bagging",
+  "features": "all",
+  "n_test": 6891,
+  "auc": 0.6637495235856927,
+  "auc_ci": [
+   0.648940901568387,
+   0.6770571640533679
+  ]
+ },
+ {
+  "task": "retained80",
+  "protocol": "paper",
+  "model": "DecisionTree",
+  "features": "all",
+  "n_test": 6891,
+  "auc": 0.6207683485096984,
+  "auc_ci": [
+   0.6057222894940963,
+   0.6328459949928164
+  ]
+ },
+ {
+  "task": "retained80",
+  "protocol": "paper",
+  "model": "kNN",
+  "features": "all",
+  "n_test": 6891,
+  "auc": 0.6194351054961382,
+  "auc_ci": [
+   0.6051117769417678,
+   0.6329367218950741
+  ]
+ },
+ {
+  "task": "retained80",
+  "protocol": "paper",
+  "model": "SVM-RBF",
+  "features": "all",
+  "n_test": 6891,
+  "auc": 0.6604728729398192,
+  "auc_ci": [
+   0.6445230271415368,
+   0.6745653668570746
+  ]
+ },
+ {
+  "task": "retained80",
+  "protocol": "paper",
+  "model": "GaussianNB",
+  "features": "all",
+  "n_test": 6891,
+  "auc": 0.557591593444944,
+  "auc_ci": [
+   0.5420226573023856,
+   0.573569820831444
+  ]
+ },
+ {
+  "task": "retained80",
+  "protocol": "paper",
+  "model": "ResNet-MLP (torch)",
+  "features": "all",
+  "n_test": 6891,
+  "auc": 0.6453841421986408,
+  "auc_ci": [
+   0.6308898442342126,
+   0.6601338092208715
+  ]
+ },
+ {
+  "task": "retained80",
+  "protocol": "paper",
+  "model": "Stacking (RF+XGB+LGBM+Logistic)",
+  "features": "all",
+  "n_test": 6891,
+  "auc": 0.6791127567006333,
+  "auc_ci": [
+   0.6645339727801334,
+   0.6918844243247291
+  ]
+ },
+ {
+  "task": "time_to_80",
+  "protocol": "paper",
+  "model": "LogNormal-AFT (ridge)",
+  "features": "all",
+  "n_test": 6891,
+  "cindex": 0.7091813345236515,
+  "cindex_ci": [
+   0.6923112144241131,
+   0.7269948410443332
+  ],
+  "cindex_matched": 0.6195896363477938,
+  "cindex_matched_ci": [
+   0.5995910671012684,
+   0.6341591756268149
+  ]
+ },
+ {
+  "task": "time_to_80",
+  "protocol": "paper",
+  "model": "XGBoost-AFT (normal)",
+  "features": "all",
+  "n_test": 6891,
+  "cindex": 0.7303175254249556,
+  "cindex_ci": [
+   0.7167610941589765,
+   0.745143529762264
+  ],
+  "cindex_matched": 0.6126473228999738,
+  "cindex_matched_ci": [
+   0.5917027543901437,
+   0.6284090521257502
+  ]
+ },
+ {
+  "task": "time_to_80",
+  "protocol": "paper",
+  "model": "XGBoost-AFT (logistic)",
+  "features": "all",
+  "n_test": 6891,
+  "cindex": 0.7149811197838125,
+  "cindex_ci": [
+   0.6993868398097579,
+   0.728932605118443
+  ],
+  "cindex_matched": 0.607315095790666,
+  "cindex_matched_ci": [
+   0.5892269197320071,
+   0.6242525393255672
+  ]
+ },
+ {
+  "task": "time_to_80",
+  "protocol": "paper",
+  "model": "Neural Weibull-AFT (MLP)",
+  "features": "all",
+  "n_test": 6891,
+  "cindex": 0.6922916842600524,
+  "cindex_ci": [
+   0.6769848005531957,
+   0.7084477878212233
+  ],
+  "cindex_matched": 0.615448873128985,
+  "cindex_matched_ci": [
+   0.598432362866655,
+   0.6330642476587345
+  ]
+ },
+ {
+  "task": "time_to_80",
+  "protocol": "paper",
+  "model": "Neural LogNormal-AFT (MLP)",
+  "features": "all",
+  "n_test": 6891,
+  "cindex": 0.692590269148641,
+  "cindex_ci": [
+   0.675752521230962,
+   0.7102396543976599
+  ],
+  "cindex_matched": 0.6120222305567868,
+  "cindex_matched_ci": [
+   0.5944347511390771,
+   0.6270965123881309
+  ]
+ },
+ {
+  "task": "time_to_80",
+  "protocol": "paper",
+  "model": "Cox-PH (ridge, interval~event at upper bound)",
+  "features": "all",
+  "n_test": 6891,
+  "cindex": 0.7111357083398681,
+  "cindex_ci": [
+   0.696794754605965,
+   0.7266485991406036
+  ],
+  "cindex_matched": 0.6116282329586568,
+  "cindex_matched_ci": [
+   0.5898850382342529,
+   0.6277460369150237
+  ]
+ },
+ {
+  "task": "retention",
+  "protocol": "composition",
+  "model": "ExtraTrees",
+  "features": "all",
+  "n_test": 6891,
+  "rmse": 0.2912177277665904,
+  "r2": 0.04996990415114577,
+  "rmse_ci": [
+   0.28416547312011436,
+   0.29841603329171584
+  ],
+  "r2_ci": [
+   0.024867963829334004,
+   0.07467002800660168
+  ]
+ },
+ {
+  "task": "retention",
+  "protocol": "composition",
+  "model": "HistGradientBoosting",
+  "features": "all",
+  "n_test": 6891,
+  "rmse": 0.29880364190132647,
+  "r2": -0.00016929692128986318,
+  "rmse_ci": [
+   0.2922739563264736,
+   0.30600989390141015
+  ],
+  "r2_ci": [
+   -0.03158741691917858,
+   0.027625419747890893
+  ]
+ },
+ {
+  "task": "retention",
+  "protocol": "composition",
+  "model": "GradientBoosting",
+  "features": "all",
+  "n_test": 6891,
+  "rmse": 0.290602074743381,
+  "r2": 0.05398250777068814,
+  "rmse_ci": [
+   0.28400069939992717,
+   0.2971160371874707
+  ],
+  "r2_ci": [
+   0.03282551390896993,
+   0.07748053553369977
+  ]
+ },
+ {
+  "task": "retention",
+  "protocol": "composition",
+  "model": "CatBoost",
+  "features": "all",
+  "n_test": 6891,
+  "rmse": 0.29295468278539777,
+  "r2": 0.03860328367219512,
+  "rmse_ci": [
+   0.2854589515090179,
+   0.30025191304712495
+  ],
+  "r2_ci": [
+   0.011241514111946363,
+   0.06382635210810887
+  ]
+ },
+ {
+  "task": "retention",
+  "protocol": "composition",
+  "model": "AdaBoost",
+  "features": "all",
+  "n_test": 6891,
+  "rmse": 0.289765814204366,
+  "r2": 0.05941934993161513,
+  "rmse_ci": [
+   0.28522577735961274,
+   0.2947456079892039
+  ],
+  "r2_ci": [
+   0.043013129536060464,
+   0.07324718891480393
+  ]
+ },
+ {
+  "task": "retention",
+  "protocol": "composition",
+  "model": "Bagging",
+  "features": "all",
+  "n_test": 6891,
+  "rmse": 0.28854309176386217,
+  "r2": 0.06734052312152439,
+  "rmse_ci": [
+   0.2822438625020865,
+   0.2947188158247527
+  ],
+  "r2_ci": [
+   0.048757748240794985,
+   0.0844939685747682
+  ]
+ },
+ {
+  "task": "retention",
+  "protocol": "composition",
+  "model": "DecisionTree",
+  "features": "all",
+  "n_test": 6891,
+  "rmse": 0.31469733747278605,
+  "r2": -0.1093992874925247,
+  "rmse_ci": [
+   0.3084857800270366,
+   0.3229084205038125
+  ],
+  "r2_ci": [
+   -0.15154978932067684,
+   -0.07321914370752991
+  ]
+ },
+ {
+  "task": "retention",
+  "protocol": "composition",
+  "model": "kNN",
+  "features": "all",
+  "n_test": 6891,
+  "rmse": 0.3011524559524932,
+  "r2": -0.015955215324614525,
+  "rmse_ci": [
+   0.2951272819839278,
+   0.3079450544891891
+  ],
+  "r2_ci": [
+   -0.04386659138606059,
+   0.007327208382194027
+  ]
+ },
+ {
+  "task": "retention",
+  "protocol": "composition",
+  "model": "SVR-RBF",
+  "features": "all",
+  "n_test": 6891,
+  "rmse": 0.29892362230262554,
+  "r2": -0.0009726660177813429,
+  "rmse_ci": [
+   0.2910054088917653,
+   0.305806237792262
+  ],
+  "r2_ci": [
+   -0.031449821126390665,
+   0.03274861995454161
+  ]
+ },
+ {
+  "task": "retention",
+  "protocol": "composition",
+  "model": "BayesianRidge",
+  "features": "all",
+  "n_test": 6891,
+  "rmse": 0.284679046795625,
+  "r2": 0.09215281449618262,
+  "rmse_ci": [
+   0.2783203013481936,
+   0.29052085008323736
+  ],
+  "r2_ci": [
+   0.07096803028098463,
+   0.11013968403138123
+  ]
+ },
+ {
+  "task": "retention",
+  "protocol": "composition",
+  "model": "KernelRidge-Nystroem",
+  "features": "all",
+  "n_test": 6891,
+  "rmse": 0.28885594062024333,
+  "r2": 0.06531698044059586,
+  "rmse_ci": [
+   0.28205039658044695,
+   0.2955584193936238
+  ],
+  "r2_ci": [
+   0.04309255629471286,
+   0.0859827854323977
+  ]
+ },
+ {
+  "task": "retention",
+  "protocol": "composition",
+  "model": "ResNet-MLP (torch)",
+  "features": "all",
+  "n_test": 6891,
+  "rmse": 0.30903191516678286,
+  "r2": -0.06981433332561138,
+  "rmse_ci": [
+   0.3032621169880127,
+   0.3158881188800877
+  ],
+  "r2_ci": [
+   -0.11108817938086167,
+   -0.03849309280218029
+  ]
+ },
+ {
+  "task": "retention",
+  "protocol": "composition",
+  "model": "Stacking (RF+XGB+LGBM+Ridge)",
+  "features": "all",
+  "n_test": 6891,
+  "rmse": 0.2828510933257965,
+  "r2": 0.10377414394426365,
+  "rmse_ci": [
+   0.2762300156323073,
+   0.2890768031690297
+  ],
+  "r2_ci": [
+   0.08546833785831799,
+   0.12104807846848627
+  ]
+ },
+ {
+  "task": "retained80",
+  "protocol": "composition",
+  "model": "ExtraTrees",
+  "features": "all",
+  "n_test": 6891,
+  "auc": 0.6285075607941772,
+  "auc_ci": [
+   0.6102330020525876,
+   0.6398971639122253
+  ]
+ },
+ {
+  "task": "retained80",
+  "protocol": "composition",
+  "model": "HistGradientBoosting",
+  "features": "all",
+  "n_test": 6891,
+  "auc": 0.6252566816526629,
+  "auc_ci": [
+   0.6106647674507273,
+   0.6376883262226456
+  ]
+ },
+ {
+  "task": "retained80",
+  "protocol": "composition",
+  "model": "GradientBoosting",
+  "features": "all",
+  "n_test": 6891,
+  "auc": 0.627859814489035,
+  "auc_ci": [
+   0.611959912430952,
+   0.6419033248496224
+  ]
+ },
+ {
+  "task": "retained80",
+  "protocol": "composition",
+  "model": "CatBoost",
+  "features": "all",
+  "n_test": 6891,
+  "auc": 0.6369486775042521,
+  "auc_ci": [
+   0.6216082973524026,
+   0.6512612357493944
+  ]
+ },
+ {
+  "task": "retained80",
+  "protocol": "composition",
+  "model": "AdaBoost",
+  "features": "all",
+  "n_test": 6891,
+  "auc": 0.6512053387421718,
+  "auc_ci": [
+   0.6370669538147289,
+   0.667708697106163
+  ]
+ },
+ {
+  "task": "retained80",
+  "protocol": "composition",
+  "model": "Bagging",
+  "features": "all",
+  "n_test": 6891,
+  "auc": 0.6281172764572963,
+  "auc_ci": [
+   0.6124141124374636,
+   0.6407938063451109
+  ]
+ },
+ {
+  "task": "retained80",
+  "protocol": "composition",
+  "model": "DecisionTree",
+  "features": "all",
+  "n_test": 6891,
+  "auc": 0.5848094654897202,
+  "auc_ci": [
+   0.5693336509935617,
+   0.5996247625076315
+  ]
+ },
+ {
+  "task": "retained80",
+  "protocol": "composition",
+  "model": "kNN",
+  "features": "all",
+  "n_test": 6891,
+  "auc": 0.5751243569988573,
+  "auc_ci": [
+   0.5579061156564561,
+   0.5902969395340768
+  ]
+ },
+ {
+  "task": "retained80",
+  "protocol": "composition",
+  "model": "SVM-RBF",
+  "features": "all",
+  "n_test": 6891,
+  "auc": 0.636342983882982,
+  "auc_ci": [
+   0.6202681039664691,
+   0.6499840581511435
+  ]
+ },
+ {
+  "task": "retained80",
+  "protocol": "composition",
+  "model": "GaussianNB",
+  "features": "all",
+  "n_test": 6891,
+  "auc": 0.575246170590656,
+  "auc_ci": [
+   0.5592465717078523,
+   0.5909840854491065
+  ]
+ },
+ {
+  "task": "retained80",
+  "protocol": "composition",
+  "model": "ResNet-MLP (torch)",
+  "features": "all",
+  "n_test": 6891,
+  "auc": 0.5842453184016639,
+  "auc_ci": [
+   0.5683299167174349,
+   0.5991607758148584
+  ]
+ },
+ {
+  "task": "retained80",
+  "protocol": "composition",
+  "model": "Stacking (RF+XGB+LGBM+Logistic)",
+  "features": "all",
+  "n_test": 6891,
+  "auc": 0.6553715491702587,
+  "auc_ci": [
+   0.6401721402415285,
+   0.6683762588543414
+  ]
+ },
+ {
+  "task": "time_to_80",
+  "protocol": "composition",
+  "model": "LogNormal-AFT (ridge)",
+  "features": "all",
+  "n_test": 6891,
+  "cindex": 0.6975297110316119,
+  "cindex_ci": [
+   0.6785598816045069,
+   0.7132246600215681
+  ],
+  "cindex_matched": 0.6142103127822772,
+  "cindex_matched_ci": [
+   0.5892007024380191,
+   0.6368351293960133
+  ]
+ },
+ {
+  "task": "time_to_80",
+  "protocol": "composition",
+  "model": "XGBoost-AFT (normal)",
+  "features": "all",
+  "n_test": 6891,
+  "cindex": 0.7194911217179313,
+  "cindex_ci": [
+   0.7007035494837688,
+   0.7332350347318521
+  ],
+  "cindex_matched": 0.5983319809544223,
+  "cindex_matched_ci": [
+   0.5705456636466867,
+   0.6169976560499191
+  ]
+ },
+ {
+  "task": "time_to_80",
+  "protocol": "composition",
+  "model": "XGBoost-AFT (logistic)",
+  "features": "all",
+  "n_test": 6891,
+  "cindex": 0.7013936240764438,
+  "cindex_ci": [
+   0.6808845648792172,
+   0.7169232133781197
+  ],
+  "cindex_matched": 0.5869394644579512,
+  "cindex_matched_ci": [
+   0.5590862737778731,
+   0.6096124295543911
+  ]
+ },
+ {
+  "task": "time_to_80",
+  "protocol": "composition",
+  "model": "Neural Weibull-AFT (MLP)",
+  "features": "all",
+  "n_test": 6891,
+  "cindex": 0.6682312245272856,
+  "cindex_ci": [
+   0.6481744622538603,
+   0.6874320071778994
+  ],
+  "cindex_matched": 0.6128592097003843,
+  "cindex_matched_ci": [
+   0.5904686573543971,
+   0.6335344895037415
+  ]
+ },
+ {
+  "task": "time_to_80",
+  "protocol": "composition",
+  "model": "Neural LogNormal-AFT (MLP)",
+  "features": "all",
+  "n_test": 6891,
+  "cindex": 0.6802339519953172,
+  "cindex_ci": [
+   0.6594148159057815,
+   0.6977257745331222
+  ],
+  "cindex_matched": 0.6102182433363443,
+  "cindex_matched_ci": [
+   0.5905808519035718,
+   0.6258720386993657
+  ]
+ },
+ {
+  "task": "time_to_80",
+  "protocol": "composition",
+  "model": "Cox-PH (ridge, interval~event at upper bound)",
+  "features": "all",
+  "n_test": 6891,
+  "cindex": 0.7009982034828147,
+  "cindex_ci": [
+   0.6824006127543804,
+   0.717009484540244
+  ],
+  "cindex_matched": 0.6046454215594715,
+  "cindex_matched_ci": [
+   0.5774725775150682,
+   0.630909120944709
+  ]
+ },
+ {
+  "task": "retention",
+  "protocol": "family",
+  "model": "ExtraTrees",
+  "features": "all",
+  "n_test": 6891,
+  "rmse": 0.2915361013648972,
+  "r2": 0.047891529067330074,
+  "rmse_ci": [
+   0.28543037707288554,
+   0.2989456867908013
+  ],
+  "r2_ci": [
+   0.02280949187914113,
+   0.07044257231594735
+  ]
+ },
+ {
+  "task": "retention",
+  "protocol": "family",
+  "model": "HistGradientBoosting",
+  "features": "all",
+  "n_test": 6891,
+  "rmse": 0.2934440508357301,
+  "r2": 0.035388658203640344,
+  "rmse_ci": [
+   0.2865396752811704,
+   0.30027137563491435
+  ],
+  "r2_ci": [
+   0.008323603657410665,
+   0.06423464122848506
+  ]
+ },
+ {
+  "task": "retention",
+  "protocol": "family",
+  "model": "GradientBoosting",
+  "features": "all",
+  "n_test": 6891,
+  "rmse": 0.2907074681448932,
+  "r2": 0.05329619414792841,
+  "rmse_ci": [
+   0.2853890002788808,
+   0.2962633134997636
+  ],
+  "r2_ci": [
+   0.02988349978137337,
+   0.07676957068405983
+  ]
+ },
+ {
+  "task": "retention",
+  "protocol": "family",
+  "model": "CatBoost",
+  "features": "all",
+  "n_test": 6891,
+  "rmse": 0.2898884352146983,
+  "r2": 0.05862312520625301,
+  "rmse_ci": [
+   0.28438471994743864,
+   0.2964931518296662
+  ],
+  "r2_ci": [
+   0.035929571145035345,
+   0.08065683944227976
+  ]
+ },
+ {
+  "task": "retention",
+  "protocol": "family",
+  "model": "AdaBoost",
+  "features": "all",
+  "n_test": 6891,
+  "rmse": 0.2904793414619731,
+  "r2": 0.054781423694618026,
+  "rmse_ci": [
+   0.2862206231636854,
+   0.29531282216076643
+  ],
+  "r2_ci": [
+   0.03834648337119606,
+   0.07010234619101088
+  ]
+ },
+ {
+  "task": "retention",
+  "protocol": "family",
+  "model": "Bagging",
+  "features": "all",
+  "n_test": 6891,
+  "rmse": 0.28724162951444826,
+  "r2": 0.07573499652361859,
+  "rmse_ci": [
+   0.28179971116016816,
+   0.29342249585511576
+  ],
+  "r2_ci": [
+   0.059351715181758115,
+   0.08801426172635923
+  ]
+ },
+ {
+  "task": "retention",
+  "protocol": "family",
+  "model": "DecisionTree",
+  "features": "all",
+  "n_test": 6891,
+  "rmse": 0.3162428785979147,
+  "r2": -0.12032300652966188,
+  "rmse_ci": [
+   0.30965924485916285,
+   0.3228326564539266
+  ],
+  "r2_ci": [
+   -0.15615803591076133,
+   -0.08437772302224998
+  ]
+ },
+ {
+  "task": "retention",
+  "protocol": "family",
+  "model": "kNN",
+  "features": "all",
+  "n_test": 6891,
+  "rmse": 0.3076456029907173,
+  "r2": -0.06023752271139715,
+  "rmse_ci": [
+   0.30172927430313523,
+   0.3151998655403455
+  ],
+  "r2_ci": [
+   -0.08931422030698055,
+   -0.034872179216527
+  ]
+ },
+ {
+  "task": "retention",
+  "protocol": "family",
+  "model": "SVR-RBF",
+  "features": "all",
+  "n_test": 6891,
+  "rmse": 0.3037985182856871,
+  "r2": -0.033886937298764686,
+  "rmse_ci": [
+   0.29691690258709286,
+   0.31104291812994683
+  ],
+  "r2_ci": [
+   -0.06556816584798664,
+   -0.00041442884705814216
+  ]
+ },
+ {
+  "task": "retention",
+  "protocol": "family",
+  "model": "BayesianRidge",
+  "features": "all",
+  "n_test": 6891,
+  "rmse": 0.28719036967207806,
+  "r2": 0.07606484739560693,
+  "rmse_ci": [
+   0.2808951328710503,
+   0.2932906272490167
+  ],
+  "r2_ci": [
+   0.05487056699357146,
+   0.09615750861799938
+  ]
+ },
+ {
+  "task": "retention",
+  "protocol": "family",
+  "model": "KernelRidge-Nystroem",
+  "features": "all",
+  "n_test": 6891,
+  "rmse": 0.28948740532514067,
+  "r2": 0.06122591364959462,
+  "rmse_ci": [
+   0.2825384651872762,
+   0.2960527625338896
+  ],
+  "r2_ci": [
+   0.0391231610168619,
+   0.08576765846573997
+  ]
+ },
+ {
+  "task": "retention",
+  "protocol": "family",
+  "model": "ResNet-MLP (torch)",
+  "features": "all",
+  "n_test": 6891,
+  "rmse": 0.3145330108768911,
+  "r2": -0.10824099226981443,
+  "rmse_ci": [
+   0.3063669190532083,
+   0.3219488439327465
+  ],
+  "r2_ci": [
+   -0.15590241703318938,
+   -0.06622162942423214
+  ]
+ },
+ {
+  "task": "retention",
+  "protocol": "family",
+  "model": "Stacking (RF+XGB+LGBM+Ridge)",
+  "features": "all",
+  "n_test": 6891,
+  "rmse": 0.28338065105781596,
+  "r2": 0.10041514960142517,
+  "rmse_ci": [
+   0.27747700530616465,
+   0.28936854454240024
+  ],
+  "r2_ci": [
+   0.08216889226840905,
+   0.1185664113099362
+  ]
+ },
+ {
+  "task": "retained80",
+  "protocol": "family",
+  "model": "ExtraTrees",
+  "features": "all",
+  "n_test": 6891,
+  "auc": 0.6298907018268158,
+  "auc_ci": [
+   0.6141676137328499,
+   0.6438860011446838
+  ]
+ },
+ {
+  "task": "retained80",
+  "protocol": "family",
+  "model": "HistGradientBoosting",
+  "features": "all",
+  "n_test": 6891,
+  "auc": 0.6423390554790048,
+  "auc_ci": [
+   0.6295557387642476,
+   0.6542889702583874
+  ]
+ },
+ {
+  "task": "retained80",
+  "protocol": "family",
+  "model": "GradientBoosting",
+  "features": "all",
+  "n_test": 6891,
+  "auc": 0.6391391710163286,
+  "auc_ci": [
+   0.6253373084712297,
+   0.6540994537153207
+  ]
+ },
+ {
+  "task": "retained80",
+  "protocol": "family",
+  "model": "CatBoost",
+  "features": "all",
+  "n_test": 6891,
+  "auc": 0.648753460594231,
+  "auc_ci": [
+   0.6366723853544665,
+   0.6622456539903968
+  ]
+ },
+ {
+  "task": "retained80",
+  "protocol": "family",
+  "model": "AdaBoost",
+  "features": "all",
+  "n_test": 6891,
+  "auc": 0.6474846674311792,
+  "auc_ci": [
+   0.633344716495158,
+   0.6619857183962048
+  ]
+ },
+ {
+  "task": "retained80",
+  "protocol": "family",
+  "model": "Bagging",
+  "features": "all",
+  "n_test": 6891,
+  "auc": 0.6362667238504434,
+  "auc_ci": [
+   0.6214675138548407,
+   0.648306569634953
+  ]
+ },
+ {
+  "task": "retained80",
+  "protocol": "family",
+  "model": "DecisionTree",
+  "features": "all",
+  "n_test": 6891,
+  "auc": 0.5993993003985599,
+  "auc_ci": [
+   0.5821267500189441,
+   0.6141268696460636
+  ]
+ },
+ {
+  "task": "retained80",
+  "protocol": "family",
+  "model": "kNN",
+  "features": "all",
+  "n_test": 6891,
+  "auc": 0.5585510441972442,
+  "auc_ci": [
+   0.5388332050460701,
+   0.5735628807058929
+  ]
+ },
+ {
+  "task": "retained80",
+  "protocol": "family",
+  "model": "SVM-RBF",
+  "features": "all",
+  "n_test": 6891,
+  "auc": 0.6308330699943935,
+  "auc_ci": [
+   0.615839065914716,
+   0.6436171216980641
+  ]
+ },
+ {
+  "task": "retained80",
+  "protocol": "family",
+  "model": "GaussianNB",
+  "features": "all",
+  "n_test": 6891,
+  "auc": 0.5752078718575003,
+  "auc_ci": [
+   0.5585428240209827,
+   0.5890288860519884
+  ]
+ },
+ {
+  "task": "retained80",
+  "protocol": "family",
+  "model": "ResNet-MLP (torch)",
+  "features": "all",
+  "n_test": 6891,
+  "auc": 0.6327840277073619,
+  "auc_ci": [
+   0.6191065650576494,
+   0.6480835287481137
+  ]
+ },
+ {
+  "task": "retained80",
+  "protocol": "family",
+  "model": "Stacking (RF+XGB+LGBM+Logistic)",
+  "features": "all",
+  "n_test": 6891,
+  "auc": 0.6547095884674585,
+  "auc_ci": [
+   0.6395249575380053,
+   0.6688571516175665
+  ]
+ },
+ {
+  "task": "time_to_80",
+  "protocol": "family",
+  "model": "LogNormal-AFT (ridge)",
+  "features": "all",
+  "n_test": 6891,
+  "cindex": 0.6849478061993713,
+  "cindex_ci": [
+   0.6486995274234931,
+   0.7223035340813978
+  ],
+  "cindex_matched": 0.6046797932211964,
+  "cindex_matched_ci": [
+   0.5345955131162534,
+   0.6615048919907265
+  ]
+ },
+ {
+  "task": "time_to_80",
+  "protocol": "family",
+  "model": "XGBoost-AFT (normal)",
+  "features": "all",
+  "n_test": 6891,
+  "cindex": 0.6754497482942785,
+  "cindex_ci": [
+   0.625408487648402,
+   0.7112926100903808
+  ],
+  "cindex_matched": 0.5627153945870748,
+  "cindex_matched_ci": [
+   0.4897769654586557,
+   0.6024151531879955
+  ]
+ },
+ {
+  "task": "time_to_80",
+  "protocol": "family",
+  "model": "XGBoost-AFT (logistic)",
+  "features": "all",
+  "n_test": 6891,
+  "cindex": 0.6720319167965656,
+  "cindex_ci": [
+   0.6168438608056547,
+   0.720760770193577
+  ],
+  "cindex_matched": 0.5839367016567598,
+  "cindex_matched_ci": [
+   0.5239439999743579,
+   0.6330808033617314
+  ]
+ },
+ {
+  "task": "time_to_80",
+  "protocol": "family",
+  "model": "Neural Weibull-AFT (MLP)",
+  "features": "all",
+  "n_test": 6891,
+  "cindex": 0.6586209209618481,
+  "cindex_ci": [
+   0.6170668817632153,
+   0.699565141380734
+  ],
+  "cindex_matched": 0.6150108290122676,
+  "cindex_matched_ci": [
+   0.5518270101058314,
+   0.6676902544460233
+  ]
+ },
+ {
+  "task": "time_to_80",
+  "protocol": "family",
+  "model": "Neural LogNormal-AFT (MLP)",
+  "features": "all",
+  "n_test": 6891,
+  "cindex": 0.6459461963049089,
+  "cindex_ci": [
+   0.5979014623224661,
+   0.696978057654336
+  ],
+  "cindex_matched": 0.5750343840900468,
+  "cindex_matched_ci": [
+   0.5056681083037793,
+   0.6440525332558393
+  ]
+ },
+ {
+  "task": "time_to_80",
+  "protocol": "family",
+  "model": "Cox-PH (ridge, interval~event at upper bound)",
+  "features": "all",
+  "n_test": 6891,
+  "cindex": 0.6788947307898704,
+  "cindex_ci": [
+   0.6250781677359741,
+   0.725919748538036
+  ],
+  "cindex_matched": 0.5982021468319211,
+  "cindex_matched_ci": [
+   0.5193067001635984,
+   0.6673959879101913
+  ]
+ },
+ {
+  "task": "retention",
+  "protocol": "temporal",
+  "model": "ExtraTrees",
+  "features": "all",
+  "n_test": 2656,
+  "rmse": 0.2656805374406627,
+  "r2": 0.09322456614530328,
+  "rmse_ci": [
+   0.2545178905408722,
+   0.27548821656154154
+  ],
+  "r2_ci": [
+   0.057439838825772804,
+   0.12926546952062656
+  ]
+ },
+ {
+  "task": "retention",
+  "protocol": "temporal",
+  "model": "HistGradientBoosting",
+  "features": "all",
+  "n_test": 2656,
+  "rmse": 0.2696001507995958,
+  "r2": 0.06627169295456092,
+  "rmse_ci": [
+   0.25867850125463765,
+   0.2789759732567043
+  ],
+  "r2_ci": [
+   0.011644147227602078,
+   0.12194398902699789
+  ]
+ },
+ {
+  "task": "retention",
+  "protocol": "temporal",
+  "model": "GradientBoosting",
+  "features": "all",
+  "n_test": 2656,
+  "rmse": 0.2638412413522221,
+  "r2": 0.10573624930022163,
+  "rmse_ci": [
+   0.25369782517120054,
+   0.2730917197969082
+  ],
+  "r2_ci": [
+   0.06406048933688488,
+   0.14324097793288487
+  ]
+ },
+ {
+  "task": "retention",
+  "protocol": "temporal",
+  "model": "CatBoost",
+  "features": "all",
+  "n_test": 2656,
+  "rmse": 0.2630405023753777,
+  "r2": 0.1111560633074904,
+  "rmse_ci": [
+   0.2531182987458838,
+   0.2729891449015869
+  ],
+  "r2_ci": [
+   0.06798114350978754,
+   0.1566627579661717
+  ]
+ },
+ {
+  "task": "retention",
+  "protocol": "temporal",
+  "model": "AdaBoost",
+  "features": "all",
+  "n_test": 2656,
+  "rmse": 0.2803405066142202,
+  "r2": -0.009606112433512504,
+  "rmse_ci": [
+   0.27184327005156805,
+   0.28809401010205976
+  ],
+  "r2_ci": [
+   -0.052503406358696596,
+   0.029952547939572974
+  ]
+ },
+ {
+  "task": "retention",
+  "protocol": "temporal",
+  "model": "Bagging",
+  "features": "all",
+  "n_test": 2656,
+  "rmse": 0.26642927993396304,
+  "r2": 0.08810640428075778,
+  "rmse_ci": [
+   0.2556478701954753,
+   0.27529027225072933
+  ],
+  "r2_ci": [
+   0.059264064434436166,
+   0.1177776191501298
+  ]
+ },
+ {
+  "task": "retention",
+  "protocol": "temporal",
+  "model": "DecisionTree",
+  "features": "all",
+  "n_test": 2656,
+  "rmse": 0.2857178181990196,
+  "r2": -0.048708803562416136,
+  "rmse_ci": [
+   0.27481889097226014,
+   0.2962294162190484
+  ],
+  "r2_ci": [
+   -0.10699351379187468,
+   0.014597257698166225
+  ]
+ },
+ {
+  "task": "retention",
+  "protocol": "temporal",
+  "model": "kNN",
+  "features": "all",
+  "n_test": 2656,
+  "rmse": 0.27805470481003636,
+  "r2": 0.006790741203023809,
+  "rmse_ci": [
+   0.2673771049566082,
+   0.2897317204450843
+  ],
+  "r2_ci": [
+   -0.041078085281753135,
+   0.045182436931584545
+  ]
+ },
+ {
+  "task": "retention",
+  "protocol": "temporal",
+  "model": "SVR-RBF",
+  "features": "all",
+  "n_test": 2656,
+  "rmse": 0.2788774902439396,
+  "r2": 0.0009040780889723044,
+  "rmse_ci": [
+   0.26678641038860873,
+   0.2909654273785133
+  ],
+  "r2_ci": [
+   -0.04494989267221868,
+   0.047466412442517064
+  ]
+ },
+ {
+  "task": "retention",
+  "protocol": "temporal",
+  "model": "BayesianRidge",
+  "features": "all",
+  "n_test": 2656,
+  "rmse": 0.26389919291617514,
+  "r2": 0.10534336398685307,
+  "rmse_ci": [
+   0.2528029391635686,
+   0.27359159329979815
+  ],
+  "r2_ci": [
+   0.06424293065324453,
+   0.1383139205066208
+  ]
+ },
+ {
+  "task": "retention",
+  "protocol": "temporal",
+  "model": "KernelRidge-Nystroem",
+  "features": "all",
+  "n_test": 2656,
+  "rmse": 0.2658328589120961,
+  "r2": 0.0921845128245884,
+  "rmse_ci": [
+   0.2540556342412853,
+   0.2766046909138684
+  ],
+  "r2_ci": [
+   0.05647411491430358,
+   0.13041450161405838
+  ]
+ },
+ {
+  "task": "retention",
+  "protocol": "temporal",
+  "model": "ResNet-MLP (torch)",
+  "features": "all",
+  "n_test": 2656,
+  "rmse": 0.27546987553954266,
+  "r2": 0.02517089063405953,
+  "rmse_ci": [
+   0.26526952630826883,
+   0.2846237484946192
+  ],
+  "r2_ci": [
+   -0.0235795186796616,
+   0.06819135424039756
+  ]
+ },
+ {
+  "task": "retention",
+  "protocol": "temporal",
+  "model": "Stacking (RF+XGB+LGBM+Ridge)",
+  "features": "all",
+  "n_test": 2656,
+  "rmse": 0.2609506257259946,
+  "r2": 0.12522382008221178,
+  "rmse_ci": [
+   0.2502218355435242,
+   0.26956261909186024
+  ],
+  "r2_ci": [
+   0.09513106545323934,
+   0.15599968236138678
+  ]
+ },
+ {
+  "task": "retained80",
+  "protocol": "temporal",
+  "model": "ExtraTrees",
+  "features": "all",
+  "n_test": 2656,
+  "auc": 0.6501286657548353,
+  "auc_ci": [
+   0.6251815380282064,
+   0.6745647993760743
+  ]
+ },
+ {
+  "task": "retained80",
+  "protocol": "temporal",
+  "model": "HistGradientBoosting",
+  "features": "all",
+  "n_test": 2656,
+  "auc": 0.6582974384797367,
+  "auc_ci": [
+   0.63445576800401,
+   0.6828280597816234
+  ]
+ },
+ {
+  "task": "retained80",
+  "protocol": "temporal",
+  "model": "GradientBoosting",
+  "features": "all",
+  "n_test": 2656,
+  "auc": 0.6708685760687366,
+  "auc_ci": [
+   0.6477017339619421,
+   0.6922988286568571
+  ]
+ },
+ {
+  "task": "retained80",
+  "protocol": "temporal",
+  "model": "CatBoost",
+  "features": "all",
+  "n_test": 2656,
+  "auc": 0.6690222309927394,
+  "auc_ci": [
+   0.6432194401640494,
+   0.693262999922167
+  ]
+ },
+ {
+  "task": "retained80",
+  "protocol": "temporal",
+  "model": "AdaBoost",
+  "features": "all",
+  "n_test": 2656,
+  "auc": 0.662318172435928,
+  "auc_ci": [
+   0.6415357808053637,
+   0.6866346169893245
+  ]
+ },
+ {
+  "task": "retained80",
+  "protocol": "temporal",
+  "model": "Bagging",
+  "features": "all",
+  "n_test": 2656,
+  "auc": 0.6497064901070835,
+  "auc_ci": [
+   0.6231419106450715,
+   0.670380895887076
+  ]
+ },
+ {
+  "task": "retained80",
+  "protocol": "temporal",
+  "model": "DecisionTree",
+  "features": "all",
+  "n_test": 2656,
+  "auc": 0.6176520456097134,
+  "auc_ci": [
+   0.5917781275170164,
+   0.6442291904306146
+  ]
+ },
+ {
+  "task": "retained80",
+  "protocol": "temporal",
+  "model": "kNN",
+  "features": "all",
+  "n_test": 2656,
+  "auc": 0.5999768072746903,
+  "auc_ci": [
+   0.57245561105538,
+   0.6222954868711562
+  ]
+ },
+ {
+  "task": "retained80",
+  "protocol": "temporal",
+  "model": "SVM-RBF",
+  "features": "all",
+  "n_test": 2656,
+  "auc": 0.6515862916816937,
+  "auc_ci": [
+   0.6272267842357102,
+   0.678180742435428
+  ]
+ },
+ {
+  "task": "retained80",
+  "protocol": "temporal",
+  "model": "GaussianNB",
+  "features": "all",
+  "n_test": 2656,
+  "auc": 0.5950122031161043,
+  "auc_ci": [
+   0.5720201187772849,
+   0.6191699704297975
+  ]
+ },
+ {
+  "task": "retained80",
+  "protocol": "temporal",
+  "model": "ResNet-MLP (torch)",
+  "features": "all",
+  "n_test": 2656,
+  "auc": 0.6200594958616013,
+  "auc_ci": [
+   0.5946928512640166,
+   0.641794392699921
+  ]
+ },
+ {
+  "task": "retained80",
+  "protocol": "temporal",
+  "model": "Stacking (RF+XGB+LGBM+Logistic)",
+  "features": "all",
+  "n_test": 2656,
+  "auc": 0.6755904788475541,
+  "auc_ci": [
+   0.6515575927677254,
+   0.7017615387676449
+  ]
+ },
+ {
+  "task": "time_to_80",
+  "protocol": "temporal",
+  "model": "LogNormal-AFT (ridge)",
+  "features": "all",
+  "n_test": 2656,
+  "cindex": 0.6922892089230626,
+  "cindex_ci": [
+   0.6674876334357482,
+   0.7152902373471364
+  ],
+  "cindex_matched": 0.5954370235997977,
+  "cindex_matched_ci": [
+   0.5710258179823351,
+   0.622854136197287
+  ]
+ },
+ {
+  "task": "time_to_80",
+  "protocol": "temporal",
+  "model": "XGBoost-AFT (normal)",
+  "features": "all",
+  "n_test": 2656,
+  "cindex": 0.714953415908351,
+  "cindex_ci": [
+   0.6921133737349987,
+   0.730658557522288
+  ],
+  "cindex_matched": 0.5932915874483264,
+  "cindex_matched_ci": [
+   0.5714431105799438,
+   0.6121753072916566
+  ]
+ },
+ {
+  "task": "time_to_80",
+  "protocol": "temporal",
+  "model": "XGBoost-AFT (logistic)",
+  "features": "all",
+  "n_test": 2656,
+  "cindex": 0.7008464197683972,
+  "cindex_ci": [
+   0.6732354589145366,
+   0.7219863336734073
+  ],
+  "cindex_matched": 0.6015593657881425,
+  "cindex_matched_ci": [
+   0.5799870957162842,
+   0.6258017587912931
+  ]
+ },
+ {
+  "task": "time_to_80",
+  "protocol": "temporal",
+  "model": "Neural Weibull-AFT (MLP)",
+  "features": "all",
+  "n_test": 2656,
+  "cindex": 0.6622924643837103,
+  "cindex_ci": [
+   0.637836103831271,
+   0.6814659220283086
+  ],
+  "cindex_matched": 0.5917043135476444,
+  "cindex_matched_ci": [
+   0.5668313053578875,
+   0.6144778180555845
+  ]
+ },
+ {
+  "task": "time_to_80",
+  "protocol": "temporal",
+  "model": "Neural LogNormal-AFT (MLP)",
+  "features": "all",
+  "n_test": 2656,
+  "cindex": 0.6580448633481638,
+  "cindex_ci": [
+   0.6303346287370029,
+   0.6818265753277805
+  ],
+  "cindex_matched": 0.5876576372294221,
+  "cindex_matched_ci": [
+   0.5598869746475731,
+   0.6139233423660619
+  ]
+ },
+ {
+  "task": "time_to_80",
+  "protocol": "temporal",
+  "model": "Cox-PH (ridge, interval~event at upper bound)",
+  "features": "all",
+  "n_test": 2656,
+  "cindex": 0.6931573317624444,
+  "cindex_ci": [
+   0.6683688519093238,
+   0.7163205858512076
+  ],
+  "cindex_matched": 0.5919310669620276,
+  "cindex_matched_ci": [
+   0.5648189760464666,
+   0.6166474236422236
+  ]
+ },
+ {
+  "task": "retention",
+  "protocol": "protocol",
+  "model": "ExtraTrees",
+  "features": "all",
+  "n_test": 6433,
+  "rmse": 0.2908691872404415,
+  "r2": 0.041327803223940585,
+  "rmse_ci": [
+   0.2854688432545811,
+   0.2961910310418606
+  ],
+  "r2_ci": [
+   0.013515855070327671,
+   0.06509211303772146
+  ]
+ },
+ {
+  "task": "retention",
+  "protocol": "protocol",
+  "model": "HistGradientBoosting",
+  "features": "all",
+  "n_test": 6433,
+  "rmse": 0.28772057669999246,
+  "r2": 0.06197040281409971,
+  "rmse_ci": [
+   0.28257719364435235,
+   0.2943183898896301
+  ],
+  "r2_ci": [
+   0.03595933741754689,
+   0.08365162751620348
+  ]
+ },
+ {
+  "task": "retention",
+  "protocol": "protocol",
+  "model": "GradientBoosting",
+  "features": "all",
+  "n_test": 6433,
+  "rmse": 0.28356124319372433,
+  "r2": 0.088894977124932,
+  "rmse_ci": [
+   0.27807347782100994,
+   0.2895641555550575
+  ],
+  "r2_ci": [
+   0.06797066179782472,
+   0.1060170117923864
+  ]
+ },
+ {
+  "task": "retention",
+  "protocol": "protocol",
+  "model": "CatBoost",
+  "features": "all",
+  "n_test": 6433,
+  "rmse": 0.2836282408877653,
+  "r2": 0.0884643883312286,
+  "rmse_ci": [
+   0.2788582878838164,
+   0.2900445545928357
+  ],
+  "r2_ci": [
+   0.06783219407644482,
+   0.10996197055769158
+  ]
+ },
+ {
+  "task": "retention",
+  "protocol": "protocol",
+  "model": "AdaBoost",
+  "features": "all",
+  "n_test": 6433,
+  "rmse": 0.3022114061318647,
+  "r2": -0.03489526652609887,
+  "rmse_ci": [
+   0.2984791457885034,
+   0.3066022124798406
+  ],
+  "r2_ci": [
+   -0.0627862951802445,
+   -0.010966092453730161
+  ]
+ },
+ {
+  "task": "retention",
+  "protocol": "protocol",
+  "model": "Bagging",
+  "features": "all",
+  "n_test": 6433,
+  "rmse": 0.28563043702428176,
+  "r2": 0.07554949045765436,
+  "rmse_ci": [
+   0.28070780539180373,
+   0.29126659705357805
+  ],
+  "r2_ci": [
+   0.05577395363934773,
+   0.09594323779797657
+  ]
+ },
+ {
+  "task": "retention",
+  "protocol": "protocol",
+  "model": "DecisionTree",
+  "features": "all",
+  "n_test": 6433,
+  "rmse": 0.30464195288072,
+  "r2": -0.05160857528195484,
+  "rmse_ci": [
+   0.2988678479584251,
+   0.3129971884832239
+  ],
+  "r2_ci": [
+   -0.08786192564939496,
+   -0.021257595083938898
+  ]
+ },
+ {
+  "task": "retention",
+  "protocol": "protocol",
+  "model": "kNN",
+  "features": "all",
+  "n_test": 6433,
+  "rmse": 0.3028920087829562,
+  "r2": -0.0395618381700511,
+  "rmse_ci": [
+   0.2964914315974708,
+   0.3091082321072426
+  ],
+  "r2_ci": [
+   -0.06522890475328641,
+   -0.014987656227642573
+  ]
+ },
+ {
+  "task": "retention",
+  "protocol": "protocol",
+  "model": "SVR-RBF",
+  "features": "all",
+  "n_test": 6433,
+  "rmse": 0.2997988440312311,
+  "r2": -0.018438023425558114,
+  "rmse_ci": [
+   0.29171813283874903,
+   0.30681168469991676
+  ],
+  "r2_ci": [
+   -0.043433938731824356,
+   0.009981459606735884
+  ]
+ },
+ {
+  "task": "retention",
+  "protocol": "protocol",
+  "model": "BayesianRidge",
+  "features": "all",
+  "n_test": 6433,
+  "rmse": 0.28762672763298813,
+  "r2": 0.062582238409151,
+  "rmse_ci": [
+   0.28159018638708877,
+   0.29368641862147404
+  ],
+  "r2_ci": [
+   0.044004482402989924,
+   0.07961410421554148
+  ]
+ },
+ {
+  "task": "retention",
+  "protocol": "protocol",
+  "model": "KernelRidge-Nystroem",
+  "features": "all",
+  "n_test": 6433,
+  "rmse": 0.2882446464275485,
+  "r2": 0.058550135637081224,
+  "rmse_ci": [
+   0.2824535813865033,
+   0.29459103274345466
+  ],
+  "r2_ci": [
+   0.03859901614644443,
+   0.08075311159584726
+  ]
+ },
+ {
+  "task": "retention",
+  "protocol": "protocol",
+  "model": "ResNet-MLP (torch)",
+  "features": "all",
+  "n_test": 6433,
+  "rmse": 0.29726557403151777,
+  "r2": -0.0012993435178856316,
+  "rmse_ci": [
+   0.2909091078582542,
+   0.3038939772290429
+  ],
+  "r2_ci": [
+   -0.024167880440843448,
+   0.02779140993819965
+  ]
+ },
+ {
+  "task": "retention",
+  "protocol": "protocol",
+  "model": "Stacking (RF+XGB+LGBM+Ridge)",
+  "features": "all",
+  "n_test": 6433,
+  "rmse": 0.283381784886087,
+  "r2": 0.09004784008013145,
+  "rmse_ci": [
+   0.27806916207802784,
+   0.28931864931590595
+  ],
+  "r2_ci": [
+   0.07269351227179326,
+   0.10586195259173316
+  ]
+ },
+ {
+  "task": "retained80",
+  "protocol": "protocol",
+  "model": "ExtraTrees",
+  "features": "all",
+  "n_test": 6433,
+  "auc": 0.6336796645413549,
+  "auc_ci": [
+   0.6169896505898095,
+   0.6482998449086662
+  ]
+ },
+ {
+  "task": "retained80",
+  "protocol": "protocol",
+  "model": "HistGradientBoosting",
+  "features": "all",
+  "n_test": 6433,
+  "auc": 0.6434067426398371,
+  "auc_ci": [
+   0.6281018732821614,
+   0.6563900662663411
+  ]
+ },
+ {
+  "task": "retained80",
+  "protocol": "protocol",
+  "model": "GradientBoosting",
+  "features": "all",
+  "n_test": 6433,
+  "auc": 0.652204919794455,
+  "auc_ci": [
+   0.6369591945668006,
+   0.6667997458579384
+  ]
+ },
+ {
+  "task": "retained80",
+  "protocol": "protocol",
+  "model": "CatBoost",
+  "features": "all",
+  "n_test": 6433,
+  "auc": 0.6451498283803879,
+  "auc_ci": [
+   0.6299577747909307,
+   0.6582642675507792
+  ]
+ },
+ {
+  "task": "retained80",
+  "protocol": "protocol",
+  "model": "AdaBoost",
+  "features": "all",
+  "n_test": 6433,
+  "auc": 0.6474127639801357,
+  "auc_ci": [
+   0.6324166941194602,
+   0.6610072069592403
+  ]
+ },
+ {
+  "task": "retained80",
+  "protocol": "protocol",
+  "model": "Bagging",
+  "features": "all",
+  "n_test": 6433,
+  "auc": 0.6353681488779581,
+  "auc_ci": [
+   0.6195750812431846,
+   0.6495843646827419
+  ]
+ },
+ {
+  "task": "retained80",
+  "protocol": "protocol",
+  "model": "DecisionTree",
+  "features": "all",
+  "n_test": 6433,
+  "auc": 0.5987331700482137,
+  "auc_ci": [
+   0.5829802550473833,
+   0.6149550864648734
+  ]
+ },
+ {
+  "task": "retained80",
+  "protocol": "protocol",
+  "model": "kNN",
+  "features": "all",
+  "n_test": 6433,
+  "auc": 0.5775025095366261,
+  "auc_ci": [
+   0.5620961548487795,
+   0.5934793638228866
+  ]
+ },
+ {
+  "task": "retained80",
+  "protocol": "protocol",
+  "model": "SVM-RBF",
+  "features": "all",
+  "n_test": 6433,
+  "auc": 0.6271396834492069,
+  "auc_ci": [
+   0.613258024157333,
+   0.6409948972380674
+  ]
+ },
+ {
+  "task": "retained80",
+  "protocol": "protocol",
+  "model": "GaussianNB",
+  "features": "all",
+  "n_test": 6433,
+  "auc": 0.5483258213279565,
+  "auc_ci": [
+   0.5340916044469152,
+   0.5659878489540499
+  ]
+ },
+ {
+  "task": "retained80",
+  "protocol": "protocol",
+  "model": "ResNet-MLP (torch)",
+  "features": "all",
+  "n_test": 6433,
+  "auc": 0.606825107785783,
+  "auc_ci": [
+   0.5901543872821242,
+   0.6217097326892119
+  ]
+ },
+ {
+  "task": "retained80",
+  "protocol": "protocol",
+  "model": "Stacking (RF+XGB+LGBM+Logistic)",
+  "features": "all",
+  "n_test": 6433,
+  "auc": 0.6495432343492257,
+  "auc_ci": [
+   0.6343846251730164,
+   0.66193235155939
+  ]
+ },
+ {
+  "task": "time_to_80",
+  "protocol": "protocol",
+  "model": "LogNormal-AFT (ridge)",
+  "features": "all",
+  "n_test": 6433,
+  "cindex": 0.6403588959144224,
+  "cindex_ci": [
+   0.6138694367129923,
+   0.6602891346803871
+  ],
+  "cindex_matched": 0.6062831898329553,
+  "cindex_matched_ci": [
+   0.5793782762527514,
+   0.6314880980666419
+  ]
+ },
+ {
+  "task": "time_to_80",
+  "protocol": "protocol",
+  "model": "XGBoost-AFT (normal)",
+  "features": "all",
+  "n_test": 6433,
+  "cindex": 0.6759289332655809,
+  "cindex_ci": [
+   0.649782747261633,
+   0.6970564998248201
+  ],
+  "cindex_matched": 0.6286315477418024,
+  "cindex_matched_ci": [
+   0.606666686256342,
+   0.6525357865679096
+  ]
+ },
+ {
+  "task": "time_to_80",
+  "protocol": "protocol",
+  "model": "XGBoost-AFT (logistic)",
+  "features": "all",
+  "n_test": 6433,
+  "cindex": 0.6585276414288782,
+  "cindex_ci": [
+   0.6308596780482796,
+   0.6818595652092115
+  ],
+  "cindex_matched": 0.6145548695607341,
+  "cindex_matched_ci": [
+   0.5861375556690033,
+   0.6384732262126767
+  ]
+ },
+ {
+  "task": "time_to_80",
+  "protocol": "protocol",
+  "model": "Neural Weibull-AFT (MLP)",
+  "features": "all",
+  "n_test": 6433,
+  "cindex": 0.641503528191481,
+  "cindex_ci": [
+   0.6141345183513598,
+   0.6645536624662837
+  ],
+  "cindex_matched": 0.6203743684264796,
+  "cindex_matched_ci": [
+   0.5955980855122747,
+   0.6500829956732217
+  ]
+ },
+ {
+  "task": "time_to_80",
+  "protocol": "protocol",
+  "model": "Neural LogNormal-AFT (MLP)",
+  "features": "all",
+  "n_test": 6433,
+  "cindex": 0.6484446621370311,
+  "cindex_ci": [
+   0.623777847605477,
+   0.6713071791029036
+  ],
+  "cindex_matched": 0.6124829217364405,
+  "cindex_matched_ci": [
+   0.5898253116539479,
+   0.642171517175164
+  ]
+ },
+ {
+  "task": "time_to_80",
+  "protocol": "protocol",
+  "model": "Cox-PH (ridge, interval~event at upper bound)",
+  "features": "all",
+  "n_test": 6433,
+  "cindex": 0.6495827461745184,
+  "cindex_ci": [
+   0.6213652676087618,
+   0.6752092803208823
+  ],
+  "cindex_matched": 0.604649476696226,
+  "cindex_matched_ci": [
+   0.575612069298796,
+   0.6319423701516589
+  ]
+ }
+]

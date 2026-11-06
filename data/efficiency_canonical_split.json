@@ -1,0 +1,20 @@
+[
+ {
+  "repeat": 0,
+  "n_test_family": 9927,
+  "n_test_random": 7956,
+  "gbm_family": 0.3375930527781399,
+  "gbm_random": 0.2641732556700124,
+  "xgb_family": 0.3386542879602621,
+  "xgb_random": 0.26354294512153065
+ },
+ {
+  "repeat": 1,
+  "n_test_family": 9927,
+  "n_test_random": 7956,
+  "gbm_family": 0.3375930527781399,
+  "gbm_random": 0.2641732556700124,
+  "xgb_family": 0.3386542879602621,
+  "xgb_random": 0.26354294512153065
+ }
+]

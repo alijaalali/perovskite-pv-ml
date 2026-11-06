@@ -1,0 +1,33 @@
+{
+ "family_sizes_top5": {
+  "lead_only|I": 28976,
+  "lead_only|Br-I": 8385,
+  "lead_only|Br": 772,
+  "lead_free|I": 685,
+  "lead_mixed|I": 537
+ },
+ "share_largest_family": 0.7284062342885872,
+ "largest_family": "lead_only|I",
+ "n_partitions": 40,
+ "largest_kept_in_training": {
+  "partitions": 40,
+  "mean_delta": -0.05623662223889445,
+  "ci": [
+   -0.13177781601481317,
+   0.007290107097746285
+  ],
+  "share_positive": 0.475,
+  "mean_test_frac": 0.22272121669180495,
+  "mean_dominant_share": 0.854019101359963
+ },
+ "range_dominant_share": [
+  0.33697075512876473,
+  0.9887971698113207
+ ],
+ "corr_delta_testfrac": 0.8190667651551552,
+ "overall_mean_delta": -0.05623662223889445,
+ "overall_ci_partition_bootstrap": [
+  -0.13083910748855448,
+  0.007223123989815459
+ ]
+}

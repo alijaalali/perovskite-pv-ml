@@ -1,0 +1,42 @@
+[
+  {
+    "config": {
+      "n_estimators": 200,
+      "max_depth": 3,
+      "learning_rate": 0.05,
+      "subsample": 0.8
+    },
+    "cv_r2_mean": 0.2531071169220726,
+    "cv_r2_std": 0.011180725475551817
+  },
+  {
+    "config": {
+      "n_estimators": 300,
+      "max_depth": 4,
+      "learning_rate": 0.05,
+      "subsample": 0.8
+    },
+    "cv_r2_mean": 0.26617458014968953,
+    "cv_r2_std": 0.011639502592694365
+  },
+  {
+    "config": {
+      "n_estimators": 300,
+      "max_depth": 3,
+      "learning_rate": 0.03,
+      "subsample": 0.8
+    },
+    "cv_r2_mean": 0.25196891180133696,
+    "cv_r2_std": 0.011504090282087294
+  },
+  {
+    "config": {
+      "n_estimators": 500,
+      "max_depth": 2,
+      "learning_rate": 0.05,
+      "subsample": 0.8
+    },
+    "cv_r2_mean": 0.25236149539826086,
+    "cv_r2_std": 0.011170734726451224
+  }
+]

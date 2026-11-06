@@ -1,0 +1,19 @@
+{
+ "placebo": {
+  "n_papers": 1001,
+  "mean_pp": 4.639470380328662,
+  "sd_pp": 27.758533489117863,
+  "share_positive": 0.5224775224775224,
+  "t": 5.28532731906669,
+  "p": 1.5404701866231535e-07
+ },
+ "sign_agreement": {
+  "agree": 6,
+  "n": 7,
+  "p_if_signs_random": 0.0625,
+  "share_positive_all_oriented_paper_effects": 0.7798165137614679,
+  "p_if_each_test_contrast_positive_with_that_share": 0.5219736621965503,
+  "all_training_positive": true,
+  "shrink_ratio_median": 0.7849409448818895
+ }
+}

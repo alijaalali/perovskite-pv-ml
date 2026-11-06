@@ -1,0 +1,830 @@
+{
+ "results": [
+  {
+   "protocol": "paper",
+   "model": "XGBoost",
+   "features": "base",
+   "tuned": true,
+   "r2": 0.12414556236301533,
+   "r2_ci": [
+    0.10823653711197409,
+    0.14043936956486713
+   ]
+  },
+  {
+   "protocol": "paper",
+   "model": "XGBoost",
+   "features": "+process+stack",
+   "tuned": true,
+   "r2": 0.1449071672310165,
+   "r2_ci": [
+    0.12945116477933954,
+    0.16591051663820264
+   ]
+  },
+  {
+   "protocol": "paper",
+   "model": "LightGBM",
+   "features": "base",
+   "tuned": true,
+   "r2": 0.12006373984605068,
+   "r2_ci": [
+    0.1047776466492386,
+    0.1369795579104861
+   ]
+  },
+  {
+   "protocol": "paper",
+   "model": "LightGBM",
+   "features": "+process+stack",
+   "tuned": true,
+   "r2": 0.15013535126539224,
+   "r2_ci": [
+    0.13117592098432745,
+    0.1750598532130599
+   ]
+  },
+  {
+   "protocol": "paper",
+   "model": "CatBoost",
+   "features": "base",
+   "tuned": true,
+   "r2": 0.12234757871892554,
+   "r2_ci": [
+    0.10802943742193143,
+    0.14196029835039478
+   ]
+  },
+  {
+   "protocol": "paper",
+   "model": "CatBoost",
+   "features": "+process+stack",
+   "tuned": true,
+   "r2": 0.1468988335914807,
+   "r2_ci": [
+    0.1306564452911547,
+    0.1679966339047159
+   ]
+  },
+  {
+   "protocol": "paper",
+   "model": "RandomForest",
+   "features": "base",
+   "tuned": true,
+   "r2": 0.11542813229461824,
+   "r2_ci": [
+    0.10099179203360302,
+    0.13231611209942348
+   ]
+  },
+  {
+   "protocol": "paper",
+   "model": "RandomForest",
+   "features": "+process+stack",
+   "tuned": true,
+   "r2": 0.14598371849313585,
+   "r2_ci": [
+    0.13004719461388872,
+    0.16730612941717252
+   ]
+  },
+  {
+   "protocol": "temporal",
+   "model": "XGBoost",
+   "features": "base",
+   "tuned": true,
+   "r2": 0.12254069750842456,
+   "r2_ci": [
+    0.09325379852076145,
+    0.15252715365651898
+   ]
+  },
+  {
+   "protocol": "temporal",
+   "model": "XGBoost",
+   "features": "+process+stack",
+   "tuned": true,
+   "r2": 0.15246492196371586,
+   "r2_ci": [
+    0.1166535324400051,
+    0.18869697782714046
+   ]
+  },
+  {
+   "protocol": "temporal",
+   "model": "LightGBM",
+   "features": "base",
+   "tuned": true,
+   "r2": 0.12307291803907261,
+   "r2_ci": [
+    0.08833249306553485,
+    0.15721351414189766
+   ]
+  },
+  {
+   "protocol": "temporal",
+   "model": "LightGBM",
+   "features": "+process+stack",
+   "tuned": true,
+   "r2": 0.15454266042248044,
+   "r2_ci": [
+    0.12031445728507598,
+    0.19028166752659093
+   ]
+  },
+  {
+   "protocol": "temporal",
+   "model": "CatBoost",
+   "features": "base",
+   "tuned": true,
+   "r2": 0.11383360389172004,
+   "r2_ci": [
+    0.08344938948774851,
+    0.14534400884345003
+   ]
+  },
+  {
+   "protocol": "temporal",
+   "model": "CatBoost",
+   "features": "+process+stack",
+   "tuned": true,
+   "r2": 0.1505233319299144,
+   "r2_ci": [
+    0.11850685835304872,
+    0.1867704252447316
+   ]
+  },
+  {
+   "protocol": "temporal",
+   "model": "RandomForest",
+   "features": "base",
+   "tuned": true,
+   "r2": 0.10318827436003708,
+   "r2_ci": [
+    0.06714040330942245,
+    0.13962851902194612
+   ]
+  },
+  {
+   "protocol": "temporal",
+   "model": "RandomForest",
+   "features": "+process+stack",
+   "tuned": true,
+   "r2": 0.13081806147922403,
+   "r2_ci": [
+    0.09818513951508412,
+    0.16527632290855182
+   ]
+  }
+ ],
+ "chosen": [
+  {
+   "protocol": "paper",
+   "model": "XGBoost",
+   "features": "base",
+   "fold": 0,
+   "params": {
+    "n_estimators": 500,
+    "max_depth": 3,
+    "learning_rate": 0.02,
+    "subsample": 0.6,
+    "colsample_bytree": 0.3,
+    "min_child_weight": 20,
+    "reg_lambda": 50.0
+   }
+  },
+  {
+   "protocol": "paper",
+   "model": "XGBoost",
+   "features": "base",
+   "fold": 1,
+   "params": {
+    "n_estimators": 500,
+    "max_depth": 3,
+    "learning_rate": 0.02,
+    "subsample": 0.6,
+    "colsample_bytree": 0.3,
+    "min_child_weight": 20,
+    "reg_lambda": 50.0
+   }
+  },
+  {
+   "protocol": "paper",
+   "model": "XGBoost",
+   "features": "base",
+   "fold": 2,
+   "params": {
+    "n_estimators": 500,
+    "max_depth": 3,
+    "learning_rate": 0.02,
+    "subsample": 0.6,
+    "colsample_bytree": 0.3,
+    "min_child_weight": 20,
+    "reg_lambda": 50.0
+   }
+  },
+  {
+   "protocol": "paper",
+   "model": "XGBoost",
+   "features": "base",
+   "fold": 3,
+   "params": {
+    "n_estimators": 500,
+    "max_depth": 3,
+    "learning_rate": 0.02,
+    "subsample": 0.6,
+    "colsample_bytree": 0.3,
+    "min_child_weight": 20,
+    "reg_lambda": 50.0
+   }
+  },
+  {
+   "protocol": "paper",
+   "model": "XGBoost",
+   "features": "base",
+   "fold": 4,
+   "params": {
+    "n_estimators": 500,
+    "max_depth": 3,
+    "learning_rate": 0.02,
+    "subsample": 0.6,
+    "colsample_bytree": 0.3,
+    "min_child_weight": 20,
+    "reg_lambda": 50.0
+   }
+  },
+  {
+   "protocol": "paper",
+   "model": "XGBoost",
+   "features": "+process+stack",
+   "fold": 0,
+   "params": {
+    "n_estimators": 500,
+    "max_depth": 3,
+    "learning_rate": 0.02,
+    "subsample": 0.6,
+    "colsample_bytree": 0.3,
+    "min_child_weight": 20,
+    "reg_lambda": 50.0
+   }
+  },
+  {
+   "protocol": "paper",
+   "model": "XGBoost",
+   "features": "+process+stack",
+   "fold": 1,
+   "params": {
+    "n_estimators": 500,
+    "max_depth": 3,
+    "learning_rate": 0.02,
+    "subsample": 0.6,
+    "colsample_bytree": 0.3,
+    "min_child_weight": 20,
+    "reg_lambda": 50.0
+   }
+  },
+  {
+   "protocol": "paper",
+   "model": "XGBoost",
+   "features": "+process+stack",
+   "fold": 2,
+   "params": {
+    "n_estimators": 500,
+    "max_depth": 3,
+    "learning_rate": 0.02,
+    "subsample": 0.6,
+    "colsample_bytree": 0.3,
+    "min_child_weight": 20,
+    "reg_lambda": 50.0
+   }
+  },
+  {
+   "protocol": "paper",
+   "model": "XGBoost",
+   "features": "+process+stack",
+   "fold": 3,
+   "params": {
+    "n_estimators": 500,
+    "max_depth": 3,
+    "learning_rate": 0.02,
+    "subsample": 0.6,
+    "colsample_bytree": 0.3,
+    "min_child_weight": 20,
+    "reg_lambda": 50.0
+   }
+  },
+  {
+   "protocol": "paper",
+   "model": "XGBoost",
+   "features": "+process+stack",
+   "fold": 4,
+   "params": {
+    "n_estimators": 500,
+    "max_depth": 3,
+    "learning_rate": 0.02,
+    "subsample": 0.6,
+    "colsample_bytree": 0.3,
+    "min_child_weight": 20,
+    "reg_lambda": 50.0
+   }
+  },
+  {
+   "protocol": "paper",
+   "model": "LightGBM",
+   "features": "base",
+   "fold": 0,
+   "params": {
+    "n_estimators": 150,
+    "num_leaves": 31,
+    "learning_rate": 0.02,
+    "subsample": 1.0,
+    "colsample_bytree": 0.8,
+    "min_child_samples": 20,
+    "reg_lambda": 50.0
+   }
+  },
+  {
+   "protocol": "paper",
+   "model": "LightGBM",
+   "features": "base",
+   "fold": 1,
+   "params": {
+    "n_estimators": 300,
+    "num_leaves": 31,
+    "learning_rate": 0.02,
+    "subsample": 0.6,
+    "colsample_bytree": 0.5,
+    "min_child_samples": 50,
+    "reg_lambda": 0.0
+   }
+  },
+  {
+   "protocol": "paper",
+   "model": "LightGBM",
+   "features": "base",
+   "fold": 2,
+   "params": {
+    "n_estimators": 150,
+    "num_leaves": 31,
+    "learning_rate": 0.02,
+    "subsample": 1.0,
+    "colsample_bytree": 0.8,
+    "min_child_samples": 20,
+    "reg_lambda": 50.0
+   }
+  },
+  {
+   "protocol": "paper",
+   "model": "LightGBM",
+   "features": "base",
+   "fold": 3,
+   "params": {
+    "n_estimators": 300,
+    "num_leaves": 7,
+    "learning_rate": 0.02,
+    "subsample": 1.0,
+    "colsample_bytree": 0.5,
+    "min_child_samples": 20,
+    "reg_lambda": 0.0
+   }
+  },
+  {
+   "protocol": "paper",
+   "model": "LightGBM",
+   "features": "base",
+   "fold": 4,
+   "params": {
+    "n_estimators": 300,
+    "num_leaves": 31,
+    "learning_rate": 0.02,
+    "subsample": 0.6,
+    "colsample_bytree": 0.5,
+    "min_child_samples": 50,
+    "reg_lambda": 0.0
+   }
+  },
+  {
+   "protocol": "paper",
+   "model": "LightGBM",
+   "features": "+process+stack",
+   "fold": 0,
+   "params": {
+    "n_estimators": 300,
+    "num_leaves": 31,
+    "learning_rate": 0.02,
+    "subsample": 0.6,
+    "colsample_bytree": 0.5,
+    "min_child_samples": 50,
+    "reg_lambda": 0.0
+   }
+  },
+  {
+   "protocol": "paper",
+   "model": "LightGBM",
+   "features": "+process+stack",
+   "fold": 1,
+   "params": {
+    "n_estimators": 300,
+    "num_leaves": 31,
+    "learning_rate": 0.02,
+    "subsample": 0.6,
+    "colsample_bytree": 0.5,
+    "min_child_samples": 50,
+    "reg_lambda": 0.0
+   }
+  },
+  {
+   "protocol": "paper",
+   "model": "LightGBM",
+   "features": "+process+stack",
+   "fold": 2,
+   "params": {
+    "n_estimators": 300,
+    "num_leaves": 31,
+    "learning_rate": 0.02,
+    "subsample": 0.6,
+    "colsample_bytree": 0.5,
+    "min_child_samples": 50,
+    "reg_lambda": 0.0
+   }
+  },
+  {
+   "protocol": "paper",
+   "model": "LightGBM",
+   "features": "+process+stack",
+   "fold": 3,
+   "params": {
+    "n_estimators": 300,
+    "num_leaves": 31,
+    "learning_rate": 0.02,
+    "subsample": 0.6,
+    "colsample_bytree": 0.5,
+    "min_child_samples": 50,
+    "reg_lambda": 0.0
+   }
+  },
+  {
+   "protocol": "paper",
+   "model": "LightGBM",
+   "features": "+process+stack",
+   "fold": 4,
+   "params": {
+    "n_estimators": 300,
+    "num_leaves": 31,
+    "learning_rate": 0.02,
+    "subsample": 0.6,
+    "colsample_bytree": 0.5,
+    "min_child_samples": 50,
+    "reg_lambda": 0.0
+   }
+  },
+  {
+   "protocol": "paper",
+   "model": "CatBoost",
+   "features": "base",
+   "fold": 0,
+   "params": {
+    "iterations": 300,
+    "depth": 8,
+    "learning_rate": 0.03,
+    "l2_leaf_reg": 10.0
+   }
+  },
+  {
+   "protocol": "paper",
+   "model": "CatBoost",
+   "features": "base",
+   "fold": 1,
+   "params": {
+    "iterations": 300,
+    "depth": 8,
+    "learning_rate": 0.03,
+    "l2_leaf_reg": 10.0
+   }
+  },
+  {
+   "protocol": "paper",
+   "model": "CatBoost",
+   "features": "base",
+   "fold": 2,
+   "params": {
+    "iterations": 300,
+    "depth": 8,
+    "learning_rate": 0.03,
+    "l2_leaf_reg": 10.0
+   }
+  },
+  {
+   "protocol": "paper",
+   "model": "CatBoost",
+   "features": "base",
+   "fold": 3,
+   "params": {
+    "iterations": 300,
+    "depth": 8,
+    "learning_rate": 0.03,
+    "l2_leaf_reg": 10.0
+   }
+  },
+  {
+   "protocol": "paper",
+   "model": "CatBoost",
+   "features": "base",
+   "fold": 4,
+   "params": {
+    "iterations": 800,
+    "depth": 4,
+    "learning_rate": 0.03,
+    "l2_leaf_reg": 10.0
+   }
+  },
+  {
+   "protocol": "paper",
+   "model": "CatBoost",
+   "features": "+process+stack",
+   "fold": 0,
+   "params": {
+    "iterations": 300,
+    "depth": 8,
+    "learning_rate": 0.03,
+    "l2_leaf_reg": 10.0
+   }
+  },
+  {
+   "protocol": "paper",
+   "model": "CatBoost",
+   "features": "+process+stack",
+   "fold": 1,
+   "params": {
+    "iterations": 300,
+    "depth": 8,
+    "learning_rate": 0.03,
+    "l2_leaf_reg": 10.0
+   }
+  },
+  {
+   "protocol": "paper",
+   "model": "CatBoost",
+   "features": "+process+stack",
+   "fold": 2,
+   "params": {
+    "iterations": 300,
+    "depth": 8,
+    "learning_rate": 0.03,
+    "l2_leaf_reg": 10.0
+   }
+  },
+  {
+   "protocol": "paper",
+   "model": "CatBoost",
+   "features": "+process+stack",
+   "fold": 3,
+   "params": {
+    "iterations": 300,
+    "depth": 8,
+    "learning_rate": 0.03,
+    "l2_leaf_reg": 10.0
+   }
+  },
+  {
+   "protocol": "paper",
+   "model": "CatBoost",
+   "features": "+process+stack",
+   "fold": 4,
+   "params": {
+    "iterations": 300,
+    "depth": 8,
+    "learning_rate": 0.03,
+    "l2_leaf_reg": 10.0
+   }
+  },
+  {
+   "protocol": "paper",
+   "model": "RandomForest",
+   "features": "base",
+   "fold": 0,
+   "params": {
+    "n_estimators": 300,
+    "min_samples_leaf": 20,
+    "max_features": 0.33,
+    "max_depth": null
+   }
+  },
+  {
+   "protocol": "paper",
+   "model": "RandomForest",
+   "features": "base",
+   "fold": 1,
+   "params": {
+    "n_estimators": 300,
+    "min_samples_leaf": 20,
+    "max_features": 0.33,
+    "max_depth": null
+   }
+  },
+  {
+   "protocol": "paper",
+   "model": "RandomForest",
+   "features": "base",
+   "fold": 2,
+   "params": {
+    "n_estimators": 300,
+    "min_samples_leaf": 10,
+    "max_features": 0.15,
+    "max_depth": 10
+   }
+  },
+  {
+   "protocol": "paper",
+   "model": "RandomForest",
+   "features": "base",
+   "fold": 3,
+   "params": {
+    "n_estimators": 300,
+    "min_samples_leaf": 20,
+    "max_features": 0.33,
+    "max_depth": null
+   }
+  },
+  {
+   "protocol": "paper",
+   "model": "RandomForest",
+   "features": "base",
+   "fold": 4,
+   "params": {
+    "n_estimators": 300,
+    "min_samples_leaf": 20,
+    "max_features": 0.33,
+    "max_depth": null
+   }
+  },
+  {
+   "protocol": "paper",
+   "model": "RandomForest",
+   "features": "+process+stack",
+   "fold": 0,
+   "params": {
+    "n_estimators": 300,
+    "min_samples_leaf": 5,
+    "max_features": 0.33,
+    "max_depth": 20
+   }
+  },
+  {
+   "protocol": "paper",
+   "model": "RandomForest",
+   "features": "+process+stack",
+   "fold": 1,
+   "params": {
+    "n_estimators": 300,
+    "min_samples_leaf": 5,
+    "max_features": 0.33,
+    "max_depth": 20
+   }
+  },
+  {
+   "protocol": "paper",
+   "model": "RandomForest",
+   "features": "+process+stack",
+   "fold": 2,
+   "params": {
+    "n_estimators": 300,
+    "min_samples_leaf": 5,
+    "max_features": 0.33,
+    "max_depth": null
+   }
+  },
+  {
+   "protocol": "paper",
+   "model": "RandomForest",
+   "features": "+process+stack",
+   "fold": 3,
+   "params": {
+    "n_estimators": 300,
+    "min_samples_leaf": 5,
+    "max_features": 0.33,
+    "max_depth": 20
+   }
+  },
+  {
+   "protocol": "paper",
+   "model": "RandomForest",
+   "features": "+process+stack",
+   "fold": 4,
+   "params": {
+    "n_estimators": 300,
+    "min_samples_leaf": 5,
+    "max_features": 0.33,
+    "max_depth": 20
+   }
+  },
+  {
+   "protocol": "temporal",
+   "model": "XGBoost",
+   "features": "base",
+   "fold": 0,
+   "params": {
+    "n_estimators": 300,
+    "max_depth": 6,
+    "learning_rate": 0.02,
+    "subsample": 0.6,
+    "colsample_bytree": 0.3,
+    "min_child_weight": 20,
+    "reg_lambda": 50.0
+   }
+  },
+  {
+   "protocol": "temporal",
+   "model": "XGBoost",
+   "features": "+process+stack",
+   "fold": 0,
+   "params": {
+    "n_estimators": 150,
+    "max_depth": 4,
+    "learning_rate": 0.05,
+    "subsample": 0.6,
+    "colsample_bytree": 0.8,
+    "min_child_weight": 5,
+    "reg_lambda": 50.0
+   }
+  },
+  {
+   "protocol": "temporal",
+   "model": "LightGBM",
+   "features": "base",
+   "fold": 0,
+   "params": {
+    "n_estimators": 300,
+    "num_leaves": 15,
+    "learning_rate": 0.02,
+    "subsample": 0.8,
+    "colsample_bytree": 0.5,
+    "min_child_samples": 5,
+    "reg_lambda": 10.0
+   }
+  },
+  {
+   "protocol": "temporal",
+   "model": "LightGBM",
+   "features": "+process+stack",
+   "fold": 0,
+   "params": {
+    "n_estimators": 300,
+    "num_leaves": 15,
+    "learning_rate": 0.02,
+    "subsample": 0.8,
+    "colsample_bytree": 0.5,
+    "min_child_samples": 5,
+    "reg_lambda": 10.0
+   }
+  },
+  {
+   "protocol": "temporal",
+   "model": "CatBoost",
+   "features": "base",
+   "fold": 0,
+   "params": {
+    "iterations": 300,
+    "depth": 4,
+    "learning_rate": 0.03,
+    "l2_leaf_reg": 1.0
+   }
+  },
+  {
+   "protocol": "temporal",
+   "model": "CatBoost",
+   "features": "+process+stack",
+   "fold": 0,
+   "params": {
+    "iterations": 500,
+    "depth": 6,
+    "learning_rate": 0.03,
+    "l2_leaf_reg": 1.0
+   }
+  },
+  {
+   "protocol": "temporal",
+   "model": "RandomForest",
+   "features": "base",
+   "fold": 0,
+   "params": {
+    "n_estimators": 300,
+    "min_samples_leaf": 20,
+    "max_features": 0.8,
+    "max_depth": null
+   }
+  },
+  {
+   "protocol": "temporal",
+   "model": "RandomForest",
+   "features": "+process+stack",
+   "fold": 0,
+   "params": {
+    "n_estimators": 300,
+    "min_samples_leaf": 20,
+    "max_features": 0.8,
+    "max_depth": null
+   }
+  }
+ ]
+}

@@ -1,0 +1,1395 @@
+{
+ "decomposition": [
+  {
+   "analysis": "decomposition",
+   "horizon": 500,
+   "protocol": "paper",
+   "features": "base (no time)",
+   "trained_on": "IPCW-KM",
+   "scored_on": "known cohort, KM weights",
+   "n": 4909,
+   "auc": 0.7676575081158787,
+   "auc_ci": [
+    0.7491736730839915,
+    0.7843729100578094
+   ]
+  },
+  {
+   "analysis": "decomposition",
+   "horizon": 500,
+   "protocol": "paper",
+   "features": "base (no time)",
+   "trained_on": "IPCW-KM",
+   "scored_on": "known cohort, covariate weights",
+   "n": 4909,
+   "auc": 0.7752843731712415,
+   "auc_ci": [
+    0.7554699951177831,
+    0.7918456673778671
+   ]
+  },
+  {
+   "analysis": "decomposition",
+   "horizon": 500,
+   "protocol": "paper",
+   "features": "base (no time)",
+   "trained_on": "IPCW-KM",
+   "scored_on": "known cohort, unweighted",
+   "n": 4909,
+   "auc": 0.7775960130578371,
+   "auc_ci": [
+    0.7599152983878953,
+    0.7938357108446409
+   ]
+  },
+  {
+   "analysis": "decomposition",
+   "horizon": 500,
+   "protocol": "paper",
+   "features": "base (no time)",
+   "trained_on": "IPCW-KM",
+   "scored_on": "landmark subset",
+   "n": 2631,
+   "auc": 0.682046906767354,
+   "auc_ci": [
+    0.6498349079668844,
+    0.7102817021276374
+   ]
+  },
+  {
+   "analysis": "decomposition",
+   "horizon": 500,
+   "protocol": "paper",
+   "features": "base (no time)",
+   "trained_on": "IPCW-covariate",
+   "scored_on": "known cohort, KM weights",
+   "n": 4909,
+   "auc": 0.768762107062462,
+   "auc_ci": [
+    0.7501873613228076,
+    0.7865992728520775
+   ]
+  },
+  {
+   "analysis": "decomposition",
+   "horizon": 500,
+   "protocol": "paper",
+   "features": "base (no time)",
+   "trained_on": "IPCW-covariate",
+   "scored_on": "known cohort, covariate weights",
+   "n": 4909,
+   "auc": 0.7818293433102989,
+   "auc_ci": [
+    0.7569096064406778,
+    0.805178418540389
+   ]
+  },
+  {
+   "analysis": "decomposition",
+   "horizon": 500,
+   "protocol": "paper",
+   "features": "base (no time)",
+   "trained_on": "IPCW-covariate",
+   "scored_on": "known cohort, unweighted",
+   "n": 4909,
+   "auc": 0.779119081914583,
+   "auc_ci": [
+    0.7611963621710237,
+    0.7963827527897122
+   ]
+  },
+  {
+   "analysis": "decomposition",
+   "horizon": 500,
+   "protocol": "paper",
+   "features": "base (no time)",
+   "trained_on": "IPCW-covariate",
+   "scored_on": "landmark subset",
+   "n": 2631,
+   "auc": 0.6803509190490021,
+   "auc_ci": [
+    0.6507760004050253,
+    0.7073534478796064
+   ]
+  },
+  {
+   "analysis": "decomposition",
+   "horizon": 500,
+   "protocol": "paper",
+   "features": "base (no time)",
+   "trained_on": "landmark",
+   "scored_on": "known cohort, KM weights",
+   "n": 4909,
+   "auc": 0.6801434872737587,
+   "auc_ci": [
+    0.6594737623818758,
+    0.6985877752401791
+   ]
+  },
+  {
+   "analysis": "decomposition",
+   "horizon": 500,
+   "protocol": "paper",
+   "features": "base (no time)",
+   "trained_on": "landmark",
+   "scored_on": "known cohort, covariate weights",
+   "n": 4909,
+   "auc": 0.6827119896681846,
+   "auc_ci": [
+    0.6630926713830696,
+    0.7025094584174919
+   ]
+  },
+  {
+   "analysis": "decomposition",
+   "horizon": 500,
+   "protocol": "paper",
+   "features": "base (no time)",
+   "trained_on": "landmark",
+   "scored_on": "known cohort, unweighted",
+   "n": 4909,
+   "auc": 0.6853513379797594,
+   "auc_ci": [
+    0.6646657123068097,
+    0.7036527423139156
+   ]
+  },
+  {
+   "analysis": "decomposition",
+   "horizon": 500,
+   "protocol": "paper",
+   "features": "base (no time)",
+   "trained_on": "landmark",
+   "scored_on": "landmark subset",
+   "n": 2631,
+   "auc": 0.6321682710260985,
+   "auc_ci": [
+    0.5953846368951478,
+    0.6774543974985576
+   ]
+  },
+  {
+   "analysis": "decomposition",
+   "horizon": 500,
+   "protocol": "paper",
+   "features": "+all enriched (no time)",
+   "trained_on": "IPCW-KM",
+   "scored_on": "known cohort, KM weights",
+   "n": 4909,
+   "auc": 0.8010179008463179,
+   "auc_ci": [
+    0.7855221544471757,
+    0.814309476787809
+   ]
+  },
+  {
+   "analysis": "decomposition",
+   "horizon": 500,
+   "protocol": "paper",
+   "features": "+all enriched (no time)",
+   "trained_on": "IPCW-KM",
+   "scored_on": "known cohort, covariate weights",
+   "n": 4909,
+   "auc": 0.7961723454888228,
+   "auc_ci": [
+    0.7753617406953782,
+    0.8166536787914807
+   ]
+  },
+  {
+   "analysis": "decomposition",
+   "horizon": 500,
+   "protocol": "paper",
+   "features": "+all enriched (no time)",
+   "trained_on": "IPCW-KM",
+   "scored_on": "known cohort, unweighted",
+   "n": 4909,
+   "auc": 0.80973455838054,
+   "auc_ci": [
+    0.7953827257572668,
+    0.8242741326930093
+   ]
+  },
+  {
+   "analysis": "decomposition",
+   "horizon": 500,
+   "protocol": "paper",
+   "features": "+all enriched (no time)",
+   "trained_on": "IPCW-KM",
+   "scored_on": "landmark subset",
+   "n": 2631,
+   "auc": 0.718547985560765,
+   "auc_ci": [
+    0.6907150645093789,
+    0.7508248114414893
+   ]
+  },
+  {
+   "analysis": "decomposition",
+   "horizon": 500,
+   "protocol": "paper",
+   "features": "+all enriched (no time)",
+   "trained_on": "IPCW-covariate",
+   "scored_on": "known cohort, KM weights",
+   "n": 4909,
+   "auc": 0.8013792129356277,
+   "auc_ci": [
+    0.7845197487974026,
+    0.8161441682206981
+   ]
+  },
+  {
+   "analysis": "decomposition",
+   "horizon": 500,
+   "protocol": "paper",
+   "features": "+all enriched (no time)",
+   "trained_on": "IPCW-covariate",
+   "scored_on": "known cohort, covariate weights",
+   "n": 4909,
+   "auc": 0.804683212687151,
+   "auc_ci": [
+    0.7903608348673502,
+    0.8204391506746015
+   ]
+  },
+  {
+   "analysis": "decomposition",
+   "horizon": 500,
+   "protocol": "paper",
+   "features": "+all enriched (no time)",
+   "trained_on": "IPCW-covariate",
+   "scored_on": "known cohort, unweighted",
+   "n": 4909,
+   "auc": 0.8101924389727572,
+   "auc_ci": [
+    0.7951850817590801,
+    0.8251296800250255
+   ]
+  },
+  {
+   "analysis": "decomposition",
+   "horizon": 500,
+   "protocol": "paper",
+   "features": "+all enriched (no time)",
+   "trained_on": "IPCW-covariate",
+   "scored_on": "landmark subset",
+   "n": 2631,
+   "auc": 0.7213082444711838,
+   "auc_ci": [
+    0.6936874988146439,
+    0.752210913554723
+   ]
+  },
+  {
+   "analysis": "decomposition",
+   "horizon": 500,
+   "protocol": "paper",
+   "features": "+all enriched (no time)",
+   "trained_on": "landmark",
+   "scored_on": "known cohort, KM weights",
+   "n": 4909,
+   "auc": 0.7243095001552472,
+   "auc_ci": [
+    0.7050124182619439,
+    0.7424718316509377
+   ]
+  },
+  {
+   "analysis": "decomposition",
+   "horizon": 500,
+   "protocol": "paper",
+   "features": "+all enriched (no time)",
+   "trained_on": "landmark",
+   "scored_on": "known cohort, covariate weights",
+   "n": 4909,
+   "auc": 0.7250405304362191,
+   "auc_ci": [
+    0.7043906492806324,
+    0.7429871341295485
+   ]
+  },
+  {
+   "analysis": "decomposition",
+   "horizon": 500,
+   "protocol": "paper",
+   "features": "+all enriched (no time)",
+   "trained_on": "landmark",
+   "scored_on": "known cohort, unweighted",
+   "n": 4909,
+   "auc": 0.7296855626086722,
+   "auc_ci": [
+    0.7103171955670636,
+    0.7481129394938691
+   ]
+  },
+  {
+   "analysis": "decomposition",
+   "horizon": 500,
+   "protocol": "paper",
+   "features": "+all enriched (no time)",
+   "trained_on": "landmark",
+   "scored_on": "landmark subset",
+   "n": 2631,
+   "auc": 0.6838243226422142,
+   "auc_ci": [
+    0.6510181252717435,
+    0.7199565478090185
+   ]
+  },
+  {
+   "analysis": "decomposition",
+   "horizon": 500,
+   "protocol": "temporal",
+   "features": "base (no time)",
+   "trained_on": "IPCW-KM",
+   "scored_on": "known cohort, KM weights",
+   "n": 1908,
+   "auc": 0.752810521330982,
+   "auc_ci": [
+    0.7228183386689235,
+    0.7796399131347712
+   ]
+  },
+  {
+   "analysis": "decomposition",
+   "horizon": 500,
+   "protocol": "temporal",
+   "features": "base (no time)",
+   "trained_on": "IPCW-KM",
+   "scored_on": "known cohort, covariate weights",
+   "n": 1908,
+   "auc": 0.7557849692769396,
+   "auc_ci": [
+    0.7249245837047332,
+    0.7874237548544519
+   ]
+  },
+  {
+   "analysis": "decomposition",
+   "horizon": 500,
+   "protocol": "temporal",
+   "features": "base (no time)",
+   "trained_on": "IPCW-KM",
+   "scored_on": "known cohort, unweighted",
+   "n": 1908,
+   "auc": 0.7610034574964106,
+   "auc_ci": [
+    0.7320130479093419,
+    0.7891530267294419
+   ]
+  },
+  {
+   "analysis": "decomposition",
+   "horizon": 500,
+   "protocol": "temporal",
+   "features": "base (no time)",
+   "trained_on": "IPCW-KM",
+   "scored_on": "landmark subset",
+   "n": 1129,
+   "auc": 0.6971398021919273,
+   "auc_ci": [
+    0.6367142119232928,
+    0.7443741774487573
+   ]
+  },
+  {
+   "analysis": "decomposition",
+   "horizon": 500,
+   "protocol": "temporal",
+   "features": "base (no time)",
+   "trained_on": "IPCW-covariate",
+   "scored_on": "known cohort, KM weights",
+   "n": 1908,
+   "auc": 0.7493430460851129,
+   "auc_ci": [
+    0.7213707717702399,
+    0.7765393355637702
+   ]
+  },
+  {
+   "analysis": "decomposition",
+   "horizon": 500,
+   "protocol": "temporal",
+   "features": "base (no time)",
+   "trained_on": "IPCW-covariate",
+   "scored_on": "known cohort, covariate weights",
+   "n": 1908,
+   "auc": 0.7764091909467842,
+   "auc_ci": [
+    0.7294136687827075,
+    0.8191914456190392
+   ]
+  },
+  {
+   "analysis": "decomposition",
+   "horizon": 500,
+   "protocol": "temporal",
+   "features": "base (no time)",
+   "trained_on": "IPCW-covariate",
+   "scored_on": "known cohort, unweighted",
+   "n": 1908,
+   "auc": 0.7568777472087862,
+   "auc_ci": [
+    0.7291718980060544,
+    0.7838594561222646
+   ]
+  },
+  {
+   "analysis": "decomposition",
+   "horizon": 500,
+   "protocol": "temporal",
+   "features": "base (no time)",
+   "trained_on": "IPCW-covariate",
+   "scored_on": "landmark subset",
+   "n": 1129,
+   "auc": 0.6911830818206118,
+   "auc_ci": [
+    0.633407814480083,
+    0.7356543809159636
+   ]
+  },
+  {
+   "analysis": "decomposition",
+   "horizon": 500,
+   "protocol": "temporal",
+   "features": "base (no time)",
+   "trained_on": "landmark",
+   "scored_on": "known cohort, KM weights",
+   "n": 1908,
+   "auc": 0.6518279087433458,
+   "auc_ci": [
+    0.6216572915734706,
+    0.6799962549039944
+   ]
+  },
+  {
+   "analysis": "decomposition",
+   "horizon": 500,
+   "protocol": "temporal",
+   "features": "base (no time)",
+   "trained_on": "landmark",
+   "scored_on": "known cohort, covariate weights",
+   "n": 1908,
+   "auc": 0.654278349779769,
+   "auc_ci": [
+    0.6243121305816088,
+    0.6828276626842135
+   ]
+  },
+  {
+   "analysis": "decomposition",
+   "horizon": 500,
+   "protocol": "temporal",
+   "features": "base (no time)",
+   "trained_on": "landmark",
+   "scored_on": "known cohort, unweighted",
+   "n": 1908,
+   "auc": 0.6561965111620962,
+   "auc_ci": [
+    0.6260981251036472,
+    0.683447040246662
+   ]
+  },
+  {
+   "analysis": "decomposition",
+   "horizon": 500,
+   "protocol": "temporal",
+   "features": "base (no time)",
+   "trained_on": "landmark",
+   "scored_on": "landmark subset",
+   "n": 1129,
+   "auc": 0.5697158027751452,
+   "auc_ci": [
+    0.5109359373348278,
+    0.6260035968824104
+   ]
+  },
+  {
+   "analysis": "decomposition",
+   "horizon": 500,
+   "protocol": "temporal",
+   "features": "+all enriched (no time)",
+   "trained_on": "IPCW-KM",
+   "scored_on": "known cohort, KM weights",
+   "n": 1908,
+   "auc": 0.793235977369737,
+   "auc_ci": [
+    0.7652839379018563,
+    0.8152409306549263
+   ]
+  },
+  {
+   "analysis": "decomposition",
+   "horizon": 500,
+   "protocol": "temporal",
+   "features": "+all enriched (no time)",
+   "trained_on": "IPCW-KM",
+   "scored_on": "known cohort, covariate weights",
+   "n": 1908,
+   "auc": 0.7950177982819381,
+   "auc_ci": [
+    0.7676283529428639,
+    0.8203434484954948
+   ]
+  },
+  {
+   "analysis": "decomposition",
+   "horizon": 500,
+   "protocol": "temporal",
+   "features": "+all enriched (no time)",
+   "trained_on": "IPCW-KM",
+   "scored_on": "known cohort, unweighted",
+   "n": 1908,
+   "auc": 0.8003375831956625,
+   "auc_ci": [
+    0.7709196896262018,
+    0.8215226686644062
+   ]
+  },
+  {
+   "analysis": "decomposition",
+   "horizon": 500,
+   "protocol": "temporal",
+   "features": "+all enriched (no time)",
+   "trained_on": "IPCW-KM",
+   "scored_on": "landmark subset",
+   "n": 1129,
+   "auc": 0.7366649656144444,
+   "auc_ci": [
+    0.6808040320421707,
+    0.7820647123108192
+   ]
+  },
+  {
+   "analysis": "decomposition",
+   "horizon": 500,
+   "protocol": "temporal",
+   "features": "+all enriched (no time)",
+   "trained_on": "IPCW-covariate",
+   "scored_on": "known cohort, KM weights",
+   "n": 1908,
+   "auc": 0.7982956913860868,
+   "auc_ci": [
+    0.7733055027866852,
+    0.820336754376602
+   ]
+  },
+  {
+   "analysis": "decomposition",
+   "horizon": 500,
+   "protocol": "temporal",
+   "features": "+all enriched (no time)",
+   "trained_on": "IPCW-covariate",
+   "scored_on": "known cohort, covariate weights",
+   "n": 1908,
+   "auc": 0.8170142814653611,
+   "auc_ci": [
+    0.7839936069969737,
+    0.8462668423107554
+   ]
+  },
+  {
+   "analysis": "decomposition",
+   "horizon": 500,
+   "protocol": "temporal",
+   "features": "+all enriched (no time)",
+   "trained_on": "IPCW-covariate",
+   "scored_on": "known cohort, unweighted",
+   "n": 1908,
+   "auc": 0.8047298065324942,
+   "auc_ci": [
+    0.7788167091764234,
+    0.8250867422291097
+   ]
+  },
+  {
+   "analysis": "decomposition",
+   "horizon": 500,
+   "protocol": "temporal",
+   "features": "+all enriched (no time)",
+   "trained_on": "IPCW-covariate",
+   "scored_on": "landmark subset",
+   "n": 1129,
+   "auc": 0.7307629219217031,
+   "auc_ci": [
+    0.673438707437049,
+    0.7833748720689808
+   ]
+  },
+  {
+   "analysis": "decomposition",
+   "horizon": 500,
+   "protocol": "temporal",
+   "features": "+all enriched (no time)",
+   "trained_on": "landmark",
+   "scored_on": "known cohort, KM weights",
+   "n": 1908,
+   "auc": 0.7045813462934688,
+   "auc_ci": [
+    0.6709904321085756,
+    0.7321907754793463
+   ]
+  },
+  {
+   "analysis": "decomposition",
+   "horizon": 500,
+   "protocol": "temporal",
+   "features": "+all enriched (no time)",
+   "trained_on": "landmark",
+   "scored_on": "known cohort, covariate weights",
+   "n": 1908,
+   "auc": 0.6788888397987866,
+   "auc_ci": [
+    0.6203366708375795,
+    0.73125189425202
+   ]
+  },
+  {
+   "analysis": "decomposition",
+   "horizon": 500,
+   "protocol": "temporal",
+   "features": "+all enriched (no time)",
+   "trained_on": "landmark",
+   "scored_on": "known cohort, unweighted",
+   "n": 1908,
+   "auc": 0.7079121820190323,
+   "auc_ci": [
+    0.6739786994996995,
+    0.7371725503574114
+   ]
+  },
+  {
+   "analysis": "decomposition",
+   "horizon": 500,
+   "protocol": "temporal",
+   "features": "+all enriched (no time)",
+   "trained_on": "landmark",
+   "scored_on": "landmark subset",
+   "n": 1129,
+   "auc": 0.6182656557556316,
+   "auc_ci": [
+    0.564405676608508,
+    0.6742820697955134
+   ]
+  },
+  {
+   "analysis": "decomposition",
+   "horizon": 1000,
+   "protocol": "paper",
+   "features": "base (no time)",
+   "trained_on": "IPCW-KM",
+   "scored_on": "known cohort, KM weights",
+   "n": 4615,
+   "auc": 0.7452621893691525,
+   "auc_ci": [
+    0.7209163013040791,
+    0.7719719089099474
+   ]
+  },
+  {
+   "analysis": "decomposition",
+   "horizon": 1000,
+   "protocol": "paper",
+   "features": "base (no time)",
+   "trained_on": "IPCW-KM",
+   "scored_on": "known cohort, covariate weights",
+   "n": 4615,
+   "auc": 0.7656548717225612,
+   "auc_ci": [
+    0.7410111000922833,
+    0.7907857406840011
+   ]
+  },
+  {
+   "analysis": "decomposition",
+   "horizon": 1000,
+   "protocol": "paper",
+   "features": "base (no time)",
+   "trained_on": "IPCW-KM",
+   "scored_on": "known cohort, unweighted",
+   "n": 4615,
+   "auc": 0.7642131795537335,
+   "auc_ci": [
+    0.7428478398329816,
+    0.789506550984767
+   ]
+  },
+  {
+   "analysis": "decomposition",
+   "horizon": 1000,
+   "protocol": "paper",
+   "features": "base (no time)",
+   "trained_on": "IPCW-KM",
+   "scored_on": "landmark subset",
+   "n": 1389,
+   "auc": 0.6502437081126682,
+   "auc_ci": [
+    0.6034880334972786,
+    0.6968874909736393
+   ]
+  },
+  {
+   "analysis": "decomposition",
+   "horizon": 1000,
+   "protocol": "paper",
+   "features": "base (no time)",
+   "trained_on": "IPCW-covariate",
+   "scored_on": "known cohort, KM weights",
+   "n": 4615,
+   "auc": 0.7539353272466309,
+   "auc_ci": [
+    0.7333510336427694,
+    0.7796743741819393
+   ]
+  },
+  {
+   "analysis": "decomposition",
+   "horizon": 1000,
+   "protocol": "paper",
+   "features": "base (no time)",
+   "trained_on": "IPCW-covariate",
+   "scored_on": "known cohort, covariate weights",
+   "n": 4615,
+   "auc": 0.7726084151308191,
+   "auc_ci": [
+    0.7486027117900016,
+    0.7986849510562087
+   ]
+  },
+  {
+   "analysis": "decomposition",
+   "horizon": 1000,
+   "protocol": "paper",
+   "features": "base (no time)",
+   "trained_on": "IPCW-covariate",
+   "scored_on": "known cohort, unweighted",
+   "n": 4615,
+   "auc": 0.7725241270055908,
+   "auc_ci": [
+    0.7525555117905444,
+    0.7993089646747742
+   ]
+  },
+  {
+   "analysis": "decomposition",
+   "horizon": 1000,
+   "protocol": "paper",
+   "features": "base (no time)",
+   "trained_on": "IPCW-covariate",
+   "scored_on": "landmark subset",
+   "n": 1389,
+   "auc": 0.6517367550666514,
+   "auc_ci": [
+    0.6056116924648146,
+    0.7004743475206865
+   ]
+  },
+  {
+   "analysis": "decomposition",
+   "horizon": 1000,
+   "protocol": "paper",
+   "features": "base (no time)",
+   "trained_on": "landmark",
+   "scored_on": "known cohort, KM weights",
+   "n": 4615,
+   "auc": 0.632257503763236,
+   "auc_ci": [
+    0.6111808920522078,
+    0.6585894767990116
+   ]
+  },
+  {
+   "analysis": "decomposition",
+   "horizon": 1000,
+   "protocol": "paper",
+   "features": "base (no time)",
+   "trained_on": "landmark",
+   "scored_on": "known cohort, covariate weights",
+   "n": 4615,
+   "auc": 0.6502758054317505,
+   "auc_ci": [
+    0.627160508083136,
+    0.677952713097133
+   ]
+  },
+  {
+   "analysis": "decomposition",
+   "horizon": 1000,
+   "protocol": "paper",
+   "features": "base (no time)",
+   "trained_on": "landmark",
+   "scored_on": "known cohort, unweighted",
+   "n": 4615,
+   "auc": 0.6386017247984996,
+   "auc_ci": [
+    0.6169727173756123,
+    0.6643124182000185
+   ]
+  },
+  {
+   "analysis": "decomposition",
+   "horizon": 1000,
+   "protocol": "paper",
+   "features": "base (no time)",
+   "trained_on": "landmark",
+   "scored_on": "landmark subset",
+   "n": 1389,
+   "auc": 0.5586523075275008,
+   "auc_ci": [
+    0.5058561315185138,
+    0.6005700694004283
+   ]
+  },
+  {
+   "analysis": "decomposition",
+   "horizon": 1000,
+   "protocol": "paper",
+   "features": "+all enriched (no time)",
+   "trained_on": "IPCW-KM",
+   "scored_on": "known cohort, KM weights",
+   "n": 4615,
+   "auc": 0.7705078475196379,
+   "auc_ci": [
+    0.7510798411092543,
+    0.7955532866202848
+   ]
+  },
+  {
+   "analysis": "decomposition",
+   "horizon": 1000,
+   "protocol": "paper",
+   "features": "+all enriched (no time)",
+   "trained_on": "IPCW-KM",
+   "scored_on": "known cohort, covariate weights",
+   "n": 4615,
+   "auc": 0.7870690878878588,
+   "auc_ci": [
+    0.7664731940443295,
+    0.8089545565075293
+   ]
+  },
+  {
+   "analysis": "decomposition",
+   "horizon": 1000,
+   "protocol": "paper",
+   "features": "+all enriched (no time)",
+   "trained_on": "IPCW-KM",
+   "scored_on": "known cohort, unweighted",
+   "n": 4615,
+   "auc": 0.7873985764283402,
+   "auc_ci": [
+    0.769009157151944,
+    0.8099873272154235
+   ]
+  },
+  {
+   "analysis": "decomposition",
+   "horizon": 1000,
+   "protocol": "paper",
+   "features": "+all enriched (no time)",
+   "trained_on": "IPCW-KM",
+   "scored_on": "landmark subset",
+   "n": 1389,
+   "auc": 0.6668245636352681,
+   "auc_ci": [
+    0.6188299832334034,
+    0.7069972390747334
+   ]
+  },
+  {
+   "analysis": "decomposition",
+   "horizon": 1000,
+   "protocol": "paper",
+   "features": "+all enriched (no time)",
+   "trained_on": "IPCW-covariate",
+   "scored_on": "known cohort, KM weights",
+   "n": 4615,
+   "auc": 0.7762910407810484,
+   "auc_ci": [
+    0.7583550085838825,
+    0.799619627149686
+   ]
+  },
+  {
+   "analysis": "decomposition",
+   "horizon": 1000,
+   "protocol": "paper",
+   "features": "+all enriched (no time)",
+   "trained_on": "IPCW-covariate",
+   "scored_on": "known cohort, covariate weights",
+   "n": 4615,
+   "auc": 0.7942948043532672,
+   "auc_ci": [
+    0.7745232151259925,
+    0.8164258831915076
+   ]
+  },
+  {
+   "analysis": "decomposition",
+   "horizon": 1000,
+   "protocol": "paper",
+   "features": "+all enriched (no time)",
+   "trained_on": "IPCW-covariate",
+   "scored_on": "known cohort, unweighted",
+   "n": 4615,
+   "auc": 0.7934319081675898,
+   "auc_ci": [
+    0.7757036449741246,
+    0.815052303296594
+   ]
+  },
+  {
+   "analysis": "decomposition",
+   "horizon": 1000,
+   "protocol": "paper",
+   "features": "+all enriched (no time)",
+   "trained_on": "IPCW-covariate",
+   "scored_on": "landmark subset",
+   "n": 1389,
+   "auc": 0.6654905295295228,
+   "auc_ci": [
+    0.6214116598839791,
+    0.7060788100507885
+   ]
+  },
+  {
+   "analysis": "decomposition",
+   "horizon": 1000,
+   "protocol": "paper",
+   "features": "+all enriched (no time)",
+   "trained_on": "landmark",
+   "scored_on": "known cohort, KM weights",
+   "n": 4615,
+   "auc": 0.662748864724056,
+   "auc_ci": [
+    0.6387579799605587,
+    0.6904720674152425
+   ]
+  },
+  {
+   "analysis": "decomposition",
+   "horizon": 1000,
+   "protocol": "paper",
+   "features": "+all enriched (no time)",
+   "trained_on": "landmark",
+   "scored_on": "known cohort, covariate weights",
+   "n": 4615,
+   "auc": 0.6824920952905144,
+   "auc_ci": [
+    0.6580214775432462,
+    0.7105491490126846
+   ]
+  },
+  {
+   "analysis": "decomposition",
+   "horizon": 1000,
+   "protocol": "paper",
+   "features": "+all enriched (no time)",
+   "trained_on": "landmark",
+   "scored_on": "known cohort, unweighted",
+   "n": 4615,
+   "auc": 0.6704449197378887,
+   "auc_ci": [
+    0.6449625073033736,
+    0.6964963492171414
+   ]
+  },
+  {
+   "analysis": "decomposition",
+   "horizon": 1000,
+   "protocol": "paper",
+   "features": "+all enriched (no time)",
+   "trained_on": "landmark",
+   "scored_on": "landmark subset",
+   "n": 1389,
+   "auc": 0.6102193373014013,
+   "auc_ci": [
+    0.5623368749103391,
+    0.6568431463500983
+   ]
+  },
+  {
+   "analysis": "decomposition",
+   "horizon": 1000,
+   "protocol": "temporal",
+   "features": "base (no time)",
+   "trained_on": "IPCW-KM",
+   "scored_on": "known cohort, KM weights",
+   "n": 1806,
+   "auc": 0.7143612583312848,
+   "auc_ci": [
+    0.6765112467886529,
+    0.7511365356678471
+   ]
+  },
+  {
+   "analysis": "decomposition",
+   "horizon": 1000,
+   "protocol": "temporal",
+   "features": "base (no time)",
+   "trained_on": "IPCW-KM",
+   "scored_on": "known cohort, covariate weights",
+   "n": 1806,
+   "auc": 0.7214548343880691,
+   "auc_ci": [
+    0.6748221917257872,
+    0.7672693171355733
+   ]
+  },
+  {
+   "analysis": "decomposition",
+   "horizon": 1000,
+   "protocol": "temporal",
+   "features": "base (no time)",
+   "trained_on": "IPCW-KM",
+   "scored_on": "known cohort, unweighted",
+   "n": 1806,
+   "auc": 0.7244408853371199,
+   "auc_ci": [
+    0.6828531191856295,
+    0.7616533245359738
+   ]
+  },
+  {
+   "analysis": "decomposition",
+   "horizon": 1000,
+   "protocol": "temporal",
+   "features": "base (no time)",
+   "trained_on": "IPCW-KM",
+   "scored_on": "landmark subset",
+   "n": 610,
+   "auc": 0.6563191677733511,
+   "auc_ci": [
+    0.5958769094876094,
+    0.7201767246610532
+   ]
+  },
+  {
+   "analysis": "decomposition",
+   "horizon": 1000,
+   "protocol": "temporal",
+   "features": "base (no time)",
+   "trained_on": "IPCW-covariate",
+   "scored_on": "known cohort, KM weights",
+   "n": 1806,
+   "auc": 0.72328217579412,
+   "auc_ci": [
+    0.6803611112087681,
+    0.7588300907145589
+   ]
+  },
+  {
+   "analysis": "decomposition",
+   "horizon": 1000,
+   "protocol": "temporal",
+   "features": "base (no time)",
+   "trained_on": "IPCW-covariate",
+   "scored_on": "known cohort, covariate weights",
+   "n": 1806,
+   "auc": 0.7344349772190659,
+   "auc_ci": [
+    0.6870039031893376,
+    0.7768077951018831
+   ]
+  },
+  {
+   "analysis": "decomposition",
+   "horizon": 1000,
+   "protocol": "temporal",
+   "features": "base (no time)",
+   "trained_on": "IPCW-covariate",
+   "scored_on": "known cohort, unweighted",
+   "n": 1806,
+   "auc": 0.7355084249023768,
+   "auc_ci": [
+    0.6909776891838859,
+    0.7714098482739448
+   ]
+  },
+  {
+   "analysis": "decomposition",
+   "horizon": 1000,
+   "protocol": "temporal",
+   "features": "base (no time)",
+   "trained_on": "IPCW-covariate",
+   "scored_on": "landmark subset",
+   "n": 610,
+   "auc": 0.6598236682898038,
+   "auc_ci": [
+    0.5985324889974885,
+    0.7196012178959021
+   ]
+  },
+  {
+   "analysis": "decomposition",
+   "horizon": 1000,
+   "protocol": "temporal",
+   "features": "base (no time)",
+   "trained_on": "landmark",
+   "scored_on": "known cohort, KM weights",
+   "n": 1806,
+   "auc": 0.6301442815774171,
+   "auc_ci": [
+    0.5931624789553914,
+    0.6694705969244689
+   ]
+  },
+  {
+   "analysis": "decomposition",
+   "horizon": 1000,
+   "protocol": "temporal",
+   "features": "base (no time)",
+   "trained_on": "landmark",
+   "scored_on": "known cohort, covariate weights",
+   "n": 1806,
+   "auc": 0.6435228243325258,
+   "auc_ci": [
+    0.6021084381514957,
+    0.6878052499402624
+   ]
+  },
+  {
+   "analysis": "decomposition",
+   "horizon": 1000,
+   "protocol": "temporal",
+   "features": "base (no time)",
+   "trained_on": "landmark",
+   "scored_on": "known cohort, unweighted",
+   "n": 1806,
+   "auc": 0.6302627776998077,
+   "auc_ci": [
+    0.5943408153425559,
+    0.6702384029424161
+   ]
+  },
+  {
+   "analysis": "decomposition",
+   "horizon": 1000,
+   "protocol": "temporal",
+   "features": "base (no time)",
+   "trained_on": "landmark",
+   "scored_on": "landmark subset",
+   "n": 610,
+   "auc": 0.583176553047071,
+   "auc_ci": [
+    0.5314515620763214,
+    0.6385908842990794
+   ]
+  },
+  {
+   "analysis": "decomposition",
+   "horizon": 1000,
+   "protocol": "temporal",
+   "features": "+all enriched (no time)",
+   "trained_on": "IPCW-KM",
+   "scored_on": "known cohort, KM weights",
+   "n": 1806,
+   "auc": 0.7432800359268534,
+   "auc_ci": [
+    0.7001721885292966,
+    0.7798064051870622
+   ]
+  },
+  {
+   "analysis": "decomposition",
+   "horizon": 1000,
+   "protocol": "temporal",
+   "features": "+all enriched (no time)",
+   "trained_on": "IPCW-KM",
+   "scored_on": "known cohort, covariate weights",
+   "n": 1806,
+   "auc": 0.7444444723808094,
+   "auc_ci": [
+    0.6840229513593846,
+    0.7904598562363179
+   ]
+  },
+  {
+   "analysis": "decomposition",
+   "horizon": 1000,
+   "protocol": "temporal",
+   "features": "+all enriched (no time)",
+   "trained_on": "IPCW-KM",
+   "scored_on": "known cohort, unweighted",
+   "n": 1806,
+   "auc": 0.7551568988433819,
+   "auc_ci": [
+    0.7121862053787306,
+    0.7896839671525923
+   ]
+  },
+  {
+   "analysis": "decomposition",
+   "horizon": 1000,
+   "protocol": "temporal",
+   "features": "+all enriched (no time)",
+   "trained_on": "IPCW-KM",
+   "scored_on": "landmark subset",
+   "n": 610,
+   "auc": 0.6497712852294526,
+   "auc_ci": [
+    0.58221945158772,
+    0.7222221889947668
+   ]
+  },
+  {
+   "analysis": "decomposition",
+   "horizon": 1000,
+   "protocol": "temporal",
+   "features": "+all enriched (no time)",
+   "trained_on": "IPCW-covariate",
+   "scored_on": "known cohort, KM weights",
+   "n": 1806,
+   "auc": 0.7624424847406214,
+   "auc_ci": [
+    0.7264485753765859,
+    0.7970683853268048
+   ]
+  },
+  {
+   "analysis": "decomposition",
+   "horizon": 1000,
+   "protocol": "temporal",
+   "features": "+all enriched (no time)",
+   "trained_on": "IPCW-covariate",
+   "scored_on": "known cohort, covariate weights",
+   "n": 1806,
+   "auc": 0.7785756947286824,
+   "auc_ci": [
+    0.7399243583111889,
+    0.8209410535815969
+   ]
+  },
+  {
+   "analysis": "decomposition",
+   "horizon": 1000,
+   "protocol": "temporal",
+   "features": "+all enriched (no time)",
+   "trained_on": "IPCW-covariate",
+   "scored_on": "known cohort, unweighted",
+   "n": 1806,
+   "auc": 0.7720710977552857,
+   "auc_ci": [
+    0.733907710783865,
+    0.807531515597429
+   ]
+  },
+  {
+   "analysis": "decomposition",
+   "horizon": 1000,
+   "protocol": "temporal",
+   "features": "+all enriched (no time)",
+   "trained_on": "IPCW-covariate",
+   "scored_on": "landmark subset",
+   "n": 610,
+   "auc": 0.6669802272391913,
+   "auc_ci": [
+    0.5959557773351565,
+    0.7335024647009795
+   ]
+  },
+  {
+   "analysis": "decomposition",
+   "horizon": 1000,
+   "protocol": "temporal",
+   "features": "+all enriched (no time)",
+   "trained_on": "landmark",
+   "scored_on": "known cohort, KM weights",
+   "n": 1806,
+   "auc": 0.6340370424422246,
+   "auc_ci": [
+    0.6016877234607163,
+    0.6738748670875384
+   ]
+  },
+  {
+   "analysis": "decomposition",
+   "horizon": 1000,
+   "protocol": "temporal",
+   "features": "+all enriched (no time)",
+   "trained_on": "landmark",
+   "scored_on": "known cohort, covariate weights",
+   "n": 1806,
+   "auc": 0.6422901856121472,
+   "auc_ci": [
+    0.5928897498311424,
+    0.6823487982271285
+   ]
+  },
+  {
+   "analysis": "decomposition",
+   "horizon": 1000,
+   "protocol": "temporal",
+   "features": "+all enriched (no time)",
+   "trained_on": "landmark",
+   "scored_on": "known cohort, unweighted",
+   "n": 1806,
+   "auc": 0.6361226461045663,
+   "auc_ci": [
+    0.6016529933371678,
+    0.6750124597386972
+   ]
+  },
+  {
+   "analysis": "decomposition",
+   "horizon": 1000,
+   "protocol": "temporal",
+   "features": "+all enriched (no time)",
+   "trained_on": "landmark",
+   "scored_on": "landmark subset",
+   "n": 610,
+   "auc": 0.5522539471742659,
+   "auc_ci": [
+    0.48488746821378004,
+    0.6236778890844697
+   ]
+  }
+ ],
+ "simulation": [
+  {
+   "scenario": "informative test length (gamma=0.6)",
+   "true": 0.8838762113399298,
+   "km": 0.8883277204852515,
+   "cov": 0.8993035712879288,
+   "unweighted": 0.8965692203334595,
+   "landmark": 0.8326437616800608,
+   "known_share": 0.8016871428571428,
+   "landmark_share": 0.5139928571428571,
+   "true_sd": 0.004273159834353581,
+   "km_sd": 0.004708914235459972,
+   "cov_sd": 0.004271743320465063,
+   "unweighted_sd": 0.004412303940925312,
+   "landmark_sd": 0.007028302884170265
+  },
+  {
+   "scenario": "shorter tests (gamma=0)",
+   "true": 0.8838762113399298,
+   "km": 0.8914671711659017,
+   "cov": 0.9134144858261266,
+   "unweighted": 0.9080224660858823,
+   "landmark": 0.8259272429044606,
+   "known_share": 0.6059635714285715,
+   "landmark_share": 0.3446485714285714,
+   "true_sd": 0.004273159834353581,
+   "km_sd": 0.0052817407911323,
+   "cov_sd": 0.004400254260149182,
+   "unweighted_sd": 0.004577301680351415,
+   "landmark_sd": 0.008442987170554412
+  },
+  {
+   "scenario": "weak signal",
+   "true": 0.7212409942972414,
+   "km": 0.7237019633037695,
+   "cov": 0.7411362677703752,
+   "unweighted": 0.733846539031843,
+   "landmark": 0.6636320526463205,
+   "known_share": 0.7634892857142858,
+   "landmark_share": 0.5163457142857143,
+   "true_sd": 0.007267992543839666,
+   "km_sd": 0.007489424798559935,
+   "cov_sd": 0.007395787079215566,
+   "unweighted_sd": 0.00734295361116317,
+   "landmark_sd": 0.009109571905577783
+  }
+ ]
+}

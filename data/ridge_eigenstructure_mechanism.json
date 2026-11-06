@@ -1,0 +1,126 @@
+{
+  "method": "Eigendecomposition of the training-set raw-feature covariance matrix (no StandardScaler, matching the Ridge(alpha=1.0) fit in phase4_multimodel_multipartition.py). For each of the 5 worst- and 5 best-Ridge-R2 family-disjoint partitions, the held-out test family's mean feature deviation from the training mean is projected onto the bottom-10%-eigenvalue training-covariance subspace, both as a raw magnitude and as an inverse-sqrt-eigenvalue-weighted magnitude (ridge extrapolation theory predicts that this weighting matters, not only the raw distance).",
+  "partitions": [
+    {
+      "partition_id": 23,
+      "n_train": 37648,
+      "n_test": 2132,
+      "condition_number": 7.486928463522351e+17,
+      "frac_test_deviation_in_bottom10pct_eigendirections": 4.7681843780554684e-05,
+      "weighted_low_eigendirection_projection": 72048.59071555336,
+      "ridge_r2_stored": -20.97089971972333,
+      "ridge_r2_recomputed_check": -20.97089971972333,
+      "group": "worst5"
+    },
+    {
+      "partition_id": 13,
+      "n_train": 29699,
+      "n_test": 10081,
+      "condition_number": 3.5382188276918854e+17,
+      "frac_test_deviation_in_bottom10pct_eigendirections": 0.00010665921897229622,
+      "weighted_low_eigendirection_projection": 70933.55912920393,
+      "ridge_r2_stored": -7.443175211936339,
+      "ridge_r2_recomputed_check": -7.443175211936339,
+      "group": "worst5"
+    },
+    {
+      "partition_id": 34,
+      "n_train": 37489,
+      "n_test": 2291,
+      "condition_number": 7.643356790266573e+17,
+      "frac_test_deviation_in_bottom10pct_eigendirections": 3.5790866651578086e-05,
+      "weighted_low_eigendirection_projection": 47939.89181233844,
+      "ridge_r2_stored": -5.348422745345829,
+      "ridge_r2_recomputed_check": -5.348422745345829,
+      "group": "worst5"
+    },
+    {
+      "partition_id": 15,
+      "n_train": 29689,
+      "n_test": 10091,
+      "condition_number": 3.5808612818879597e+17,
+      "frac_test_deviation_in_bottom10pct_eigendirections": 3.67957696430937e-05,
+      "weighted_low_eigendirection_projection": 24308.62152984942,
+      "ridge_r2_stored": -5.3233438937972,
+      "ridge_r2_recomputed_check": -5.3233438937972,
+      "group": "worst5"
+    },
+    {
+      "partition_id": 17,
+      "n_train": 37550,
+      "n_test": 2230,
+      "condition_number": 7.445367878338845e+17,
+      "frac_test_deviation_in_bottom10pct_eigendirections": 0.00012447583947449985,
+      "weighted_low_eigendirection_projection": 181820.24088115245,
+      "ridge_r2_stored": -4.518751442681402,
+      "ridge_r2_recomputed_check": -4.518751442681402,
+      "group": "worst5"
+    },
+    {
+      "partition_id": 16,
+      "n_train": 30703,
+      "n_test": 9077,
+      "condition_number": 7.498054643046477e+17,
+      "frac_test_deviation_in_bottom10pct_eigendirections": 7.288617744869898e-06,
+      "weighted_low_eigendirection_projection": 2639.529596171347,
+      "ridge_r2_stored": 0.1510568529874995,
+      "ridge_r2_recomputed_check": 0.1510568529874995,
+      "group": "best5"
+    },
+    {
+      "partition_id": 26,
+      "n_train": 30572,
+      "n_test": 9208,
+      "condition_number": 6.627343874450386e+17,
+      "frac_test_deviation_in_bottom10pct_eigendirections": 1.871597340765144e-06,
+      "weighted_low_eigendirection_projection": 817.0939558623837,
+      "ridge_r2_stored": 0.1692134611389462,
+      "ridge_r2_recomputed_check": 0.1692134611389462,
+      "group": "best5"
+    },
+    {
+      "partition_id": 0,
+      "n_train": 29837,
+      "n_test": 9943,
+      "condition_number": 3.760568245404518e+17,
+      "frac_test_deviation_in_bottom10pct_eigendirections": 0.0001600539605337311,
+      "weighted_low_eigendirection_projection": 104518.35785939486,
+      "ridge_r2_stored": 0.17332218891706186,
+      "ridge_r2_recomputed_check": 0.17332218891706186,
+      "group": "best5"
+    },
+    {
+      "partition_id": 6,
+      "n_train": 29768,
+      "n_test": 10012,
+      "condition_number": 3.3086919959780294e+17,
+      "frac_test_deviation_in_bottom10pct_eigendirections": 0.00017198326832220645,
+      "weighted_low_eigendirection_projection": 119521.2832647683,
+      "ridge_r2_stored": 0.20246469033659498,
+      "ridge_r2_recomputed_check": 0.20246469033659498,
+      "group": "best5"
+    },
+    {
+      "partition_id": 28,
+      "n_train": 30139,
+      "n_test": 9641,
+      "condition_number": 6.75558723549785e+17,
+      "frac_test_deviation_in_bottom10pct_eigendirections": 3.3410801913604544e-05,
+      "weighted_low_eigendirection_projection": 13515.722017947137,
+      "ridge_r2_stored": 0.20364508519505475,
+      "ridge_r2_recomputed_check": 0.20364508519505475,
+      "group": "best5"
+    }
+  ],
+  "worst5_mean_weighted_projection": 79410.18081361952,
+  "best5_mean_weighted_projection": 48202.397338828814,
+  "worst5_mean_condition_number": 5.938946648341522e+17,
+  "best5_mean_condition_number": 5.590049198875452e+17,
+  "correlation_weighted_projection_vs_r2": {
+    "pearson_r": -0.1371122347203962,
+    "pearson_p": 0.7056423379843136,
+    "n": 10
+  },
+  "note_on_ridge_preprocessing": "Ridge in the main experiments (phase2_pipeline.py, phase4_multimodel_multipartition.py) is fit on raw, unstandardized Magpie features with alpha=1.0. Magpie features span very different raw scales (e.g. AtomicWeight ~1-250, Electronegativity ~0.7-4, valence counts ~0-18), so a single fixed alpha gives uneven effective regularization across features (the effective ridge penalty scales with 1/variance of the feature in its raw units). This is a second contributor to the instability of Ridge, separate from the eigenstructure mechanism tested above; standardizing features before Ridge or ElasticNet addresses it.",
+  "verdict": "Across the 5 worst- and 5 best-performing Ridge family-disjoint partitions, the theory-motivated weighted projection of the held-out family's mean feature deviation onto the training covariance's low-eigenvalue (under-constrained) subspace is modestly larger for the worst partitions (worst5 mean=7.941e+04 vs. best5 mean=4.820e+04), and the pearson correlation across all 10 partitions is r=-0.137 (p=0.706). An earlier, simpler (unweighted) Mahalanobis-distance test did not hold after controlling for test-set size; this eigenvalue-weighted projection is a separate test motivated by ridge regression theory."
+}

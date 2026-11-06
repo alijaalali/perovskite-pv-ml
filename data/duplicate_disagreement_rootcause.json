@@ -1,0 +1,40 @@
+{
+  "any_device_vs_pce_range": {
+    "pearson_r": 0.1891354505212363,
+    "pearson_p": 3.1209506221613923e-07,
+    "spearman_rho": 0.5632620702573102,
+    "spearman_p": 1.3654432402072546e-61,
+    "n": 721
+  },
+  "per_device_field": {
+    "ETL_thickness": {
+      "pearson_r": 0.23392033397940298,
+      "pearson_p": 7.07100145011769e-06,
+      "n": 361
+    },
+    "HTL_thickness_list": {
+      "pearson_r": 0.19370255334294884,
+      "pearson_p": 0.002050925656369608,
+      "n": 251
+    },
+    "Perovskite_thickness": {
+      "pearson_r": 0.23120451671761388,
+      "pearson_p": 3.137127422591331e-05,
+      "n": 318
+    },
+    "Backcontact_thickness_list": {
+      "pearson_r": 0.19035136938111052,
+      "pearson_p": 4.3763319965761456e-07,
+      "n": 694
+    }
+  },
+  "variance_decomposition": {
+    "ss_total": 1028374.5631954394,
+    "ss_between_composition": 285246.72008175927,
+    "ss_within_composition": 743127.8431136801,
+    "frac_variance_within_duplicate_groups": 0.7226237109605083,
+    "n_dup_rows": 39110,
+    "note": "frac_variance_within_duplicate_groups is the share of total PCE variance among duplicate-composition rows that occurs within a fixed composition (it cannot be explained by composition, whether or not device or process variables account for it). It bounds the variance any composition-only model can explain on this subset."
+  },
+  "verdict": "Device/process-feature range within a fixed duplicate composition shows a statistically significant positive correlation with that composition's PCE range, based on the fields available (ETL/HTL/perovskite/backcontact thickness only; deposition method, annealing conditions and other process variables are not captured by these four numeric fields, so this is a partial test). Independently of that correlation test, the variance decomposition shows 72.3% of total PCE variance among duplicate-composition rows is within-composition variance that composition alone cannot explain, whether or not the available device fields capture its cause. This indicates a composition-only noise ceiling."
+}

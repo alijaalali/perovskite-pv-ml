@@ -1,0 +1,39 @@
+{
+ "prior | all pairs": {
+  "acc": 0.5244792785054756,
+  "lo": 0.5171578987493294,
+  "hi": 0.5322484227717565,
+  "n": 4657
+ },
+ "more_treated | all pairs": {
+  "acc": 0.5665664590938372,
+  "lo": 0.5545703616395337,
+  "hi": 0.5789206537214995,
+  "n": 4657
+ },
+ "prior | one coded factor differs": {
+  "acc": 0.5562962962962963,
+  "lo": 0.5383690401848173,
+  "hi": 0.5797005601772579,
+  "n": 2025
+ },
+ "more_treated | one coded factor differs": {
+  "acc": 0.6301234567901235,
+  "lo": 0.6101942980706653,
+  "hi": 0.6506591468037176,
+  "n": 2025
+ },
+ "prior | no coded factor differs": {
+  "acc": 0.5,
+  "lo": 0.5,
+  "hi": 0.5,
+  "n": 2325
+ },
+ "more_treated | no coded factor differs": {
+  "acc": 0.5,
+  "lo": 0.5,
+  "hi": 0.5,
+  "n": 2325
+ },
+ "share of one-factor pairs in which cell b has the higher retention (coin flip check)": 0.6276543209876543
+}

@@ -1,0 +1,452 @@
+[
+ {
+  "horizon": 500,
+  "protocol": "paper",
+  "stratum": "all",
+  "cohort": "known cohort, KM-weighted",
+  "n": 4909,
+  "failed": 2827,
+  "auc": 0.8004003481616881
+ },
+ {
+  "horizon": 500,
+  "protocol": "paper",
+  "stratum": "all",
+  "cohort": "landmark subset",
+  "n": 2631,
+  "failed": 440,
+  "auc": 0.7188596946184805
+ },
+ {
+  "horizon": 500,
+  "protocol": "paper",
+  "stratum": "ISOS ISOS-D-1",
+  "cohort": "known cohort, KM-weighted",
+  "n": 2599,
+  "failed": 1322,
+  "auc": 0.7993439333049026
+ },
+ {
+  "horizon": 500,
+  "protocol": "paper",
+  "stratum": "ISOS ISOS-D-1",
+  "cohort": "landmark subset",
+  "n": 1554,
+  "failed": 224,
+  "auc": 0.7079736170784103
+ },
+ {
+  "horizon": 500,
+  "protocol": "paper",
+  "stratum": "ISOS ISOS-L-1",
+  "cohort": "known cohort, KM-weighted",
+  "n": 589,
+  "failed": 467,
+  "auc": 0.7302313488904265
+ },
+ {
+  "horizon": 500,
+  "protocol": "paper",
+  "stratum": "ISOS ISOS-L-1",
+  "cohort": "landmark subset",
+  "n": 178,
+  "failed": 44,
+  "auc": 0.5904002713704206
+ },
+ {
+  "horizon": 500,
+  "protocol": "paper",
+  "stratum": "ISOS ISOS-D-1I",
+  "cohort": "known cohort, KM-weighted",
+  "n": 572,
+  "failed": 221,
+  "auc": 0.7495666762512414
+ },
+ {
+  "horizon": 500,
+  "protocol": "paper",
+  "stratum": "ISOS ISOS-D-1I",
+  "cohort": "landmark subset",
+  "n": 421,
+  "failed": 58,
+  "auc": 0.7318561793483425
+ },
+ {
+  "horizon": 500,
+  "protocol": "paper",
+  "stratum": "ISOS ISOS-L-1I",
+  "cohort": "known cohort, KM-weighted",
+  "n": 392,
+  "failed": 272,
+  "auc": 0.7562152000529084
+ },
+ {
+  "horizon": 500,
+  "protocol": "paper",
+  "stratum": "ISOS ISOS-L-1I",
+  "cohort": "landmark subset",
+  "n": 180,
+  "failed": 48,
+  "auc": 0.7776199494949496
+ },
+ {
+  "horizon": 500,
+  "protocol": "paper",
+  "stratum": "exposure tertile 2 (240-720 h)",
+  "cohort": "known cohort, KM-weighted",
+  "n": 1497,
+  "failed": 1056,
+  "auc": 0.694671582967612
+ },
+ {
+  "horizon": 500,
+  "protocol": "paper",
+  "stratum": "exposure tertile 2 (240-720 h)",
+  "cohort": "landmark subset",
+  "n": 727,
+  "failed": 177,
+  "auc": 0.6590395480225988
+ },
+ {
+  "horizon": 500,
+  "protocol": "paper",
+  "stratum": "exposure tertile 3 (720-inf h)",
+  "cohort": "known cohort, KM-weighted",
+  "n": 1904,
+  "failed": 263,
+  "auc": 0.7235964207181644
+ },
+ {
+  "horizon": 500,
+  "protocol": "paper",
+  "stratum": "exposure tertile 3 (720-inf h)",
+  "cohort": "landmark subset",
+  "n": 1904,
+  "failed": 263,
+  "auc": 0.7319009321497836
+ },
+ {
+  "horizon": 500,
+  "protocol": "temporal",
+  "stratum": "all",
+  "cohort": "known cohort, KM-weighted",
+  "n": 1908,
+  "failed": 1017,
+  "auc": 0.7960799013754977
+ },
+ {
+  "horizon": 500,
+  "protocol": "temporal",
+  "stratum": "all",
+  "cohort": "landmark subset",
+  "n": 1129,
+  "failed": 172,
+  "auc": 0.7427431897159243
+ },
+ {
+  "horizon": 500,
+  "protocol": "temporal",
+  "stratum": "ISOS ISOS-D-1",
+  "cohort": "known cohort, KM-weighted",
+  "n": 987,
+  "failed": 441,
+  "auc": 0.7746870341736687
+ },
+ {
+  "horizon": 500,
+  "protocol": "temporal",
+  "stratum": "ISOS ISOS-D-1",
+  "cohort": "landmark subset",
+  "n": 655,
+  "failed": 82,
+  "auc": 0.7277061252287915
+ },
+ {
+  "horizon": 500,
+  "protocol": "temporal",
+  "stratum": "ISOS ISOS-L-1",
+  "cohort": "known cohort, KM-weighted",
+  "n": 240,
+  "failed": 179,
+  "auc": 0.7726567125293575
+ },
+ {
+  "horizon": 500,
+  "protocol": "temporal",
+  "stratum": "ISOS ISOS-L-1",
+  "cohort": "landmark subset",
+  "n": 98,
+  "failed": 28,
+  "auc": 0.6959183673469387
+ },
+ {
+  "horizon": 500,
+  "protocol": "temporal",
+  "stratum": "ISOS ISOS-D-1I",
+  "cohort": "known cohort, KM-weighted",
+  "n": 188,
+  "failed": 54,
+  "auc": 0.7535336729204096
+ },
+ {
+  "horizon": 500,
+  "protocol": "temporal",
+  "stratum": "ISOS ISOS-D-1I",
+  "cohort": "landmark subset",
+  "n": 151,
+  "failed": 13,
+  "auc": 0.6923076923076923
+ },
+ {
+  "horizon": 500,
+  "protocol": "temporal",
+  "stratum": "ISOS ISOS-L-1I",
+  "cohort": "known cohort, KM-weighted",
+  "n": 158,
+  "failed": 99,
+  "auc": 0.6965541550295906
+ },
+ {
+  "horizon": 500,
+  "protocol": "temporal",
+  "stratum": "ISOS ISOS-L-1I",
+  "cohort": "landmark subset",
+  "n": 91,
+  "failed": 22,
+  "auc": 0.7529644268774702
+ },
+ {
+  "horizon": 500,
+  "protocol": "temporal",
+  "stratum": "exposure tertile 2 (240-720 h)",
+  "cohort": "known cohort, KM-weighted",
+  "n": 644,
+  "failed": 444,
+  "auc": 0.6981928591260206
+ },
+ {
+  "horizon": 500,
+  "protocol": "temporal",
+  "stratum": "exposure tertile 2 (240-720 h)",
+  "cohort": "landmark subset",
+  "n": 343,
+  "failed": 77,
+  "auc": 0.6745679132897178
+ },
+ {
+  "horizon": 500,
+  "protocol": "temporal",
+  "stratum": "exposure tertile 3 (720-inf h)",
+  "cohort": "known cohort, KM-weighted",
+  "n": 786,
+  "failed": 95,
+  "auc": 0.7473441468804753
+ },
+ {
+  "horizon": 500,
+  "protocol": "temporal",
+  "stratum": "exposure tertile 3 (720-inf h)",
+  "cohort": "landmark subset",
+  "n": 786,
+  "failed": 95,
+  "auc": 0.7516185543453425
+ },
+ {
+  "horizon": 1000,
+  "protocol": "paper",
+  "stratum": "all",
+  "cohort": "known cohort, KM-weighted",
+  "n": 4615,
+  "failed": 3606,
+  "auc": 0.7649295356959712
+ },
+ {
+  "horizon": 1000,
+  "protocol": "paper",
+  "stratum": "all",
+  "cohort": "landmark subset",
+  "n": 1389,
+  "failed": 266,
+  "auc": 0.6621378691608808
+ },
+ {
+  "horizon": 1000,
+  "protocol": "paper",
+  "stratum": "ISOS ISOS-D-1",
+  "cohort": "known cohort, KM-weighted",
+  "n": 2454,
+  "failed": 1828,
+  "auc": 0.7658304566367506
+ },
+ {
+  "horizon": 1000,
+  "protocol": "paper",
+  "stratum": "ISOS ISOS-D-1",
+  "cohort": "landmark subset",
+  "n": 829,
+  "failed": 143,
+  "auc": 0.626760994107933
+ },
+ {
+  "horizon": 1000,
+  "protocol": "paper",
+  "stratum": "ISOS ISOS-L-1",
+  "cohort": "known cohort, KM-weighted",
+  "n": 576,
+  "failed": 523,
+  "auc": 0.6899386748645444
+ },
+ {
+  "horizon": 1000,
+  "protocol": "paper",
+  "stratum": "ISOS ISOS-L-1",
+  "cohort": "landmark subset",
+  "n": 91,
+  "failed": 24,
+  "auc": 0.525497512437811
+ },
+ {
+  "horizon": 1000,
+  "protocol": "paper",
+  "stratum": "ISOS ISOS-D-1I",
+  "cohort": "known cohort, KM-weighted",
+  "n": 501,
+  "failed": 323,
+  "auc": 0.757990249373067
+ },
+ {
+  "horizon": 1000,
+  "protocol": "paper",
+  "stratum": "ISOS ISOS-D-1I",
+  "cohort": "landmark subset",
+  "n": 207,
+  "failed": 24,
+  "auc": 0.7150500910746812
+ },
+ {
+  "horizon": 1000,
+  "protocol": "paper",
+  "stratum": "ISOS ISOS-L-1I",
+  "cohort": "known cohort, KM-weighted",
+  "n": 357,
+  "failed": 318,
+  "auc": 0.7237618914769374
+ },
+ {
+  "horizon": 1000,
+  "protocol": "paper",
+  "stratum": "ISOS ISOS-L-1I",
+  "cohort": "landmark subset",
+  "n": 90,
+  "failed": 38,
+  "auc": 0.667004048582996
+ },
+ {
+  "horizon": 1000,
+  "protocol": "paper",
+  "stratum": "exposure tertile 3 (800-inf h)",
+  "cohort": "known cohort, KM-weighted",
+  "n": 1548,
+  "failed": 539,
+  "auc": 0.6832838773956271
+ },
+ {
+  "horizon": 1000,
+  "protocol": "paper",
+  "stratum": "exposure tertile 3 (800-inf h)",
+  "cohort": "landmark subset",
+  "n": 1389,
+  "failed": 266,
+  "auc": 0.6621378691608808
+ },
+ {
+  "horizon": 1000,
+  "protocol": "temporal",
+  "stratum": "all",
+  "cohort": "known cohort, KM-weighted",
+  "n": 1806,
+  "failed": 1361,
+  "auc": 0.7415587949848254
+ },
+ {
+  "horizon": 1000,
+  "protocol": "temporal",
+  "stratum": "all",
+  "cohort": "landmark subset",
+  "n": 610,
+  "failed": 108,
+  "auc": 0.6499003984063745
+ },
+ {
+  "horizon": 1000,
+  "protocol": "temporal",
+  "stratum": "ISOS ISOS-D-1",
+  "cohort": "known cohort, KM-weighted",
+  "n": 943,
+  "failed": 672,
+  "auc": 0.7193897840758099
+ },
+ {
+  "horizon": 1000,
+  "protocol": "temporal",
+  "stratum": "ISOS ISOS-D-1",
+  "cohort": "landmark subset",
+  "n": 359,
+  "failed": 55,
+  "auc": 0.5805023923444976
+ },
+ {
+  "horizon": 1000,
+  "protocol": "temporal",
+  "stratum": "ISOS ISOS-L-1",
+  "cohort": "known cohort, KM-weighted",
+  "n": 224,
+  "failed": 201,
+  "auc": 0.7224359192455222
+ },
+ {
+  "horizon": 1000,
+  "protocol": "temporal",
+  "stratum": "ISOS ISOS-D-1I",
+  "cohort": "known cohort, KM-weighted",
+  "n": 175,
+  "failed": 96,
+  "auc": 0.8091561685390699
+ },
+ {
+  "horizon": 1000,
+  "protocol": "temporal",
+  "stratum": "ISOS ISOS-D-1I",
+  "cohort": "landmark subset",
+  "n": 87,
+  "failed": 6,
+  "auc": 0.7037037037037037
+ },
+ {
+  "horizon": 1000,
+  "protocol": "temporal",
+  "stratum": "ISOS ISOS-L-1I",
+  "cohort": "known cohort, KM-weighted",
+  "n": 146,
+  "failed": 124,
+  "auc": 0.684003527990911
+ },
+ {
+  "horizon": 1000,
+  "protocol": "temporal",
+  "stratum": "exposure tertile 3 (800-inf h)",
+  "cohort": "known cohort, KM-weighted",
+  "n": 674,
+  "failed": 229,
+  "auc": 0.6760084256438958
+ },
+ {
+  "horizon": 1000,
+  "protocol": "temporal",
+  "stratum": "exposure tertile 3 (800-inf h)",
+  "cohort": "landmark subset",
+  "n": 610,
+  "failed": 108,
+  "auc": 0.6499003984063745
+ }
+]

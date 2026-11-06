@@ -1,0 +1,58 @@
+[
+ {
+  "label": "all lead-free",
+  "target": "retention (pp)",
+  "cells_free": 119,
+  "papers_contributing": 1,
+  "beta": null
+ },
+ {
+  "label": "excluding double and oxide perovskites",
+  "target": "retention (pp)",
+  "cells_free": 95,
+  "papers_contributing": 1,
+  "beta": null
+ },
+ {
+  "label": "Sn-based only",
+  "target": "retention (pp)",
+  "cells_free": 78,
+  "papers_contributing": 0,
+  "beta": null
+ },
+ {
+  "label": "Bi/Sb-based only",
+  "target": "retention (pp)",
+  "cells_free": 15,
+  "papers_contributing": 1,
+  "beta": null
+ },
+ {
+  "label": "all lead-free",
+  "target": "final efficiency (pp of PCE)",
+  "cells_free": 115,
+  "papers_contributing": 1,
+  "beta": null
+ },
+ {
+  "label": "excluding double and oxide perovskites",
+  "target": "final efficiency (pp of PCE)",
+  "cells_free": 95,
+  "papers_contributing": 1,
+  "beta": null
+ },
+ {
+  "label": "Sn-based only",
+  "target": "final efficiency (pp of PCE)",
+  "cells_free": 78,
+  "papers_contributing": 0,
+  "beta": null
+ },
+ {
+  "label": "Bi/Sb-based only",
+  "target": "final efficiency (pp of PCE)",
+  "cells_free": 15,
+  "papers_contributing": 1,
+  "beta": null
+ }
+]

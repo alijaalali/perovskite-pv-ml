@@ -1,0 +1,39 @@
+{
+  "device_feature_completeness": {
+    "ETL_thickness": 0.3467823026646556,
+    "HTL_thickness_list": 0.2311965811965812,
+    "Perovskite_thickness": 0.3122423328305681,
+    "Backcontact_thickness_list": 0.8058823529411765
+  },
+  "n_complete_device_subset": 4254,
+  "n_total": 39780,
+  "full_data_imputed": {
+    "composition_only": {
+      "r2": 0.3375930527781399,
+      "mae": 3.323766008368078,
+      "n_train": 29853,
+      "n_test": 9927
+    },
+    "composition_plus_device": {
+      "r2": 0.4085513723195595,
+      "mae": 3.24322639694492,
+      "n_train": 29853,
+      "n_test": 9927
+    }
+  },
+  "complete_subset_no_imputation": {
+    "composition_only": {
+      "r2": 0.030759810926716757,
+      "mae": 3.677594599886392,
+      "n_train": 3223,
+      "n_test": 1031
+    },
+    "composition_plus_device": {
+      "r2": 0.3042427638558802,
+      "mae": 3.1488167082739094,
+      "n_train": 3223,
+      "n_test": 1031
+    }
+  },
+  "note": "Device features (ETL/HTL/Perovskite/Backcontact thickness parsed as first numeric token before any '|' multi-value separator; ETL/HTL stack sequence as top-8 one-hot) are sparse in PDP (see device_feature_completeness). Results are reported for the full data with median imputation and for the complete-device subset without imputation."
+}

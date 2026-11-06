@@ -1,0 +1,138 @@
+[
+ {
+  "protocol": "temporal",
+  "model": "XGBoost",
+  "features": "base",
+  "r2": 0.12491487723804795,
+  "r2_ci": [
+   0.09396689616094826,
+   0.15617250238911076
+  ],
+  "r2_paperweighted": 0.1341018356651592
+ },
+ {
+  "protocol": "temporal",
+  "model": "XGBoost",
+  "features": "base without composition",
+  "r2": 0.1252781094111528,
+  "r2_ci": [
+   0.09381176459218497,
+   0.1522278345405295
+  ],
+  "r2_paperweighted": 0.12845019740956476
+ },
+ {
+  "protocol": "temporal",
+  "model": "LightGBM",
+  "features": "base",
+  "r2": 0.12112337647855931,
+  "r2_ci": [
+   0.08855050467791992,
+   0.15251412173595633
+  ],
+  "r2_paperweighted": 0.1273245515486331
+ },
+ {
+  "protocol": "temporal",
+  "model": "LightGBM",
+  "features": "base without composition",
+  "r2": 0.11365509717122568,
+  "r2_ci": [
+   0.07308660885110833,
+   0.14852681968240142
+  ],
+  "r2_paperweighted": 0.12204855331315079
+ },
+ {
+  "protocol": "temporal",
+  "model": "RandomForest",
+  "features": "base",
+  "r2": 0.10715261547477073,
+  "r2_ci": [
+   0.07418334737956883,
+   0.13892789036349862
+  ],
+  "r2_paperweighted": 0.1217849283500565
+ },
+ {
+  "protocol": "temporal",
+  "model": "RandomForest",
+  "features": "base without composition",
+  "r2": 0.11805574715005007,
+  "r2_ci": [
+   0.08880902831054822,
+   0.1404715748918407
+  ],
+  "r2_paperweighted": 0.12561677537525073
+ },
+ {
+  "protocol": "temporal",
+  "model": "Blend (XGB+LGBM+RF)",
+  "features": "base",
+  "r2": 0.12235194776492209,
+  "r2_ci": [
+   0.09006936777456542,
+   0.1516856421376275
+  ],
+  "r2_paperweighted": 0.13260176438754334
+ },
+ {
+  "protocol": "temporal",
+  "model": "Blend (XGB+LGBM+RF)",
+  "features": "base without composition",
+  "r2": 0.1264706088781138,
+  "r2_ci": [
+   0.09452579269137343,
+   0.1530594209114858
+  ],
+  "r2_paperweighted": 0.13302787092259827
+ },
+ {
+  "protocol": "temporal",
+  "model": "XGBoost",
+  "features": "base without composition",
+  "task": "gain",
+  "reference": "base",
+  "gain": 0.0003632321731048549,
+  "gain_ci": [
+   -0.016289430279326247,
+   0.011280212162434976
+  ]
+ },
+ {
+  "protocol": "temporal",
+  "model": "LightGBM",
+  "features": "base without composition",
+  "task": "gain",
+  "reference": "base",
+  "gain": -0.007468279307333625,
+  "gain_ci": [
+   -0.031409437831223824,
+   0.012105941911289626
+  ]
+ },
+ {
+  "protocol": "temporal",
+  "model": "RandomForest",
+  "features": "base without composition",
+  "task": "gain",
+  "reference": "base",
+  "gain": 0.010903131675279343,
+  "gain_ci": [
+   -0.00629085678691636,
+   0.025309568854615584
+  ]
+ },
+ {
+  "protocol": "temporal",
+  "model": "Blend (XGB+LGBM+RF)",
+  "features": "base without composition",
+  "task": "gain",
+  "reference": "base",
+  "gain": 0.004118661113191702,
+  "gain_ci": [
+   -0.012722764798555632,
+   0.016956650160770154
+  ]
+ }
+]

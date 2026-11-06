@@ -1,0 +1,3366 @@
+[
+ {
+  "task": "retention",
+  "protocol": "paper",
+  "model": "Ridge",
+  "features": "base",
+  "r2": 0.10486270823211097,
+  "r2_ci": [
+   0.08317460848729724,
+   0.12196220602892113
+  ],
+  "n_features": 229
+ },
+ {
+  "task": "retention",
+  "protocol": "paper",
+  "model": "Ridge",
+  "features": "+process+stack",
+  "r2": 0.1221458446995004,
+  "r2_ci": [
+   0.10239069653212997,
+   0.14797975898738538
+  ],
+  "n_features": 319
+ },
+ {
+  "task": "retention",
+  "protocol": "paper",
+  "model": "Ridge",
+  "features": "+all enriched",
+  "r2": 0.136885698135221,
+  "r2_ci": [
+   0.11636642878219405,
+   0.1622711943166485
+  ],
+  "n_features": 321
+ },
+ {
+  "task": "delta_retention",
+  "protocol": "paper",
+  "model": "Ridge",
+  "features": "+process+stack",
+  "delta_r2": 0.017283136467389437,
+  "delta_ci": [
+   0.0048760269568710905,
+   0.028430047948712123
+  ]
+ },
+ {
+  "task": "delta_retention",
+  "protocol": "paper",
+  "model": "Ridge",
+  "features": "+all enriched",
+  "delta_r2": 0.03202298990311003,
+  "delta_ci": [
+   0.018482634794275664,
+   0.04390064133021269
+  ]
+ },
+ {
+  "task": "retention",
+  "protocol": "paper",
+  "model": "ElasticNet",
+  "features": "base",
+  "r2": 0.10456326697607166,
+  "r2_ci": [
+   0.08891625035075464,
+   0.12213408047648505
+  ],
+  "n_features": 229
+ },
+ {
+  "task": "retention",
+  "protocol": "paper",
+  "model": "ElasticNet",
+  "features": "+process+stack",
+  "r2": 0.12317634743072026,
+  "r2_ci": [
+   0.1077363562717845,
+   0.14266246874285501
+  ],
+  "n_features": 319
+ },
+ {
+  "task": "retention",
+  "protocol": "paper",
+  "model": "ElasticNet",
+  "features": "+all enriched",
+  "r2": 0.14199782369694014,
+  "r2_ci": [
+   0.1241653303920257,
+   0.16072323039307168
+  ],
+  "n_features": 321
+ },
+ {
+  "task": "delta_retention",
+  "protocol": "paper",
+  "model": "ElasticNet",
+  "features": "+process+stack",
+  "delta_r2": 0.0186130804546486,
+  "delta_ci": [
+   0.010766267719859408,
+   0.02662938671357301
+  ]
+ },
+ {
+  "task": "delta_retention",
+  "protocol": "paper",
+  "model": "ElasticNet",
+  "features": "+all enriched",
+  "delta_r2": 0.037434556720868484,
+  "delta_ci": [
+   0.025919548417492774,
+   0.046611555630835626
+  ]
+ },
+ {
+  "task": "retention",
+  "protocol": "paper",
+  "model": "RandomForest",
+  "features": "base",
+  "r2": 0.10983347614358618,
+  "r2_ci": [
+   0.08932303167187923,
+   0.13237853546822195
+  ],
+  "n_features": 229
+ },
+ {
+  "task": "retention",
+  "protocol": "paper",
+  "model": "RandomForest",
+  "features": "+process+stack",
+  "r2": 0.14549846257182852,
+  "r2_ci": [
+   0.12896654672263722,
+   0.1670638299009315
+  ],
+  "n_features": 319
+ },
+ {
+  "task": "retention",
+  "protocol": "paper",
+  "model": "RandomForest",
+  "features": "+all enriched",
+  "r2": 0.1681691556619962,
+  "r2_ci": [
+   0.14766867821410173,
+   0.18889600143600108
+  ],
+  "n_features": 321
+ },
+ {
+  "task": "delta_retention",
+  "protocol": "paper",
+  "model": "RandomForest",
+  "features": "+process+stack",
+  "delta_r2": 0.03566498642824234,
+  "delta_ci": [
+   0.02626123296526015,
+   0.045868945738687265
+  ]
+ },
+ {
+  "task": "delta_retention",
+  "protocol": "paper",
+  "model": "RandomForest",
+  "features": "+all enriched",
+  "delta_r2": 0.05833567951841001,
+  "delta_ci": [
+   0.04471273665128771,
+   0.07077525223004437
+  ]
+ },
+ {
+  "task": "retention",
+  "protocol": "paper",
+  "model": "XGBoost",
+  "features": "base",
+  "r2": 0.10803252845781186,
+  "r2_ci": [
+   0.08780376489654688,
+   0.1329606082404574
+  ],
+  "n_features": 229
+ },
+ {
+  "task": "retention",
+  "protocol": "paper",
+  "model": "XGBoost",
+  "features": "+process+stack",
+  "r2": 0.14771834454530597,
+  "r2_ci": [
+   0.1250065386734941,
+   0.17446971629237285
+  ],
+  "n_features": 319
+ },
+ {
+  "task": "retention",
+  "protocol": "paper",
+  "model": "XGBoost",
+  "features": "+all enriched",
+  "r2": 0.17669113219009003,
+  "r2_ci": [
+   0.14756031774138315,
+   0.20367473145167436
+  ],
+  "n_features": 321
+ },
+ {
+  "task": "delta_retention",
+  "protocol": "paper",
+  "model": "XGBoost",
+  "features": "+process+stack",
+  "delta_r2": 0.03968581608749411,
+  "delta_ci": [
+   0.02511474415103355,
+   0.05436302477559584
+  ]
+ },
+ {
+  "task": "delta_retention",
+  "protocol": "paper",
+  "model": "XGBoost",
+  "features": "+all enriched",
+  "delta_r2": 0.06865860373227817,
+  "delta_ci": [
+   0.0511288989821327,
+   0.08495199076207913
+  ]
+ },
+ {
+  "task": "retention",
+  "protocol": "paper",
+  "model": "LightGBM",
+  "features": "base",
+  "r2": 0.08444482558145527,
+  "r2_ci": [
+   0.060720835760731576,
+   0.111241808053846
+  ],
+  "n_features": 229
+ },
+ {
+  "task": "retention",
+  "protocol": "paper",
+  "model": "LightGBM",
+  "features": "+process+stack",
+  "r2": 0.13272800980380828,
+  "r2_ci": [
+   0.10912417771670317,
+   0.164716746731811
+  ],
+  "n_features": 319
+ },
+ {
+  "task": "retention",
+  "protocol": "paper",
+  "model": "LightGBM",
+  "features": "+all enriched",
+  "r2": 0.15988349500693722,
+  "r2_ci": [
+   0.1302186215531616,
+   0.18740366614837314
+  ],
+  "n_features": 321
+ },
+ {
+  "task": "delta_retention",
+  "protocol": "paper",
+  "model": "LightGBM",
+  "features": "+process+stack",
+  "delta_r2": 0.048283184222353004,
+  "delta_ci": [
+   0.030722961641880406,
+   0.06638926901851755
+  ]
+ },
+ {
+  "task": "delta_retention",
+  "protocol": "paper",
+  "model": "LightGBM",
+  "features": "+all enriched",
+  "delta_r2": 0.07543866942548194,
+  "delta_ci": [
+   0.05069377395233168,
+   0.09581375373274074
+  ]
+ },
+ {
+  "task": "retention",
+  "protocol": "paper",
+  "model": "MLP",
+  "features": "base",
+  "r2": -0.20375175874882112,
+  "r2_ci": [
+   -0.2744657273040413,
+   -0.15256092646988956
+  ],
+  "n_features": 229
+ },
+ {
+  "task": "retention",
+  "protocol": "paper",
+  "model": "MLP",
+  "features": "+process+stack",
+  "r2": -0.2578864404763255,
+  "r2_ci": [
+   -0.31122578040236104,
+   -0.19830881884693505
+  ],
+  "n_features": 319
+ },
+ {
+  "task": "retention",
+  "protocol": "paper",
+  "model": "MLP",
+  "features": "+all enriched",
+  "r2": -0.2685853172890731,
+  "r2_ci": [
+   -0.32644012147381896,
+   -0.2040026247403056
+  ],
+  "n_features": 321
+ },
+ {
+  "task": "delta_retention",
+  "protocol": "paper",
+  "model": "MLP",
+  "features": "+process+stack",
+  "delta_r2": -0.05413468172750435,
+  "delta_ci": [
+   -0.10835150731755389,
+   0.0110317439193216
+  ]
+ },
+ {
+  "task": "delta_retention",
+  "protocol": "paper",
+  "model": "MLP",
+  "features": "+all enriched",
+  "delta_r2": -0.06483355854025197,
+  "delta_ci": [
+   -0.12634175633446101,
+   0.009468763835107476
+  ]
+ },
+ {
+  "task": "retention",
+  "protocol": "paper",
+  "model": "ExtraTrees",
+  "features": "base",
+  "r2": 0.08865492222118165,
+  "r2_ci": [
+   0.06854222150226279,
+   0.10975362917200597
+  ],
+  "n_features": 229
+ },
+ {
+  "task": "retention",
+  "protocol": "paper",
+  "model": "ExtraTrees",
+  "features": "+process+stack",
+  "r2": 0.12110112318199162,
+  "r2_ci": [
+   0.10004630444859135,
+   0.1457720585518891
+  ],
+  "n_features": 319
+ },
+ {
+  "task": "retention",
+  "protocol": "paper",
+  "model": "ExtraTrees",
+  "features": "+all enriched",
+  "r2": 0.1372297658088486,
+  "r2_ci": [
+   0.11617757826807269,
+   0.1597941805321885
+  ],
+  "n_features": 321
+ },
+ {
+  "task": "delta_retention",
+  "protocol": "paper",
+  "model": "ExtraTrees",
+  "features": "+process+stack",
+  "delta_r2": 0.03244620096080997,
+  "delta_ci": [
+   0.016266796872715428,
+   0.048269036129122186
+  ]
+ },
+ {
+  "task": "delta_retention",
+  "protocol": "paper",
+  "model": "ExtraTrees",
+  "features": "+all enriched",
+  "delta_r2": 0.04857484358766695,
+  "delta_ci": [
+   0.033885154796509435,
+   0.06408654685125163
+  ]
+ },
+ {
+  "task": "retention",
+  "protocol": "paper",
+  "model": "HistGradientBoosting",
+  "features": "base",
+  "r2": 0.10371261584513758,
+  "r2_ci": [
+   0.08090443878847832,
+   0.1265750734339051
+  ],
+  "n_features": 229
+ },
+ {
+  "task": "retention",
+  "protocol": "paper",
+  "model": "HistGradientBoosting",
+  "features": "+process+stack",
+  "r2": 0.13865405493040817,
+  "r2_ci": [
+   0.11726800351817664,
+   0.16473125159417654
+  ],
+  "n_features": 319
+ },
+ {
+  "task": "retention",
+  "protocol": "paper",
+  "model": "HistGradientBoosting",
+  "features": "+all enriched",
+  "r2": 0.1666265963959902,
+  "r2_ci": [
+   0.14013596464308314,
+   0.19392041191514162
+  ],
+  "n_features": 321
+ },
+ {
+  "task": "delta_retention",
+  "protocol": "paper",
+  "model": "HistGradientBoosting",
+  "features": "+process+stack",
+  "delta_r2": 0.03494143908527059,
+  "delta_ci": [
+   0.02135034392866482,
+   0.04881950914818383
+  ]
+ },
+ {
+  "task": "delta_retention",
+  "protocol": "paper",
+  "model": "HistGradientBoosting",
+  "features": "+all enriched",
+  "delta_r2": 0.06291398055085262,
+  "delta_ci": [
+   0.044259552495375144,
+   0.08305176966744368
+  ]
+ },
+ {
+  "task": "retention",
+  "protocol": "paper",
+  "model": "GradientBoosting",
+  "features": "base",
+  "r2": 0.11927216555213094,
+  "r2_ci": [
+   0.09836268772641651,
+   0.14131673634610323
+  ],
+  "n_features": 229
+ },
+ {
+  "task": "retention",
+  "protocol": "paper",
+  "model": "GradientBoosting",
+  "features": "+process+stack",
+  "r2": 0.1478746948414983,
+  "r2_ci": [
+   0.12850304964886153,
+   0.17317705116560234
+  ],
+  "n_features": 319
+ },
+ {
+  "task": "retention",
+  "protocol": "paper",
+  "model": "GradientBoosting",
+  "features": "+all enriched",
+  "r2": 0.17242858385303816,
+  "r2_ci": [
+   0.15190102782476095,
+   0.19569794768172963
+  ],
+  "n_features": 321
+ },
+ {
+  "task": "delta_retention",
+  "protocol": "paper",
+  "model": "GradientBoosting",
+  "features": "+process+stack",
+  "delta_r2": 0.02860252928936735,
+  "delta_ci": [
+   0.019268129017111092,
+   0.039520156883876965
+  ]
+ },
+ {
+  "task": "delta_retention",
+  "protocol": "paper",
+  "model": "GradientBoosting",
+  "features": "+all enriched",
+  "delta_r2": 0.05315641830090723,
+  "delta_ci": [
+   0.039588681489689526,
+   0.06717789646064667
+  ]
+ },
+ {
+  "task": "retention",
+  "protocol": "paper",
+  "model": "CatBoost",
+  "features": "base",
+  "r2": 0.1197315996328796,
+  "r2_ci": [
+   0.0989553426646017,
+   0.1431226565113155
+  ],
+  "n_features": 229
+ },
+ {
+  "task": "retention",
+  "protocol": "paper",
+  "model": "CatBoost",
+  "features": "+process+stack",
+  "r2": 0.15501377650927406,
+  "r2_ci": [
+   0.13659331825509796,
+   0.1798351517460511
+  ],
+  "n_features": 319
+ },
+ {
+  "task": "retention",
+  "protocol": "paper",
+  "model": "CatBoost",
+  "features": "+all enriched",
+  "r2": 0.17713739037605591,
+  "r2_ci": [
+   0.15365403359447163,
+   0.20065729290098783
+  ],
+  "n_features": 321
+ },
+ {
+  "task": "delta_retention",
+  "protocol": "paper",
+  "model": "CatBoost",
+  "features": "+process+stack",
+  "delta_r2": 0.035282176876394455,
+  "delta_ci": [
+   0.02256363873078828,
+   0.04883444881095512
+  ]
+ },
+ {
+  "task": "delta_retention",
+  "protocol": "paper",
+  "model": "CatBoost",
+  "features": "+all enriched",
+  "delta_r2": 0.05740579074317631,
+  "delta_ci": [
+   0.04112427021237439,
+   0.07155965099310958
+  ]
+ },
+ {
+  "task": "retention",
+  "protocol": "paper",
+  "model": "AdaBoost",
+  "features": "base",
+  "r2": 0.020946638348170343,
+  "r2_ci": [
+   -0.0003971100337551097,
+   0.04199388258145148
+  ],
+  "n_features": 229
+ },
+ {
+  "task": "retention",
+  "protocol": "paper",
+  "model": "AdaBoost",
+  "features": "+process+stack",
+  "r2": 0.034693091319534686,
+  "r2_ci": [
+   0.013775903777790685,
+   0.0557446542164661
+  ],
+  "n_features": 319
+ },
+ {
+  "task": "retention",
+  "protocol": "paper",
+  "model": "AdaBoost",
+  "features": "+all enriched",
+  "r2": 0.0563695812076529,
+  "r2_ci": [
+   0.03479433585865842,
+   0.07782913492158837
+  ],
+  "n_features": 321
+ },
+ {
+  "task": "delta_retention",
+  "protocol": "paper",
+  "model": "AdaBoost",
+  "features": "+process+stack",
+  "delta_r2": 0.013746452971364342,
+  "delta_ci": [
+   0.008742092476913493,
+   0.019522134775941252
+  ]
+ },
+ {
+  "task": "delta_retention",
+  "protocol": "paper",
+  "model": "AdaBoost",
+  "features": "+all enriched",
+  "delta_r2": 0.035422942859482554,
+  "delta_ci": [
+   0.027816825490173912,
+   0.043377232315541484
+  ]
+ },
+ {
+  "task": "retention",
+  "protocol": "paper",
+  "model": "Bagging",
+  "features": "base",
+  "r2": 0.10619406957164013,
+  "r2_ci": [
+   0.0910584341231849,
+   0.12161394132430169
+  ],
+  "n_features": 229
+ },
+ {
+  "task": "retention",
+  "protocol": "paper",
+  "model": "Bagging",
+  "features": "+process+stack",
+  "r2": 0.13973346679714793,
+  "r2_ci": [
+   0.1247927358653295,
+   0.15759943791221648
+  ],
+  "n_features": 319
+ },
+ {
+  "task": "retention",
+  "protocol": "paper",
+  "model": "Bagging",
+  "features": "+all enriched",
+  "r2": 0.15855323521687859,
+  "r2_ci": [
+   0.1417265183149726,
+   0.17617548999723462
+  ],
+  "n_features": 321
+ },
+ {
+  "task": "delta_retention",
+  "protocol": "paper",
+  "model": "Bagging",
+  "features": "+process+stack",
+  "delta_r2": 0.033539397225507805,
+  "delta_ci": [
+   0.02423974685323195,
+   0.04422149816704088
+  ]
+ },
+ {
+  "task": "delta_retention",
+  "protocol": "paper",
+  "model": "Bagging",
+  "features": "+all enriched",
+  "delta_r2": 0.05235916564523846,
+  "delta_ci": [
+   0.040422831530125075,
+   0.06360336154365613
+  ]
+ },
+ {
+  "task": "retention",
+  "protocol": "paper",
+  "model": "DecisionTree",
+  "features": "base",
+  "r2": 0.014858262884372753,
+  "r2_ci": [
+   -0.00987880794457648,
+   0.03977550479487465
+  ],
+  "n_features": 229
+ },
+ {
+  "task": "retention",
+  "protocol": "paper",
+  "model": "DecisionTree",
+  "features": "+process+stack",
+  "r2": 0.014941638154039039,
+  "r2_ci": [
+   -0.016656427022358415,
+   0.04226059301675093
+  ],
+  "n_features": 319
+ },
+ {
+  "task": "retention",
+  "protocol": "paper",
+  "model": "DecisionTree",
+  "features": "+all enriched",
+  "r2": 0.03320832057899947,
+  "r2_ci": [
+   0.004599738478263351,
+   0.06500637283302547
+  ],
+  "n_features": 321
+ },
+ {
+  "task": "delta_retention",
+  "protocol": "paper",
+  "model": "DecisionTree",
+  "features": "+process+stack",
+  "delta_r2": 8.337526966628594e-05,
+  "delta_ci": [
+   -0.022084564108455326,
+   0.019844298976320902
+  ]
+ },
+ {
+  "task": "delta_retention",
+  "protocol": "paper",
+  "model": "DecisionTree",
+  "features": "+all enriched",
+  "delta_r2": 0.01835005769462672,
+  "delta_ci": [
+   -0.009272970928076872,
+   0.044448930656117776
+  ]
+ },
+ {
+  "task": "retention",
+  "protocol": "paper",
+  "model": "kNN",
+  "features": "base",
+  "r2": 0.00972085142885426,
+  "r2_ci": [
+   -0.019834437399834665,
+   0.038611207551787305
+  ],
+  "n_features": 229
+ },
+ {
+  "task": "retention",
+  "protocol": "paper",
+  "model": "kNN",
+  "features": "+process+stack",
+  "r2": 0.03365861993130348,
+  "r2_ci": [
+   0.009724655128952493,
+   0.053898030467698047
+  ],
+  "n_features": 319
+ },
+ {
+  "task": "retention",
+  "protocol": "paper",
+  "model": "kNN",
+  "features": "+all enriched",
+  "r2": 0.040771951012128826,
+  "r2_ci": [
+   0.017384988185155905,
+   0.06006397021333637
+  ],
+  "n_features": 321
+ },
+ {
+  "task": "delta_retention",
+  "protocol": "paper",
+  "model": "kNN",
+  "features": "+process+stack",
+  "delta_r2": 0.02393776850244922,
+  "delta_ci": [
+   0.0033193353193353516,
+   0.04583201360997155
+  ]
+ },
+ {
+  "task": "delta_retention",
+  "protocol": "paper",
+  "model": "kNN",
+  "features": "+all enriched",
+  "delta_r2": 0.031051099583274566,
+  "delta_ci": [
+   0.009659058153222256,
+   0.05295058337581089
+  ]
+ },
+ {
+  "task": "retention",
+  "protocol": "paper",
+  "model": "SVR-RBF",
+  "features": "base",
+  "r2": 0.04251078556913612,
+  "r2_ci": [
+   0.017358964979413215,
+   0.06644801454948085
+  ],
+  "n_features": 229
+ },
+ {
+  "task": "retention",
+  "protocol": "paper",
+  "model": "SVR-RBF",
+  "features": "+process+stack",
+  "r2": 0.07182550751532102,
+  "r2_ci": [
+   0.04298132680623981,
+   0.10545165807379947
+  ],
+  "n_features": 319
+ },
+ {
+  "task": "retention",
+  "protocol": "paper",
+  "model": "SVR-RBF",
+  "features": "+all enriched",
+  "r2": 0.08899863331433422,
+  "r2_ci": [
+   0.0584248376351439,
+   0.11993133604798997
+  ],
+  "n_features": 321
+ },
+ {
+  "task": "delta_retention",
+  "protocol": "paper",
+  "model": "SVR-RBF",
+  "features": "+process+stack",
+  "delta_r2": 0.029314721946184896,
+  "delta_ci": [
+   0.008902951315581767,
+   0.05137944850183537
+  ]
+ },
+ {
+  "task": "delta_retention",
+  "protocol": "paper",
+  "model": "SVR-RBF",
+  "features": "+all enriched",
+  "delta_r2": 0.046487847745198096,
+  "delta_ci": [
+   0.021285287447380105,
+   0.07249236280466378
+  ]
+ },
+ {
+  "task": "retention",
+  "protocol": "paper",
+  "model": "BayesianRidge",
+  "features": "base",
+  "r2": 0.10570502392694692,
+  "r2_ci": [
+   0.08422090604036207,
+   0.12278640988260568
+  ],
+  "n_features": 229
+ },
+ {
+  "task": "retention",
+  "protocol": "paper",
+  "model": "BayesianRidge",
+  "features": "+process+stack",
+  "r2": 0.12381871226145114,
+  "r2_ci": [
+   0.10453897353036974,
+   0.14766261575106238
+  ],
+  "n_features": 319
+ },
+ {
+  "task": "retention",
+  "protocol": "paper",
+  "model": "BayesianRidge",
+  "features": "+all enriched",
+  "r2": 0.1402572193555378,
+  "r2_ci": [
+   0.12096111618537085,
+   0.16385449816892048
+  ],
+  "n_features": 321
+ },
+ {
+  "task": "delta_retention",
+  "protocol": "paper",
+  "model": "BayesianRidge",
+  "features": "+process+stack",
+  "delta_r2": 0.01811368833450422,
+  "delta_ci": [
+   0.006353559932634232,
+   0.028089274174932233
+  ]
+ },
+ {
+  "task": "delta_retention",
+  "protocol": "paper",
+  "model": "BayesianRidge",
+  "features": "+all enriched",
+  "delta_r2": 0.03455219542859089,
+  "delta_ci": [
+   0.020636534097484158,
+   0.04519385561054716
+  ]
+ },
+ {
+  "task": "retention",
+  "protocol": "paper",
+  "model": "KernelRidge-Nystroem",
+  "features": "base",
+  "r2": 0.10558567662752372,
+  "r2_ci": [
+   0.08630460884369488,
+   0.1246413772801323
+  ],
+  "n_features": 229
+ },
+ {
+  "task": "retention",
+  "protocol": "paper",
+  "model": "KernelRidge-Nystroem",
+  "features": "+process+stack",
+  "r2": 0.1244255065200216,
+  "r2_ci": [
+   0.10562751789304167,
+   0.1481830104885099
+  ],
+  "n_features": 319
+ },
+ {
+  "task": "retention",
+  "protocol": "paper",
+  "model": "KernelRidge-Nystroem",
+  "features": "+all enriched",
+  "r2": 0.1397379377355079,
+  "r2_ci": [
+   0.11967127451479771,
+   0.16266069538935035
+  ],
+  "n_features": 321
+ },
+ {
+  "task": "delta_retention",
+  "protocol": "paper",
+  "model": "KernelRidge-Nystroem",
+  "features": "+process+stack",
+  "delta_r2": 0.018839829892497884,
+  "delta_ci": [
+   0.005593463730743626,
+   0.03165031175231444
+  ]
+ },
+ {
+  "task": "delta_retention",
+  "protocol": "paper",
+  "model": "KernelRidge-Nystroem",
+  "features": "+all enriched",
+  "delta_r2": 0.034152261107984194,
+  "delta_ci": [
+   0.019463033934310942,
+   0.047727473722353614
+  ]
+ },
+ {
+  "task": "retention",
+  "protocol": "paper",
+  "model": "ResNet-MLP (torch)",
+  "features": "base",
+  "r2": 0.018314512120676696,
+  "r2_ci": [
+   -0.010573656969534854,
+   0.04767003360957754
+  ],
+  "n_features": 229
+ },
+ {
+  "task": "retention",
+  "protocol": "paper",
+  "model": "ResNet-MLP (torch)",
+  "features": "+process+stack",
+  "r2": 0.0032283278870167686,
+  "r2_ci": [
+   -0.03194700459195066,
+   0.04102065169003158
+  ],
+  "n_features": 319
+ },
+ {
+  "task": "retention",
+  "protocol": "paper",
+  "model": "ResNet-MLP (torch)",
+  "features": "+all enriched",
+  "r2": -0.04207340215930455,
+  "r2_ci": [
+   -0.08700671265943,
+   -0.0052004664429390075
+  ],
+  "n_features": 321
+ },
+ {
+  "task": "delta_retention",
+  "protocol": "paper",
+  "model": "ResNet-MLP (torch)",
+  "features": "+process+stack",
+  "delta_r2": -0.015086184233659927,
+  "delta_ci": [
+   -0.045540189959872086,
+   0.016503699040354782
+  ]
+ },
+ {
+  "task": "delta_retention",
+  "protocol": "paper",
+  "model": "ResNet-MLP (torch)",
+  "features": "+all enriched",
+  "delta_r2": -0.06038791427998125,
+  "delta_ci": [
+   -0.09648897351811485,
+   -0.029809969825205847
+  ]
+ },
+ {
+  "task": "retention",
+  "protocol": "paper",
+  "model": "Stacking (RF+XGB+LGBM+Ridge)",
+  "features": "base",
+  "r2": 0.12922853690053948,
+  "r2_ci": [
+   0.11331687321923148,
+   0.14556894105501125
+  ],
+  "n_features": 229
+ },
+ {
+  "task": "retention",
+  "protocol": "paper",
+  "model": "Stacking (RF+XGB+LGBM+Ridge)",
+  "features": "+process+stack",
+  "r2": 0.16072404581927757,
+  "r2_ci": [
+   0.1467237198000194,
+   0.18018262860399378
+  ],
+  "n_features": 319
+ },
+ {
+  "task": "retention",
+  "protocol": "paper",
+  "model": "Stacking (RF+XGB+LGBM+Ridge)",
+  "features": "+all enriched",
+  "r2": 0.18565064697799616,
+  "r2_ci": [
+   0.16675178767163099,
+   0.20606203870751347
+  ],
+  "n_features": 321
+ },
+ {
+  "task": "delta_retention",
+  "protocol": "paper",
+  "model": "Stacking (RF+XGB+LGBM+Ridge)",
+  "features": "+process+stack",
+  "delta_r2": 0.03149550891873809,
+  "delta_ci": [
+   0.023040265592919412,
+   0.04036196775864761
+  ]
+ },
+ {
+  "task": "delta_retention",
+  "protocol": "paper",
+  "model": "Stacking (RF+XGB+LGBM+Ridge)",
+  "features": "+all enriched",
+  "delta_r2": 0.05642211007745668,
+  "delta_ci": [
+   0.04403747087012837,
+   0.06672321089315211
+  ]
+ },
+ {
+  "task": "retention",
+  "protocol": "paper",
+  "model": "Lasso",
+  "features": "base",
+  "r2": 0.1047320139538146,
+  "r2_ci": [
+   0.08901546850344408,
+   0.12247865187818927
+  ],
+  "n_features": 229
+ },
+ {
+  "task": "retention",
+  "protocol": "paper",
+  "model": "Lasso",
+  "features": "+process+stack",
+  "r2": 0.12306034090690998,
+  "r2_ci": [
+   0.10757436559337889,
+   0.1425467915212314
+  ],
+  "n_features": 319
+ },
+ {
+  "task": "retention",
+  "protocol": "paper",
+  "model": "Lasso",
+  "features": "+all enriched",
+  "r2": 0.14226914654705747,
+  "r2_ci": [
+   0.12425417825430772,
+   0.16103900330319107
+  ],
+  "n_features": 321
+ },
+ {
+  "task": "delta_retention",
+  "protocol": "paper",
+  "model": "Lasso",
+  "features": "+process+stack",
+  "delta_r2": 0.018328326953095386,
+  "delta_ci": [
+   0.01062778320177544,
+   0.025922810054829194
+  ]
+ },
+ {
+  "task": "delta_retention",
+  "protocol": "paper",
+  "model": "Lasso",
+  "features": "+all enriched",
+  "delta_r2": 0.03753713259324287,
+  "delta_ci": [
+   0.02585627239345116,
+   0.04661904617278569
+  ]
+ },
+ {
+  "task": "retention",
+  "protocol": "paper",
+  "model": "PLS (10 comp.)",
+  "features": "base",
+  "r2": 0.09949518096498244,
+  "r2_ci": [
+   0.07583362656975949,
+   0.11883018803711745
+  ],
+  "n_features": 229
+ },
+ {
+  "task": "retention",
+  "protocol": "paper",
+  "model": "PLS (10 comp.)",
+  "features": "+process+stack",
+  "r2": 0.10705019282448813,
+  "r2_ci": [
+   0.08640218347522538,
+   0.13650797934227954
+  ],
+  "n_features": 319
+ },
+ {
+  "task": "retention",
+  "protocol": "paper",
+  "model": "PLS (10 comp.)",
+  "features": "+all enriched",
+  "r2": 0.12474301558391399,
+  "r2_ci": [
+   0.10162296850812608,
+   0.15385636678161962
+  ],
+  "n_features": 321
+ },
+ {
+  "task": "delta_retention",
+  "protocol": "paper",
+  "model": "PLS (10 comp.)",
+  "features": "+process+stack",
+  "delta_r2": 0.007555011859505689,
+  "delta_ci": [
+   -0.007041899402319867,
+   0.02104015423377622
+  ]
+ },
+ {
+  "task": "delta_retention",
+  "protocol": "paper",
+  "model": "PLS (10 comp.)",
+  "features": "+all enriched",
+  "delta_r2": 0.02524783461893154,
+  "delta_ci": [
+   0.008452879480194573,
+   0.03917821703181172
+  ]
+ },
+ {
+  "task": "retention",
+  "protocol": "paper",
+  "model": "Huber",
+  "features": "base",
+  "r2": 0.006650264791873917,
+  "r2_ci": [
+   -0.06844053851594291,
+   0.06702000351675932
+  ],
+  "n_features": 229
+ },
+ {
+  "task": "retention",
+  "protocol": "paper",
+  "model": "Huber",
+  "features": "+process+stack",
+  "r2": -0.026945804357637826,
+  "r2_ci": [
+   -0.18439997753614867,
+   0.09060248273409403
+  ],
+  "n_features": 319
+ },
+ {
+  "task": "retention",
+  "protocol": "paper",
+  "model": "Huber",
+  "features": "+all enriched",
+  "r2": -0.030138308237847466,
+  "r2_ci": [
+   -0.23552260480753948,
+   0.10879002946391375
+  ],
+  "n_features": 321
+ },
+ {
+  "task": "delta_retention",
+  "protocol": "paper",
+  "model": "Huber",
+  "features": "+process+stack",
+  "delta_r2": -0.03359606914951174,
+  "delta_ci": [
+   -0.11454402856346277,
+   0.028462204683791306
+  ]
+ },
+ {
+  "task": "delta_retention",
+  "protocol": "paper",
+  "model": "Huber",
+  "features": "+all enriched",
+  "delta_r2": -0.03678857302972138,
+  "delta_ci": [
+   -0.16766402596946942,
+   0.0507310283696831
+  ]
+ },
+ {
+  "task": "retention",
+  "protocol": "paper",
+  "model": "Spline-additive ridge",
+  "features": "base",
+  "r2": 0.11325182282272506,
+  "r2_ci": [
+   0.09290914083753506,
+   0.13166706989886992
+  ],
+  "n_features": 229
+ },
+ {
+  "task": "retention",
+  "protocol": "paper",
+  "model": "Spline-additive ridge",
+  "features": "+process+stack",
+  "r2": 0.12955024314164376,
+  "r2_ci": [
+   0.11024617194027875,
+   0.1548663361821812
+  ],
+  "n_features": 319
+ },
+ {
+  "task": "retention",
+  "protocol": "paper",
+  "model": "Spline-additive ridge",
+  "features": "+all enriched",
+  "r2": 0.14699730633952213,
+  "r2_ci": [
+   0.125685518066021,
+   0.17355496335516077
+  ],
+  "n_features": 321
+ },
+ {
+  "task": "delta_retention",
+  "protocol": "paper",
+  "model": "Spline-additive ridge",
+  "features": "+process+stack",
+  "delta_r2": 0.016298420318918705,
+  "delta_ci": [
+   0.0046124912678257605,
+   0.02946630197697292
+  ]
+ },
+ {
+  "task": "delta_retention",
+  "protocol": "paper",
+  "model": "Spline-additive ridge",
+  "features": "+all enriched",
+  "delta_r2": 0.03374548351679707,
+  "delta_ci": [
+   0.019288878396328417,
+   0.04667267323495912
+  ]
+ },
+ {
+  "task": "retention",
+  "protocol": "paper",
+  "model": "XGBoost (logit target)",
+  "features": "base",
+  "r2": 0.026048504531724026,
+  "r2_ci": [
+   -0.008121424966332697,
+   0.06346867565947104
+  ],
+  "n_features": 229
+ },
+ {
+  "task": "retention",
+  "protocol": "paper",
+  "model": "XGBoost (logit target)",
+  "features": "+process+stack",
+  "r2": 0.0718513096470873,
+  "r2_ci": [
+   0.03517730730545124,
+   0.11422168709178787
+  ],
+  "n_features": 319
+ },
+ {
+  "task": "retention",
+  "protocol": "paper",
+  "model": "XGBoost (logit target)",
+  "features": "+all enriched",
+  "r2": 0.09635668426016142,
+  "r2_ci": [
+   0.05311775423731709,
+   0.13867481804500628
+  ],
+  "n_features": 321
+ },
+ {
+  "task": "delta_retention",
+  "protocol": "paper",
+  "model": "XGBoost (logit target)",
+  "features": "+process+stack",
+  "delta_r2": 0.045802805115363276,
+  "delta_ci": [
+   0.0264163775292432,
+   0.06522370261843566
+  ]
+ },
+ {
+  "task": "delta_retention",
+  "protocol": "paper",
+  "model": "XGBoost (logit target)",
+  "features": "+all enriched",
+  "delta_r2": 0.07030817972843739,
+  "delta_ci": [
+   0.04424175066432598,
+   0.09175343235103572
+  ]
+ },
+ {
+  "task": "retention",
+  "protocol": "paper",
+  "model": "LightGBM (monotone in time)",
+  "features": "base",
+  "r2": 0.06319942499257669,
+  "r2_ci": [
+   0.03672701868186429,
+   0.0871273163064622
+  ],
+  "n_features": 229
+ },
+ {
+  "task": "retention",
+  "protocol": "paper",
+  "model": "LightGBM (monotone in time)",
+  "features": "+process+stack",
+  "r2": 0.1137534408451557,
+  "r2_ci": [
+   0.08814055443035403,
+   0.1439358868973198
+  ],
+  "n_features": 319
+ },
+ {
+  "task": "retention",
+  "protocol": "paper",
+  "model": "LightGBM (monotone in time)",
+  "features": "+all enriched",
+  "r2": 0.14753321488437066,
+  "r2_ci": [
+   0.12196564872796692,
+   0.17521987794076735
+  ],
+  "n_features": 321
+ },
+ {
+  "task": "delta_retention",
+  "protocol": "paper",
+  "model": "LightGBM (monotone in time)",
+  "features": "+process+stack",
+  "delta_r2": 0.050554015852579015,
+  "delta_ci": [
+   0.032450506516261135,
+   0.07118074001289747
+  ]
+ },
+ {
+  "task": "delta_retention",
+  "protocol": "paper",
+  "model": "LightGBM (monotone in time)",
+  "features": "+all enriched",
+  "delta_r2": 0.08433378989179396,
+  "delta_ci": [
+   0.06132162390639371,
+   0.10722509100521954
+  ]
+ },
+ {
+  "task": "retention",
+  "protocol": "paper",
+  "model": "Deep ensemble (5 ResNets)",
+  "features": "base",
+  "r2": 0.0937973157857871,
+  "r2_ci": [
+   0.0686307260641587,
+   0.11645153914437334
+  ],
+  "n_features": 229
+ },
+ {
+  "task": "retention",
+  "protocol": "paper",
+  "model": "Deep ensemble (5 ResNets)",
+  "features": "+process+stack",
+  "r2": 0.0921703301102278,
+  "r2_ci": [
+   0.0647867702923594,
+   0.12217383976312624
+  ],
+  "n_features": 319
+ },
+ {
+  "task": "retention",
+  "protocol": "paper",
+  "model": "Deep ensemble (5 ResNets)",
+  "features": "+all enriched",
+  "r2": 0.0870577365771148,
+  "r2_ci": [
+   0.05740774627571612,
+   0.11942204601090503
+  ],
+  "n_features": 321
+ },
+ {
+  "task": "delta_retention",
+  "protocol": "paper",
+  "model": "Deep ensemble (5 ResNets)",
+  "features": "+process+stack",
+  "delta_r2": -0.0016269856755593004,
+  "delta_ci": [
+   -0.020407210822977605,
+   0.015959293526335558
+  ]
+ },
+ {
+  "task": "delta_retention",
+  "protocol": "paper",
+  "model": "Deep ensemble (5 ResNets)",
+  "features": "+all enriched",
+  "delta_r2": -0.006739579208672297,
+  "delta_ci": [
+   -0.0323532871130149,
+   0.016112726435598995
+  ]
+ },
+ {
+  "task": "retention",
+  "protocol": "paper",
+  "model": "Gaussian process (2000-pt subsample)",
+  "features": "base",
+  "r2": 0.09616080567692409,
+  "r2_ci": [
+   0.07880224015812651,
+   0.1121424008688977
+  ],
+  "n_features": 229
+ },
+ {
+  "task": "retention",
+  "protocol": "paper",
+  "model": "Gaussian process (2000-pt subsample)",
+  "features": "+process+stack",
+  "r2": 0.10897385597897247,
+  "r2_ci": [
+   0.09098129982468613,
+   0.130504559928087
+  ],
+  "n_features": 319
+ },
+ {
+  "task": "retention",
+  "protocol": "paper",
+  "model": "Gaussian process (2000-pt subsample)",
+  "features": "+all enriched",
+  "r2": 0.12173060872766683,
+  "r2_ci": [
+   0.10268734716197922,
+   0.1435042289428795
+  ],
+  "n_features": 321
+ },
+ {
+  "task": "delta_retention",
+  "protocol": "paper",
+  "model": "Gaussian process (2000-pt subsample)",
+  "features": "+process+stack",
+  "delta_r2": 0.012813050302048379,
+  "delta_ci": [
+   0.0028065921537083743,
+   0.024904333590403557
+  ]
+ },
+ {
+  "task": "delta_retention",
+  "protocol": "paper",
+  "model": "Gaussian process (2000-pt subsample)",
+  "features": "+all enriched",
+  "delta_r2": 0.025569803050742745,
+  "delta_ci": [
+   0.014113098584583136,
+   0.03761394108455969
+  ]
+ },
+ {
+  "task": "retention",
+  "protocol": "paper",
+  "model": "Hurdle (clf x two regressors)",
+  "features": "base",
+  "r2": 0.12652563686793927,
+  "r2_ci": [
+   0.1054205144063756,
+   0.14857579026140155
+  ],
+  "n_features": 229
+ },
+ {
+  "task": "retention",
+  "protocol": "paper",
+  "model": "Hurdle (clf x two regressors)",
+  "features": "+process+stack",
+  "r2": 0.15722126155604965,
+  "r2_ci": [
+   0.13725827642118774,
+   0.18259216779586082
+  ],
+  "n_features": 319
+ },
+ {
+  "task": "retention",
+  "protocol": "paper",
+  "model": "Hurdle (clf x two regressors)",
+  "features": "+all enriched",
+  "r2": 0.179666358868235,
+  "r2_ci": [
+   0.15645727165931025,
+   0.207659423338449
+  ],
+  "n_features": 321
+ },
+ {
+  "task": "delta_retention",
+  "protocol": "paper",
+  "model": "Hurdle (clf x two regressors)",
+  "features": "+process+stack",
+  "delta_r2": 0.03069562468811038,
+  "delta_ci": [
+   0.018965076315411063,
+   0.042950462794907225
+  ]
+ },
+ {
+  "task": "delta_retention",
+  "protocol": "paper",
+  "model": "Hurdle (clf x two regressors)",
+  "features": "+all enriched",
+  "delta_r2": 0.05314072200029574,
+  "delta_ci": [
+   0.03602188066977734,
+   0.06868776287664725
+  ]
+ },
+ {
+  "task": "retention",
+  "protocol": "paper",
+  "model": "Blend (XGB+CatBoost+RF)",
+  "features": "base",
+  "r2": 0.12610778075331486,
+  "r2_ci": [
+   0.108225068948717,
+   0.1477024459448846
+  ],
+  "n_features": 229
+ },
+ {
+  "task": "retention",
+  "protocol": "paper",
+  "model": "Blend (XGB+CatBoost+RF)",
+  "features": "+process+stack",
+  "r2": 0.16350759282357397,
+  "r2_ci": [
+   0.14669170056033637,
+   0.18801611826123493
+  ],
+  "n_features": 319
+ },
+ {
+  "task": "retention",
+  "protocol": "paper",
+  "model": "Blend (XGB+CatBoost+RF)",
+  "features": "+all enriched",
+  "r2": 0.1883268297071019,
+  "r2_ci": [
+   0.16566015003161846,
+   0.21163668320285142
+  ],
+  "n_features": 321
+ },
+ {
+  "task": "delta_retention",
+  "protocol": "paper",
+  "model": "Blend (XGB+CatBoost+RF)",
+  "features": "+process+stack",
+  "delta_r2": 0.03739981207025911,
+  "delta_ci": [
+   0.02799066422015937,
+   0.047488696304332105
+  ]
+ },
+ {
+  "task": "delta_retention",
+  "protocol": "paper",
+  "model": "Blend (XGB+CatBoost+RF)",
+  "features": "+all enriched",
+  "delta_r2": 0.06221904895378705,
+  "delta_ci": [
+   0.048961722804258465,
+   0.07444818201846974
+  ]
+ },
+ {
+  "task": "retention",
+  "protocol": "temporal",
+  "model": "Ridge",
+  "features": "base",
+  "r2": 0.1060092915567109,
+  "r2_ci": [
+   0.06612368122870675,
+   0.1388056796469538
+  ],
+  "n_features": 229
+ },
+ {
+  "task": "retention",
+  "protocol": "temporal",
+  "model": "Ridge",
+  "features": "+process+stack",
+  "r2": 0.08653813915260467,
+  "r2_ci": [
+   0.039021558890871944,
+   0.13571744764300392
+  ],
+  "n_features": 319
+ },
+ {
+  "task": "retention",
+  "protocol": "temporal",
+  "model": "Ridge",
+  "features": "+all enriched",
+  "r2": 0.08725491442808064,
+  "r2_ci": [
+   0.04072357926899237,
+   0.1345360253062482
+  ],
+  "n_features": 321
+ },
+ {
+  "task": "delta_retention",
+  "protocol": "temporal",
+  "model": "Ridge",
+  "features": "+process+stack",
+  "delta_r2": -0.01947115240410624,
+  "delta_ci": [
+   -0.041970849307351024,
+   0.008834343967007233
+  ]
+ },
+ {
+  "task": "delta_retention",
+  "protocol": "temporal",
+  "model": "Ridge",
+  "features": "+all enriched",
+  "delta_r2": -0.018754377128630262,
+  "delta_ci": [
+   -0.04451665147167647,
+   0.009904271671997545
+  ]
+ },
+ {
+  "task": "retention",
+  "protocol": "temporal",
+  "model": "ElasticNet",
+  "features": "base",
+  "r2": 0.10257642523826915,
+  "r2_ci": [
+   0.07295563771057743,
+   0.12821193468220993
+  ],
+  "n_features": 229
+ },
+ {
+  "task": "retention",
+  "protocol": "temporal",
+  "model": "ElasticNet",
+  "features": "+process+stack",
+  "r2": 0.12995949475174662,
+  "r2_ci": [
+   0.09829690348945365,
+   0.1586691761518625
+  ],
+  "n_features": 319
+ },
+ {
+  "task": "retention",
+  "protocol": "temporal",
+  "model": "ElasticNet",
+  "features": "+all enriched",
+  "r2": 0.14230321987509076,
+  "r2_ci": [
+   0.10823047040386638,
+   0.1754493343729123
+  ],
+  "n_features": 321
+ },
+ {
+  "task": "delta_retention",
+  "protocol": "temporal",
+  "model": "ElasticNet",
+  "features": "+process+stack",
+  "delta_r2": 0.027383069513477465,
+  "delta_ci": [
+   0.018166727616631143,
+   0.03940783800079219
+  ]
+ },
+ {
+  "task": "delta_retention",
+  "protocol": "temporal",
+  "model": "ElasticNet",
+  "features": "+all enriched",
+  "delta_r2": 0.039726794636821605,
+  "delta_ci": [
+   0.02294057512417492,
+   0.057073220831847585
+  ]
+ },
+ {
+  "task": "retention",
+  "protocol": "temporal",
+  "model": "RandomForest",
+  "features": "base",
+  "r2": 0.09441675549040363,
+  "r2_ci": [
+   0.05918453067861244,
+   0.127360146825866
+  ],
+  "n_features": 229
+ },
+ {
+  "task": "retention",
+  "protocol": "temporal",
+  "model": "RandomForest",
+  "features": "+process+stack",
+  "r2": 0.1302954004145307,
+  "r2_ci": [
+   0.09943621102847706,
+   0.16320528635317483
+  ],
+  "n_features": 319
+ },
+ {
+  "task": "retention",
+  "protocol": "temporal",
+  "model": "RandomForest",
+  "features": "+all enriched",
+  "r2": 0.14593553788153346,
+  "r2_ci": [
+   0.10947454679095726,
+   0.18525574846839654
+  ],
+  "n_features": 321
+ },
+ {
+  "task": "delta_retention",
+  "protocol": "temporal",
+  "model": "RandomForest",
+  "features": "+process+stack",
+  "delta_r2": 0.03587864492412707,
+  "delta_ci": [
+   0.021913627732149662,
+   0.05220755716730933
+  ]
+ },
+ {
+  "task": "delta_retention",
+  "protocol": "temporal",
+  "model": "RandomForest",
+  "features": "+all enriched",
+  "delta_r2": 0.051518782391129836,
+  "delta_ci": [
+   0.02527385906969746,
+   0.07505661116870099
+  ]
+ },
+ {
+  "task": "retention",
+  "protocol": "temporal",
+  "model": "XGBoost",
+  "features": "base",
+  "r2": 0.07610167010153657,
+  "r2_ci": [
+   0.029799270795343842,
+   0.12204389539669205
+  ],
+  "n_features": 229
+ },
+ {
+  "task": "retention",
+  "protocol": "temporal",
+  "model": "XGBoost",
+  "features": "+process+stack",
+  "r2": 0.11716834561807132,
+  "r2_ci": [
+   0.0748475915461138,
+   0.16296889608206916
+  ],
+  "n_features": 319
+ },
+ {
+  "task": "retention",
+  "protocol": "temporal",
+  "model": "XGBoost",
+  "features": "+all enriched",
+  "r2": 0.15098762942510657,
+  "r2_ci": [
+   0.11349343106618628,
+   0.19672943827689054
+  ],
+  "n_features": 321
+ },
+ {
+  "task": "delta_retention",
+  "protocol": "temporal",
+  "model": "XGBoost",
+  "features": "+process+stack",
+  "delta_r2": 0.041066675516534756,
+  "delta_ci": [
+   0.01866718793096201,
+   0.06954025637244217
+  ]
+ },
+ {
+  "task": "delta_retention",
+  "protocol": "temporal",
+  "model": "XGBoost",
+  "features": "+all enriched",
+  "delta_r2": 0.07488595932357,
+  "delta_ci": [
+   0.04617524481419119,
+   0.10582712927464712
+  ]
+ },
+ {
+  "task": "retention",
+  "protocol": "temporal",
+  "model": "LightGBM",
+  "features": "base",
+  "r2": 0.02374255614616061,
+  "r2_ci": [
+   -0.03556196381910488,
+   0.08060476825497204
+  ],
+  "n_features": 229
+ },
+ {
+  "task": "retention",
+  "protocol": "temporal",
+  "model": "LightGBM",
+  "features": "+process+stack",
+  "r2": 0.09367033299270078,
+  "r2_ci": [
+   0.045878576525149734,
+   0.14502971412465937
+  ],
+  "n_features": 319
+ },
+ {
+  "task": "retention",
+  "protocol": "temporal",
+  "model": "LightGBM",
+  "features": "+all enriched",
+  "r2": 0.12449517467963445,
+  "r2_ci": [
+   0.07355254461747493,
+   0.17542373302841263
+  ],
+  "n_features": 321
+ },
+ {
+  "task": "delta_retention",
+  "protocol": "temporal",
+  "model": "LightGBM",
+  "features": "+process+stack",
+  "delta_r2": 0.06992777684654017,
+  "delta_ci": [
+   0.04276321699271022,
+   0.10395393252179642
+  ]
+ },
+ {
+  "task": "delta_retention",
+  "protocol": "temporal",
+  "model": "LightGBM",
+  "features": "+all enriched",
+  "delta_r2": 0.10075261853347384,
+  "delta_ci": [
+   0.06803540501714533,
+   0.14104180321072599
+  ]
+ },
+ {
+  "task": "retention",
+  "protocol": "temporal",
+  "model": "MLP",
+  "features": "base",
+  "r2": -0.4730669186076968,
+  "r2_ci": [
+   -0.5861840324196336,
+   -0.3521584341868847
+  ],
+  "n_features": 229
+ },
+ {
+  "task": "retention",
+  "protocol": "temporal",
+  "model": "MLP",
+  "features": "+process+stack",
+  "r2": -0.6001246642276619,
+  "r2_ci": [
+   -0.7647689883256014,
+   -0.46134553817522617
+  ],
+  "n_features": 319
+ },
+ {
+  "task": "retention",
+  "protocol": "temporal",
+  "model": "MLP",
+  "features": "+all enriched",
+  "r2": -0.46603547770696196,
+  "r2_ci": [
+   -0.5850158250715454,
+   -0.3414114511246401
+  ],
+  "n_features": 321
+ },
+ {
+  "task": "delta_retention",
+  "protocol": "temporal",
+  "model": "MLP",
+  "features": "+process+stack",
+  "delta_r2": -0.12705774561996508,
+  "delta_ci": [
+   -0.27263347350265216,
+   0.022477591834844428
+  ]
+ },
+ {
+  "task": "delta_retention",
+  "protocol": "temporal",
+  "model": "MLP",
+  "features": "+all enriched",
+  "delta_r2": 0.00703144090073482,
+  "delta_ci": [
+   -0.11236923723948379,
+   0.12535836325566577
+  ]
+ },
+ {
+  "task": "retention",
+  "protocol": "temporal",
+  "model": "ExtraTrees",
+  "features": "base",
+  "r2": 0.09322456614530328,
+  "r2_ci": [
+   0.057439838825772804,
+   0.12926546952062656
+  ],
+  "n_features": 229
+ },
+ {
+  "task": "retention",
+  "protocol": "temporal",
+  "model": "ExtraTrees",
+  "features": "+process+stack",
+  "r2": 0.12534098145114692,
+  "r2_ci": [
+   0.08856404920915086,
+   0.16225610385593212
+  ],
+  "n_features": 319
+ },
+ {
+  "task": "retention",
+  "protocol": "temporal",
+  "model": "ExtraTrees",
+  "features": "+all enriched",
+  "r2": 0.14696904059634097,
+  "r2_ci": [
+   0.113267147465791,
+   0.1812076912350755
+  ],
+  "n_features": 321
+ },
+ {
+  "task": "delta_retention",
+  "protocol": "temporal",
+  "model": "ExtraTrees",
+  "features": "+process+stack",
+  "delta_r2": 0.03211641530584364,
+  "delta_ci": [
+   0.008052958004807423,
+   0.057577046534939315
+  ]
+ },
+ {
+  "task": "delta_retention",
+  "protocol": "temporal",
+  "model": "ExtraTrees",
+  "features": "+all enriched",
+  "delta_r2": 0.053744474451037694,
+  "delta_ci": [
+   0.02977784292100041,
+   0.07954553581995691
+  ]
+ },
+ {
+  "task": "retention",
+  "protocol": "temporal",
+  "model": "HistGradientBoosting",
+  "features": "base",
+  "r2": 0.06627169295456092,
+  "r2_ci": [
+   0.011644147227602078,
+   0.12194398902699789
+  ],
+  "n_features": 229
+ },
+ {
+  "task": "retention",
+  "protocol": "temporal",
+  "model": "HistGradientBoosting",
+  "features": "+process+stack",
+  "r2": 0.09827860507235675,
+  "r2_ci": [
+   0.0517309739281955,
+   0.15161228510534075
+  ],
+  "n_features": 319
+ },
+ {
+  "task": "retention",
+  "protocol": "temporal",
+  "model": "HistGradientBoosting",
+  "features": "+all enriched",
+  "r2": 0.12410327812113575,
+  "r2_ci": [
+   0.07427377525217511,
+   0.17791183120471643
+  ],
+  "n_features": 321
+ },
+ {
+  "task": "delta_retention",
+  "protocol": "temporal",
+  "model": "HistGradientBoosting",
+  "features": "+process+stack",
+  "delta_r2": 0.03200691211779583,
+  "delta_ci": [
+   0.0019189944399353265,
+   0.0614617353321745
+  ]
+ },
+ {
+  "task": "delta_retention",
+  "protocol": "temporal",
+  "model": "HistGradientBoosting",
+  "features": "+all enriched",
+  "delta_r2": 0.05783158516657483,
+  "delta_ci": [
+   0.026455859964569683,
+   0.08665509125223736
+  ]
+ },
+ {
+  "task": "retention",
+  "protocol": "temporal",
+  "model": "GradientBoosting",
+  "features": "base",
+  "r2": 0.10573624930022163,
+  "r2_ci": [
+   0.06406048933688488,
+   0.14324097793288487
+  ],
+  "n_features": 229
+ },
+ {
+  "task": "retention",
+  "protocol": "temporal",
+  "model": "GradientBoosting",
+  "features": "+process+stack",
+  "r2": 0.13251122060801168,
+  "r2_ci": [
+   0.09367815022367686,
+   0.17427432774446017
+  ],
+  "n_features": 319
+ },
+ {
+  "task": "retention",
+  "protocol": "temporal",
+  "model": "GradientBoosting",
+  "features": "+all enriched",
+  "r2": 0.1506698209049674,
+  "r2_ci": [
+   0.10707337574855874,
+   0.18783881707994496
+  ],
+  "n_features": 321
+ },
+ {
+  "task": "delta_retention",
+  "protocol": "temporal",
+  "model": "GradientBoosting",
+  "features": "+process+stack",
+  "delta_r2": 0.026774971307790052,
+  "delta_ci": [
+   0.006939645695051552,
+   0.051093694340790724
+  ]
+ },
+ {
+  "task": "delta_retention",
+  "protocol": "temporal",
+  "model": "GradientBoosting",
+  "features": "+all enriched",
+  "delta_r2": 0.04493357160474576,
+  "delta_ci": [
+   0.022015551539305886,
+   0.07393066801677589
+  ]
+ },
+ {
+  "task": "retention",
+  "protocol": "temporal",
+  "model": "CatBoost",
+  "features": "base",
+  "r2": 0.1111560633074904,
+  "r2_ci": [
+   0.06798114350978754,
+   0.1566627579661717
+  ],
+  "n_features": 229
+ },
+ {
+  "task": "retention",
+  "protocol": "temporal",
+  "model": "CatBoost",
+  "features": "+process+stack",
+  "r2": 0.14074794694569792,
+  "r2_ci": [
+   0.09784868618126007,
+   0.1842758299898638
+  ],
+  "n_features": 319
+ },
+ {
+  "task": "retention",
+  "protocol": "temporal",
+  "model": "CatBoost",
+  "features": "+all enriched",
+  "r2": 0.15276051192311457,
+  "r2_ci": [
+   0.11285468722931627,
+   0.19491132133423855
+  ],
+  "n_features": 321
+ },
+ {
+  "task": "delta_retention",
+  "protocol": "temporal",
+  "model": "CatBoost",
+  "features": "+process+stack",
+  "delta_r2": 0.029591883638207528,
+  "delta_ci": [
+   0.011358542894471352,
+   0.05317571117786338
+  ]
+ },
+ {
+  "task": "delta_retention",
+  "protocol": "temporal",
+  "model": "CatBoost",
+  "features": "+all enriched",
+  "delta_r2": 0.04160444861562418,
+  "delta_ci": [
+   0.01874139424287688,
+   0.06627681925209337
+  ]
+ },
+ {
+  "task": "retention",
+  "protocol": "temporal",
+  "model": "AdaBoost",
+  "features": "base",
+  "r2": -0.009606112433512504,
+  "r2_ci": [
+   -0.052503406358696596,
+   0.029952547939572974
+  ],
+  "n_features": 229
+ },
+ {
+  "task": "retention",
+  "protocol": "temporal",
+  "model": "AdaBoost",
+  "features": "+process+stack",
+  "r2": -0.007499615631357148,
+  "r2_ci": [
+   -0.04927214548229822,
+   0.03194926177843056
+  ],
+  "n_features": 319
+ },
+ {
+  "task": "retention",
+  "protocol": "temporal",
+  "model": "AdaBoost",
+  "features": "+all enriched",
+  "r2": 0.030141282709120754,
+  "r2_ci": [
+   -0.008732393009518467,
+   0.07294819510272195
+  ],
+  "n_features": 321
+ },
+ {
+  "task": "delta_retention",
+  "protocol": "temporal",
+  "model": "AdaBoost",
+  "features": "+process+stack",
+  "delta_r2": 0.0021064968021553554,
+  "delta_ci": [
+   -0.00841518470108057,
+   0.013664331802238522
+  ]
+ },
+ {
+  "task": "delta_retention",
+  "protocol": "temporal",
+  "model": "AdaBoost",
+  "features": "+all enriched",
+  "delta_r2": 0.03974739514263326,
+  "delta_ci": [
+   0.02452862698668622,
+   0.055751997444990806
+  ]
+ },
+ {
+  "task": "retention",
+  "protocol": "temporal",
+  "model": "Bagging",
+  "features": "base",
+  "r2": 0.08810640428075778,
+  "r2_ci": [
+   0.059264064434436166,
+   0.1177776191501298
+  ],
+  "n_features": 229
+ },
+ {
+  "task": "retention",
+  "protocol": "temporal",
+  "model": "Bagging",
+  "features": "+process+stack",
+  "r2": 0.11855308040853063,
+  "r2_ci": [
+   0.09116978452586033,
+   0.1483394626245225
+  ],
+  "n_features": 319
+ },
+ {
+  "task": "retention",
+  "protocol": "temporal",
+  "model": "Bagging",
+  "features": "+all enriched",
+  "r2": 0.14053575602092705,
+  "r2_ci": [
+   0.11221104726962965,
+   0.16808992407654266
+  ],
+  "n_features": 321
+ },
+ {
+  "task": "delta_retention",
+  "protocol": "temporal",
+  "model": "Bagging",
+  "features": "+process+stack",
+  "delta_r2": 0.030446676127772854,
+  "delta_ci": [
+   0.014872246642201705,
+   0.04699994710284641
+  ]
+ },
+ {
+  "task": "delta_retention",
+  "protocol": "temporal",
+  "model": "Bagging",
+  "features": "+all enriched",
+  "delta_r2": 0.05242935174016927,
+  "delta_ci": [
+   0.033379224683409404,
+   0.07302398316595897
+  ]
+ },
+ {
+  "task": "retention",
+  "protocol": "temporal",
+  "model": "DecisionTree",
+  "features": "base",
+  "r2": -0.048708803562416136,
+  "r2_ci": [
+   -0.10699351379187468,
+   0.014597257698166225
+  ],
+  "n_features": 229
+ },
+ {
+  "task": "retention",
+  "protocol": "temporal",
+  "model": "DecisionTree",
+  "features": "+process+stack",
+  "r2": -0.03280535175872501,
+  "r2_ci": [
+   -0.08394094412540119,
+   0.021799346141843468
+  ],
+  "n_features": 319
+ },
+ {
+  "task": "retention",
+  "protocol": "temporal",
+  "model": "DecisionTree",
+  "features": "+all enriched",
+  "r2": -0.019356033323330912,
+  "r2_ci": [
+   -0.07017451464088784,
+   0.0317561791986301
+  ],
+  "n_features": 321
+ },
+ {
+  "task": "delta_retention",
+  "protocol": "temporal",
+  "model": "DecisionTree",
+  "features": "+process+stack",
+  "delta_r2": 0.015903451803691127,
+  "delta_ci": [
+   -0.02479674057040293,
+   0.06258905900723154
+  ]
+ },
+ {
+  "task": "delta_retention",
+  "protocol": "temporal",
+  "model": "DecisionTree",
+  "features": "+all enriched",
+  "delta_r2": 0.029352770239085224,
+  "delta_ci": [
+   -0.017903434838690207,
+   0.07919008037610664
+  ]
+ },
+ {
+  "task": "retention",
+  "protocol": "temporal",
+  "model": "kNN",
+  "features": "base",
+  "r2": 0.006790741203023809,
+  "r2_ci": [
+   -0.041078085281753135,
+   0.045182436931584545
+  ],
+  "n_features": 229
+ },
+ {
+  "task": "retention",
+  "protocol": "temporal",
+  "model": "kNN",
+  "features": "+process+stack",
+  "r2": 0.017844677729833558,
+  "r2_ci": [
+   -0.01714317291329599,
+   0.05613639183662225
+  ],
+  "n_features": 319
+ },
+ {
+  "task": "retention",
+  "protocol": "temporal",
+  "model": "kNN",
+  "features": "+all enriched",
+  "r2": 0.0284392100053924,
+  "r2_ci": [
+   -0.007212617528223625,
+   0.0668982018499234
+  ],
+  "n_features": 321
+ },
+ {
+  "task": "delta_retention",
+  "protocol": "temporal",
+  "model": "kNN",
+  "features": "+process+stack",
+  "delta_r2": 0.011053936526809749,
+  "delta_ci": [
+   -0.01623847680464738,
+   0.04436111972080304
+  ]
+ },
+ {
+  "task": "delta_retention",
+  "protocol": "temporal",
+  "model": "kNN",
+  "features": "+all enriched",
+  "delta_r2": 0.021648468802368592,
+  "delta_ci": [
+   -0.0035465745253793384,
+   0.05104196802712304
+  ]
+ },
+ {
+  "task": "retention",
+  "protocol": "temporal",
+  "model": "SVR-RBF",
+  "features": "base",
+  "r2": 0.0009040780889723044,
+  "r2_ci": [
+   -0.04494989267221868,
+   0.047466412442517064
+  ],
+  "n_features": 229
+ },
+ {
+  "task": "retention",
+  "protocol": "temporal",
+  "model": "SVR-RBF",
+  "features": "+process+stack",
+  "r2": 0.04991149367452685,
+  "r2_ci": [
+   -0.005058719026211977,
+   0.09532821060192435
+  ],
+  "n_features": 319
+ },
+ {
+  "task": "retention",
+  "protocol": "temporal",
+  "model": "SVR-RBF",
+  "features": "+all enriched",
+  "r2": 0.05730524212026056,
+  "r2_ci": [
+   0.00014664162521983988,
+   0.10648113546301778
+  ],
+  "n_features": 321
+ },
+ {
+  "task": "delta_retention",
+  "protocol": "temporal",
+  "model": "SVR-RBF",
+  "features": "+process+stack",
+  "delta_r2": 0.04900741558555455,
+  "delta_ci": [
+   0.018347866252174255,
+   0.08166861275017315
+  ]
+ },
+ {
+  "task": "delta_retention",
+  "protocol": "temporal",
+  "model": "SVR-RBF",
+  "features": "+all enriched",
+  "delta_r2": 0.05640116403128825,
+  "delta_ci": [
+   0.017397921193762426,
+   0.09783894104559643
+  ]
+ },
+ {
+  "task": "retention",
+  "protocol": "temporal",
+  "model": "BayesianRidge",
+  "features": "base",
+  "r2": 0.10534336398685307,
+  "r2_ci": [
+   0.06424293065324453,
+   0.1383139205066208
+  ],
+  "n_features": 229
+ },
+ {
+  "task": "retention",
+  "protocol": "temporal",
+  "model": "BayesianRidge",
+  "features": "+process+stack",
+  "r2": 0.10690070538157215,
+  "r2_ci": [
+   0.06506075455218881,
+   0.1497479365211993
+  ],
+  "n_features": 319
+ },
+ {
+  "task": "retention",
+  "protocol": "temporal",
+  "model": "BayesianRidge",
+  "features": "+all enriched",
+  "r2": 0.10512946007144319,
+  "r2_ci": [
+   0.06176799743638373,
+   0.1478524850269466
+  ],
+  "n_features": 321
+ },
+ {
+  "task": "delta_retention",
+  "protocol": "temporal",
+  "model": "BayesianRidge",
+  "features": "+process+stack",
+  "delta_r2": 0.0015573413947190806,
+  "delta_ci": [
+   -0.013526973425936083,
+   0.023148655596226565
+  ]
+ },
+ {
+  "task": "delta_retention",
+  "protocol": "temporal",
+  "model": "BayesianRidge",
+  "features": "+all enriched",
+  "delta_r2": -0.0002139039154098743,
+  "delta_ci": [
+   -0.020771466525687798,
+   0.024208919012167134
+  ]
+ },
+ {
+  "task": "retention",
+  "protocol": "temporal",
+  "model": "KernelRidge-Nystroem",
+  "features": "base",
+  "r2": 0.0921845128245884,
+  "r2_ci": [
+   0.05647411491430358,
+   0.13041450161405838
+  ],
+  "n_features": 229
+ },
+ {
+  "task": "retention",
+  "protocol": "temporal",
+  "model": "KernelRidge-Nystroem",
+  "features": "+process+stack",
+  "r2": 0.13235284527903157,
+  "r2_ci": [
+   0.09703488107164905,
+   0.16549918520803095
+  ],
+  "n_features": 319
+ },
+ {
+  "task": "retention",
+  "protocol": "temporal",
+  "model": "KernelRidge-Nystroem",
+  "features": "+all enriched",
+  "r2": 0.13291821099357615,
+  "r2_ci": [
+   0.09721975944831752,
+   0.1677737797923091
+  ],
+  "n_features": 321
+ },
+ {
+  "task": "delta_retention",
+  "protocol": "temporal",
+  "model": "KernelRidge-Nystroem",
+  "features": "+process+stack",
+  "delta_r2": 0.04016833245444318,
+  "delta_ci": [
+   0.020991482724492656,
+   0.06001521895539104
+  ]
+ },
+ {
+  "task": "delta_retention",
+  "protocol": "temporal",
+  "model": "KernelRidge-Nystroem",
+  "features": "+all enriched",
+  "delta_r2": 0.04073369816898775,
+  "delta_ci": [
+   0.022219762697382083,
+   0.06373766273667823
+  ]
+ },
+ {
+  "task": "retention",
+  "protocol": "temporal",
+  "model": "ResNet-MLP (torch)",
+  "features": "base",
+  "r2": 0.02517089063405953,
+  "r2_ci": [
+   -0.0235795186796616,
+   0.06819135424039756
+  ],
+  "n_features": 229
+ },
+ {
+  "task": "retention",
+  "protocol": "temporal",
+  "model": "ResNet-MLP (torch)",
+  "features": "+process+stack",
+  "r2": 0.0776428462476384,
+  "r2_ci": [
+   0.029178785519969587,
+   0.1207798666516172
+  ],
+  "n_features": 319
+ },
+ {
+  "task": "retention",
+  "protocol": "temporal",
+  "model": "ResNet-MLP (torch)",
+  "features": "+all enriched",
+  "r2": 0.011967884434969656,
+  "r2_ci": [
+   -0.05751259581773988,
+   0.06689311094911443
+  ],
+  "n_features": 321
+ },
+ {
+  "task": "delta_retention",
+  "protocol": "temporal",
+  "model": "ResNet-MLP (torch)",
+  "features": "+process+stack",
+  "delta_r2": 0.05247195561357887,
+  "delta_ci": [
+   0.015209991118882571,
+   0.09398654030348426
+  ]
+ },
+ {
+  "task": "delta_retention",
+  "protocol": "temporal",
+  "model": "ResNet-MLP (torch)",
+  "features": "+all enriched",
+  "delta_r2": -0.013203006199089873,
+  "delta_ci": [
+   -0.06867503702967868,
+   0.037172867566056575
+  ]
+ },
+ {
+  "task": "retention",
+  "protocol": "temporal",
+  "model": "Stacking (RF+XGB+LGBM+Ridge)",
+  "features": "base",
+  "r2": 0.12522382008221178,
+  "r2_ci": [
+   0.09513106545323945,
+   0.15599968236138678
+  ],
+  "n_features": 229
+ },
+ {
+  "task": "retention",
+  "protocol": "temporal",
+  "model": "Stacking (RF+XGB+LGBM+Ridge)",
+  "features": "+process+stack",
+  "r2": 0.15105665884379615,
+  "r2_ci": [
+   0.12068063900454075,
+   0.18425730599024717
+  ],
+  "n_features": 319
+ },
+ {
+  "task": "retention",
+  "protocol": "temporal",
+  "model": "Stacking (RF+XGB+LGBM+Ridge)",
+  "features": "+all enriched",
+  "r2": 0.17019125688198922,
+  "r2_ci": [
+   0.13477134126092002,
+   0.20297530210717732
+  ],
+  "n_features": 321
+ },
+ {
+  "task": "delta_retention",
+  "protocol": "temporal",
+  "model": "Stacking (RF+XGB+LGBM+Ridge)",
+  "features": "+process+stack",
+  "delta_r2": 0.025832838761584376,
+  "delta_ci": [
+   0.012369609909707787,
+   0.043009234498611104
+  ]
+ },
+ {
+  "task": "delta_retention",
+  "protocol": "temporal",
+  "model": "Stacking (RF+XGB+LGBM+Ridge)",
+  "features": "+all enriched",
+  "delta_r2": 0.04496743679977744,
+  "delta_ci": [
+   0.02594487712538966,
+   0.0648647034515519
+  ]
+ },
+ {
+  "task": "retention",
+  "protocol": "temporal",
+  "model": "Lasso",
+  "features": "base",
+  "r2": 0.10257642523826915,
+  "r2_ci": [
+   0.07295563771057743,
+   0.12821193468220993
+  ],
+  "n_features": 229
+ },
+ {
+  "task": "retention",
+  "protocol": "temporal",
+  "model": "Lasso",
+  "features": "+process+stack",
+  "r2": 0.13061210764020748,
+  "r2_ci": [
+   0.09865012689708491,
+   0.15944600935762815
+  ],
+  "n_features": 319
+ },
+ {
+  "task": "retention",
+  "protocol": "temporal",
+  "model": "Lasso",
+  "features": "+all enriched",
+  "r2": 0.14230321987509076,
+  "r2_ci": [
+   0.10823047040386638,
+   0.1754493343729123
+  ],
+  "n_features": 321
+ },
+ {
+  "task": "delta_retention",
+  "protocol": "temporal",
+  "model": "Lasso",
+  "features": "+process+stack",
+  "delta_r2": 0.028035682401938322,
+  "delta_ci": [
+   0.018698686355485158,
+   0.04051117078244721
+  ]
+ },
+ {
+  "task": "delta_retention",
+  "protocol": "temporal",
+  "model": "Lasso",
+  "features": "+all enriched",
+  "delta_r2": 0.039726794636821605,
+  "delta_ci": [
+   0.02294057512417492,
+   0.057073220831847585
+  ]
+ },
+ {
+  "task": "retention",
+  "protocol": "temporal",
+  "model": "PLS (10 comp.)",
+  "features": "base",
+  "r2": 0.08465097895458318,
+  "r2_ci": [
+   0.03573273030654203,
+   0.1233847698377651
+  ],
+  "n_features": 229
+ },
+ {
+  "task": "retention",
+  "protocol": "temporal",
+  "model": "PLS (10 comp.)",
+  "features": "+process+stack",
+  "r2": 0.04648885137683356,
+  "r2_ci": [
+   -0.0026757810043891014,
+   0.1016250274328565
+  ],
+  "n_features": 319
+ },
+ {
+  "task": "retention",
+  "protocol": "temporal",
+  "model": "PLS (10 comp.)",
+  "features": "+all enriched",
+  "r2": 0.047953330650441384,
+  "r2_ci": [
+   -0.005301087143611837,
+   0.09905704708025562
+  ],
+  "n_features": 321
+ },
+ {
+  "task": "delta_retention",
+  "protocol": "temporal",
+  "model": "PLS (10 comp.)",
+  "features": "+process+stack",
+  "delta_r2": -0.038162127577749616,
+  "delta_ci": [
+   -0.06310193995734077,
+   -0.008103121825718514
+  ]
+ },
+ {
+  "task": "delta_retention",
+  "protocol": "temporal",
+  "model": "PLS (10 comp.)",
+  "features": "+all enriched",
+  "delta_r2": -0.036697648304141794,
+  "delta_ci": [
+   -0.06300888462487673,
+   -0.005051609567921697
+  ]
+ },
+ {
+  "task": "retention",
+  "protocol": "temporal",
+  "model": "Huber",
+  "features": "base",
+  "r2": 0.0423743198394847,
+  "r2_ci": [
+   -0.004048781514192309,
+   0.08433373221693058
+  ],
+  "n_features": 229
+ },
+ {
+  "task": "retention",
+  "protocol": "temporal",
+  "model": "Huber",
+  "features": "+process+stack",
+  "r2": -0.06741198304677631,
+  "r2_ci": [
+   -0.14598459422732832,
+   0.009893064382287412
+  ],
+  "n_features": 319
+ },
+ {
+  "task": "retention",
+  "protocol": "temporal",
+  "model": "Huber",
+  "features": "+all enriched",
+  "r2": -0.05981730493419879,
+  "r2_ci": [
+   -0.14665323974164848,
+   0.023227840187699755
+  ],
+  "n_features": 321
+ },
+ {
+  "task": "delta_retention",
+  "protocol": "temporal",
+  "model": "Huber",
+  "features": "+process+stack",
+  "delta_r2": -0.10978630288626101,
+  "delta_ci": [
+   -0.1526695113450234,
+   -0.05357388796478587
+  ]
+ },
+ {
+  "task": "delta_retention",
+  "protocol": "temporal",
+  "model": "Huber",
+  "features": "+all enriched",
+  "delta_r2": -0.10219162477368349,
+  "delta_ci": [
+   -0.15366198773582185,
+   -0.051193706159388154
+  ]
+ },
+ {
+  "task": "retention",
+  "protocol": "temporal",
+  "model": "Spline-additive ridge",
+  "features": "base",
+  "r2": 0.11918231567817328,
+  "r2_ci": [
+   0.08579788015517627,
+   0.15141145919069676
+  ],
+  "n_features": 229
+ },
+ {
+  "task": "retention",
+  "protocol": "temporal",
+  "model": "Spline-additive ridge",
+  "features": "+process+stack",
+  "r2": 0.11113622953400548,
+  "r2_ci": [
+   0.06759128996824079,
+   0.15312846441399838
+  ],
+  "n_features": 319
+ },
+ {
+  "task": "retention",
+  "protocol": "temporal",
+  "model": "Spline-additive ridge",
+  "features": "+all enriched",
+  "r2": 0.0883745683832452,
+  "r2_ci": [
+   0.0399460851260028,
+   0.13426394773700104
+  ],
+  "n_features": 321
+ },
+ {
+  "task": "delta_retention",
+  "protocol": "temporal",
+  "model": "Spline-additive ridge",
+  "features": "+process+stack",
+  "delta_r2": -0.008046086144167797,
+  "delta_ci": [
+   -0.0274463301421427,
+   0.018955546712091587
+  ]
+ },
+ {
+  "task": "delta_retention",
+  "protocol": "temporal",
+  "model": "Spline-additive ridge",
+  "features": "+all enriched",
+  "delta_r2": -0.03080774729492808,
+  "delta_ci": [
+   -0.053754178327530634,
+   -7.582307265720088e-05
+  ]
+ },
+ {
+  "task": "retention",
+  "protocol": "temporal",
+  "model": "XGBoost (logit target)",
+  "features": "base",
+  "r2": -0.03981629893273353,
+  "r2_ci": [
+   -0.11279209859116919,
+   0.02721287247459409
+  ],
+  "n_features": 229
+ },
+ {
+  "task": "retention",
+  "protocol": "temporal",
+  "model": "XGBoost (logit target)",
+  "features": "+process+stack",
+  "r2": 0.021655237918668413,
+  "r2_ci": [
+   -0.05002171241810765,
+   0.08776450917061299
+  ],
+  "n_features": 319
+ },
+ {
+  "task": "retention",
+  "protocol": "temporal",
+  "model": "XGBoost (logit target)",
+  "features": "+all enriched",
+  "r2": 0.06280696278434961,
+  "r2_ci": [
+   -0.003447937424259439,
+   0.1224280375069812
+  ],
+  "n_features": 321
+ },
+ {
+  "task": "delta_retention",
+  "protocol": "temporal",
+  "model": "XGBoost (logit target)",
+  "features": "+process+stack",
+  "delta_r2": 0.06147153685140194,
+  "delta_ci": [
+   0.023339294608275846,
+   0.10143590764041542
+  ]
+ },
+ {
+  "task": "delta_retention",
+  "protocol": "temporal",
+  "model": "XGBoost (logit target)",
+  "features": "+all enriched",
+  "delta_r2": 0.10262326171708314,
+  "delta_ci": [
+   0.06028948463681837,
+   0.15691543818922804
+  ]
+ },
+ {
+  "task": "retention",
+  "protocol": "temporal",
+  "model": "LightGBM (monotone in time)",
+  "features": "base",
+  "r2": 0.02831657668852461,
+  "r2_ci": [
+   -0.018316991083780747,
+   0.07822881562043009
+  ],
+  "n_features": 229
+ },
+ {
+  "task": "retention",
+  "protocol": "temporal",
+  "model": "LightGBM (monotone in time)",
+  "features": "+process+stack",
+  "r2": 0.08790281041009773,
+  "r2_ci": [
+   0.04170207881717154,
+   0.1292298878230766
+  ],
+  "n_features": 319
+ },
+ {
+  "task": "retention",
+  "protocol": "temporal",
+  "model": "LightGBM (monotone in time)",
+  "features": "+all enriched",
+  "r2": 0.11648881334261274,
+  "r2_ci": [
+   0.06893409919723112,
+   0.163574237369451
+  ],
+  "n_features": 321
+ },
+ {
+  "task": "delta_retention",
+  "protocol": "temporal",
+  "model": "LightGBM (monotone in time)",
+  "features": "+process+stack",
+  "delta_r2": 0.05958623372157312,
+  "delta_ci": [
+   0.028801138055450322,
+   0.09367680153061853
+  ]
+ },
+ {
+  "task": "delta_retention",
+  "protocol": "temporal",
+  "model": "LightGBM (monotone in time)",
+  "features": "+all enriched",
+  "delta_r2": 0.08817223665408813,
+  "delta_ci": [
+   0.05712952622292471,
+   0.12566063313439535
+  ]
+ },
+ {
+  "task": "retention",
+  "protocol": "temporal",
+  "model": "Deep ensemble (5 ResNets)",
+  "features": "base",
+  "r2": 0.055769051666990754,
+  "r2_ci": [
+   0.012211347234796076,
+   0.09814145650168016
+  ],
+  "n_features": 229
+ },
+ {
+  "task": "retention",
+  "protocol": "temporal",
+  "model": "Deep ensemble (5 ResNets)",
+  "features": "+process+stack",
+  "r2": 0.12014542347168389,
+  "r2_ci": [
+   0.08083073241290853,
+   0.15631786448491664
+  ],
+  "n_features": 319
+ },
+ {
+  "task": "retention",
+  "protocol": "temporal",
+  "model": "Deep ensemble (5 ResNets)",
+  "features": "+all enriched",
+  "r2": 0.10728219374638948,
+  "r2_ci": [
+   0.054037178297577114,
+   0.15503068672750955
+  ],
+  "n_features": 321
+ },
+ {
+  "task": "delta_retention",
+  "protocol": "temporal",
+  "model": "Deep ensemble (5 ResNets)",
+  "features": "+process+stack",
+  "delta_r2": 0.06437637180469313,
+  "delta_ci": [
+   0.0312631638159326,
+   0.09395928461815053
+  ]
+ },
+ {
+  "task": "delta_retention",
+  "protocol": "temporal",
+  "model": "Deep ensemble (5 ResNets)",
+  "features": "+all enriched",
+  "delta_r2": 0.05151314207939872,
+  "delta_ci": [
+   0.014101967798014665,
+   0.08668750566757677
+  ]
+ },
+ {
+  "task": "retention",
+  "protocol": "temporal",
+  "model": "Gaussian process (2000-pt subsample)",
+  "features": "base",
+  "r2": 0.08542133786914907,
+  "r2_ci": [
+   0.05592153399662912,
+   0.11261327268828483
+  ],
+  "n_features": 229
+ },
+ {
+  "task": "retention",
+  "protocol": "temporal",
+  "model": "Gaussian process (2000-pt subsample)",
+  "features": "+process+stack",
+  "r2": 0.09464257060974579,
+  "r2_ci": [
+   0.06875616411126574,
+   0.1216170814861476
+  ],
+  "n_features": 319
+ },
+ {
+  "task": "retention",
+  "protocol": "temporal",
+  "model": "Gaussian process (2000-pt subsample)",
+  "features": "+all enriched",
+  "r2": 0.09935755194841167,
+  "r2_ci": [
+   0.07070794133718916,
+   0.12839659339267429
+  ],
+  "n_features": 321
+ },
+ {
+  "task": "delta_retention",
+  "protocol": "temporal",
+  "model": "Gaussian process (2000-pt subsample)",
+  "features": "+process+stack",
+  "delta_r2": 0.009221232740596719,
+  "delta_ci": [
+   -0.005585678263890741,
+   0.02502424010839461
+  ]
+ },
+ {
+  "task": "delta_retention",
+  "protocol": "temporal",
+  "model": "Gaussian process (2000-pt subsample)",
+  "features": "+all enriched",
+  "delta_r2": 0.013936214079262599,
+  "delta_ci": [
+   -0.0031471695216841507,
+   0.034849821224277176
+  ]
+ },
+ {
+  "task": "retention",
+  "protocol": "temporal",
+  "model": "Hurdle (clf x two regressors)",
+  "features": "base",
+  "r2": 0.11315844234793182,
+  "r2_ci": [
+   0.06928826880343228,
+   0.15054895275566835
+  ],
+  "n_features": 229
+ },
+ {
+  "task": "retention",
+  "protocol": "temporal",
+  "model": "Hurdle (clf x two regressors)",
+  "features": "+process+stack",
+  "r2": 0.14465814347891426,
+  "r2_ci": [
+   0.10027285782513867,
+   0.1878332935833457
+  ],
+  "n_features": 319
+ },
+ {
+  "task": "retention",
+  "protocol": "temporal",
+  "model": "Hurdle (clf x two regressors)",
+  "features": "+all enriched",
+  "r2": 0.15918869478551,
+  "r2_ci": [
+   0.1129303844307034,
+   0.1995404622143024
+  ],
+  "n_features": 321
+ },
+ {
+  "task": "delta_retention",
+  "protocol": "temporal",
+  "model": "Hurdle (clf x two regressors)",
+  "features": "+process+stack",
+  "delta_r2": 0.03149970113098244,
+  "delta_ci": [
+   0.014631818194375331,
+   0.05234115958255887
+  ]
+ },
+ {
+  "task": "delta_retention",
+  "protocol": "temporal",
+  "model": "Hurdle (clf x two regressors)",
+  "features": "+all enriched",
+  "delta_r2": 0.04603025243757819,
+  "delta_ci": [
+   0.017545511161447796,
+   0.07341218351213473
+  ]
+ },
+ {
+  "task": "retention",
+  "protocol": "temporal",
+  "model": "Blend (XGB+CatBoost+RF)",
+  "features": "base",
+  "r2": 0.11352398089410742,
+  "r2_ci": [
+   0.0737006117058914,
+   0.15101442304018417
+  ],
+  "n_features": 229
+ },
+ {
+  "task": "retention",
+  "protocol": "temporal",
+  "model": "Blend (XGB+CatBoost+RF)",
+  "features": "+process+stack",
+  "r2": 0.15017831509494872,
+  "r2_ci": [
+   0.11254818753114,
+   0.1915881037220941
+  ],
+  "n_features": 319
+ },
+ {
+  "task": "retention",
+  "protocol": "temporal",
+  "model": "Blend (XGB+CatBoost+RF)",
+  "features": "+all enriched",
+  "r2": 0.17065285974988875,
+  "r2_ci": [
+   0.1378392889232992,
+   0.2088013800727822
+  ],
+  "n_features": 321
+ },
+ {
+  "task": "delta_retention",
+  "protocol": "temporal",
+  "model": "Blend (XGB+CatBoost+RF)",
+  "features": "+process+stack",
+  "delta_r2": 0.0366543342008413,
+  "delta_ci": [
+   0.021044834637315372,
+   0.05700097589545708
+  ]
+ },
+ {
+  "task": "delta_retention",
+  "protocol": "temporal",
+  "model": "Blend (XGB+CatBoost+RF)",
+  "features": "+all enriched",
+  "delta_r2": 0.05712887885578133,
+  "delta_ci": [
+   0.03457871144676605,
+   0.0784642537763674
+  ]
+ }
+]

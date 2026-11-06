@@ -1,0 +1,20 @@
+{
+  "n_boot": 3000,
+  "refit_random": {
+    "r2": 0.2620173319293725,
+    "mae": 3.5819833644410792
+  },
+  "refit_family_disjoint": {
+    "r2": 0.2783450372644196,
+    "mae": 3.4238708635771387
+  },
+  "row_level_bootstrap_MAE_diff_95ci": [
+    0.07374892677990216,
+    0.24442620902348636
+  ],
+  "family_grouped_bootstrap_MAE_diff_95ci": [
+    -0.3751315844320529,
+    0.888926021499935
+  ],
+  "note": "diff = MAE(random_test) - MAE(family_disjoint_test); a positive value with a confidence interval excluding zero means the family-disjoint test error is lower than the random-split test error."
+}

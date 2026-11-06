@@ -1,0 +1,1682 @@
+[
+ {
+  "analysis": "ipcw",
+  "horizon": 100,
+  "protocol": "paper",
+  "model": "XGBoost",
+  "features": "protocol only",
+  "n": 4852,
+  "auc": 0.7227986547597283,
+  "auc_ci": [
+   0.698864893773795,
+   0.746312082303217
+  ],
+  "brier": 0.17855778051716523,
+  "brier_null": 0.20051881791376983,
+  "brier_skill": 0.10952107949314072,
+  "brier_skill_ci": [
+   0.07457697176722894,
+   0.1437337255587185
+  ]
+ },
+ {
+  "analysis": "per_isos",
+  "horizon": 100,
+  "isos": "ISOS-D-1",
+  "features": "protocol only",
+  "n": 2489,
+  "auc": 0.6109032982151423
+ },
+ {
+  "analysis": "per_isos",
+  "horizon": 100,
+  "isos": "ISOS-L-1",
+  "features": "protocol only",
+  "n": 595,
+  "auc": 0.4547612090380118
+ },
+ {
+  "analysis": "per_isos",
+  "horizon": 100,
+  "isos": "ISOS-D-1I",
+  "features": "protocol only",
+  "n": 613,
+  "auc": 0.6409616664097624
+ },
+ {
+  "analysis": "per_isos",
+  "horizon": 100,
+  "isos": "ISOS-L-1I",
+  "features": "protocol only",
+  "n": 417,
+  "auc": 0.5933857289188367
+ },
+ {
+  "analysis": "ipcw",
+  "horizon": 100,
+  "protocol": "paper",
+  "model": "XGBoost",
+  "features": "base (no time)",
+  "n": 4852,
+  "auc": 0.7920231203456392,
+  "auc_ci": [
+   0.7733849689301106,
+   0.8114521001772567
+  ],
+  "brier": 0.1574166486494233,
+  "brier_null": 0.20051881791376983,
+  "brier_skill": 0.21495323836829106,
+  "brier_skill_ci": [
+   0.17466027949355054,
+   0.25246476166164405
+  ]
+ },
+ {
+  "analysis": "per_isos",
+  "horizon": 100,
+  "isos": "ISOS-D-1",
+  "features": "base (no time)",
+  "n": 2489,
+  "auc": 0.737884650702528
+ },
+ {
+  "analysis": "per_isos",
+  "horizon": 100,
+  "isos": "ISOS-L-1",
+  "features": "base (no time)",
+  "n": 595,
+  "auc": 0.649355694424682
+ },
+ {
+  "analysis": "per_isos",
+  "horizon": 100,
+  "isos": "ISOS-D-1I",
+  "features": "base (no time)",
+  "n": 613,
+  "auc": 0.6233380618122727
+ },
+ {
+  "analysis": "per_isos",
+  "horizon": 100,
+  "isos": "ISOS-L-1I",
+  "features": "base (no time)",
+  "n": 417,
+  "auc": 0.7131619492625568
+ },
+ {
+  "analysis": "ipcw",
+  "horizon": 100,
+  "protocol": "paper",
+  "model": "XGBoost",
+  "features": "+process+stack (no time)",
+  "n": 4852,
+  "auc": 0.8072183748043474,
+  "auc_ci": [
+   0.7886953723737938,
+   0.8264094931915267
+  ],
+  "brier": 0.15061222474524263,
+  "brier_null": 0.20051881791376983,
+  "brier_skill": 0.24888732981654016,
+  "brier_skill_ci": [
+   0.21200929524778722,
+   0.2919225191731858
+  ]
+ },
+ {
+  "analysis": "per_isos",
+  "horizon": 100,
+  "isos": "ISOS-D-1",
+  "features": "+process+stack (no time)",
+  "n": 2489,
+  "auc": 0.760892275420191
+ },
+ {
+  "analysis": "per_isos",
+  "horizon": 100,
+  "isos": "ISOS-L-1",
+  "features": "+process+stack (no time)",
+  "n": 595,
+  "auc": 0.7100514383487766
+ },
+ {
+  "analysis": "per_isos",
+  "horizon": 100,
+  "isos": "ISOS-D-1I",
+  "features": "+process+stack (no time)",
+  "n": 613,
+  "auc": 0.6474791638265522
+ },
+ {
+  "analysis": "per_isos",
+  "horizon": 100,
+  "isos": "ISOS-L-1I",
+  "features": "+process+stack (no time)",
+  "n": 417,
+  "auc": 0.7563820730291786
+ },
+ {
+  "analysis": "ipcw",
+  "horizon": 100,
+  "protocol": "paper",
+  "model": "XGBoost",
+  "features": "+all enriched (no time)",
+  "n": 4852,
+  "auc": 0.8142461489705404,
+  "auc_ci": [
+   0.7956202602121738,
+   0.8298207343120736
+  ],
+  "brier": 0.14846006382396837,
+  "brier_null": 0.20051881791376983,
+  "brier_skill": 0.25962029215726057,
+  "brier_skill_ci": [
+   0.22163731213396332,
+   0.29543114493441835
+  ]
+ },
+ {
+  "analysis": "per_isos",
+  "horizon": 100,
+  "isos": "ISOS-D-1",
+  "features": "+all enriched (no time)",
+  "n": 2489,
+  "auc": 0.7843683684350241
+ },
+ {
+  "analysis": "per_isos",
+  "horizon": 100,
+  "isos": "ISOS-L-1",
+  "features": "+all enriched (no time)",
+  "n": 595,
+  "auc": 0.7138922029731779
+ },
+ {
+  "analysis": "per_isos",
+  "horizon": 100,
+  "isos": "ISOS-D-1I",
+  "features": "+all enriched (no time)",
+  "n": 613,
+  "auc": 0.6730255367033433
+ },
+ {
+  "analysis": "per_isos",
+  "horizon": 100,
+  "isos": "ISOS-L-1I",
+  "features": "+all enriched (no time)",
+  "n": 417,
+  "auc": 0.768874249505293
+ },
+ {
+  "analysis": "ipcw",
+  "horizon": 100,
+  "protocol": "paper",
+  "model": "Logistic",
+  "features": "protocol only",
+  "n": 4852,
+  "auc": 0.7156159188737735,
+  "auc_ci": [
+   0.6910402847503382,
+   0.7399266205150924
+  ],
+  "brier": 0.1795604978756104,
+  "brier_null": 0.20051881791376983,
+  "brier_skill": 0.10452046474347476,
+  "brier_skill_ci": [
+   0.08053444662143917,
+   0.13056655211357635
+  ]
+ },
+ {
+  "analysis": "ipcw",
+  "horizon": 100,
+  "protocol": "paper",
+  "model": "Logistic",
+  "features": "base (no time)",
+  "n": 4852,
+  "auc": 0.770622232025594,
+  "auc_ci": [
+   0.7504104933213841,
+   0.791233234221531
+  ],
+  "brier": 0.1633921034766229,
+  "brier_null": 0.20051881791376983,
+  "brier_skill": 0.18515326802451393,
+  "brier_skill_ci": [
+   0.15127530814361026,
+   0.21619958334709155
+  ]
+ },
+ {
+  "analysis": "ipcw",
+  "horizon": 100,
+  "protocol": "paper",
+  "model": "Logistic",
+  "features": "+process+stack (no time)",
+  "n": 4852,
+  "auc": 0.7853205783707212,
+  "auc_ci": [
+   0.7659785000906872,
+   0.8050135030661411
+  ],
+  "brier": 0.1587011318240829,
+  "brier_null": 0.20051881791376983,
+  "brier_skill": 0.2085474397104714,
+  "brier_skill_ci": [
+   0.1765070761316314,
+   0.24047312618444686
+  ]
+ },
+ {
+  "analysis": "ipcw",
+  "horizon": 100,
+  "protocol": "paper",
+  "model": "Logistic",
+  "features": "+all enriched (no time)",
+  "n": 4852,
+  "auc": 0.794855557910929,
+  "auc_ci": [
+   0.7767090779350573,
+   0.8127856191445958
+  ],
+  "brier": 0.15549045405486586,
+  "brier_null": 0.20051881791376983,
+  "brier_skill": 0.22455929237657757,
+  "brier_skill_ci": [
+   0.19327087969493065,
+   0.2554371649711427
+  ]
+ },
+ {
+  "analysis": "ipcw",
+  "horizon": 100,
+  "protocol": "temporal",
+  "model": "XGBoost",
+  "features": "protocol only",
+  "n": 1840,
+  "auc": 0.7171936526635327,
+  "auc_ci": [
+   0.6838652179436752,
+   0.7516556873707306
+  ],
+  "brier": 0.1707391277425211,
+  "brier_null": 0.18159876331700298,
+  "brier_skill": 0.05980016260091514,
+  "brier_skill_ci": [
+   -0.006443389428568354,
+   0.12363268354311133
+  ]
+ },
+ {
+  "analysis": "ipcw",
+  "horizon": 100,
+  "protocol": "temporal",
+  "model": "XGBoost",
+  "features": "base (no time)",
+  "n": 1840,
+  "auc": 0.7740618429554235,
+  "auc_ci": [
+   0.7408314551942498,
+   0.8064375687902539
+  ],
+  "brier": 0.150617679976407,
+  "brier_null": 0.18159876331700298,
+  "brier_skill": 0.1706018409746255,
+  "brier_skill_ci": [
+   0.10424696452226281,
+   0.223855010010705
+  ]
+ },
+ {
+  "analysis": "ipcw",
+  "horizon": 100,
+  "protocol": "temporal",
+  "model": "XGBoost",
+  "features": "+process+stack (no time)",
+  "n": 1840,
+  "auc": 0.7896709872294307,
+  "auc_ci": [
+   0.7533965104445183,
+   0.8233538777034032
+  ],
+  "brier": 0.14298859369829342,
+  "brier_null": 0.18159876331700298,
+  "brier_skill": 0.2126125140583185,
+  "brier_skill_ci": [
+   0.14161556088769486,
+   0.2667204367321026
+  ]
+ },
+ {
+  "analysis": "ipcw",
+  "horizon": 100,
+  "protocol": "temporal",
+  "model": "XGBoost",
+  "features": "+all enriched (no time)",
+  "n": 1840,
+  "auc": 0.8013085635885888,
+  "auc_ci": [
+   0.7672026362003335,
+   0.8346333044403176
+  ],
+  "brier": 0.13951834393727036,
+  "brier_null": 0.18159876331700298,
+  "brier_skill": 0.23172194904365107,
+  "brier_skill_ci": [
+   0.1672777343665012,
+   0.28775617774049744
+  ]
+ },
+ {
+  "analysis": "ipcw",
+  "horizon": 100,
+  "protocol": "temporal",
+  "model": "Logistic",
+  "features": "protocol only",
+  "n": 1840,
+  "auc": 0.7061810108135397,
+  "auc_ci": [
+   0.6721016958424755,
+   0.7385238913903267
+  ],
+  "brier": 0.17307238338652592,
+  "brier_null": 0.18159876331700298,
+  "brier_skill": 0.04695175107328908,
+  "brier_skill_ci": [
+   -0.030344021952007073,
+   0.10575693162228203
+  ]
+ },
+ {
+  "analysis": "ipcw",
+  "horizon": 100,
+  "protocol": "temporal",
+  "model": "Logistic",
+  "features": "base (no time)",
+  "n": 1840,
+  "auc": 0.7365449871925558,
+  "auc_ci": [
+   0.7005529277406375,
+   0.7693582201495293
+  ],
+  "brier": 0.16747557601571672,
+  "brier_null": 0.18159876331700298,
+  "brier_skill": 0.07777138480085621,
+  "brier_skill_ci": [
+   0.003356902872849074,
+   0.1368951121533019
+  ]
+ },
+ {
+  "analysis": "ipcw",
+  "horizon": 100,
+  "protocol": "temporal",
+  "model": "Logistic",
+  "features": "+process+stack (no time)",
+  "n": 1840,
+  "auc": 0.7638799917096009,
+  "auc_ci": [
+   0.7246284159815652,
+   0.7954700815912401
+  ],
+  "brier": 0.15304971162338402,
+  "brier_null": 0.18159876331700298,
+  "brier_skill": 0.1572095050217004,
+  "brier_skill_ci": [
+   0.09876098420554963,
+   0.20112474764740898
+  ]
+ },
+ {
+  "analysis": "ipcw",
+  "horizon": 100,
+  "protocol": "temporal",
+  "model": "Logistic",
+  "features": "+all enriched (no time)",
+  "n": 1840,
+  "auc": 0.7735022844122007,
+  "auc_ci": [
+   0.735965194276378,
+   0.8063722988198605
+  ],
+  "brier": 0.15003226797717933,
+  "brier_null": 0.18159876331700298,
+  "brier_skill": 0.1738254972844746,
+  "brier_skill_ci": [
+   0.12144052577131399,
+   0.22098229967539473
+  ]
+ },
+ {
+  "analysis": "landmark",
+  "horizon": 100,
+  "protocol": "paper",
+  "model": "XGBoost",
+  "features": "protocol only",
+  "n": 4054,
+  "failed": 471,
+  "auc": 0.5993841524585608,
+  "auc_ci": [
+   0.5685329160579683,
+   0.632487067922737
+  ]
+ },
+ {
+  "analysis": "landmark",
+  "horizon": 100,
+  "protocol": "paper",
+  "model": "XGBoost",
+  "features": "base (no time)",
+  "n": 4054,
+  "failed": 471,
+  "auc": 0.6830352460575506,
+  "auc_ci": [
+   0.6517737367549237,
+   0.7130206686835624
+  ]
+ },
+ {
+  "analysis": "landmark",
+  "horizon": 100,
+  "protocol": "paper",
+  "model": "XGBoost",
+  "features": "+process+stack (no time)",
+  "n": 4054,
+  "failed": 471,
+  "auc": 0.7154713843918528,
+  "auc_ci": [
+   0.6862878441152696,
+   0.7471825562776121
+  ]
+ },
+ {
+  "analysis": "landmark",
+  "horizon": 100,
+  "protocol": "paper",
+  "model": "XGBoost",
+  "features": "+all enriched (no time)",
+  "n": 4054,
+  "failed": 471,
+  "auc": 0.7400208462585469,
+  "auc_ci": [
+   0.7136587388231205,
+   0.7642327664638431
+  ]
+ },
+ {
+  "analysis": "landmark",
+  "horizon": 100,
+  "protocol": "temporal",
+  "model": "XGBoost",
+  "features": "protocol only",
+  "n": 1601,
+  "failed": 165,
+  "auc": 0.6287119101882332,
+  "auc_ci": [
+   0.5665261725958985,
+   0.6860465463514313
+  ]
+ },
+ {
+  "analysis": "landmark",
+  "horizon": 100,
+  "protocol": "temporal",
+  "model": "XGBoost",
+  "features": "base (no time)",
+  "n": 1601,
+  "failed": 165,
+  "auc": 0.7038976112095889,
+  "auc_ci": [
+   0.651679354562075,
+   0.7479003788733476
+  ]
+ },
+ {
+  "analysis": "landmark",
+  "horizon": 100,
+  "protocol": "temporal",
+  "model": "XGBoost",
+  "features": "+process+stack (no time)",
+  "n": 1601,
+  "failed": 165,
+  "auc": 0.680598463746096,
+  "auc_ci": [
+   0.6104349243008365,
+   0.7296159099551958
+  ]
+ },
+ {
+  "analysis": "landmark",
+  "horizon": 100,
+  "protocol": "temporal",
+  "model": "XGBoost",
+  "features": "+all enriched (no time)",
+  "n": 1601,
+  "failed": 165,
+  "auc": 0.723301257702372,
+  "auc_ci": [
+   0.670156215255387,
+   0.7712406146904347
+  ]
+ },
+ {
+  "analysis": "ipcw",
+  "horizon": 500,
+  "protocol": "paper",
+  "model": "XGBoost",
+  "features": "protocol only",
+  "n": 4909,
+  "auc": 0.638987633222959,
+  "auc_ci": [
+   0.6146545645649787,
+   0.6600354829425853
+  ],
+  "brier": 0.23586424646658039,
+  "brier_null": 0.248220650009313,
+  "brier_skill": 0.04977991775571056,
+  "brier_skill_ci": [
+   0.023784201609702984,
+   0.07557015283109068
+  ]
+ },
+ {
+  "analysis": "per_isos",
+  "horizon": 500,
+  "isos": "ISOS-D-1",
+  "features": "protocol only",
+  "n": 2599,
+  "auc": 0.5483787347740844
+ },
+ {
+  "analysis": "per_isos",
+  "horizon": 500,
+  "isos": "ISOS-L-1",
+  "features": "protocol only",
+  "n": 589,
+  "auc": 0.4139364253361756
+ },
+ {
+  "analysis": "per_isos",
+  "horizon": 500,
+  "isos": "ISOS-D-1I",
+  "features": "protocol only",
+  "n": 572,
+  "auc": 0.5545063844963148
+ },
+ {
+  "analysis": "per_isos",
+  "horizon": 500,
+  "isos": "ISOS-L-1I",
+  "features": "protocol only",
+  "n": 392,
+  "auc": 0.4852159254455617
+ },
+ {
+  "analysis": "ipcw",
+  "horizon": 500,
+  "protocol": "paper",
+  "model": "XGBoost",
+  "features": "base (no time)",
+  "n": 4909,
+  "auc": 0.7676575081158787,
+  "auc_ci": [
+   0.7491736730839915,
+   0.7843729100578094
+  ],
+  "brier": 0.19565810549119117,
+  "brier_null": 0.248220650009313,
+  "brier_skill": 0.21175733975456812,
+  "brier_skill_ci": [
+   0.17800782439594726,
+   0.2422552167951445
+  ]
+ },
+ {
+  "analysis": "per_isos",
+  "horizon": 500,
+  "isos": "ISOS-D-1",
+  "features": "base (no time)",
+  "n": 2599,
+  "auc": 0.7673868242537417
+ },
+ {
+  "analysis": "per_isos",
+  "horizon": 500,
+  "isos": "ISOS-L-1",
+  "features": "base (no time)",
+  "n": 589,
+  "auc": 0.66402086671482
+ },
+ {
+  "analysis": "per_isos",
+  "horizon": 500,
+  "isos": "ISOS-D-1I",
+  "features": "base (no time)",
+  "n": 572,
+  "auc": 0.6982071652322707
+ },
+ {
+  "analysis": "per_isos",
+  "horizon": 500,
+  "isos": "ISOS-L-1I",
+  "features": "base (no time)",
+  "n": 392,
+  "auc": 0.6473587611892353
+ },
+ {
+  "analysis": "ipcw",
+  "horizon": 500,
+  "protocol": "paper",
+  "model": "XGBoost",
+  "features": "+process+stack (no time)",
+  "n": 4909,
+  "auc": 0.7895921329924602,
+  "auc_ci": [
+   0.7736417232663512,
+   0.8060342143662407
+  ],
+  "brier": 0.18696089384626607,
+  "brier_null": 0.248220650009313,
+  "brier_skill": 0.24679556741451014,
+  "brier_skill_ci": [
+   0.21668189987857484,
+   0.27576299302053964
+  ]
+ },
+ {
+  "analysis": "per_isos",
+  "horizon": 500,
+  "isos": "ISOS-D-1",
+  "features": "+process+stack (no time)",
+  "n": 2599,
+  "auc": 0.7853904386291619
+ },
+ {
+  "analysis": "per_isos",
+  "horizon": 500,
+  "isos": "ISOS-L-1",
+  "features": "+process+stack (no time)",
+  "n": 589,
+  "auc": 0.7441694382580082
+ },
+ {
+  "analysis": "per_isos",
+  "horizon": 500,
+  "isos": "ISOS-D-1I",
+  "features": "+process+stack (no time)",
+  "n": 572,
+  "auc": 0.7100150080832656
+ },
+ {
+  "analysis": "per_isos",
+  "horizon": 500,
+  "isos": "ISOS-L-1I",
+  "features": "+process+stack (no time)",
+  "n": 392,
+  "auc": 0.7058407240886596
+ },
+ {
+  "analysis": "ipcw",
+  "horizon": 500,
+  "protocol": "paper",
+  "model": "XGBoost",
+  "features": "+all enriched (no time)",
+  "n": 4909,
+  "auc": 0.8010179008463179,
+  "auc_ci": [
+   0.7855221544471757,
+   0.814309476787809
+  ],
+  "brier": 0.18182787671801234,
+  "brier_null": 0.248220650009313,
+  "brier_skill": 0.26747481842791754,
+  "brier_skill_ci": [
+   0.23663018111328835,
+   0.29380008035468436
+  ]
+ },
+ {
+  "analysis": "per_isos",
+  "horizon": 500,
+  "isos": "ISOS-D-1",
+  "features": "+all enriched (no time)",
+  "n": 2599,
+  "auc": 0.7996564016359046
+ },
+ {
+  "analysis": "per_isos",
+  "horizon": 500,
+  "isos": "ISOS-L-1",
+  "features": "+all enriched (no time)",
+  "n": 589,
+  "auc": 0.7406563933688582
+ },
+ {
+  "analysis": "per_isos",
+  "horizon": 500,
+  "isos": "ISOS-D-1I",
+  "features": "+all enriched (no time)",
+  "n": 572,
+  "auc": 0.7522194071026256
+ },
+ {
+  "analysis": "per_isos",
+  "horizon": 500,
+  "isos": "ISOS-L-1I",
+  "features": "+all enriched (no time)",
+  "n": 392,
+  "auc": 0.7442706900183033
+ },
+ {
+  "analysis": "ipcw",
+  "horizon": 500,
+  "protocol": "paper",
+  "model": "Logistic",
+  "features": "protocol only",
+  "n": 4909,
+  "auc": 0.6404305083717621,
+  "auc_ci": [
+   0.6166036295680968,
+   0.6629523454022931
+  ],
+  "brier": 0.23367582015869284,
+  "brier_null": 0.248220650009313,
+  "brier_skill": 0.058596373227104426,
+  "brier_skill_ci": [
+   0.040198246843840456,
+   0.07568497982811044
+  ]
+ },
+ {
+  "analysis": "ipcw",
+  "horizon": 500,
+  "protocol": "paper",
+  "model": "Logistic",
+  "features": "base (no time)",
+  "n": 4909,
+  "auc": 0.7404520450641006,
+  "auc_ci": [
+   0.7228257593035461,
+   0.7584919409392743
+  ],
+  "brier": 0.20506115636247732,
+  "brier_null": 0.248220650009313,
+  "brier_skill": 0.17387551617972308,
+  "brier_skill_ci": [
+   0.14824520303007455,
+   0.20181455516364424
+  ]
+ },
+ {
+  "analysis": "ipcw",
+  "horizon": 500,
+  "protocol": "paper",
+  "model": "Logistic",
+  "features": "+process+stack (no time)",
+  "n": 4909,
+  "auc": 0.760630673598515,
+  "auc_ci": [
+   0.7420472148823004,
+   0.7776776068392791
+  ],
+  "brier": 0.19849739610892808,
+  "brier_null": 0.248220650009313,
+  "brier_skill": 0.20031876436758733,
+  "brier_skill_ci": [
+   0.1721758826693521,
+   0.22548535496665303
+  ]
+ },
+ {
+  "analysis": "ipcw",
+  "horizon": 500,
+  "protocol": "paper",
+  "model": "Logistic",
+  "features": "+all enriched (no time)",
+  "n": 4909,
+  "auc": 0.7661023564122412,
+  "auc_ci": [
+   0.7485880648238046,
+   0.7810252649500777
+  ],
+  "brier": 0.19616679775525364,
+  "brier_null": 0.248220650009313,
+  "brier_skill": 0.20970798461814666,
+  "brier_skill_ci": [
+   0.18028420841828968,
+   0.23386954463003357
+  ]
+ },
+ {
+  "analysis": "ipcw",
+  "horizon": 500,
+  "protocol": "temporal",
+  "model": "XGBoost",
+  "features": "protocol only",
+  "n": 1908,
+  "auc": 0.6453421277241924,
+  "auc_ci": [
+   0.6139686507881196,
+   0.6739792791706785
+  ],
+  "brier": 0.24088312413231844,
+  "brier_null": 0.24998152910264634,
+  "brier_skill": 0.036396308971259894,
+  "brier_skill_ci": [
+   -0.0014438638132414966,
+   0.07698203209758739
+  ]
+ },
+ {
+  "analysis": "ipcw",
+  "horizon": 500,
+  "protocol": "temporal",
+  "model": "XGBoost",
+  "features": "base (no time)",
+  "n": 1908,
+  "auc": 0.752810521330982,
+  "auc_ci": [
+   0.7228183386689235,
+   0.7796399131347712
+  ],
+  "brier": 0.20431206344560815,
+  "brier_null": 0.24998152910264634,
+  "brier_skill": 0.18269136052162316,
+  "brier_skill_ci": [
+   0.12779221352144637,
+   0.2337274938459036
+  ]
+ },
+ {
+  "analysis": "ipcw",
+  "horizon": 500,
+  "protocol": "temporal",
+  "model": "XGBoost",
+  "features": "+process+stack (no time)",
+  "n": 1908,
+  "auc": 0.7756943566943495,
+  "auc_ci": [
+   0.7484568124840405,
+   0.8013496861632606
+  ],
+  "brier": 0.19402551400794063,
+  "brier_null": 0.24998152910264634,
+  "brier_skill": 0.2238405985256986,
+  "brier_skill_ci": [
+   0.17316157028491616,
+   0.2708722028285196
+  ]
+ },
+ {
+  "analysis": "ipcw",
+  "horizon": 500,
+  "protocol": "temporal",
+  "model": "XGBoost",
+  "features": "+all enriched (no time)",
+  "n": 1908,
+  "auc": 0.793235977369737,
+  "auc_ci": [
+   0.7652839379018563,
+   0.8152409306549263
+  ],
+  "brier": 0.18616603511521582,
+  "brier_null": 0.24998152910264634,
+  "brier_skill": 0.2552808370142695,
+  "brier_skill_ci": [
+   0.2028150098550775,
+   0.2974015527313717
+  ]
+ },
+ {
+  "analysis": "ipcw",
+  "horizon": 500,
+  "protocol": "temporal",
+  "model": "Logistic",
+  "features": "protocol only",
+  "n": 1908,
+  "auc": 0.6540934777894123,
+  "auc_ci": [
+   0.623869606659067,
+   0.6879978588459664
+  ],
+  "brier": 0.2380050477087546,
+  "brier_null": 0.24998152910264634,
+  "brier_skill": 0.04790946529883011,
+  "brier_skill_ci": [
+   0.016853171935889318,
+   0.07732297649834652
+  ]
+ },
+ {
+  "analysis": "ipcw",
+  "horizon": 500,
+  "protocol": "temporal",
+  "model": "Logistic",
+  "features": "base (no time)",
+  "n": 1908,
+  "auc": 0.7277106736002503,
+  "auc_ci": [
+   0.6985920365702106,
+   0.7556681732331624
+  ],
+  "brier": 0.21473962274018277,
+  "brier_null": 0.24998152910264634,
+  "brier_skill": 0.1409780414135826,
+  "brier_skill_ci": [
+   0.0886549914600953,
+   0.19035503658393949
+  ]
+ },
+ {
+  "analysis": "ipcw",
+  "horizon": 500,
+  "protocol": "temporal",
+  "model": "Logistic",
+  "features": "+process+stack (no time)",
+  "n": 1908,
+  "auc": 0.7447159040204923,
+  "auc_ci": [
+   0.7153238405701232,
+   0.7705410384658558
+  ],
+  "brier": 0.20495181222960754,
+  "brier_null": 0.24998152910264634,
+  "brier_skill": 0.18013217630390965,
+  "brier_skill_ci": [
+   0.13496081703243856,
+   0.2174776339109401
+  ]
+ },
+ {
+  "analysis": "ipcw",
+  "horizon": 500,
+  "protocol": "temporal",
+  "model": "Logistic",
+  "features": "+all enriched (no time)",
+  "n": 1908,
+  "auc": 0.758024443188771,
+  "auc_ci": [
+   0.7298077194591506,
+   0.7832645125839096
+  ],
+  "brier": 0.2002810724996067,
+  "brier_null": 0.24998152910264634,
+  "brier_skill": 0.19881651568997272,
+  "brier_skill_ci": [
+   0.15618341429569507,
+   0.23714625961752872
+  ]
+ },
+ {
+  "analysis": "landmark",
+  "horizon": 500,
+  "protocol": "paper",
+  "model": "XGBoost",
+  "features": "protocol only",
+  "n": 2631,
+  "failed": 440,
+  "auc": 0.5359393801087092,
+  "auc_ci": [
+   0.5008844350105043,
+   0.5765317394891932
+  ]
+ },
+ {
+  "analysis": "landmark",
+  "horizon": 500,
+  "protocol": "paper",
+  "model": "XGBoost",
+  "features": "base (no time)",
+  "n": 2631,
+  "failed": 440,
+  "auc": 0.6321682710260985,
+  "auc_ci": [
+   0.5953846368951478,
+   0.6774543974985576
+  ]
+ },
+ {
+  "analysis": "landmark",
+  "horizon": 500,
+  "protocol": "paper",
+  "model": "XGBoost",
+  "features": "+process+stack (no time)",
+  "n": 2631,
+  "failed": 440,
+  "auc": 0.6585862619808307,
+  "auc_ci": [
+   0.6215986348145348,
+   0.697313897161109
+  ]
+ },
+ {
+  "analysis": "landmark",
+  "horizon": 500,
+  "protocol": "paper",
+  "model": "XGBoost",
+  "features": "+all enriched (no time)",
+  "n": 2631,
+  "failed": 440,
+  "auc": 0.6838243226422142,
+  "auc_ci": [
+   0.6510181252717435,
+   0.7199565478090185
+  ]
+ },
+ {
+  "analysis": "landmark",
+  "horizon": 500,
+  "protocol": "temporal",
+  "model": "XGBoost",
+  "features": "protocol only",
+  "n": 1129,
+  "failed": 172,
+  "auc": 0.5295740079220431,
+  "auc_ci": [
+   0.4627298231150928,
+   0.5841263166916117
+  ]
+ },
+ {
+  "analysis": "landmark",
+  "horizon": 500,
+  "protocol": "temporal",
+  "model": "XGBoost",
+  "features": "base (no time)",
+  "n": 1129,
+  "failed": 172,
+  "auc": 0.5697158027751452,
+  "auc_ci": [
+   0.5109359373348278,
+   0.6260035968824104
+  ]
+ },
+ {
+  "analysis": "landmark",
+  "horizon": 500,
+  "protocol": "temporal",
+  "model": "XGBoost",
+  "features": "+process+stack (no time)",
+  "n": 1129,
+  "failed": 172,
+  "auc": 0.6011791937012466,
+  "auc_ci": [
+   0.5342271644387627,
+   0.6665571638081778
+  ]
+ },
+ {
+  "analysis": "landmark",
+  "horizon": 500,
+  "protocol": "temporal",
+  "model": "XGBoost",
+  "features": "+all enriched (no time)",
+  "n": 1129,
+  "failed": 172,
+  "auc": 0.6182656557556316,
+  "auc_ci": [
+   0.564405676608508,
+   0.6742820697955134
+  ]
+ },
+ {
+  "analysis": "ipcw",
+  "horizon": 1000,
+  "protocol": "paper",
+  "model": "XGBoost",
+  "features": "protocol only",
+  "n": 4615,
+  "auc": 0.5990002468074391,
+  "auc_ci": [
+   0.5715841405565246,
+   0.6269942235582301
+  ],
+  "brier": 0.2076418826137521,
+  "brier_null": 0.20887052398670328,
+  "brier_skill": 0.005882310962313619,
+  "brier_skill_ci": [
+   -0.022377670695027323,
+   0.030605198720768126
+  ]
+ },
+ {
+  "analysis": "per_isos",
+  "horizon": 1000,
+  "isos": "ISOS-D-1",
+  "features": "protocol only",
+  "n": 2454,
+  "auc": 0.5044718679424623
+ },
+ {
+  "analysis": "per_isos",
+  "horizon": 1000,
+  "isos": "ISOS-L-1",
+  "features": "protocol only",
+  "n": 576,
+  "auc": 0.46394213980634913
+ },
+ {
+  "analysis": "per_isos",
+  "horizon": 1000,
+  "isos": "ISOS-D-1I",
+  "features": "protocol only",
+  "n": 501,
+  "auc": 0.5748571028102497
+ },
+ {
+  "analysis": "per_isos",
+  "horizon": 1000,
+  "isos": "ISOS-L-1I",
+  "features": "protocol only",
+  "n": 357,
+  "auc": 0.50214646755208
+ },
+ {
+  "analysis": "ipcw",
+  "horizon": 1000,
+  "protocol": "paper",
+  "model": "XGBoost",
+  "features": "base (no time)",
+  "n": 4615,
+  "auc": 0.7452621893691525,
+  "auc_ci": [
+   0.7209163013040791,
+   0.7719719089099474
+  ],
+  "brier": 0.17573269956493331,
+  "brier_null": 0.20887052398670328,
+  "brier_skill": 0.15865246943067712,
+  "brier_skill_ci": [
+   0.11894857770831924,
+   0.2018050958597282
+  ]
+ },
+ {
+  "analysis": "per_isos",
+  "horizon": 1000,
+  "isos": "ISOS-D-1",
+  "features": "base (no time)",
+  "n": 2454,
+  "auc": 0.7515607707439129
+ },
+ {
+  "analysis": "per_isos",
+  "horizon": 1000,
+  "isos": "ISOS-L-1",
+  "features": "base (no time)",
+  "n": 576,
+  "auc": 0.6683265872201918
+ },
+ {
+  "analysis": "per_isos",
+  "horizon": 1000,
+  "isos": "ISOS-D-1I",
+  "features": "base (no time)",
+  "n": 501,
+  "auc": 0.7425316452743127
+ },
+ {
+  "analysis": "per_isos",
+  "horizon": 1000,
+  "isos": "ISOS-L-1I",
+  "features": "base (no time)",
+  "n": 357,
+  "auc": 0.593745592160302
+ },
+ {
+  "analysis": "ipcw",
+  "horizon": 1000,
+  "protocol": "paper",
+  "model": "XGBoost",
+  "features": "+process+stack (no time)",
+  "n": 4615,
+  "auc": 0.7676326264771789,
+  "auc_ci": [
+   0.7482125015928338,
+   0.7929633815829991
+  ],
+  "brier": 0.1711526022046453,
+  "brier_null": 0.20887052398670328,
+  "brier_skill": 0.18058039527137448,
+  "brier_skill_ci": [
+   0.143853171483329,
+   0.21991726429134967
+  ]
+ },
+ {
+  "analysis": "per_isos",
+  "horizon": 1000,
+  "isos": "ISOS-D-1",
+  "features": "+process+stack (no time)",
+  "n": 2454,
+  "auc": 0.7665963323558108
+ },
+ {
+  "analysis": "per_isos",
+  "horizon": 1000,
+  "isos": "ISOS-L-1",
+  "features": "+process+stack (no time)",
+  "n": 576,
+  "auc": 0.7102439504474787
+ },
+ {
+  "analysis": "per_isos",
+  "horizon": 1000,
+  "isos": "ISOS-D-1I",
+  "features": "+process+stack (no time)",
+  "n": 501,
+  "auc": 0.7587651482096681
+ },
+ {
+  "analysis": "per_isos",
+  "horizon": 1000,
+  "isos": "ISOS-L-1I",
+  "features": "+process+stack (no time)",
+  "n": 357,
+  "auc": 0.6986058138608772
+ },
+ {
+  "analysis": "ipcw",
+  "horizon": 1000,
+  "protocol": "paper",
+  "model": "XGBoost",
+  "features": "+all enriched (no time)",
+  "n": 4615,
+  "auc": 0.7705078475196379,
+  "auc_ci": [
+   0.7510798411092543,
+   0.7955532866202848
+  ],
+  "brier": 0.16984243372848107,
+  "brier_null": 0.20887052398670328,
+  "brier_skill": 0.186853029873697,
+  "brier_skill_ci": [
+   0.14537110478874565,
+   0.2234529507339325
+  ]
+ },
+ {
+  "analysis": "per_isos",
+  "horizon": 1000,
+  "isos": "ISOS-D-1",
+  "features": "+all enriched (no time)",
+  "n": 2454,
+  "auc": 0.7681936504743936
+ },
+ {
+  "analysis": "per_isos",
+  "horizon": 1000,
+  "isos": "ISOS-L-1",
+  "features": "+all enriched (no time)",
+  "n": 576,
+  "auc": 0.710792992085442
+ },
+ {
+  "analysis": "per_isos",
+  "horizon": 1000,
+  "isos": "ISOS-D-1I",
+  "features": "+all enriched (no time)",
+  "n": 501,
+  "auc": 0.7601956522648419
+ },
+ {
+  "analysis": "per_isos",
+  "horizon": 1000,
+  "isos": "ISOS-L-1I",
+  "features": "+all enriched (no time)",
+  "n": 357,
+  "auc": 0.7508020951576708
+ },
+ {
+  "analysis": "ipcw",
+  "horizon": 1000,
+  "protocol": "paper",
+  "model": "Logistic",
+  "features": "protocol only",
+  "n": 4615,
+  "auc": 0.6009431817559132,
+  "auc_ci": [
+   0.569903276939687,
+   0.6277045964876572
+  ],
+  "brier": 0.20507072657026867,
+  "brier_null": 0.20887052398670328,
+  "brier_skill": 0.01819211894482775,
+  "brier_skill_ci": [
+   0.006464229914740796,
+   0.02669372529411281
+  ]
+ },
+ {
+  "analysis": "ipcw",
+  "horizon": 1000,
+  "protocol": "paper",
+  "model": "Logistic",
+  "features": "base (no time)",
+  "n": 4615,
+  "auc": 0.7433047007894953,
+  "auc_ci": [
+   0.7188377924633534,
+   0.7699783616149082
+  ],
+  "brier": 0.17489294929409965,
+  "brier_null": 0.20887052398670328,
+  "brier_skill": 0.16267290397934098,
+  "brier_skill_ci": [
+   0.13297524923061693,
+   0.19207624264579948
+  ]
+ },
+ {
+  "analysis": "ipcw",
+  "horizon": 1000,
+  "protocol": "paper",
+  "model": "Logistic",
+  "features": "+process+stack (no time)",
+  "n": 4615,
+  "auc": 0.7577919796840106,
+  "auc_ci": [
+   0.7376551586410163,
+   0.7825676857897345
+  ],
+  "brier": 0.1704830626490683,
+  "brier_null": 0.20887052398670328,
+  "brier_skill": 0.18378591964502722,
+  "brier_skill_ci": [
+   0.15359300288732428,
+   0.21459061117465228
+  ]
+ },
+ {
+  "analysis": "ipcw",
+  "horizon": 1000,
+  "protocol": "paper",
+  "model": "Logistic",
+  "features": "+all enriched (no time)",
+  "n": 4615,
+  "auc": 0.7550934842765675,
+  "auc_ci": [
+   0.731701687700765,
+   0.7798946219102892
+  ],
+  "brier": 0.17210964085937586,
+  "brier_null": 0.20887052398670328,
+  "brier_skill": 0.17599842440988767,
+  "brier_skill_ci": [
+   0.1411947648745753,
+   0.21319977175797244
+  ]
+ },
+ {
+  "analysis": "ipcw",
+  "horizon": 1000,
+  "protocol": "temporal",
+  "model": "XGBoost",
+  "features": "protocol only",
+  "n": 1806,
+  "auc": 0.5975287857532323,
+  "auc_ci": [
+   0.5520700855343257,
+   0.6359045020742852
+  ],
+  "brier": 0.21943193652390178,
+  "brier_null": 0.2190277061828915,
+  "brier_skill": -0.001845567157027883,
+  "brier_skill_ci": [
+   -0.046070120292584046,
+   0.03767365030712475
+  ]
+ },
+ {
+  "analysis": "ipcw",
+  "horizon": 1000,
+  "protocol": "temporal",
+  "model": "XGBoost",
+  "features": "base (no time)",
+  "n": 1806,
+  "auc": 0.7143612583312848,
+  "auc_ci": [
+   0.6765112467886529,
+   0.7511365356678471
+  ],
+  "brier": 0.1949604351578241,
+  "brier_null": 0.2190277061828915,
+  "brier_skill": 0.10988231326757747,
+  "brier_skill_ci": [
+   0.04136835817175716,
+   0.17194674415849376
+  ]
+ },
+ {
+  "analysis": "ipcw",
+  "horizon": 1000,
+  "protocol": "temporal",
+  "model": "XGBoost",
+  "features": "+process+stack (no time)",
+  "n": 1806,
+  "auc": 0.7361333466839006,
+  "auc_ci": [
+   0.6949175218934237,
+   0.7725525147553166
+  ],
+  "brier": 0.18780717188309037,
+  "brier_null": 0.2190277061828915,
+  "brier_skill": 0.1425414841067253,
+  "brier_skill_ci": [
+   0.07192504876361283,
+   0.20739896406429245
+  ]
+ },
+ {
+  "analysis": "ipcw",
+  "horizon": 1000,
+  "protocol": "temporal",
+  "model": "XGBoost",
+  "features": "+all enriched (no time)",
+  "n": 1806,
+  "auc": 0.7432800359268534,
+  "auc_ci": [
+   0.7001721885292966,
+   0.7798064051870622
+  ],
+  "brier": 0.18570471177876394,
+  "brier_null": 0.2190277061828915,
+  "brier_skill": 0.1521405441570134,
+  "brier_skill_ci": [
+   0.08525933332112458,
+   0.2147694468754732
+  ]
+ },
+ {
+  "analysis": "ipcw",
+  "horizon": 1000,
+  "protocol": "temporal",
+  "model": "Logistic",
+  "features": "protocol only",
+  "n": 1806,
+  "auc": 0.599327234931367,
+  "auc_ci": [
+   0.5593678896633695,
+   0.6458820754846406
+  ],
+  "brier": 0.21968841574115397,
+  "brier_null": 0.2190277061828915,
+  "brier_skill": -0.0030165569907889545,
+  "brier_skill_ci": [
+   -0.015868689154006237,
+   0.0068381549176426
+  ]
+ },
+ {
+  "analysis": "ipcw",
+  "horizon": 1000,
+  "protocol": "temporal",
+  "model": "Logistic",
+  "features": "base (no time)",
+  "n": 1806,
+  "auc": 0.7425615363909532,
+  "auc_ci": [
+   0.7056623515042902,
+   0.7817502476669045
+  ],
+  "brier": 0.18201041449708227,
+  "brier_null": 0.2190277061828915,
+  "brier_skill": 0.16900734765901815,
+  "brier_skill_ci": [
+   0.11606089707642026,
+   0.2176004161142966
+  ]
+ },
+ {
+  "analysis": "ipcw",
+  "horizon": 1000,
+  "protocol": "temporal",
+  "model": "Logistic",
+  "features": "+process+stack (no time)",
+  "n": 1806,
+  "auc": 0.7513099017187633,
+  "auc_ci": [
+   0.7164751796767869,
+   0.7850570455527106
+  ],
+  "brier": 0.17887647121597355,
+  "brier_null": 0.2190277061828915,
+  "brier_skill": 0.18331578075967725,
+  "brier_skill_ci": [
+   0.1343859859396191,
+   0.23399353261718858
+  ]
+ },
+ {
+  "analysis": "ipcw",
+  "horizon": 1000,
+  "protocol": "temporal",
+  "model": "Logistic",
+  "features": "+all enriched (no time)",
+  "n": 1806,
+  "auc": 0.7581365193205301,
+  "auc_ci": [
+   0.7240721743656985,
+   0.7913850655928526
+  ],
+  "brier": 0.17674328168027936,
+  "brier_null": 0.2190277061828915,
+  "brier_skill": 0.19305514009859548,
+  "brier_skill_ci": [
+   0.14321696532656572,
+   0.24218245320626147
+  ]
+ },
+ {
+  "analysis": "landmark",
+  "horizon": 1000,
+  "protocol": "paper",
+  "model": "XGBoost",
+  "features": "protocol only",
+  "n": 1389,
+  "failed": 266,
+  "auc": 0.5198866489464979,
+  "auc_ci": [
+   0.4710137886604981,
+   0.5866377017295135
+  ]
+ },
+ {
+  "analysis": "landmark",
+  "horizon": 1000,
+  "protocol": "paper",
+  "model": "XGBoost",
+  "features": "base (no time)",
+  "n": 1389,
+  "failed": 266,
+  "auc": 0.5586523075275008,
+  "auc_ci": [
+   0.5058561315185138,
+   0.6005700694004283
+  ]
+ },
+ {
+  "analysis": "landmark",
+  "horizon": 1000,
+  "protocol": "paper",
+  "model": "XGBoost",
+  "features": "+process+stack (no time)",
+  "n": 1389,
+  "failed": 266,
+  "auc": 0.6029917848941142,
+  "auc_ci": [
+   0.5546683340584885,
+   0.6453679719491612
+  ]
+ },
+ {
+  "analysis": "landmark",
+  "horizon": 1000,
+  "protocol": "paper",
+  "model": "XGBoost",
+  "features": "+all enriched (no time)",
+  "n": 1389,
+  "failed": 266,
+  "auc": 0.6102193373014013,
+  "auc_ci": [
+   0.5623368749103391,
+   0.6568431463500983
+  ]
+ },
+ {
+  "analysis": "landmark",
+  "horizon": 1000,
+  "protocol": "temporal",
+  "model": "XGBoost",
+  "features": "protocol only",
+  "n": 610,
+  "failed": 108,
+  "auc": 0.5161207023756825,
+  "auc_ci": [
+   0.43734848154827766,
+   0.5918241396505578
+  ]
+ },
+ {
+  "analysis": "landmark",
+  "horizon": 1000,
+  "protocol": "temporal",
+  "model": "XGBoost",
+  "features": "base (no time)",
+  "n": 610,
+  "failed": 108,
+  "auc": 0.583176553047071,
+  "auc_ci": [
+   0.5314515620763214,
+   0.6385908842990794
+  ]
+ },
+ {
+  "analysis": "landmark",
+  "horizon": 1000,
+  "protocol": "temporal",
+  "model": "XGBoost",
+  "features": "+process+stack (no time)",
+  "n": 610,
+  "failed": 108,
+  "auc": 0.5705603511878412,
+  "auc_ci": [
+   0.5123209177503695,
+   0.6378642628127152
+  ]
+ },
+ {
+  "analysis": "landmark",
+  "horizon": 1000,
+  "protocol": "temporal",
+  "model": "XGBoost",
+  "features": "+all enriched (no time)",
+  "n": 610,
+  "failed": 108,
+  "auc": 0.5522539471742659,
+  "auc_ci": [
+   0.48488746821378004,
+   0.6236778890844697
+  ]
+ }
+]

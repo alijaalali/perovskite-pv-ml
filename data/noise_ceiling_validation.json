@@ -1,0 +1,276 @@
+{
+ "nested": {
+  "L4 L3 within one paper": {
+   "cells": 2724,
+   "levels": {
+    "L0 composition": {
+     "ceiling": 0.04508564125178682,
+     "oracle": -0.009486542055902714,
+     "n": 2724,
+     "groups": 161
+    },
+    "L1 composition+ISOS+time": {
+     "ceiling": 0.15334610853092,
+     "oracle": -0.07840253447408907,
+     "n": 2724,
+     "groups": 538
+    },
+    "L2 L1 within one paper": {
+     "ceiling": 0.3513934826656693,
+     "oracle": -0.19488355470509933,
+     "n": 2724,
+     "groups": 1069
+    },
+    "L3 L1+device stack": {
+     "ceiling": 0.32952464201106113,
+     "oracle": -0.17481794660376404,
+     "n": 2724,
+     "groups": 994
+    },
+    "L4 L3 within one paper": {
+     "ceiling": 0.35747474292737313,
+     "oracle": -0.21375801130936578,
+     "n": 2724,
+     "groups": 1107
+    }
+   }
+  },
+  "L3 L1+device stack": {
+   "cells": 3264,
+   "levels": {
+    "L0 composition": {
+     "ceiling": 0.046524318298533984,
+     "oracle": 0.007751843214051979,
+     "n": 3264,
+     "groups": 161
+    },
+    "L1 composition+ISOS+time": {
+     "ceiling": 0.1245094638008204,
+     "oracle": -0.051045025597599825,
+     "n": 3264,
+     "groups": 557
+    },
+    "L2 L1 within one paper": {
+     "ceiling": 0.3415807216751088,
+     "oracle": -0.20578451361241812,
+     "n": 2763,
+     "groups": 1078
+    },
+    "L3 L1+device stack": {
+     "ceiling": 0.26590665273959746,
+     "oracle": -0.14634457622552954,
+     "n": 3264,
+     "groups": 1083
+    },
+    "L4 L3 within one paper": {
+     "ceiling": 0.35747474292737313,
+     "oracle": -0.21375801130936578,
+     "n": 2724,
+     "groups": 1107
+    }
+   }
+  },
+  "L1 composition+ISOS+time": {
+   "cells": 6028,
+   "levels": {
+    "L0 composition": {
+     "ceiling": 0.03829287387456526,
+     "oracle": 0.012316535102173676,
+     "n": 6028,
+     "groups": 249
+    },
+    "L1 composition+ISOS+time": {
+     "ceiling": 0.12894654947299145,
+     "oracle": -0.02871494044637668,
+     "n": 6028,
+     "groups": 891
+    },
+    "L2 L1 within one paper": {
+     "ceiling": 0.30912338130410577,
+     "oracle": -0.2840385757921613,
+     "n": 4864,
+     "groups": 1927
+    },
+    "L3 L1+device stack": {
+     "ceiling": 0.26590665273959746,
+     "oracle": -0.14634457622552954,
+     "n": 3264,
+     "groups": 1083
+    },
+    "L4 L3 within one paper": {
+     "ceiling": 0.35747474292737313,
+     "oracle": -0.21375801130936578,
+     "n": 2724,
+     "groups": 1107
+    }
+   }
+  }
+ },
+ "simulation": [
+  {
+   "structure": "L1 composition+ISOS+time",
+   "cells": 6028,
+   "groups": 891,
+   "true_share": 0.0,
+   "est_mean": -0.00046660562601468744,
+   "est_lo": -0.014509810897162606,
+   "est_hi": 0.014677812049639857,
+   "oracle_mean": -0.24351084478938456,
+   "oracle_lo": -0.2754711063713404,
+   "oracle_hi": -0.21308483608391748,
+   "true_oracle_asymptotic_note": "finite-group lookup oracle R2 is below the share rho because group means are estimated from other cells"
+  },
+  {
+   "structure": "L1 composition+ISOS+time",
+   "cells": 6028,
+   "groups": 891,
+   "true_share": 0.05,
+   "est_mean": 0.05062570573465265,
+   "est_lo": 0.029801720091904304,
+   "est_hi": 0.07262974262207196,
+   "oracle_mean": -0.179394583474817,
+   "oracle_lo": -0.2165765896631187,
+   "oracle_hi": -0.14581977446226269,
+   "true_oracle_asymptotic_note": "finite-group lookup oracle R2 is below the share rho because group means are estimated from other cells"
+  },
+  {
+   "structure": "L1 composition+ISOS+time",
+   "cells": 6028,
+   "groups": 891,
+   "true_share": 0.13,
+   "est_mean": 0.1294669594344326,
+   "est_lo": 0.09637337972150986,
+   "est_hi": 0.16822570111335405,
+   "oracle_mean": -0.08097227766921876,
+   "oracle_lo": -0.13536731996665408,
+   "oracle_hi": -0.026292050977348096,
+   "true_oracle_asymptotic_note": "finite-group lookup oracle R2 is below the share rho because group means are estimated from other cells"
+  },
+  {
+   "structure": "L1 composition+ISOS+time",
+   "cells": 6028,
+   "groups": 891,
+   "true_share": 0.27,
+   "est_mean": 0.2671367517114699,
+   "est_lo": 0.2175071617271372,
+   "est_hi": 0.3271404694726977,
+   "oracle_mean": 0.08994287050811532,
+   "oracle_lo": 0.030438492284818278,
+   "oracle_hi": 0.16740045081331134,
+   "true_oracle_asymptotic_note": "finite-group lookup oracle R2 is below the share rho because group means are estimated from other cells"
+  },
+  {
+   "structure": "L1 composition+ISOS+time",
+   "cells": 6028,
+   "groups": 891,
+   "true_share": 0.5,
+   "est_mean": 0.4949876240382067,
+   "est_lo": 0.4324393702845827,
+   "est_hi": 0.5639145409514902,
+   "oracle_mean": 0.3728376824043005,
+   "oracle_lo": 0.29289597809204054,
+   "oracle_hi": 0.46654626172632224,
+   "true_oracle_asymptotic_note": "finite-group lookup oracle R2 is below the share rho because group means are estimated from other cells"
+  },
+  {
+   "structure": "L3 L1+device stack",
+   "cells": 3264,
+   "groups": 1083,
+   "true_share": 0.0,
+   "est_mean": -0.00040866149062808904,
+   "est_lo": -0.0347005931182004,
+   "est_hi": 0.03192739247659134,
+   "oracle_mean": -0.5885350928171685,
+   "oracle_lo": -0.6664491315620561,
+   "oracle_hi": -0.5226353988586302,
+   "true_oracle_asymptotic_note": "finite-group lookup oracle R2 is below the share rho because group means are estimated from other cells"
+  },
+  {
+   "structure": "L3 L1+device stack",
+   "cells": 3264,
+   "groups": 1083,
+   "true_share": 0.05,
+   "est_mean": 0.04975318579834151,
+   "est_lo": 0.015252226612091946,
+   "est_hi": 0.08789749062705995,
+   "oracle_mean": -0.5100699927404226,
+   "oracle_lo": -0.575732805026523,
+   "oracle_hi": -0.4434037717706789,
+   "true_oracle_asymptotic_note": "finite-group lookup oracle R2 is below the share rho because group means are estimated from other cells"
+  },
+  {
+   "structure": "L3 L1+device stack",
+   "cells": 3264,
+   "groups": 1083,
+   "true_share": 0.13,
+   "est_mean": 0.13260073386811447,
+   "est_lo": 0.09360665455061924,
+   "est_hi": 0.1753822128730399,
+   "oracle_mean": -0.3783910555732804,
+   "oracle_lo": -0.45659533173297423,
+   "oracle_hi": -0.2912635839478616,
+   "true_oracle_asymptotic_note": "finite-group lookup oracle R2 is below the share rho because group means are estimated from other cells"
+  },
+  {
+   "structure": "L3 L1+device stack",
+   "cells": 3264,
+   "groups": 1083,
+   "true_share": 0.27,
+   "est_mean": 0.26853682202155565,
+   "est_lo": 0.23176507995621268,
+   "est_hi": 0.3123787841539237,
+   "oracle_mean": -0.16196222997377158,
+   "oracle_lo": -0.23911490180175077,
+   "oracle_hi": -0.08416869627081171,
+   "true_oracle_asymptotic_note": "finite-group lookup oracle R2 is below the share rho because group means are estimated from other cells"
+  },
+  {
+   "structure": "L3 L1+device stack",
+   "cells": 3264,
+   "groups": 1083,
+   "true_share": 0.5,
+   "est_mean": 0.4998674956242661,
+   "est_lo": 0.4627603671822436,
+   "est_hi": 0.5363935561899869,
+   "oracle_mean": 0.20595255705664503,
+   "oracle_lo": 0.14500431324847823,
+   "oracle_hi": 0.2645277981662272,
+   "true_oracle_asymptotic_note": "finite-group lookup oracle R2 is below the share rho because group means are estimated from other cells"
+  }
+ ],
+ "within_paper_decomposition": {
+  "within_paper_variance_share_of_total": 0.4835590699490834,
+  "exposure time + ISOS": [
+   0.06756787850126267,
+   10
+  ],
+  "site fractions + tolerance factor": [
+   0.013124111602419886,
+   9
+  ],
+  "A-site and B-site classes": [
+   0.027908532106053596,
+   10
+  ],
+  "device stack (architecture, ETL, HTL, back contact, encapsulation)": [
+   0.1344558539267937,
+   27
+  ],
+  "time+ISOS + site fractions": [
+   0.08042840618151603,
+   19
+  ],
+  "time+ISOS + site fractions + A/B-site classes": [
+   0.09915186238663798,
+   29
+  ],
+  "time+ISOS + device stack": [
+   0.18779636069999162,
+   37
+  ],
+  "all blocks": [
+   0.21926686241330529,
+   56
+  ]
+ }
+}

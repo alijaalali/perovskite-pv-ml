@@ -1,0 +1,722 @@
+[
+ {
+  "protocol": "random",
+  "model": "XGBoost",
+  "features": "composition (Magpie)",
+  "n_test": 39780,
+  "r2": 0.2731865183156811,
+  "r2_ci": [
+   0.25771294981263493,
+   0.2917393458625543
+  ],
+  "r2_paper_weighted": 0.28688905595070857,
+  "r2_paper_weighted_ci": [
+   0.27208064225103945,
+   0.30337699597247797
+  ]
+ },
+ {
+  "protocol": "random",
+  "model": "XGBoost",
+  "features": "+ device stack",
+  "n_test": 39780,
+  "r2": 0.4426462425159673,
+  "r2_ci": [
+   0.4251604314014385,
+   0.4600754272976413
+  ],
+  "r2_paper_weighted": 0.44155979835923354,
+  "r2_paper_weighted_ci": [
+   0.42520147925836604,
+   0.455663893193748
+  ]
+ },
+ {
+  "protocol": "random",
+  "model": "XGBoost",
+  "features": "+ stack + process",
+  "n_test": 39780,
+  "r2": 0.5208796791282286,
+  "r2_ci": [
+   0.5036311655781641,
+   0.5400837623255467
+  ],
+  "r2_paper_weighted": 0.5130911818189965,
+  "r2_paper_weighted_ci": [
+   0.5003386441962577,
+   0.527547911930602
+  ]
+ },
+ {
+  "protocol": "random",
+  "model": "LightGBM",
+  "features": "composition (Magpie)",
+  "n_test": 39780,
+  "r2": 0.2724047372923557,
+  "r2_ci": [
+   0.2571973246724569,
+   0.290649396041061
+  ],
+  "r2_paper_weighted": 0.28543065633077136,
+  "r2_paper_weighted_ci": [
+   0.2708933049111413,
+   0.3015801765940913
+  ]
+ },
+ {
+  "protocol": "random",
+  "model": "LightGBM",
+  "features": "+ device stack",
+  "n_test": 39780,
+  "r2": 0.4570717411554679,
+  "r2_ci": [
+   0.43866556840037896,
+   0.4740945654982574
+  ],
+  "r2_paper_weighted": 0.4474696975408924,
+  "r2_paper_weighted_ci": [
+   0.432576815810123,
+   0.46162869667474266
+  ]
+ },
+ {
+  "protocol": "random",
+  "model": "LightGBM",
+  "features": "+ stack + process",
+  "n_test": 39780,
+  "r2": 0.5414708618141216,
+  "r2_ci": [
+   0.5252548990554057,
+   0.5579461077050559
+  ],
+  "r2_paper_weighted": 0.5264916663946244,
+  "r2_paper_weighted_ci": [
+   0.5136530598008145,
+   0.5402468637870016
+  ]
+ },
+ {
+  "protocol": "random",
+  "model": "Ridge",
+  "features": "composition (Magpie)",
+  "n_test": 39780,
+  "r2": 0.2216290054777892,
+  "r2_ci": [
+   0.2036381371681289,
+   0.24213046055022647
+  ],
+  "r2_paper_weighted": 0.2310014452437369,
+  "r2_paper_weighted_ci": [
+   0.19527057558932565,
+   0.25690312260065656
+  ]
+ },
+ {
+  "protocol": "random",
+  "model": "Ridge",
+  "features": "+ device stack",
+  "n_test": 39780,
+  "r2": 0.33958231923373006,
+  "r2_ci": [
+   0.3174265191162169,
+   0.3584549899546402
+  ],
+  "r2_paper_weighted": 0.33866797874477494,
+  "r2_paper_weighted_ci": [
+   0.29729837444867513,
+   0.36721728361695777
+  ]
+ },
+ {
+  "protocol": "random",
+  "model": "Ridge",
+  "features": "+ stack + process",
+  "n_test": 39780,
+  "r2": 0.4194737191023603,
+  "r2_ci": [
+   0.4014036236650748,
+   0.4383993189994446
+  ],
+  "r2_paper_weighted": 0.4271106332048191,
+  "r2_paper_weighted_ci": [
+   0.4126013121760753,
+   0.4429120522465723
+  ]
+ },
+ {
+  "protocol": "paper",
+  "model": "XGBoost",
+  "features": "composition (Magpie)",
+  "n_test": 39780,
+  "r2": 0.22103078225316597,
+  "r2_ci": [
+   0.20349612230113753,
+   0.2407302837008083
+  ],
+  "r2_paper_weighted": 0.2520714650437893,
+  "r2_paper_weighted_ci": [
+   0.23826522681861959,
+   0.269535608700978
+  ]
+ },
+ {
+  "protocol": "paper",
+  "model": "XGBoost",
+  "features": "+ device stack",
+  "n_test": 39780,
+  "r2": 0.3539586028874887,
+  "r2_ci": [
+   0.33444395976738156,
+   0.3742027214905852
+  ],
+  "r2_paper_weighted": 0.3851276241440621,
+  "r2_paper_weighted_ci": [
+   0.37089917772489944,
+   0.40327606052448606
+  ]
+ },
+ {
+  "protocol": "paper",
+  "model": "XGBoost",
+  "features": "+ stack + process",
+  "n_test": 39780,
+  "r2": 0.420080400998159,
+  "r2_ci": [
+   0.39969644332202736,
+   0.43907933531052573
+  ],
+  "r2_paper_weighted": 0.44951609125496117,
+  "r2_paper_weighted_ci": [
+   0.4347189303412898,
+   0.46470902060202984
+  ]
+ },
+ {
+  "protocol": "paper",
+  "model": "LightGBM",
+  "features": "composition (Magpie)",
+  "n_test": 39780,
+  "r2": 0.21979456213755355,
+  "r2_ci": [
+   0.2025625677578612,
+   0.23868766430759722
+  ],
+  "r2_paper_weighted": 0.2513798735187278,
+  "r2_paper_weighted_ci": [
+   0.23806131995548074,
+   0.2691116514700779
+  ]
+ },
+ {
+  "protocol": "paper",
+  "model": "LightGBM",
+  "features": "+ device stack",
+  "n_test": 39780,
+  "r2": 0.3552287093280848,
+  "r2_ci": [
+   0.33410910900633245,
+   0.3752287368974348
+  ],
+  "r2_paper_weighted": 0.3866112101688597,
+  "r2_paper_weighted_ci": [
+   0.3725428397203307,
+   0.4032031373872395
+  ]
+ },
+ {
+  "protocol": "paper",
+  "model": "LightGBM",
+  "features": "+ stack + process",
+  "n_test": 39780,
+  "r2": 0.4244967005125889,
+  "r2_ci": [
+   0.4018487755711816,
+   0.44405061051071754
+  ],
+  "r2_paper_weighted": 0.4529094629113557,
+  "r2_paper_weighted_ci": [
+   0.43865484857885384,
+   0.46846489383984374
+  ]
+ },
+ {
+  "protocol": "paper",
+  "model": "Ridge",
+  "features": "composition (Magpie)",
+  "n_test": 39780,
+  "r2": 0.16984300710581324,
+  "r2_ci": [
+   0.1189307683214725,
+   0.21158005193282958
+  ],
+  "r2_paper_weighted": 0.18269251977588052,
+  "r2_paper_weighted_ci": [
+   0.13795232117249656,
+   0.2273058999445219
+  ]
+ },
+ {
+  "protocol": "paper",
+  "model": "Ridge",
+  "features": "+ device stack",
+  "n_test": 39780,
+  "r2": 0.2830088461268977,
+  "r2_ci": [
+   0.24670106333617736,
+   0.318867957735571
+  ],
+  "r2_paper_weighted": 0.2972582498851839,
+  "r2_paper_weighted_ci": [
+   0.2566055443856661,
+   0.3318717422618075
+  ]
+ },
+ {
+  "protocol": "paper",
+  "model": "Ridge",
+  "features": "+ stack + process",
+  "n_test": 39780,
+  "r2": 0.3678745353529884,
+  "r2_ci": [
+   0.3427561170720526,
+   0.39029593372843285
+  ],
+  "r2_paper_weighted": 0.38454549515022884,
+  "r2_paper_weighted_ci": [
+   0.35032870396068705,
+   0.40982077688669877
+  ]
+ },
+ {
+  "protocol": "last_author",
+  "model": "XGBoost",
+  "features": "composition (Magpie)",
+  "n_test": 39780,
+  "r2": 0.21636897601132576,
+  "r2_ci": [
+   0.1979206919820487,
+   0.23783998606537995
+  ],
+  "r2_paper_weighted": 0.2439336396121613,
+  "r2_paper_weighted_ci": [
+   0.22924747772662635,
+   0.26266149638645087
+  ]
+ },
+ {
+  "protocol": "last_author",
+  "model": "XGBoost",
+  "features": "+ device stack",
+  "n_test": 39780,
+  "r2": 0.3429797900168349,
+  "r2_ci": [
+   0.3222921428071386,
+   0.3634728320862889
+  ],
+  "r2_paper_weighted": 0.37305294500689967,
+  "r2_paper_weighted_ci": [
+   0.3570199405230507,
+   0.3902813879175458
+  ]
+ },
+ {
+  "protocol": "last_author",
+  "model": "XGBoost",
+  "features": "+ stack + process",
+  "n_test": 39780,
+  "r2": 0.40628227677085205,
+  "r2_ci": [
+   0.38557731420870034,
+   0.42559864538711834
+  ],
+  "r2_paper_weighted": 0.43333130418526833,
+  "r2_paper_weighted_ci": [
+   0.41932177236777285,
+   0.44844801812707774
+  ]
+ },
+ {
+  "protocol": "last_author",
+  "model": "LightGBM",
+  "features": "composition (Magpie)",
+  "n_test": 39780,
+  "r2": 0.21706252146089744,
+  "r2_ci": [
+   0.19961727285601155,
+   0.23670361523985656
+  ],
+  "r2_paper_weighted": 0.24330089848225622,
+  "r2_paper_weighted_ci": [
+   0.2293244185722259,
+   0.26170680368509175
+  ]
+ },
+ {
+  "protocol": "last_author",
+  "model": "LightGBM",
+  "features": "+ device stack",
+  "n_test": 39780,
+  "r2": 0.3385067790156706,
+  "r2_ci": [
+   0.3164334543731274,
+   0.3573046440214865
+  ],
+  "r2_paper_weighted": 0.36876114279641414,
+  "r2_paper_weighted_ci": [
+   0.3540526568930895,
+   0.38503891209226526
+  ]
+ },
+ {
+  "protocol": "last_author",
+  "model": "LightGBM",
+  "features": "+ stack + process",
+  "n_test": 39780,
+  "r2": 0.40106349900469784,
+  "r2_ci": [
+   0.3808931842177192,
+   0.4203999820008317
+  ],
+  "r2_paper_weighted": 0.43012310669503007,
+  "r2_paper_weighted_ci": [
+   0.41560536894938893,
+   0.4450507122948385
+  ]
+ },
+ {
+  "protocol": "last_author",
+  "model": "Ridge",
+  "features": "composition (Magpie)",
+  "n_test": 39780,
+  "r2": 0.15025647978983614,
+  "r2_ci": [
+   0.09906430139915141,
+   0.19797502793215657
+  ],
+  "r2_paper_weighted": 0.18515563519107858,
+  "r2_paper_weighted_ci": [
+   0.13669136229359777,
+   0.2217593163159779
+  ]
+ },
+ {
+  "protocol": "last_author",
+  "model": "Ridge",
+  "features": "+ device stack",
+  "n_test": 39780,
+  "r2": 0.24263331088063056,
+  "r2_ci": [
+   0.19665529330077428,
+   0.2879739496576492
+  ],
+  "r2_paper_weighted": 0.2807251694799482,
+  "r2_paper_weighted_ci": [
+   0.23830483914182846,
+   0.31584707277379015
+  ]
+ },
+ {
+  "protocol": "last_author",
+  "model": "Ridge",
+  "features": "+ stack + process",
+  "n_test": 39780,
+  "r2": 0.32287271496377434,
+  "r2_ci": [
+   0.28583509280215685,
+   0.35412769666085003
+  ],
+  "r2_paper_weighted": 0.35403667916172565,
+  "r2_paper_weighted_ci": [
+   0.32965334441201194,
+   0.38048441719838166
+  ]
+ },
+ {
+  "protocol": "temporal",
+  "model": "XGBoost",
+  "features": "composition (Magpie)",
+  "n_test": 10868,
+  "r2": 0.1160372454352232,
+  "r2_ci": [
+   0.05261776905911621,
+   0.175578267427594
+  ],
+  "r2_paper_weighted": 0.15242403321875087,
+  "r2_paper_weighted_ci": [
+   0.10554483430539874,
+   0.20115788404820828
+  ]
+ },
+ {
+  "protocol": "temporal",
+  "model": "XGBoost",
+  "features": "+ device stack",
+  "n_test": 10868,
+  "r2": 0.3024573418640729,
+  "r2_ci": [
+   0.24379617509924398,
+   0.35373448352710707
+  ],
+  "r2_paper_weighted": 0.3313954461194043,
+  "r2_paper_weighted_ci": [
+   0.2881458858059828,
+   0.3758588803693986
+  ]
+ },
+ {
+  "protocol": "temporal",
+  "model": "XGBoost",
+  "features": "+ stack + process",
+  "n_test": 10868,
+  "r2": 0.36508769752721815,
+  "r2_ci": [
+   0.31772042727017574,
+   0.41242061104497063
+  ],
+  "r2_paper_weighted": 0.3863832576670455,
+  "r2_paper_weighted_ci": [
+   0.3493994744670646,
+   0.42321454928435087
+  ]
+ },
+ {
+  "protocol": "temporal",
+  "model": "LightGBM",
+  "features": "composition (Magpie)",
+  "n_test": 10868,
+  "r2": 0.11532732360582765,
+  "r2_ci": [
+   0.05138668265348956,
+   0.17463593674162994
+  ],
+  "r2_paper_weighted": 0.1536656028597354,
+  "r2_paper_weighted_ci": [
+   0.10578299832420851,
+   0.20294802795716838
+  ]
+ },
+ {
+  "protocol": "temporal",
+  "model": "LightGBM",
+  "features": "+ device stack",
+  "n_test": 10868,
+  "r2": 0.2965455396213258,
+  "r2_ci": [
+   0.24062530374634258,
+   0.3445974756598885
+  ],
+  "r2_paper_weighted": 0.33784652423199923,
+  "r2_paper_weighted_ci": [
+   0.29547081318232515,
+   0.3780237598298111
+  ]
+ },
+ {
+  "protocol": "temporal",
+  "model": "LightGBM",
+  "features": "+ stack + process",
+  "n_test": 10868,
+  "r2": 0.3693319181772524,
+  "r2_ci": [
+   0.3181927052446697,
+   0.41180545313546474
+  ],
+  "r2_paper_weighted": 0.3950818638502762,
+  "r2_paper_weighted_ci": [
+   0.35442007100771267,
+   0.43143909285573456
+  ]
+ },
+ {
+  "protocol": "temporal",
+  "model": "Ridge",
+  "features": "composition (Magpie)",
+  "n_test": 10868,
+  "r2": 0.06556868107756353,
+  "r2_ci": [
+   -0.07405692095162635,
+   0.145575825210151
+  ],
+  "r2_paper_weighted": 0.07835303660520243,
+  "r2_paper_weighted_ci": [
+   -0.07468657000027987,
+   0.15906066734239077
+  ]
+ },
+ {
+  "protocol": "temporal",
+  "model": "Ridge",
+  "features": "+ device stack",
+  "n_test": 10868,
+  "r2": 0.23854740123396245,
+  "r2_ci": [
+   0.15910540983231886,
+   0.29668305068054746
+  ],
+  "r2_paper_weighted": 0.2482645713319679,
+  "r2_paper_weighted_ci": [
+   0.17020886054677087,
+   0.3046172145925596
+  ]
+ },
+ {
+  "protocol": "temporal",
+  "model": "Ridge",
+  "features": "+ stack + process",
+  "n_test": 10868,
+  "r2": 0.3061218616032213,
+  "r2_ci": [
+   0.22712272934033534,
+   0.35437924495996775
+  ],
+  "r2_paper_weighted": 0.31475119999065004,
+  "r2_paper_weighted_ci": [
+   0.23169572457683307,
+   0.3699915063724078
+  ]
+ },
+ {
+  "protocol": "family",
+  "model": "XGBoost",
+  "features": "composition (Magpie)",
+  "n_test": 39780,
+  "r2": 0.12244606370385713,
+  "r2_ci": [
+   0.10351695895779928,
+   0.14151228384805642
+  ],
+  "r2_paper_weighted": 0.1453472048348211,
+  "r2_paper_weighted_ci": [
+   0.12936605709092355,
+   0.1642071628422255
+  ]
+ },
+ {
+  "protocol": "family",
+  "model": "XGBoost",
+  "features": "+ device stack",
+  "n_test": 39780,
+  "r2": 0.12338823551608358,
+  "r2_ci": [
+   0.1016695565560346,
+   0.14732494856683812
+  ],
+  "r2_paper_weighted": 0.14302273147073752,
+  "r2_paper_weighted_ci": [
+   0.12369151677494623,
+   0.1667176827400692
+  ]
+ },
+ {
+  "protocol": "family",
+  "model": "XGBoost",
+  "features": "+ stack + process",
+  "n_test": 39780,
+  "r2": 0.2131137391002933,
+  "r2_ci": [
+   0.19196921196049097,
+   0.23555458219012157
+  ],
+  "r2_paper_weighted": 0.23301117297276264,
+  "r2_paper_weighted_ci": [
+   0.21654243763993616,
+   0.24976131606066557
+  ]
+ },
+ {
+  "protocol": "family",
+  "model": "LightGBM",
+  "features": "composition (Magpie)",
+  "n_test": 39780,
+  "r2": 0.1711455487222996,
+  "r2_ci": [
+   0.15441803417011085,
+   0.19416602526220716
+  ],
+  "r2_paper_weighted": 0.1997117087918321,
+  "r2_paper_weighted_ci": [
+   0.18548481358495766,
+   0.21679191424852198
+  ]
+ },
+ {
+  "protocol": "family",
+  "model": "LightGBM",
+  "features": "+ device stack",
+  "n_test": 39780,
+  "r2": 0.17761022935446658,
+  "r2_ci": [
+   0.15740009007987846,
+   0.19765268155315058
+  ],
+  "r2_paper_weighted": 0.19398815864426067,
+  "r2_paper_weighted_ci": [
+   0.1752524982657868,
+   0.21475948191146466
+  ]
+ },
+ {
+  "protocol": "family",
+  "model": "LightGBM",
+  "features": "+ stack + process",
+  "n_test": 39780,
+  "r2": 0.2300276888908176,
+  "r2_ci": [
+   0.2089136260959866,
+   0.2530314673177062
+  ],
+  "r2_paper_weighted": 0.25392667374394406,
+  "r2_paper_weighted_ci": [
+   0.23866107823754468,
+   0.272096274738117
+  ]
+ },
+ {
+  "protocol": "family",
+  "model": "Ridge",
+  "features": "composition (Magpie)",
+  "n_test": 39780,
+  "r2": 0.041609440971351996,
+  "r2_ci": [
+   0.017063916108488116,
+   0.06484298110103472
+  ],
+  "r2_paper_weighted": 0.037345649824513494,
+  "r2_paper_weighted_ci": [
+   0.014405770545618136,
+   0.059502121449563364
+  ]
+ },
+ {
+  "protocol": "family",
+  "model": "Ridge",
+  "features": "+ device stack",
+  "n_test": 39780,
+  "r2": 0.11456525133928108,
+  "r2_ci": [
+   0.09105598497259002,
+   0.1345910610595418
+  ],
+  "r2_paper_weighted": 0.13620081386363958,
+  "r2_paper_weighted_ci": [
+   0.11549947231489294,
+   0.15503639617633927
+  ]
+ },
+ {
+  "protocol": "family",
+  "model": "Ridge",
+  "features": "+ stack + process",
+  "n_test": 39780,
+  "r2": 0.1892713601279583,
+  "r2_ci": [
+   0.15958798996851217,
+   0.21311568129196715
+  ],
+  "r2_paper_weighted": 0.21338593284103813,
+  "r2_paper_weighted_ci": [
+   0.1900222268705613,
+   0.23087802462046608
+  ]
+ }
+]

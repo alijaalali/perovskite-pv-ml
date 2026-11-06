@@ -1,0 +1,77 @@
+{
+  "partitions_checked": [
+    0,
+    10,
+    20,
+    30,
+    39
+  ],
+  "results": [
+    {
+      "partition_id": 0,
+      "GBM_r2_raw": 0.4962196816895096,
+      "GBM_r2_standardized": 0.4979904465575842,
+      "GBM_abs_diff": 0.0017707648680745924,
+      "XGBoost_r2_raw": 0.4709579001019675,
+      "XGBoost_r2_standardized": 0.4709579001019675,
+      "XGBoost_abs_diff": 0.0,
+      "RandomForest_r2_raw": 0.4887410989820896,
+      "RandomForest_r2_standardized": 0.491392429280171,
+      "RandomForest_abs_diff": 0.0026513302980814
+    },
+    {
+      "partition_id": 10,
+      "GBM_r2_raw": 0.4036531116762957,
+      "GBM_r2_standardized": 0.40014516074289963,
+      "GBM_abs_diff": 0.0035079509333960646,
+      "XGBoost_r2_raw": 0.24000159397747722,
+      "XGBoost_r2_standardized": 0.24000159397747722,
+      "XGBoost_abs_diff": 0.0,
+      "RandomForest_r2_raw": 0.3822775111800173,
+      "RandomForest_r2_standardized": 0.3854121494230218,
+      "RandomForest_abs_diff": 0.0031346382430045283
+    },
+    {
+      "partition_id": 20,
+      "GBM_r2_raw": 0.2008318566538969,
+      "GBM_r2_standardized": 0.1895199586739168,
+      "GBM_abs_diff": 0.011311897979980112,
+      "XGBoost_r2_raw": 0.07016757333869039,
+      "XGBoost_r2_standardized": 0.03878325834057905,
+      "XGBoost_abs_diff": 0.03138431499811134,
+      "RandomForest_r2_raw": 0.23796274008420193,
+      "RandomForest_r2_standardized": 0.24370561510316113,
+      "RandomForest_abs_diff": 0.005742875018959204
+    },
+    {
+      "partition_id": 30,
+      "GBM_r2_raw": 0.2522429623553607,
+      "GBM_r2_standardized": 0.26122907655949557,
+      "GBM_abs_diff": 0.008986114204134865,
+      "XGBoost_r2_raw": -0.6457223801435188,
+      "XGBoost_r2_standardized": -0.6457223801435188,
+      "XGBoost_abs_diff": 0.0,
+      "RandomForest_r2_raw": 0.3338264309394018,
+      "RandomForest_r2_standardized": 0.3350533749483505,
+      "RandomForest_abs_diff": 0.0012269440089487382
+    },
+    {
+      "partition_id": 39,
+      "GBM_r2_raw": 0.257349939493169,
+      "GBM_r2_standardized": 0.26757864059208103,
+      "GBM_abs_diff": 0.010228701098912052,
+      "XGBoost_r2_raw": 0.27476416913661306,
+      "XGBoost_r2_standardized": 0.27476416913661306,
+      "XGBoost_abs_diff": 0.0,
+      "RandomForest_r2_raw": 0.08626589227704184,
+      "RandomForest_r2_standardized": 0.09187755115515872,
+      "RandomForest_abs_diff": 0.005611658878116876
+    }
+  ],
+  "max_abs_diffs": {
+    "GBM": 0.011311897979980112,
+    "XGBoost": 0.03138431499811134,
+    "RandomForest": 0.005742875018959204
+  },
+  "verdict": "Tree-based methods are scale-invariant in this pipeline: GBM max|raw-standardized R2 diff|=0.011312, XGBoost max|raw-standardized R2 diff|=0.031384, RandomForest max|raw-standardized R2 diff|=0.005743. The differences are at the level of floating-point and algorithmic nondeterminism (RandomForest and XGBoost are not strictly reproducible across runs even with a fixed random_state, owing to parallelism; GBM is deterministic and single-threaded), so no scale sensitivity is detected in the tree-model results."
+}

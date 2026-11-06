@@ -1,0 +1,170 @@
+[
+ {
+  "target": "final efficiency",
+  "protocol": "random",
+  "features": "base (no time)",
+  "n": 6203,
+  "r2": 0.27875048225594123
+ },
+ {
+  "target": "final efficiency",
+  "protocol": "random",
+  "features": "base + exposure time",
+  "n": 6203,
+  "r2": 0.29446496316346227
+ },
+ {
+  "target": "final efficiency",
+  "protocol": "random",
+  "features": "base + fresh efficiency",
+  "n": 6203,
+  "r2": 0.5216270648785415
+ },
+ {
+  "target": "final efficiency",
+  "protocol": "random",
+  "features": "base + exposure time + fresh efficiency",
+  "n": 6203,
+  "r2": 0.5358361936853899
+ },
+ {
+  "target": "final efficiency",
+  "protocol": "paper",
+  "features": "base (no time)",
+  "n": 6203,
+  "r2": 0.22367140522241757
+ },
+ {
+  "target": "final efficiency",
+  "protocol": "paper",
+  "features": "base + exposure time",
+  "n": 6203,
+  "r2": 0.23500069010986346
+ },
+ {
+  "target": "final efficiency",
+  "protocol": "paper",
+  "features": "base + fresh efficiency",
+  "n": 6203,
+  "r2": 0.4893773689503217
+ },
+ {
+  "target": "final efficiency",
+  "protocol": "paper",
+  "features": "base + exposure time + fresh efficiency",
+  "n": 6203,
+  "r2": 0.49627779854842313
+ },
+ {
+  "target": "log10 T80 (exact-T80 cells)",
+  "protocol": "random",
+  "features": "base (no time)",
+  "n": 1716,
+  "r2": 0.3937785060012139
+ },
+ {
+  "target": "log10 T80 (exact-T80 cells)",
+  "protocol": "random",
+  "features": "base + exposure time",
+  "n": 1716,
+  "r2": 0.6483787649022816
+ },
+ {
+  "target": "log10 T80 (exact-T80 cells)",
+  "protocol": "random",
+  "features": "base + fresh efficiency",
+  "n": 1716,
+  "r2": 0.4173438030672161
+ },
+ {
+  "target": "log10 T80 (exact-T80 cells)",
+  "protocol": "random",
+  "features": "base + exposure time + fresh efficiency",
+  "n": 1716,
+  "r2": 0.6648527066131475
+ },
+ {
+  "target": "log10 T80 (exact-T80 cells)",
+  "protocol": "paper",
+  "features": "base (no time)",
+  "n": 1716,
+  "r2": 0.09360870039666858
+ },
+ {
+  "target": "log10 T80 (exact-T80 cells)",
+  "protocol": "paper",
+  "features": "base + exposure time",
+  "n": 1716,
+  "r2": 0.5926967699892647
+ },
+ {
+  "target": "log10 T80 (exact-T80 cells)",
+  "protocol": "paper",
+  "features": "base + fresh efficiency",
+  "n": 1716,
+  "r2": 0.13302090011938195
+ },
+ {
+  "target": "log10 T80 (exact-T80 cells)",
+  "protocol": "paper",
+  "features": "base + exposure time + fresh efficiency",
+  "n": 1716,
+  "r2": 0.6063842577982049
+ },
+ {
+  "target": "retention",
+  "protocol": "random",
+  "features": "base (no time)",
+  "n": 6891,
+  "r2": 0.15489714414129196
+ },
+ {
+  "target": "retention",
+  "protocol": "random",
+  "features": "base + exposure time",
+  "n": 6891,
+  "r2": 0.18520316564232342
+ },
+ {
+  "target": "retention",
+  "protocol": "random",
+  "features": "base + fresh efficiency",
+  "n": 6891,
+  "r2": 0.2070041952596806
+ },
+ {
+  "target": "retention",
+  "protocol": "random",
+  "features": "base + exposure time + fresh efficiency",
+  "n": 6891,
+  "r2": 0.22814514500396366
+ },
+ {
+  "target": "retention",
+  "protocol": "paper",
+  "features": "base (no time)",
+  "n": 6891,
+  "r2": 0.09217692313868209
+ },
+ {
+  "target": "retention",
+  "protocol": "paper",
+  "features": "base + exposure time",
+  "n": 6891,
+  "r2": 0.11792146867250475
+ },
+ {
+  "target": "retention",
+  "protocol": "paper",
+  "features": "base + fresh efficiency",
+  "n": 6891,
+  "r2": 0.13283397467054137
+ },
+ {
+  "target": "retention",
+  "protocol": "paper",
+  "features": "base + exposure time + fresh efficiency",
+  "n": 6891,
+  "r2": 0.15179322054978683
+ }
+]

@@ -1,0 +1,16 @@
+{
+  "frac_rows_with_duplicate_formula": 0.9831573655103066,
+  "leak_frac_random_test_dup_in_train": 0.9822775263951734,
+  "leak_frac_family_disjoint_test_dup_in_train": 0.0,
+  "within_duplicate_formula_PCE_std_mean": 2.1281880550655057,
+  "n_duplicated_formulas": 803,
+  "pce_variance_by_split": {
+    "family_disjoint_test_PCE_std": 5.429468721362093,
+    "family_disjoint_test_PCE_mean": 13.622247406064268,
+    "family_disjoint_train_PCE_std": 4.9599746289791815,
+    "random_test_PCE_std": 5.225028128551982,
+    "overall_PCE_std": 5.154446226143318,
+    "n_test_families": 15
+  },
+  "verdict": "Hypothesis A: random-split test rows have a higher exact-formula duplicate-in-train rate (0.982) than family-disjoint test rows (0.000). Removal of duplicate leakage therefore does not explain why the family-disjoint split outperforms the random split, since the random split would benefit from the duplication. Duplicate formulas with inconsistent PCE across repeats (different processing) act as contradictory labels and increase random-split MAE; see the within-formula PCE check below. Mean within-formula PCE std (across 803 duplicated formulas, 98.3% of all rows): 2.128 percentage points. This is a substantial source of label noise at the composition-only feature level (same Magpie features, different PCE, due to processing or device differences not captured by composition alone). Hypothesis B not supported: held-out-family PCE variance is comparable to the overall dataset, so a narrower PCE distribution in the held-out families does not explain the anomaly."
+}

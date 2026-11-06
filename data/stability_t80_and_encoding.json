@@ -1,0 +1,526 @@
+{
+ "t80": [
+  {
+   "protocol": "random",
+   "model": "XGBoost",
+   "features": "exposure time only",
+   "n": 1716,
+   "r2": 0.630575589034676
+  },
+  {
+   "protocol": "random",
+   "model": "XGBoost",
+   "features": "composition + device (no time)",
+   "n": 1716,
+   "r2": 0.1474688126506014
+  },
+  {
+   "protocol": "random",
+   "model": "XGBoost",
+   "features": "all features without exposure time",
+   "n": 1716,
+   "r2": 0.3840704965660343
+  },
+  {
+   "protocol": "random",
+   "model": "XGBoost",
+   "features": "all features with exposure time",
+   "n": 1716,
+   "r2": 0.6407210094556792
+  },
+  {
+   "protocol": "random",
+   "model": "RandomForest",
+   "features": "exposure time only",
+   "n": 1716,
+   "r2": 0.6488590844423286
+  },
+  {
+   "protocol": "random",
+   "model": "RandomForest",
+   "features": "composition + device (no time)",
+   "n": 1716,
+   "r2": 0.1575241752385278
+  },
+  {
+   "protocol": "random",
+   "model": "RandomForest",
+   "features": "all features without exposure time",
+   "n": 1716,
+   "r2": 0.3616555643533552
+  },
+  {
+   "protocol": "random",
+   "model": "RandomForest",
+   "features": "all features with exposure time",
+   "n": 1716,
+   "r2": 0.6787162457210592
+  },
+  {
+   "protocol": "random",
+   "model": "Ridge",
+   "features": "exposure time only",
+   "n": 1716,
+   "r2": 0.6532857431606088
+  },
+  {
+   "protocol": "random",
+   "model": "Ridge",
+   "features": "composition + device (no time)",
+   "n": 1716,
+   "r2": 0.0401950883227733
+  },
+  {
+   "protocol": "random",
+   "model": "Ridge",
+   "features": "all features without exposure time",
+   "n": 1716,
+   "r2": 0.21176805575561908
+  },
+  {
+   "protocol": "random",
+   "model": "Ridge",
+   "features": "all features with exposure time",
+   "n": 1716,
+   "r2": 0.654838162458433
+  },
+  {
+   "protocol": "paper",
+   "model": "XGBoost",
+   "features": "exposure time only",
+   "n": 1716,
+   "r2": 0.6092256440460423
+  },
+  {
+   "protocol": "paper",
+   "model": "XGBoost",
+   "features": "composition + device (no time)",
+   "n": 1716,
+   "r2": -0.07838869202526588
+  },
+  {
+   "protocol": "paper",
+   "model": "XGBoost",
+   "features": "all features without exposure time",
+   "n": 1716,
+   "r2": 0.10710592216445991
+  },
+  {
+   "protocol": "paper",
+   "model": "XGBoost",
+   "features": "all features with exposure time",
+   "n": 1716,
+   "r2": 0.5849854716197804
+  },
+  {
+   "protocol": "paper",
+   "model": "RandomForest",
+   "features": "exposure time only",
+   "n": 1716,
+   "r2": 0.6412052046862738
+  },
+  {
+   "protocol": "paper",
+   "model": "RandomForest",
+   "features": "composition + device (no time)",
+   "n": 1716,
+   "r2": -0.019775319654883994
+  },
+  {
+   "protocol": "paper",
+   "model": "RandomForest",
+   "features": "all features without exposure time",
+   "n": 1716,
+   "r2": 0.1593185965300652
+  },
+  {
+   "protocol": "paper",
+   "model": "RandomForest",
+   "features": "all features with exposure time",
+   "n": 1716,
+   "r2": 0.6354463658064307
+  },
+  {
+   "protocol": "paper",
+   "model": "Ridge",
+   "features": "exposure time only",
+   "n": 1716,
+   "r2": 0.6519245486051968
+  },
+  {
+   "protocol": "paper",
+   "model": "Ridge",
+   "features": "composition + device (no time)",
+   "n": 1716,
+   "r2": -0.0012275594628801123
+  },
+  {
+   "protocol": "paper",
+   "model": "Ridge",
+   "features": "all features without exposure time",
+   "n": 1716,
+   "r2": 0.12908658211441215
+  },
+  {
+   "protocol": "paper",
+   "model": "Ridge",
+   "features": "all features with exposure time",
+   "n": 1716,
+   "r2": 0.6322848842220781
+  }
+ ],
+ "encoding": [
+  {
+   "protocol": "paper",
+   "model": "Ridge",
+   "features": "no composition",
+   "n_features": 96,
+   "r2": 0.09702627946633291,
+   "r2_ci": [
+    0.0790118860292874,
+    0.1134467594074764
+   ]
+  },
+  {
+   "protocol": "paper",
+   "model": "Ridge",
+   "features": "Magpie statistics",
+   "n_features": 229,
+   "r2": 0.10486270823211097,
+   "r2_ci": [
+    0.08317460848729724,
+    0.12196220602892113
+   ]
+  },
+  {
+   "protocol": "paper",
+   "model": "Ridge",
+   "features": "site fractions + tolerance factor",
+   "n_features": 105,
+   "r2": 0.10251680578944378,
+   "r2_ci": [
+    0.08399535143619828,
+    0.11947952429817754
+   ]
+  },
+  {
+   "protocol": "paper",
+   "model": "Ridge",
+   "features": "Magpie + site fractions",
+   "n_features": 238,
+   "r2": 0.10293367030202616,
+   "r2_ci": [
+    0.08227447352956972,
+    0.12092755542339317
+   ]
+  },
+  {
+   "protocol": "paper",
+   "model": "XGBoost",
+   "features": "no composition",
+   "n_features": 96,
+   "r2": 0.09095988419741863,
+   "r2_ci": [
+    0.06822296519336853,
+    0.11860305410524939
+   ]
+  },
+  {
+   "protocol": "paper",
+   "model": "XGBoost",
+   "features": "Magpie statistics",
+   "n_features": 229,
+   "r2": 0.10803252845781186,
+   "r2_ci": [
+    0.08780376489654688,
+    0.1329606082404574
+   ]
+  },
+  {
+   "protocol": "paper",
+   "model": "XGBoost",
+   "features": "site fractions + tolerance factor",
+   "n_features": 105,
+   "r2": 0.10647479027472351,
+   "r2_ci": [
+    0.08438841023773402,
+    0.1306045094097585
+   ]
+  },
+  {
+   "protocol": "paper",
+   "model": "XGBoost",
+   "features": "Magpie + site fractions",
+   "n_features": 238,
+   "r2": 0.10887257789415261,
+   "r2_ci": [
+    0.0866832385198031,
+    0.1335979754478877
+   ]
+  },
+  {
+   "protocol": "paper",
+   "model": "LightGBM",
+   "features": "no composition",
+   "n_features": 96,
+   "r2": 0.07061369384000804,
+   "r2_ci": [
+    0.04681343929147932,
+    0.0956656810515736
+   ]
+  },
+  {
+   "protocol": "paper",
+   "model": "LightGBM",
+   "features": "Magpie statistics",
+   "n_features": 229,
+   "r2": 0.08444482558145527,
+   "r2_ci": [
+    0.060720835760731576,
+    0.111241808053846
+   ]
+  },
+  {
+   "protocol": "paper",
+   "model": "LightGBM",
+   "features": "site fractions + tolerance factor",
+   "n_features": 105,
+   "r2": 0.08865730328814125,
+   "r2_ci": [
+    0.06454328683211552,
+    0.11466999772697288
+   ]
+  },
+  {
+   "protocol": "paper",
+   "model": "LightGBM",
+   "features": "Magpie + site fractions",
+   "n_features": 238,
+   "r2": 0.08206962123387584,
+   "r2_ci": [
+    0.058430613092731426,
+    0.10895907166381054
+   ]
+  },
+  {
+   "protocol": "paper",
+   "model": "RandomForest",
+   "features": "no composition",
+   "n_features": 96,
+   "r2": 0.09821127630351933,
+   "r2_ci": [
+    0.08050212386547433,
+    0.11988973157752203
+   ]
+  },
+  {
+   "protocol": "paper",
+   "model": "RandomForest",
+   "features": "Magpie statistics",
+   "n_features": 229,
+   "r2": 0.10983347614358618,
+   "r2_ci": [
+    0.08932303167187923,
+    0.13237853546822195
+   ]
+  },
+  {
+   "protocol": "paper",
+   "model": "RandomForest",
+   "features": "site fractions + tolerance factor",
+   "n_features": 105,
+   "r2": 0.11219233842197851,
+   "r2_ci": [
+    0.0944856032148711,
+    0.1349854259140696
+   ]
+  },
+  {
+   "protocol": "paper",
+   "model": "RandomForest",
+   "features": "Magpie + site fractions",
+   "n_features": 238,
+   "r2": 0.11111247481610675,
+   "r2_ci": [
+    0.09066807283939511,
+    0.13315293053521207
+   ]
+  },
+  {
+   "protocol": "temporal",
+   "model": "Ridge",
+   "features": "no composition",
+   "n_features": 96,
+   "r2": 0.10109635189227995,
+   "r2_ci": [
+    0.06865921470008823,
+    0.12702568281101193
+   ]
+  },
+  {
+   "protocol": "temporal",
+   "model": "Ridge",
+   "features": "Magpie statistics",
+   "n_features": 229,
+   "r2": 0.1060092915567109,
+   "r2_ci": [
+    0.06612368122870675,
+    0.1388056796469538
+   ]
+  },
+  {
+   "protocol": "temporal",
+   "model": "Ridge",
+   "features": "site fractions + tolerance factor",
+   "n_features": 105,
+   "r2": 0.10589189884524397,
+   "r2_ci": [
+    0.06819513369331626,
+    0.13618013714003502
+   ]
+  },
+  {
+   "protocol": "temporal",
+   "model": "Ridge",
+   "features": "Magpie + site fractions",
+   "n_features": 238,
+   "r2": 0.10579020194149891,
+   "r2_ci": [
+    0.06646791402737849,
+    0.1388494333606825
+   ]
+  },
+  {
+   "protocol": "temporal",
+   "model": "XGBoost",
+   "features": "no composition",
+   "n_features": 96,
+   "r2": 0.07301864416560866,
+   "r2_ci": [
+    0.02845152503958342,
+    0.11447379212959077
+   ]
+  },
+  {
+   "protocol": "temporal",
+   "model": "XGBoost",
+   "features": "Magpie statistics",
+   "n_features": 229,
+   "r2": 0.07610167010153657,
+   "r2_ci": [
+    0.029799270795343842,
+    0.12204389539669205
+   ]
+  },
+  {
+   "protocol": "temporal",
+   "model": "XGBoost",
+   "features": "site fractions + tolerance factor",
+   "n_features": 105,
+   "r2": 0.06576673098336272,
+   "r2_ci": [
+    0.01504640591221037,
+    0.10881919256879569
+   ]
+  },
+  {
+   "protocol": "temporal",
+   "model": "XGBoost",
+   "features": "Magpie + site fractions",
+   "n_features": 238,
+   "r2": 0.06606598067207792,
+   "r2_ci": [
+    0.018046896370972242,
+    0.1133159960193342
+   ]
+  },
+  {
+   "protocol": "temporal",
+   "model": "LightGBM",
+   "features": "no composition",
+   "n_features": 96,
+   "r2": 0.037764902436360104,
+   "r2_ci": [
+    -0.01200093391079854,
+    0.08490980949350503
+   ]
+  },
+  {
+   "protocol": "temporal",
+   "model": "LightGBM",
+   "features": "Magpie statistics",
+   "n_features": 229,
+   "r2": 0.02374255614616061,
+   "r2_ci": [
+    -0.03556196381910488,
+    0.08060476825497204
+   ]
+  },
+  {
+   "protocol": "temporal",
+   "model": "LightGBM",
+   "features": "site fractions + tolerance factor",
+   "n_features": 105,
+   "r2": 0.032478081136186776,
+   "r2_ci": [
+    -0.022262721557049357,
+    0.08089858045980627
+   ]
+  },
+  {
+   "protocol": "temporal",
+   "model": "LightGBM",
+   "features": "Magpie + site fractions",
+   "n_features": 238,
+   "r2": 0.01609650853500799,
+   "r2_ci": [
+    -0.036605990474445446,
+    0.06879972203873758
+   ]
+  },
+  {
+   "protocol": "temporal",
+   "model": "RandomForest",
+   "features": "no composition",
+   "n_features": 96,
+   "r2": 0.09585807489050768,
+   "r2_ci": [
+    0.05683820204970227,
+    0.12550936621902312
+   ]
+  },
+  {
+   "protocol": "temporal",
+   "model": "RandomForest",
+   "features": "Magpie statistics",
+   "n_features": 229,
+   "r2": 0.09441675549040363,
+   "r2_ci": [
+    0.05918453067861244,
+    0.127360146825866
+   ]
+  },
+  {
+   "protocol": "temporal",
+   "model": "RandomForest",
+   "features": "site fractions + tolerance factor",
+   "n_features": 105,
+   "r2": 0.10313913862247592,
+   "r2_ci": [
+    0.06753430952765732,
+    0.13626637718259546
+   ]
+  },
+  {
+   "protocol": "temporal",
+   "model": "RandomForest",
+   "features": "Magpie + site fractions",
+   "n_features": 238,
+   "r2": 0.09049909910725862,
+   "r2_ci": [
+    0.05345049524145075,
+    0.12619352169775083
+   ]
+  }
+ ]
+}
